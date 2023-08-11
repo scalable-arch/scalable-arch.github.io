@@ -1,0 +1,66 @@
+<nav
+  id="primary-nav"
+  class="site-nav"
+  itemscope
+  itemtype="http://schema.org/SiteNavigationElement"
+  aria-label="Main navigation"
+>
+  <ul id="menu-main-navigation" class="menu">
+    <!-- Home link -->
+    <li class="menu-item">
+      <a
+        href="{{ '/' | relative_url }}"
+        class="{% if page.url == '/' %}active{% endif %}"
+        itemprop="url"
+      >
+        <span itemprop="name"
+          >{{ site.data.theme.t.home | default: 'Home' }}</span
+        >
+      </a>
+    </li>
+    navigation
+    <!-- People -->
+    <!--    <li class="menu-item">-->
+    <!--      <a href="{{ '/people' | relative_url }}" itemprop="url">-->
+    <!--        <span itemprop="name">{{ 'People' }}</span>-->
+    <!--      </a>-->
+    <!--    </li>-->
+
+    <!-- Research -->
+    <!--    <li class="menu-item">-->
+    <!--      <a href="{{ '/research' | relative_url }}" itemprop="url">-->
+    <!--        <span itemprop="name">{{ 'Research' }}</span>-->
+    <!--      </a>-->
+    <!--    </li>-->
+
+    <!-- Publications -->
+    <!--    <li class="menu-item">-->
+    <!--      <a href="{{ '/publications' | relative_url }}" itemprop="url">-->
+    <!--        <span itemprop="name">{{ 'Publications' }}</span>-->
+    <!--      </a>-->
+    <!--    </li>-->
+
+    <!-- Resources -->
+    <!--    <li class="menu-item">-->
+    <!--      <a href="{{ '/resources' | relative_url }}" itemprop="url">-->
+    <!--        <span itemprop="name">{{ 'Resources' }}</span>-->
+    <!--      </a>-->
+    <!--    </li>-->
+
+    <!-- site.pages links -->
+    {% assign default_paths = site.pages | map: "path" %} {% assign page_paths =
+    site.data.theme.navigation_pages | default: default_paths %} {% for path in
+    page_paths %} {% assign my_page = site.pages | where: "path", path | first
+    %} {% if my_page.title %}
+    <li class="menu-item">
+      <a
+        href="{{ my_page.url | relative_url }}"
+        class="{% if my_page.name == page.name or my_page.name == ' %} active{% endif %}"
+        itemprop="url"
+      >
+        <span itemprop="name">{{ my_page.title | escape }}</span>
+      </a>
+    </li>
+    {% endif %} {% endfor %}
+  </ul>
+</nav>

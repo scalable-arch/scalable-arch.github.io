@@ -1,0 +1,34 @@
+# _data/navigation.yml
+
+menu:
+  - title: Home
+    url: /
+  - title: Professor
+    url: /professor/
+
+  - title: Members
+    url: /members/
+
+  - title: Publications
+    url: /publications/category
+    sub_menu:
+      - title: By Category
+        url: /publications/category
+      - title: By Year
+        url: /publications/year
+      - title: By Publisher
+        url: /publications/publisher
+
+  - title: Research & Projects
+    url: /research/
+    sub_menu:
+      - title: Research
+        url: /research/
+      - title: Projects
+        url: /projects/
+
+  - title: Schedule
+    url: /schedule/
+
+  - title: Gallery
+    url: /gallery/

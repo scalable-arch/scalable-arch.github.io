@@ -1,0 +1,26 @@
+<!-- _includes/navigation.html -->
+
+<nav
+id="primary-nav"
+  class="site-nav"
+  itemscope
+  itemtype="http://schema.org/SiteNavigationElement"
+  aria-label="Main navigation"
+>
+  <ul  id="menu-main-navigation" class="menu">
+    {% for item in site.data.navigation.menu %}
+      <li class="menu-item">
+        <a href="{{ item.url }}" {% if page.url == item.url %}class="active"{% endif %}>{{ item.title }}</a>
+        {% if item.sub_menu %}
+          <ul class="sub-menu">
+            {% for sub_item in item.sub_menu %}
+              <li class="sub-menu-item">
+                <a href="{{ sub_item.url }}" {% if page.url == sub_item.url %}class="active"{% endif %}>{{ sub_item.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

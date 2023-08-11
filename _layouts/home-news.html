@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<main id="main" class="page-content" aria-label="Content">
+  <div class="index inner">
+    <!-- <div>sdfsdfsdf{{ content }}</div> -->
+
+    {% if site.posts.size > 0 %}
+    <div class="index-wrap">
+      <header class="section-title">
+        <h2 class="title">News</h2>
+        <h4>
+          {% if paginator.page > 1 %}{{ site.data.theme.t.page | default: 'Page'
+          | prepend: ' - ' | append: ' ' }}{{ paginator.page }} {{
+          site.data.theme.t.of | default: 'of' }} {{ paginator.total_pages }}{%
+          endif %}
+        </h4>
+      </header>
+
+      <div class="entries-{{ page.entries_layout | default: 'list' }}">
+        {% include posts-news.html %}
+      </div>
+    </div>
+    {% endif %}
+
+    <h5 class="welcom-message">
+      성균관대학교 확장 가능 컴퓨터 구조 연구실에 오신 것을 환영합니다.
+    </h5>
+  </div>
+</main>
+
+<script src="../assets/javascripts/load.js"></script>

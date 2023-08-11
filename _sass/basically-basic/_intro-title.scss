@@ -1,0 +1,29 @@
+#intro {
+  position: relative;
+  width: 100%;
+  background: url(/assets/images/intro.jpg) no-repeat center/cover;
+
+  .intro-inner {
+    padding: 3rem;
+  }
+  .intro-back {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 0;
+    color: #fff;
+  }
+
+  .title {
+    margin-bottom: 1.3rem;
+    span {
+      display: block;
+    }
+  }
+
+  .sub-title {
+    line-height: 1.5;
+    font-size: 80%;
+    margin: 0;
+  }
+}

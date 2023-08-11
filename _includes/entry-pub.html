@@ -1,0 +1,21 @@
+{% assign title = post.title %}
+{% assign date = post.date %}
+{% if post.tags.size > 0 %}
+  {% for tag in post.tags %}
+    {% assign pub = tag %}
+  {% endfor %}
+{% else %}
+  {% assign pub = "" %}
+{% endif %}
+
+<article class="entry">
+  <header class="entry-header">
+    <h3 class="entry-title">
+      <a rel="bookmark">[{{ pub }}'{{ date | date: "%y"}}] {{ title }}</a>
+    </h3>
+  </header>
+  <div class="entry-excerpt">
+    {{ post.excerpt | markdownify }}
+  </div>
+</article>
+
