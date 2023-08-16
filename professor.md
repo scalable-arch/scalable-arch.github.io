@@ -62,7 +62,9 @@ layout: posts-page
     - (16419) 경기도 수원시 장안구 서부로 2066, 반도체관 400514호
 
 - ## Etc.
+
   {:.inner-list}
+
   - [Google Scholar](https://scholar.google.com/citations?user=Jbpv5q0AAAAJ&hl=en)
 
 {:.contact}
@@ -71,8 +73,7 @@ layout: posts-page
 
 {:.contact-list}
 
-- Email: dale40@gmail.com
-- Phone: (+82) 31-299-4398
-- Address: 2066, Seobu-ro, Jangan-Gu, Suwon, Gyenonggi-Do, 16419, Korea,
-  - #400514, Semiconductor Building
+- <strong>Email</strong> dale40@gmail.com
+- <strong>Phone</strong> (+82) 31-299-4398
+- <strong>Address</strong> 2066, Seobu-ro, Jangan-Gu, Suwon, Gyenonggi-Do, 16419, Korea, #400514, Semiconductor Building
   - (16419) 경기도 수원시 장안구 서부로 2066, 반도체관 400514호

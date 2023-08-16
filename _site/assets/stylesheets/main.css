@@ -1014,6 +1014,13 @@ th {
 .taxonomy-section:not(:last-child) {
   border-bottom: solid 1px #d7d8da;
 }
+.taxonomy-section .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 18.75rem;
+}
+
 .taxonomy-title {
   margin-bottom: 0.5em;
   color: white;
@@ -1063,10 +1070,12 @@ th {
   color: inherit;
   text-decoration: none;
   font-size: 16px;
+  font-weight: 300;
   cursor: pointer;
 }
 .taxonomy-index a.active {
   border-bottom: 1px solid;
+  font-weight: 600;
 }
 .loading-page {
   background-color: #00051c;
@@ -1593,6 +1602,7 @@ th {
   padding: 20px 16px;
   display: block;
   font-weight: 300;
+  font-size: 0.8rem;
 }
 @media (max-width: 1000px) {
   .menu .menu-item a {
@@ -1649,12 +1659,19 @@ th {
   list-style: none;
   display: -ms-flexbox;
   display: flex;
+  width: 30%;
+  margin: 0 auto;
 }
 .pager ul > li {
   -ms-flex: 1;
   flex: 1;
   justify-content: space-between;
   -ms-flex-pack: justify;
+}
+.pager ul > li.page_number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .pager ul li + li {
   margin-left: 0.125em;
@@ -1663,14 +1680,14 @@ th {
   display: block;
   padding: 1em;
   border-radius: 0.25em;
-  background-color: #00838a;
   color: #fff;
-  font-weight: bold;
   text-align: center;
   text-decoration: none;
+  font-size: 1rem;
 }
 .pager a:hover {
-  background-color: #339ca1;
+  color: #086fb8;
+  font-weight: bold;
 }
 
 /* ==========================================================================
@@ -2157,11 +2174,16 @@ th {
 @media (min-width: 64em) {
   .index-wrap {
     display: flex;
-    gap: 10%;
   }
 }
 .index-wrap .title {
   margin-bottom: 1.2rem;
+}
+.index-wrap .section-title {
+  flex: 1;
+}
+.index-wrap .entries-list {
+  flex: 5;
 }
 
 .welcom-message {
@@ -2887,8 +2909,17 @@ figure.highlight pre.highlight {
   grid-template-columns: 20% calc(80% - 3rem);
   gap: 3rem;
 }
+@media (max-width: 830px) {
+  .page-wrapper {
+    gap: 0rem;
+  }
+}
 .page-wrapper a {
   color: inherit;
+}
+.page-wrapper p,
+.page-wrapper li {
+  font-weight: 300;
 }
 @media (max-width: 51.875rem) {
   .page-wrapper {
@@ -2925,14 +2956,16 @@ figure.highlight pre.highlight {
 }
 .page-wrapper .inner-list {
   list-style: disc;
+  padding-left: 2rem;
 }
 .page-wrapper .contact {
   margin-top: 48px;
 }
+.page-wrapper .contact > .inner {
+  padding-left: 2rem;
+}
 .page-wrapper .contact-list {
-  list-style: disc;
   margin-top: 48px;
-  padding-left: 32px;
 }
 @media (max-width: 51.875rem) {
   .page-wrapper .contact-list {
@@ -2953,6 +2986,10 @@ figure.highlight pre.highlight {
   list-style: none;
   padding: 0;
   font-weight: 300;
+}
+.member-wrapper p {
+  font-weight: 300;
+  line-height: 1.8;
 }
 .member-wrapper img {
   width: 50%;

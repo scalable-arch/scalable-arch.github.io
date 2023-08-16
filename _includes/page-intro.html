@@ -10,7 +10,8 @@
     <div class="intro-text">
       <h1 id="page-title" class="intro-title">
         {{ page.alt_title | default: page.title | default: site.title |
-        markdownify | strip_html }}
+        markdownify | strip_html }} {%if page.url == '/publications/category'%}
+        {{ page.alt_title }} {%endif%}
       </h1>
 
       {% if page.sub_title %}

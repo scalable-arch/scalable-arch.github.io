@@ -44,14 +44,20 @@ plugins: # previsously gems
   #  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-paginate
+  - jekyll-paginate-v2
 
 #feed:
 #  path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 11
-paginate_path: /page:num/
+# paginate: 11
+# paginate_path: /page:num/
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: "/page/:num/"
+  sort_field: "date"
+  sort_reverse: true
 
 # Exclude from processing.
 exclude:
@@ -87,8 +93,8 @@ defaults:
       layout: post
       read_time: false
       author: "관리자"
-      news: false
-      hidden: true
+      pub: true
+      # hidden: true
 
   # _posts/news
   - scope:

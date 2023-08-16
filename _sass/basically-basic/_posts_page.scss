@@ -3,8 +3,17 @@
   grid-template-columns: 20% calc(80% - 3rem);
   gap: 3rem;
 
+  @media (max-width: 830px) {
+    gap: 0rem;
+  }
+
   a {
     color: inherit;
+  }
+
+  p,
+  li {
+    font-weight: 300;
   }
 
   @media (max-width: 51.875rem) {
@@ -52,16 +61,19 @@
 
   .inner-list {
     list-style: disc;
+    padding-left: 2rem;
   }
 
   .contact {
     margin-top: 48px;
+
+    > .inner {
+      padding-left: 2rem;
+    }
   }
 
   .contact-list {
-    list-style: disc;
     margin-top: 48px;
-    padding-left: 32px;
 
     @media (max-width: 51.875rem) {
       margin-top: 16px;
@@ -82,6 +94,11 @@
     list-style: none;
     padding: 0;
     font-weight: 300;
+  }
+
+  p {
+    font-weight: 300;
+    line-height: 1.8;
   }
 
   img {

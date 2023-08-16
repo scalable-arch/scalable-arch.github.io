@@ -1,6 +1,5 @@
 {% if post.id %} {% assign title = post.title | markdownify | strip_html %} {%
 else %} {% assign title = post.title %} {% endif %}
-
 <article class="entry">
   <a href="{{ post.url | relative_url }}" rel="bookmark">
     <header class="entry-header">

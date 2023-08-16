@@ -338,10 +338,18 @@
 
   @include breakpoint($large) {
     display: flex;
-    gap: 10%;
+    // gap: 10%;
   }
   .title {
     margin-bottom: 1.2rem;
+  }
+
+  .section-title {
+    flex: 1;
+  }
+
+  .entries-list {
+    flex: 5;
   }
 }
 

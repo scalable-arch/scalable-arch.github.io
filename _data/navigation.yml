@@ -3,6 +3,7 @@
 menu:
   - title: Home
     url: /
+
   - title: Professor
     url: /professor/
 

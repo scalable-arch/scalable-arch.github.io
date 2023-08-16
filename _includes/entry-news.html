@@ -1,7 +1,7 @@
 {% if post.id %} {% assign title = post.title | markdownify | strip_html %} {%
 else %} {% assign title = post.title %} {% endif %}
 
-<article class="entry {% if page.url == '/' %}news{% endif %}">
+<article class="entry {% if title == title %}news{% endif %}">
   <header class="entry-header">
     <h3 class="entry-title {% if page.url == '/' %}news{% endif %}">
       <a rel="bookmark">{{ title }}</a>
