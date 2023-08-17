@@ -8,7 +8,7 @@ layout: member
 
 - {:.member-img}![alt prof](/assets/images/prof.jpg)
   - {:.member-name} Jungrae Kim (김정래)
-  - E-mail : **seleneyou1** at **gmail** dot **com**
+  - E-mail : **dale40** at **gmail** dot **com**
   - Department : Semiconductor and Display Engineering
 
 ## Ph.D Students
