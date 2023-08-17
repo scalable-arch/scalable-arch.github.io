@@ -87,7 +87,7 @@ layout: member
   - E-mail : **soodoju** at **gmail** dot **com**
   - Department : Electrical and Computer Engineering
 
-## Integrated M.S. - Ph.D Students
+## Integrated B.S. - M.S Students
 
 - {:.member-img}![alt member](/assets/images/member.png)
 
