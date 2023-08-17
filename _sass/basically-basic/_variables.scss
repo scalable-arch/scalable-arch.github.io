@@ -83,7 +83,7 @@ $main-max-width: $xlarge !default;
 $sidebar-width: $small !default;
 
 /* Background color of the sidebar */
-$sidebar-background-color: rgb(0 0 0 / 58%) !default;
+$sidebar-background-color: rgba(0, 0, 0, 0.58) !default;
 $sidebar-inner-background-color: #086fb8 !default;
 
 /* Intro image color overlay */
