@@ -7,9 +7,9 @@ layout: default
 <main id="main" class="page-content" aria-label="Content">
   <div class="inner">
     <article class="entry-wrap">
-      {{ % if page.image.thumbnail }}
+      {% if page.image.thumbnail %}
       <img src="{{page.image.thumbnail}}" />
-      {{endif}}
+      {%endif%}
       <div class="entry-content">{{ content }}</div>
       {% if site.disqus.shortname %} {% include disqus_comments.html %} {% endif
       %}
