@@ -110,7 +110,7 @@ layout: member
 - {:.member-img}![alt member](/assets/images/member.png)
   - {:.member-name} **Sanghyun Park (박상현)**
   - E-mail : psh2018314072@gmail.com
-  - Deparment : Electrical and Computer Engineering*
+  - Deparment : Electrical and Computer Engineering
 
 # ALLUMI
 
