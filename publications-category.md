@@ -1,6 +1,6 @@
 ---
 title: Publications
-alt_title: Publications
+#alt_title: Publications
 permalink: /publications/category
 layout: posts-pub-category
 # pagination:
