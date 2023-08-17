@@ -92,7 +92,7 @@ defaults:
     values:
       layout: post
       read_time: false
-      author: "관리자"
+      author: "Admin"
       pub: true
       # hidden: true
 
@@ -102,7 +102,7 @@ defaults:
       type: posts
     values:
       layout: post-news
-      author: "관리자"
+      author: "Admin"
       news: true
 
   # _posts/gallery
@@ -111,7 +111,7 @@ defaults:
       type: posts
     values:
       layout: post
-      author: "관리자"
+      author: "Admin"
       news: false
 #   _pages
 #  - scope:
