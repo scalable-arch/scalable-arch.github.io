@@ -24,10 +24,11 @@ function showLoadingPage() {
   document.body.appendChild(loadingPage);
 }
 
-window.addEventListener("load", function () {
-  setTimeout(() => {
-    loadingPage.className = "loading-page remove";
-  }, 1000);
-});
-
-showLoadingPage();
+if (window.location.pathname === "/") {
+  showLoadingPage();
+  window.addEventListener("load", function () {
+    setTimeout(() => {
+      loadingPage.className = "loading-page remove";
+    }, 1000);
+  });
+}
