@@ -1,38 +1,35 @@
 {% if post.id %} {% assign title = post.title | markdownify | strip_html %} {%
 else %} {% assign title = post.title %} {% endif %}
 <article class="entry">
-  <a href="{{ post.url | relative_url }}" rel="bookmark">
-    <header class="entry-header">
-      <h3 class="entry-title publications">{{ title }}</h3>
-      <div class="tags">
-        <span class="tag">{{post.tags}}</span
-        ><span class="category">{{post.categories}}</span>
-      </div>
-    </header>
-
-    <div class="entry-excerpt">
-      {% if post.excerpt %} {{ post.excerpt | markdownify }} {% endif %}
+  <header class="entry-header">
+    <a href="{{ post.url | relative_url }}" rel="bookmark">
+      <h3 class="entry-title publications">{{ title }}</h3></a
+    >
+    <div class="tags">
+      <span class="tag">{{post.tags}}</span>
+      <span class="category"> {{post.categories}}</span>
     </div>
+  </header>
 
-    <footer class="entry-meta">
-      <ul>
-        {% if post.date %}
-        <li>
-          <time
-            class="entry-time"
-            datetime="{{ post.date | date_to_xmlschema }}"
-          >
-            {{post.author}} {{ post.date | date: "%Y-%m-%d" }}
-          </time>
-        </li>
-        {% endif %} {% if post.read_time %}
-        <li>
-          <span class="icon">{% include icon-stopwatch.svg %}</span>{% capture
-          read_time %}{% include read-time.html %}{% endcapture %}{{ read_time |
-          strip }}
-        </li>
-        {% endif %}
-      </ul>
-    </footer>
-  </a>
+  <div class="entry-excerpt">
+    {% if post.excerpt %} {{ post.excerpt | markdownify }} {% endif %}
+  </div>
+
+  <footer class="entry-meta">
+    <ul>
+      {% if post.date %}
+      <li>
+        <time class="entry-time" datetime="{{ post.date | date_to_xmlschema }}">
+          {{post.author}} {{ post.date | date: "%Y-%m-%d" }}
+        </time>
+      </li>
+      {% endif %} {% if post.read_time %}
+      <li>
+        <span class="icon">{% include icon-stopwatch.svg %}</span>{% capture
+        read_time %}{% include read-time.html %}{% endcapture %}{{ read_time |
+        strip }}
+      </li>
+      {% endif %}
+    </ul>
+  </footer>
 </article>

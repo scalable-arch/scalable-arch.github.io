@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<!--
+    Basically Basic Jekyll Theme 1.4.5
+    Copyright 2017-2018 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/LICENSE
+-->
+<html
+  lang="ko-KR"
+  class="no-js"
+>
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!--favicon-->
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="/assets/favicon/apple-touch-icon.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="/assets/favicon/favicon-32x32.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="/assets/favicon/favicon-16x16.png"
+  />
+  <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+  <link
+    rel="mask-icon"
+    href="/assets/favicon/safari-pinned-tab.svg"
+    color="#5bbad5"
+  />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
+
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Distributed Hardware System | Scalable Architecture Lab.</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Distributed Hardware System" />
+<meta name="author" content="관리자" />
+<meta property="og:locale" content="ko_KR" />
+<meta name="description" content="Our base platform to compute is migrating fast from the PC/mobile + server model to the CLOUD/EDGE/IoT platform, as the amount of data keeps exploding. This new platform partitions data and its computations across cloud, edge, and sensor layers, based on the amounts of resources available and resources needed. With the new platform and partitioning, network efficiency will be the key factor to integrate these layers and will determine overall performance of the platform." />
+<meta property="og:description" content="Our base platform to compute is migrating fast from the PC/mobile + server model to the CLOUD/EDGE/IoT platform, as the amount of data keeps exploding. This new platform partitions data and its computations across cloud, edge, and sensor layers, based on the amounts of resources available and resources needed. With the new platform and partitioning, network efficiency will be the key factor to integrate these layers and will determine overall performance of the platform." />
+<link rel="canonical" href="http://localhost:4000/research/2023/05/26/Distributed-Hardware-System.html" />
+<meta property="og:url" content="http://localhost:4000/research/2023/05/26/Distributed-Hardware-System.html" />
+<meta property="og:site_name" content="Scalable Architecture Lab." />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-05-26T00:00:00+09:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Distributed Hardware System" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"관리자"},"dateModified":"2023-05-26T00:00:00+09:00","datePublished":"2023-05-26T00:00:00+09:00","description":"Our base platform to compute is migrating fast from the PC/mobile + server model to the CLOUD/EDGE/IoT platform, as the amount of data keeps exploding. This new platform partitions data and its computations across cloud, edge, and sensor layers, based on the amounts of resources available and resources needed. With the new platform and partitioning, network efficiency will be the key factor to integrate these layers and will determine overall performance of the platform.","headline":"Distributed Hardware System","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/research/2023/05/26/Distributed-Hardware-System.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"관리자"},"url":"http://localhost:4000/research/2023/05/26/Distributed-Hardware-System.html"}</script>
+<!-- End Jekyll SEO tag -->
+ 
+
+  <script>
+    /* Cut the mustard */
+    if ("querySelector" in document && "addEventListener" in window) {
+      document.documentElement.className =
+        document.documentElement.className.replace(/\bno-js\b/g, "") + "js";
+    }
+  </script>
+
+  <link
+    rel="stylesheet"
+    href="/assets/stylesheets/main.css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Noto+Sans+Korean:400,400i,600,600i"
+  />
+   
+</head>
+
+  <body
+    class="layout--post distributed-hardware-system"
+  >
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+
+    <!--  -->
+    <div id="header-nav">
+      <div class="header">
+        
+
+<header id="masthead">
+  <div class="title-area">
+    <h1 class="logo">
+      <a href="/">
+        <!--  -->
+        <img src="/assets/images/logo.png" alt="" class="site-logo" />
+      </a>
+    </h1>
+  </div>
+</header>
+
+        <div class="nav-menu"><!-- _includes/navigation.html -->
+
+<nav
+id="primary-nav"
+  class="site-nav"
+  itemscope
+  itemtype="http://schema.org/SiteNavigationElement"
+  aria-label="Main navigation"
+>
+  <ul  id="menu-main-navigation" class="menu">
+    
+      <li class="menu-item">
+        <a href="/" >Home</a>
+        
+      </li>
+    
+      <li class="menu-item">
+        <a href="/professor/" >Professor</a>
+        
+      </li>
+    
+      <li class="menu-item">
+        <a href="/members/" >Members</a>
+        
+      </li>
+    
+      <li class="menu-item">
+        <a href="/publications/category" >Publications</a>
+        
+          <ul class="sub-menu">
+            
+              <li class="sub-menu-item">
+                <a href="/publications/category" >By Category</a>
+              </li>
+            
+              <li class="sub-menu-item">
+                <a href="/publications/year" >By Year</a>
+              </li>
+            
+              <li class="sub-menu-item">
+                <a href="/publications/publisher" >By Publisher</a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li class="menu-item">
+        <a href="/research/" >Research & Projects</a>
+        
+          <ul class="sub-menu">
+            
+              <li class="sub-menu-item">
+                <a href="/research/" >Research</a>
+              </li>
+            
+              <li class="sub-menu-item">
+                <a href="/projects/" >Projects</a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li class="menu-item">
+        <a href="/schedule/" >Schedule</a>
+        
+      </li>
+    
+      <li class="menu-item">
+        <a href="/gallery/" >Gallery</a>
+        
+      </li>
+    
+  </ul>
+</nav>
+</div>
+
+        <div class="sidebar-toggle-wrapper">
+          
+          <div id="dark-mode" class="dark-mode-switch"></div>
+          <button class="toggle navicon-button larr" type="button">
+            <span class="toggle-inner">
+              <span class="sidebar-toggle-label visually-hidden"
+                >Menu</span
+              >
+              <span class="navicon"></span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="sidebar" class="sidebar">
+      <div class="inner">
+        <!-- _includes/navigation.html -->
+
+<nav
+id="primary-nav"
+  class="site-nav"
+  itemscope
+  itemtype="http://schema.org/SiteNavigationElement"
+  aria-label="Main navigation"
+>
+  <ul  id="menu-main-navigation" class="menu">
+    
+      <li class="menu-item">
+        <a href="/" >Home</a>
+        
+      </li>
+    
+      <li class="menu-item">
+        <a href="/professor/" >Professor</a>
+        
+      </li>
+    
+      <li class="menu-item">
+        <a href="/members/" >Members</a>
+        
+      </li>
+    
+      <li class="menu-item">
+        <a href="/publications/category" >Publications</a>
+        
+          <ul class="sub-menu">
+            
+              <li class="sub-menu-item">
+                <a href="/publications/category" >By Category</a>
+              </li>
+            
+              <li class="sub-menu-item">
+                <a href="/publications/year" >By Year</a>
+              </li>
+            
+              <li class="sub-menu-item">
+                <a href="/publications/publisher" >By Publisher</a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li class="menu-item">
+        <a href="/research/" >Research & Projects</a>
+        
+          <ul class="sub-menu">
+            
+              <li class="sub-menu-item">
+                <a href="/research/" >Research</a>
+              </li>
+            
+              <li class="sub-menu-item">
+                <a href="/projects/" >Projects</a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+      <li class="menu-item">
+        <a href="/schedule/" >Schedule</a>
+        
+      </li>
+    
+      <li class="menu-item">
+        <a href="/gallery/" >Gallery</a>
+        
+      </li>
+    
+  </ul>
+</nav>
+ <ul class="contact-list">
+  
+
+  
+
+  
+
+  <li>
+    
+  </li>
+</ul>
+
+      </div>
+    </div>
+
+    <!-- intro -->
+    <div><section id="intro">
+  <div class="intro-back intro">
+    <div class="intro-inner inner">
+      <h2 class="title">
+        <span>Welcome to Scalable Architecture Lab (SAL) at SKKU.</span>
+        SAL is recruiting passionate undergraduate, masters, and Ph.D students.
+      </h2>
+      <p class="sub-title">
+        If you’re interesting in researching cutting-edge computer architecture
+        and want to change the world, please send your CV to dale40@gmail.com
+        The lab will support a full tuition and stipends, with chances of
+        attending top-tier international conferences.
+      </p>
+    </div>
+  </div>
+</section>
+</div>
+
+    <div class="canvas">
+      <div class="wrapper">
+        <div class="initial-content"><header class="intro ">
+  <!--  
+  <div class="intro-image">
+    <img src="/%7B%22thumbnail%22=%3E%22/assets/images/research_distributed_hardware_system.png%22%7D" alt="Distributed Hardware System" />
+  </div>
+   -->
+
+  <div class="inner">
+    <div class="intro-text">
+      <h1 id="page-title" class="intro-title">
+        Distributed Hardware System
+ 
+      </h1>
+
+        
+
+
+      <p class="entry-meta">
+        <span class="byline-item"
+          >by 관리자</span
+        ><span class="byline-item"
+          ><time datetime="2023-05-26T00:00:00+09:00"
+            >2023-05-26</time
+          > </span
+        >
+      </p>
+        
+    </div>
+  </div>
+</header>
+
+
+<main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+    <article class="entry-wrap">
+      
+      <img src="/assets/images/research_distributed_hardware_system.png" />
+      
+      <div class="entry-content"><p>Our base platform to compute is migrating fast from the PC/mobile + server model to the CLOUD/EDGE/IoT platform, as the amount of data keeps exploding. This new platform partitions data and its computations across cloud, edge, and sensor layers, based on the amounts of resources available and resources needed. With the new platform and partitioning, network efficiency will be the key factor to integrate these layers and will determine overall performance of the platform.</p>
+
+<p>The goal of this research is to build a efficient distributed hardware system for the upcoming CLOUD/EDGE/IoT era. This includes distributed NPUs to process massive amount of AI data, and data loss handling for real-time AI.</p>
+
+<p>(Korean) 데이터의 양이 폭증하면서, 컴퓨팅의 기본 플랫폼이 PC/mobile + 서버 모델에서 클라우드/엣지/IoT 플랫폼으로 빠르게 전환되고 있다. 새 플랫폼은 필요한 리소스와 사용가능한 리소스에 따라서, 클라우드, 엣지, 센서 계층으로 데이터와 연산을 분산하여 처리한다. 그리고 네트워크가 분할된 계층들을 서로 연결하고, 전체 플랫폼의 완결성과 성능을 결정하는 핵심요소가 될 것이다.</p>
+
+<p>이 연구의 목표는 클라우드/엣지/IoT 플랫폼에서 효율적인 분산 하드웨어 시스템을 설계하는 것이다. 세부 연구주제로는 대용량 AI 데이터를 처리하기 위한 분산 NPU 시스템과 실시간 AI 처리를 위한 데이터손실 처리 등이 있다.</p>
+
+<h2 id="관련논문">관련논문</h2>
+
+<p><a href="http://127.0.0.1:4000/reliability/2022/08/22/SEC-BADAEC-_An_Efficient_ECC_with_No_Vacancy_for_Strong_Memory_Protection.html">http://127.0.0.1:4000/reliability/2022/08/22/SEC-BADAEC-_An_Efficient_ECC_with_No_Vacancy_for_Strong_Memory_Protection.html</a></p>
+</div>
+      
+    </article>
+  </div>
+</main>
+</div>
+        <div class="search-content"><div class="inner">
+  
+</div>
+</div>
+      </div>
+    </div>
+
+    <footer id="footer" class="site-footer">
+  <div class="inner">
+    <div class="copyright">
+      
+      <p>Refusal of unauthorized collection of e-mails<br>
+      &copy; 2020 Scalable Architecture Lab.</p>
+      
+    </div>
+  </div>
+</footer>
+ 
+
+<script async src="/assets/javascripts/main.js"></script>
+
+
+
+  </body>
+</html>

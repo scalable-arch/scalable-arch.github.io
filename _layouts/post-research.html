@@ -1,0 +1,16 @@
+---
+layout: page
+---
+
+<!-- {{ content }} -->
+
+<section class="taxonomy-section">
+  <div class="entries-{{ page.entries_layout | default: 'grid' }}">
+    {% assign research_posts = site.categories.research %} {% for post in
+    research_posts %} {% include entry-research.html %} {% endfor %}
+  </div>
+  <a href="#page-title" class="back-to-top"
+    >{{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }}
+    &uarr;</a
+  >
+</section>

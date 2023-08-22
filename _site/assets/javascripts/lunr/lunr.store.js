@@ -284,25 +284,30 @@ var store = [{
         "tags": ["DATE"],
         "url": "http://localhost:4000/computer%20architecture/2023/04/17/UVMMU-_Hardware-Offladed_Page_Migration_for_Heterogeneous_Computing.html"
       },{
-        "title": "Distributed Hardware System",
-        "excerpt":"Our base platform to compute is migrating fast from the PC/mobile + server model to the CLOUD/EDGE/IoT platform, as the amount of data keeps exploding. This new platform partitions data and its computations across cloud, edge, and sensor layers, based on the amounts of resources available and resources needed. With...","categories": ["gallery"],
+        "title": "gallery",
+        "excerpt":"gallery ","categories": ["gallery"],
         "tags": [],
-        "url": "http://localhost:4000/gallery/2023/05/26/Distributed-Hardware-System.html"
+        "url": "http://localhost:4000/gallery/2023/05/26/gallery.html"
+      },{
+        "title": "Distributed Hardware System",
+        "excerpt":"Our base platform to compute is migrating fast from the PC/mobile + server model to the CLOUD/EDGE/IoT platform, as the amount of data keeps exploding. This new platform partitions data and its computations across cloud, edge, and sensor layers, based on the amounts of resources available and resources needed. With...","categories": ["research"],
+        "tags": [],
+        "url": "http://localhost:4000/research/2023/05/26/Distributed-Hardware-System.html"
       },{
         "title": "Memory Sub-system",
-        "excerpt":"AI and Big Data made Memory Sub-system crucial in throughput-oriented processors, like NPU and GPU. These processors has increased computation throughput over decades, but the amount of data to feed these computation units has grown relatively poorly. To improve system performance, balancing memory storage capacity and transfer bandwidth with computation...","categories": ["gallery"],
+        "excerpt":"AI and Big Data made Memory Sub-system crucial in throughput-oriented processors, like NPU and GPU. These processors has increased computation throughput over decades, but the amount of data to feed these computation units has grown relatively poorly. To improve system performance, balancing memory storage capacity and transfer bandwidth with computation...","categories": ["research"],
         "tags": [],
-        "url": "http://localhost:4000/gallery/2023/05/26/Memory-Sub-system.html"
+        "url": "http://localhost:4000/research/2023/05/26/Memory-Sub-system.html"
       },{
         "title": "Distributed Hardware System",
-        "excerpt":"As processing scaling continues, transistors became more vulnerable to faults and errors. In memories, there are new types of errors, such as variable retention time and row hammer. In logics, increasing variability makes it more difficult to exploit faster transistors from the scaling: with fewer atoms to build a transistor,...","categories": ["gallery"],
+        "excerpt":"As processing scaling continues, transistors became more vulnerable to faults and errors. In memories, there are new types of errors, such as variable retention time and row hammer. In logics, increasing variability makes it more difficult to exploit faster transistors from the scaling: with fewer atoms to build a transistor,...","categories": ["research"],
         "tags": [],
-        "url": "http://localhost:4000/gallery/2023/05/26/Reliability.html"
+        "url": "http://localhost:4000/research/2023/05/26/Reliability.html"
       },{
         "title": "SAL's research focus is a novel computer architecture for future AI computing and Cloud/IoT platforms.",
-        "excerpt":"SAL’s research focus is a novel computer architecture for future AI computing and Cloud/IoT platforms. Its topics include Distributed Hardware System, GP-GPU, Neural Processing Unit, Memory sub-system, and Reliability. These are the critical aspects to scale up/out existing computers to deal with massive data in the era of Artificial Intelligence...","categories": ["gallery"],
+        "excerpt":"SAL’s research focus is a novel computer architecture for future AI computing and Cloud/IoT platforms. Its topics include Distributed Hardware System, GP-GPU, Neural Processing Unit, Memory sub-system, and Reliability. These are the critical aspects to scale up/out existing computers to deal with massive data in the era of Artificial Intelligence...","categories": ["research"],
         "tags": [],
-        "url": "http://localhost:4000/gallery/2023/05/26/SAL's-research-focus-is.html"
+        "url": "http://localhost:4000/research/2023/05/26/SAL's-research-focus-is.html"
       },{
         "title": "2023-06",
         "excerpt":"Kiheon Kwon’s paper, “EPA ECC : Error-Pattern-Aligned ECC for HBM2E”, has been accepted to International Technical Conference on Circuits/Systems, Computers, and Communications (ITC-CSCC23). Congratulation! ","categories": [],

@@ -238,6 +238,33 @@
     margin-bottom: 0;
     padding-bottom: 2rem;
     border-bottom: none;
+
+    &.gallery {
+      .gallery-box {
+        display: block;
+        width: 100%;
+        position: relative;
+
+        .entry-image-cover {
+          min-height: 280px;
+          border-radius: 0;
+        }
+
+        .gallery-item {
+          width: 100%;
+          position: absolute;
+          padding: 1em;
+          background-color: rgba(0, 0, 0, 0.5);
+          bottom: 0;
+          left: 0;
+          z-index: 10;
+
+          .entry-excerpt {
+            margin: 0;
+          }
+        }
+      }
+    }
   }
 
   .entry-title {
@@ -313,6 +340,18 @@
   > p:first-child {
     font-size: 1.125em;
     line-height: 1.625;
+  }
+
+  // 관련논문 css 추가
+  > h2 {
+    margin-top: 4em;
+    margin-bottom: 0.5em;
+  }
+
+  > p {
+    > a {
+      text-decoration: underline;
+    }
   }
 }
 
