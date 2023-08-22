@@ -24,7 +24,7 @@ author:
   twitter:
   picture:
 twitter_username:
-github_username:
+github_username: scalable-arch
 logo: "/assets/images/logo.png" # path of site logo, e.g. "/assets/images/logo.png"
 search: # true, false (default)
 search_full_content: false # true, false (default)
@@ -93,7 +93,7 @@ defaults:
     values:
       layout: post
       read_time: false
-      author: "관리자"
+      author: "Admin"
       pub: true
       # hidden: true
 
@@ -103,7 +103,7 @@ defaults:
       type: posts
     values:
       layout: post-news
-      author: "관리자"
+      author: "Admin"
       news: true
 
   # _posts/research
@@ -121,7 +121,7 @@ defaults:
       type: posts
     values:
       layout: post
-      author: "관리자"
+      author: "Admin"
       news: false
 #   _pages
 #  - scope:
