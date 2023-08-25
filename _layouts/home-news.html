@@ -16,17 +16,11 @@ layout: default
         </span>
       </header>
 
-      <!-- <div class="entries-{{ page.entries_layout | default: 'list' }}">
-        {% if site.plugins contains 'jekyll-paginate' and page.paginate or
-        site.gems contains 'jekyll-paginate' and page.paginate %} {% include
-        posts-paginated-news.html %} {% else %} {% include posts-news.html %}{%
-        endif %}
-      </div> -->
-
       <div class="entries-{{ page.entries_layout | default: 'list' }}">
         {% include posts-news.html %}
       </div>
     </div>
+
     <nav class="pager">
       <ul>
         {% if paginator.previous_page %}

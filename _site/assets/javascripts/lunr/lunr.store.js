@@ -337,5 +337,5 @@ var store = [{
         "title": "Unity ECC: Unified Memory Protection Against Bit and Chip Errors",
         "excerpt":"Dongwhee Kim, Jaeyoon Lee, Wonyeong Jung, Michael Sullivan, and Jungrae Kim The International Conference on High Performance Computing, Networking, Storage and Analysis (SC23), Oral, Best Student Paper Award, acceptance rate = 24%, NoV. 2023 ","categories": ["Reliability"],
         "tags": ["SC"],
-        "url": "http://localhost:4000/reliability/2023/11/12/Unity_ECC-_Unified_Memory_Protection_Against_Bit_and_Chip_Errors.html"
+        "url": "http://localhost:4000/reliability/2023/11/12/Unity_ECC-_Unified_Memory_Protection_Against_Bit_and_Chip_Errors-copy.html"
       }]
