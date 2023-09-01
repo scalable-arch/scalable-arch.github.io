@@ -16,8 +16,9 @@ layout: posts-page
 {% for conference in site.data.conferences %}
 {% assign conf = conference[1] %}
   <li>
-    {{ conf.conference }}
+    {{ conf.title}}
     ({{ org.members | size }} members)
+    ({{ org.series[0] | size }} members)
   </li>
 {% endfor %}
 </ul>
