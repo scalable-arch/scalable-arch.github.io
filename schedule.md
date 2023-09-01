@@ -13,6 +13,7 @@ layout: posts-page
 <iframe src=" https://calendar.google.com/calendar/u/0/embed?src=cc3381e63109ca3620f9dc700200331094a[…]8bfe3ea4b99f846d68@group.calendar.google.com&ctz=Asia/Seoul" class="embed-responsive" height="600px"></iframe>
 
 <ul>
+{% require 'Date' %}
 {% for conference in site.data.conferences %}
 {% assign conf = conference[1] %}
 {% assign deadline = Date.strptime(conf.series[0].deadline, "%B-%d-%Y") %}
