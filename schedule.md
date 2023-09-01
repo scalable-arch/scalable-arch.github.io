@@ -11,3 +11,13 @@ layout: posts-page
 ## GROUP
 
 <iframe src=" https://calendar.google.com/calendar/u/0/embed?src=cc3381e63109ca3620f9dc700200331094a[…]8bfe3ea4b99f846d68@group.calendar.google.com&ctz=Asia/Seoul" class="embed-responsive" height="600px"></iframe>
+
+<ul>
+{% for conference in site.data.conferences %}
+{% assign conf = conference[1] %}
+  <li>
+    {{ conf.conference }}
+    ({{ org.members | size }} members)
+  </li>
+{% endfor %}
+</ul>

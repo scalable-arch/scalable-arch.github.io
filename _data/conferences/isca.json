@@ -1,0 +1,15 @@
+[
+  "conference": "ISCA",
+  "tags": ["arch", "ras"],
+  "series": [
+    {
+      "year": "2024",
+      "abstract": "November-14-2023",
+      "deadline": "November-21-2023",
+      "rebutal": "February-09-2024",
+      "notification": "March-09-2024",
+      "conference": "June-29-2024",
+      "location": "Buenos Aires, Argentina"
+    }
+  ]
+]
