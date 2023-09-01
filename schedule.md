@@ -17,7 +17,8 @@ layout: posts-page
     <th> Month </th>
     <th> Venue </th>
   </tr>
-  {% for month in ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"] %}
+  {% assign months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"] %}
+  {% for month in months %}
   <tr>
     <td> {{ month }} </td>
     <td>
@@ -31,8 +32,8 @@ layout: posts-page
       End date: {{ conf.series[0].end }}
       ({{ org.members | size }} members)
       ({{ org.series[0] | size }} members)
+      {% endfor %}
     </td>
-  {% endfor %}
   </tr>
-{% endfor %}
+  {% endfor %}
 </table>
