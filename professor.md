@@ -44,7 +44,7 @@ layout: posts-page
 
   {:.inner-list}
 
-  - Best Paper Award, HPCA 2015 (one of the top conferences in computer architecture)
+  - Best Paper Candidate, HPCA 2015 (one of the top conferences in computer architecture)
   - Best Paper Award, SELSE 2017
   - Full Financial Sponsorship (해외학술연수) from Samsung Electronics, 2011-2016
   - Core Personnel (핵심인재) from Samsung Electronics, 2007-2011
