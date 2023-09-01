@@ -1,0 +1,21 @@
+title: ISCA
+tags: [ arch ]
+series:
+  - year: 2024
+    url: https://iscaconf.org/isca2024/
+    location: "Buenos Aires, Argentina"
+    start: June-29-2024
+    end: July-3-2024
+    abstract: November-14-2023
+    deadline: November-21-2023
+    rebutal: February-09-2024
+    notification: March-19-2024
+  - year: 2023
+    url: https://iscaconf.org/isca2023/
+    location: "Orlando, FL, USA"
+    start: June-17-2023
+    end: June-24-2023
+    abstract: November-14-2022
+    deadline: November-21-2022
+    rebutal: February-06-2023
+    notification: March-09-2023

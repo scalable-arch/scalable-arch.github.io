@@ -9,6 +9,7 @@ series:
     abstract: July-28-2023
     deadline: August-04-2023
     rebutal: October-02-2023
+    notification: October-24-2023
   - year: 2023
     url: https://hpca-conf.org/2023/
     location: "Montreal, QC, Canada"
@@ -16,4 +17,5 @@ series:
     end: March-1-2023
     abstract: July-25-2022
     deadline: August-01-2022
-    rebutal: October-18-2022
+    rebutal: September-26-2022
+    notification: October-18-2022

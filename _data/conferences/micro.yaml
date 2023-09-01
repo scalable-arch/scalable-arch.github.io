@@ -1,0 +1,21 @@
+title: ISCA
+tags: [ arch ]
+series:
+  - year: 2023
+    url: https://microarch.org/micro56/
+    location: "Toronto, Canada"
+    start: October-28-2023
+    end: November-1-2023
+    abstract: April-21-2023
+    deadline: April-28-2023
+    rebutal: June-26-2023
+    notification: July-24-2023
+  - year: 2022
+    url: https://microarch.org/micro55/
+    location: "Chicago, Illinois, USA"
+    start: October-28-2022
+    end: November-1-2022
+    abstract: April-14-2022
+    deadline: April-21-2022
+    rebutal: June-20-2022
+    notification: July-18-2022

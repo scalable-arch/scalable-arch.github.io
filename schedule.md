@@ -17,6 +17,8 @@ layout: posts-page
 {% assign conf = conference[1] %}
   <li>
     {{ conf.title}}
+    Start date: {{ conf.series[0].start }}
+    End date: {{ conf.series[0].end }}
     ({{ org.members | size }} members)
     ({{ org.series[0] | size }} members)
   </li>
