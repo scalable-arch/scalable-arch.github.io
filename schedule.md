@@ -12,18 +12,27 @@ layout: posts-page
 
 <iframe src=" https://calendar.google.com/calendar/u/0/embed?src=cc3381e63109ca3620f9dc700200331094a[…]8bfe3ea4b99f846d68@group.calendar.google.com&ctz=Asia/Seoul" class="embed-responsive" height="600px"></iframe>
 
-<ul>
-{% for conference in site.data.conferences %}
-{% assign conf = conference[1] %}
-{% assign deadline = conf.series[0].deadline | split: "-" %}
-  <li>
-    {{ conf.series[0].deadline }}
-    {{ deadline }}
-    {{ conf.title }} {{ deadline.year }}
-    Start date: {{ conf.series[0].start }}
-    End date: {{ conf.series[0].end }}
-    ({{ org.members | size }} members)
-    ({{ org.series[0] | size }} members)
-  </li>
+<table>
+  <tr>
+    <th> Month </th>
+    <th> Venue </th>
+  </tr>
+  {% for month in [January, February, March, April, May, June, July, August, September, October, November, December] %}
+  <tr>
+    <td> {{ month }} </td>
+    <td>
+      {% for conference in site.data.conferences %}
+      {% assign conf = conference[1] %}
+      {% assign deadline = conf.series[0].deadline | split: "-" %}
+      {{ conf.series[0].deadline }}
+      {{ deadline }}
+      {{ conf.title }} {{ deadline.year }}
+      Start date: {{ conf.series[0].start }}
+      End date: {{ conf.series[0].end }}
+      ({{ org.members | size }} members)
+      ({{ org.series[0] | size }} members)
+    </td>
+  {% endfor %}
+  </tr>
 {% endfor %}
-</ul>
+</table>
