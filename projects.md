@@ -4,7 +4,7 @@ permalink: /projects/
 layout: posts-page
 ---
 
-## ON-GOING PROJECT
+## ON-GOING PROJECTS
 
 {:.order-list}
 
@@ -18,7 +18,7 @@ layout: posts-page
 8. Brain Korea21 [대한민국 정부] [2020.09.01 ~ 2027.08.31]
 9. 인공지능대학원지원 [정보통신기획평가원] [2019.04.01 ~ 2023.12.31]
 
-## ON-GOING PROJECT
+## COMPLETED PROJECTS
 
 {:.order-list}
 
