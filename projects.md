@@ -7,6 +7,8 @@ layout: posts-page
 - R&D: Research & Development
 - HRD: Human Resource Development
 
+---
+
 ## ON-GOING PROJECTS
 
 {:.order-list}
@@ -21,7 +23,7 @@ layout: posts-page
 8. (HRD) Brain Korea21 [대한민국 정부] [2020.09.01 ~ 2027.08.31]
 9. (HRD) 인공지능대학원지원 [정보통신기획평가원] [2019.04.01 ~ 2023.12.31]
 
-
+---
 ## COMPLETED PROJECTS
 
 {:.order-list}
