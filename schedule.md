@@ -15,10 +15,14 @@ layout: posts-page
 <ul>
 {% for conference in site.data.conferences %}
 {% assign conf = conference[1] %}
+{% assign Date d = Date.strptime(conf.series[0].deadline, "%B-%d-%Y") }
   <li>
     {{ conf.title}}
     Start date: {{ conf.series[0].start }}
     End date: {{ conf.series[0].end }}
+    Deadline: {{ d.year }}
+    Deadline: {{ d.month }}
+    Deadline: {{ d.day }}
     ({{ org.members | size }} members)
     ({{ org.series[0] | size }} members)
   </li>
