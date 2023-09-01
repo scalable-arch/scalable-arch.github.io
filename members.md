@@ -112,7 +112,7 @@ layout: member
   - E-mail : psh2018314072@gmail.com
   - Deparment : Electrical and Computer Engineering*
 
-# ALLUMI
+# ALUMNI
 
 ## 2022 Fall.
 
