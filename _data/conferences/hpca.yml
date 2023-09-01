@@ -1,20 +1,19 @@
 title: HPCA
-tags: arch
+tags: [ arch ]
 series:
-  year:
-    - 2024
-      url: https://hpca-conf.org/2024/
-      location: "Edinburgh, Scotland"
-      start: March-2-2024
-      end: March-6-2024
-      abstract: July-28-2023
-      deadline: August-04-2023
-      rebutal: October-02-2023
-    - 2023
-      url: https://hpca-conf.org/2023/
-      location: "Montreal, QC, Canada"
-      start: February-25-2023
-      end: March-1-2023
-      abstract: July-25-2022
-      deadline: August-01-2022
-      rebutal: October-18-2022
+  - 2024
+    url: https://hpca-conf.org/2024/
+    location: "Edinburgh, Scotland"
+    start: March-2-2024
+    end: March-6-2024
+    abstract: July-28-2023
+    deadline: August-04-2023
+    rebutal: October-02-2023
+  - 2023
+    url: https://hpca-conf.org/2023/
+    location: "Montreal, QC, Canada"
+    start: February-25-2023
+    end: March-1-2023
+    abstract: July-25-2022
+    deadline: August-01-2022
+    rebutal: October-18-2022
