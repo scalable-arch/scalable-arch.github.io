@@ -1,0 +1,21 @@
+title: SC
+tags: [ arch ]
+series:
+  - year: 2023
+    url: https://sc23.supercomputing.org/
+    location: "Denver, CO, USA"
+    start: November-12-2023
+    end: November-17-2023
+    abstract: March-30-2023
+    deadline: April-6-2023
+    rebutal: May-22-2023
+    notification: June-16-2023
+  - year: 2022
+    url: https://sc22.supercomputing.org/
+    location: "Dallas, TX, USA"
+    start: November-13-2022
+    end: November-18-2022
+    abstract: March-25-2022
+    deadline: April-1-2022
+    rebutal: May-9-2022
+    notification: June-13-2022
