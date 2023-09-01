@@ -4,9 +4,8 @@ permalink: /projects/
 layout: posts-page
 ---
 
-R&D: Research & Development
-
-HRD: Human Resource Development
+- R&D: Research & Development
+- HRD: Human Resource Development
 
 ## ON-GOING PROJECTS
 
