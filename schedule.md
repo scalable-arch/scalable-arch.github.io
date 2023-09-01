@@ -17,7 +17,7 @@ layout: posts-page
     <th> Month </th>
     <th> Venue </th>
   </tr>
-  {% for month in [January, February, March, April, May, June, July, August, September, October, November, December] %}
+  {% for month in ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"] %}
   <tr>
     <td> {{ month }} </td>
     <td>
