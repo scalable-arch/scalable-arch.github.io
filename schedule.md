@@ -4,7 +4,7 @@ permalink: /schedule/
 layout: posts-page
 ---
 
-## PROFESSOR
+## Principal Investigator
 
 <iframe src="https://calendar.google.com/calendar/u/0/embed?src=dale40@gmail.com&ctz=Asia/Seoul&pli=1" class="embed-responsive" height="600px"></iframe>
 
@@ -12,9 +12,10 @@ layout: posts-page
 
 <iframe src=" https://calendar.google.com/calendar/u/0/embed?src=cc3381e63109ca3620f9dc700200331094a[…]8bfe3ea4b99f846d68@group.calendar.google.com&ctz=Asia/Seoul" class="embed-responsive" height="600px"></iframe>
 
+## Conferences
 <table>
   <tr>
-    <th> Month </th>
+    <th> Submission Month </th>
     <th> Venue </th>
   </tr>
   {% assign months = "January February March April May June July August September October November December" | split: " " %}
