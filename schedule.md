@@ -24,15 +24,13 @@ layout: posts-page
     <td> {{ month }} </td>
     <td>
       {% for conference in site.data.conferences %}
-      {% assign conf = conference[1] %}
-      {% assign deadline = conf.series[0].deadline | split: "-" %}
-      {{ conf.series[0].deadline }}
-      {{ deadline }}
-      {{ conf.title }} {{ deadline.year }}
-      Start date: {{ conf.series[0].start }}
-      End date: {{ conf.series[0].end }}
-      ({{ org.members | size }} members)
-      ({{ org.series[0] | size }} members)
+        {% assign conf = conference[1] %}
+        {% assign deadline = conf.series[0].deadline | split: "-" %}
+        {{ deadline[0] }} --- {{ deadline[1] }} -- {{ deadline[2] }}
+        {% if deadline[0] == month %}
+          {{ conf.title }}' {{ deadline.year }}
+        
+        {% endif %}
       {% endfor %}
     </td>
   </tr>
