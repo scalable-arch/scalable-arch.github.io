@@ -24,6 +24,7 @@ layout: posts-page
 9. (HRD) 인공지능대학원지원 [정보통신기획평가원] [2019.04.01 ~ 2023.12.31]
 
 ---
+
 ## COMPLETED PROJECTS
 
 {:.order-list}
