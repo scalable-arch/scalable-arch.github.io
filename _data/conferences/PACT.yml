@@ -1,0 +1,21 @@
+title: PACT
+tags: [ arch BK3 ]
+series:
+  - year: 2023
+    url: https://pact2023.github.io/
+    location: "Vienna, Austria"
+    start: October-21-2023
+    end: October-25-2023
+    abstract: March-25-2023
+    deadline: April-1-2023
+    rebutal: June-12-2023
+    notification: August-1-2023
+  - year: 2022
+    url: https://pact22.cs.illinois.edu/
+    location: "Chicago, IL, USA"
+    start: October-10-2022
+    end: October-12-2022
+    abstract: April-10-2022
+    deadline: April-25-2022
+    rebutal: June-6-2022
+    notification: July-29-2022
