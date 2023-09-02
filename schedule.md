@@ -19,6 +19,7 @@ layout: posts-page
     <th> Conference </th>
     <th> Paper Deadline </th>
     <th> Location </th>
+    <th> Tags </th>
   </tr>
   {% assign months = "January February March April May June July August September October November December" | split: " " %}
   {% for month in months %}
@@ -31,6 +32,7 @@ layout: posts-page
     <td> {{ conf.title }} </td>
     <td> {{ conf.series[0].deadline }} ({{ conf.series[1].deadline }}) </td>
     <td> {{ conf.series[0].location }} </td>
+    <td> {{ conf.tags }} </td>
   </tr>
       {% endif %}
     {% endfor %}
