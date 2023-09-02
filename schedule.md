@@ -17,7 +17,7 @@ layout: posts-page
   <tr>
     <th> Month </th>
     <th> Conference </th>
-    <th> Deadline </th>
+    <th> Paper Deadline </th>
     <th> Location </th>
   </tr>
   {% assign months = "January February March April May June July August September October November December" | split: " " %}
