@@ -27,9 +27,7 @@ layout: posts-page
       {% for conference in site.data.conferences %}
         {% assign conf = conference[1] %}
         {% assign deadline = conf.series[0].deadline | split: "-" %}
-        {% if deadline[0] == month %}
-          <li> {{ conf.title }}'{{ deadline[2]}} {{ conf.series[0].deadline }} </li>
-        {% endif %}
+        {% if deadline[0] == month %} <li> {{ conf.title }}'{{ deadline[2]}} {{ conf.series[0].deadline }} </li> {% endif %}
       {% endfor %}
       </ul>
     </td>
