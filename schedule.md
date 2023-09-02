@@ -8,29 +8,31 @@ layout: posts-page
 
 <iframe src="https://calendar.google.com/calendar/u/0/embed?src=dale40@gmail.com&ctz=Asia/Seoul&pli=1" class="embed-responsive" height="600px"></iframe>
 
-## GROUP
+## Group
 
 <iframe src=" https://calendar.google.com/calendar/u/0/embed?src=cc3381e63109ca3620f9dc700200331094a[…]8bfe3ea4b99f846d68@group.calendar.google.com&ctz=Asia/Seoul" class="embed-responsive" height="600px"></iframe>
 
 ## Conferences
 <table>
   <tr>
-    <th> Submission Month </th>
-    <th> Venue </th>
+    <th> Month </th>
+    <th> Conference </th>
+    <th> Deadline </th>
+    <th> Location </th>
   </tr>
   {% assign months = "January February March April May June July August September October November December" | split: " " %}
   {% for month in months %}
+    {% for conference in site.data.conferences %}
+      {% assign conf = conference[1] %}
+      {% assign deadline = conf.series[0].deadline | split: "-" %}
+      {% if deadline[0] == month %}
   <tr>
     <td> {{ month }} </td>
-    <td>
-      <ul>
-      {% for conference in site.data.conferences %}
-        {% assign conf = conference[1] %}
-        {% assign deadline = conf.series[0].deadline | split: "-" %}
-        {% if deadline[0] == month %} <li> {{ conf.title }}'{{ deadline[2]}} {{ conf.series[0].deadline }} </li> {% endif %}
-      {% endfor %}
-      </ul>
-    </td>
+    <td> {{ conf.title }} </td>
+    <td> {{ conf.series[0].deadline }} ({{ conf.series[1].deadline }}) </td>
+    <td> {{ conf.series[0].location }} </td>
   </tr>
+      {% endif %}
+    {% endfor %}
   {% endfor %}
 </table>
