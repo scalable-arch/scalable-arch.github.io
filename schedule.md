@@ -17,7 +17,7 @@ layout: posts-page
     <th> Month </th>
     <th> Venue </th>
   </tr>
-  {% assign months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"] %}
+  {% assign months = "January February March April May June July August September October November December" | split: " " %}
   {% for month in months %}
   <tr>
     <td> {{ month }} </td>
