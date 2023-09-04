@@ -4,7 +4,7 @@ permalink: /members/
 layout: member
 ---
 
-## Professor
+## Principal Investigator
 
 - {:.member-img}![alt prof](/assets/images/prof.jpg)
   - {:.member-name} Jungrae Kim (김정래)
