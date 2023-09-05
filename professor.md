@@ -1,5 +1,5 @@
 ---
-title: Professor
+title: Principal Investigator
 permalink: /members/professor/
 layout: posts-page
 ---
