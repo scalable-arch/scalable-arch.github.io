@@ -7,7 +7,7 @@ layout: posts-page
 <table border="0">
   <tr>
     <td> <h2> ON-GOING PROJECTS </h2> </td>
-    <td>
+    <td nowrap>
       <ol>
         <li> (R&D) 고신뢰 메모리를 위한 지능형 인메모리 오류정정 디바이스 개발 [정보통신기획평가원] [2021.04.01 ~ 2024.12.31] </li>
         <li> (R&D) 인공지능 반도체 기반 Multi Device 무선 충전 SoC 개발 [정보통신기획평가원] [2021.04.01 ~ 2023.12.31] </li>
