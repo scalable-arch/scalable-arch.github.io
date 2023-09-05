@@ -79,9 +79,9 @@ layout: posts-page
 ## Services
 
   {:.inner-list}
-  - Organizing Committee, ISOCC'23, ISOC'22, HPCA'21
-  - Program Committee, ICCD'23, ICCD'22, ICCD'21, ISCA'22
-  - External Review Committee, MICRO'21
+  - Organizing Committee / ISOCC'23, ISOCC'22, HPCA'21
+  - Program Committee / ICCD'23, ISCA'22, ICCD'22, ICCD'21
+  - External Review Committee / MICRO'21
   <br> <a href="/members/professor/services"> A Complete List </a>
 
 ## Etc.
