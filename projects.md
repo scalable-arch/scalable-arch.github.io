@@ -4,7 +4,7 @@ permalink: /projects/
 layout: page
 ---
 
-<span style="background-color:#00838a;font-size:13px;float:left;padding:2px 8px;border-radius:50px">Research & Development</span> <span style="background-color:#086fb8;font-size:13px;float:left;padding:2px 8px;border-radius:50px">Human Resource Development</span>
+<span style="background-color:#00838a;font-size:13px;float:left;padding:2px 8px;border-radius:50px">Research & Development</span> &nbsp; &nbsp; <span style="background-color:#086fb8;font-size:13px;float:left;padding:2px 8px;border-radius:50px">Human Resource Development</span>
 
 <table border="0">
   <tr>
