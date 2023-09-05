@@ -70,7 +70,7 @@ layout: posts-page
 
 {:.contact}
 
-## contact
+## Contact
 
 {:.contact-list}
 
