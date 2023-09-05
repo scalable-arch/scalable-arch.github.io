@@ -1,10 +1,10 @@
 ---
 title: Alumni
-permalink: /alumni/
+permalink: /members/alumni/
 layout: page
 ---
 
-# 2022 Fall.
+# 2022
 * **Hoyong Jin** (M.S.) - Open Edge Technologies (2022.08 ~)
 * **Sangjae Park** (M.S.) - AnaPass (2022.08 ~) (Technical Research Personnel)
 * **Daero Kim** (M.S.) - Samsung Electronics Foundry
