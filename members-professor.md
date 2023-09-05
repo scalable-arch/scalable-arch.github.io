@@ -25,6 +25,8 @@ layout: posts-page
   {:.inner-list}
 
   - Assistant Professor / Sungkyunkwan University, 2020~present
+ 
+    {:.deps-list}
     - Department of Semiconductor Systems Engineering
     - School of Electronic and Electrical Engineering
     - Department of Semiconductor Convergence Engineering
@@ -45,10 +47,14 @@ layout: posts-page
   {:.inner-list}
 
   - Ph.D in Electrical and Computer Engineering, The University of Texas at Austin, 2011~2016
+    
+    {:.deps-list}
     - Advisor: Professor Mattan Erez
     - Dissertation: "Strong, thorough, and efficient memory protection against existing and emerging DRAM errors"
 
   - M.S. in Electrical Engineering and Computer Science, Seoul National University, 2001~2003
+    
+    {:.deps-list}
     - Advisor: Professor Soo-Mook Moon
   - B.S. in Electrical Engineering, Seoul National University, 1997~2001
   - Seoul Science High School for gifted students, 1994~1997
