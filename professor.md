@@ -1,11 +1,12 @@
 ---
 title: Professor
-permalink: /professor/
+permalink: /members/professor/
 layout: posts-page
 ---
 
 {:.professor-img}
 ![alt prof](/assets/images/prof.jpg)
+
 
 {:.professor-desc}
 
@@ -73,7 +74,7 @@ layout: posts-page
 
 {:.contact-list}
 
-- <strong>Email</strong> dale40@gmail.com
+- <strong>Email</strong> **dale40** at **gmail** dot **com**
 - <strong>Phone</strong> (+82) 31-299-4398
 - <strong>Address</strong> 2066, Seobu-ro, Jangan-Gu, Suwon, Gyenonggi-Do, 16419, Korea, #400514, Semiconductor Building
   - (16419) 경기도 수원시 장안구 서부로 2066, 반도체관 400514호
