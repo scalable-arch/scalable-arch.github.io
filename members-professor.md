@@ -91,13 +91,13 @@ layout: posts-page
   - [Google Scholar](https://scholar.google.com/citations?user=Jbpv5q0AAAAJ&hl=en)
   - [DBLP](https://dblp.org/pid/94/2042.html)
 
-{:.contact}
-
 ## Contact
 
-{:.contact-list}
+  {:.inner-list}
 
-- <strong>Email</strong> **dale40** at **gmail** dot **com**
-- <strong>Phone</strong> (+82) 31-299-4398
-- <strong>Address</strong> 2066, Seobu-ro, Jangan-Gu, Suwon, Gyenonggi-Do, 16419, Korea, #400514, Semiconductor Building
-  - (16419) 경기도 수원시 장안구 서부로 2066, 반도체관 400514호
+  - <strong>Email:</strong> **dale40** at **gmail** dot **com**
+  - <strong>Phone:</strong> (+82) 31-299-4398
+  - <strong>Address:</strong> 2066, Seobu-ro, Jangan-Gu, Suwon, Gyenonggi-Do, 16419, Korea, #400514, Semiconductor Building
+
+    {:.deps-list}
+    - (16419) 경기도 수원시 장안구 서부로 2066, 반도체관 400514호
