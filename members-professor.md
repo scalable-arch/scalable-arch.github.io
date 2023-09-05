@@ -20,7 +20,7 @@ layout: posts-page
 
   Prof. Kim graduated from Seoul Science High School for gifted students in 1997. He received B.S., and M.S in Electrical Engineering and Computer Science from Seoul National University in 2001 and 2003, respectively. He earned a Ph.D in Electrical and Computer Engineering from The University of Texas at Austin in 2016.
 
-- ## Academic Bio
+## Academic Bio
 
   {:.inner-list}
 
@@ -35,14 +35,19 @@ layout: posts-page
     - Department of Artificial Intelligence
     - Department of Applied Artificial Intelligence
 
-- ## Industry Bio
+## Industry Bio
 
   {:.inner-list}
 
   - Senior Software Engineer / Tech Lead, Microsoft Azure, 2016~2020
+      {:.deps-list}
+    - Datacenter Networking Accelerator (SmartNIC)
   - Senior Engineer, Samsung Electronics System LSI Division, 2003~2016
+      {:.deps-list}
+    - Samsung and Apple Application Processors
+    - Multimedia System-on-a-Chips
 
-- ## Education
+## Education
 
   {:.inner-list}
 
@@ -59,7 +64,7 @@ layout: posts-page
   - B.S. in Electrical Engineering, Seoul National University, 1997~2001
   - Seoul Science High School for gifted students, 1994~1997
 
-- ## Honors
+## Honors
 
   {:.inner-list}
 
@@ -67,8 +72,10 @@ layout: posts-page
   - Best Paper Award, SELSE 2017
   - Full Financial Sponsorship (해외학술연수) from Samsung Electronics, 2011-2016
   - Core Personnel (핵심인재) from Samsung Electronics, 2007-2011
+ 
+## Academic Services
 
-- ## Office
+## Office
 
   {:.inner-list}
 
@@ -80,7 +87,7 @@ layout: posts-page
     - 2066, Seobu-ro, Jangan-Gu, Suwon, Gyenonggi-Do, 16419, Korea,<br>#400514, Semiconductor Building
     - (16419) 경기도 수원시 장안구 서부로 2066, 반도체관 400514호
 
-- ## Etc.
+## Etc.
 
   {:.inner-list}
 
