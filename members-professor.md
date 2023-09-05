@@ -14,11 +14,11 @@ layout: posts-page
 
   Jungrae Kim is an assistant professor of Semiconductor Systems Engineering Department in College of Information and Communication Engineering at SKKU (SungKyunKwan University).
 
-  His research topics are diverse key aspects of computer architecture, including Artificial Intelligence, Cloud/IoT Computing, Neural Processing Unit, Memory sub-system, Distributed Hardware System, Reconfigurable computing, and Reliable computing.
+  His research topics are diverse key aspects of computer architecture, including Artificial Intelligence, Cloud Computing, Neural Processing Unit, Memory Sub-system, Distributed Hardware System, and Reliable Computing.
 
-  Prior to SKKU, he was a tech lead at Microsoft architecting Azure's next-generation datacenter networking accelerator (SmartNIC project). Before that, he was a senior engineer at Samsung Electronics, designing memory sub-system of cutting-edge application processors for Apple (up to iPhone4) and Samsung (Galaxy series). He distinguished himself to become the youngest Core-Personnel (핵심인재) and receive a Ph.D sponsorship (해외학술연수) from the company.
+<!--  Prior to SKKU, he was a tech lead at Microsoft architecting Azure's next-generation datacenter networking accelerator (SmartNIC project). Before that, he was a senior engineer at Samsung Electronics, designing memory sub-system of cutting-edge application processors for Apple (up to iPhone4) and Samsung (Galaxy series). He distinguished himself to become the youngest Core-Personnel (핵심인재) and receive a Ph.D sponsorship (해외학술연수) from the company.
 
-  Prof. Kim graduated from Seoul Science High School for gifted students in 1997. He received B.S., and M.S in Electrical Engineering and Computer Science from Seoul National University in 2001 and 2003, respectively. He earned a Ph.D in Electrical and Computer Engineering from The University of Texas at Austin in 2016.
+  Prof. Kim graduated from Seoul Science High School for gifted students in 1997. He received B.S., and M.S in Electrical Engineering and Computer Science from Seoul National University in 2001 and 2003, respectively. He earned a Ph.D in Electrical and Computer Engineering from The University of Texas at Austin in 2016. //-->
 
 ## Academic Bio
 
