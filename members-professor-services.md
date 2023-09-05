@@ -1,7 +1,7 @@
 ---
 title: Services
 permalink: /members/professor/services
-layout: posts-page
+layout: page
 ---
 
 ## Academic Services
@@ -17,4 +17,9 @@ layout: posts-page
   <li> Organizing Committee, [The 27th IEEE International Symposium on High-Performance Computer Architecture (HPCA)](https://hpca-conf.org/2021/), 2021 </li>
   <li> Program Committee, [The 39th IEEE International Conference on Computer Design (ICCD)](https://iccd-conf.com/2021/), 2021 </li>
   <li> External Review Committee, [The 54th IEEE/ACM International Symposium on Microarchitecture (MICRO)](https://microarch.org/micro54/), 2021 </li>
+</ol>
+
+## Invited Talks
+
+<ol reversed>
 </ol>
