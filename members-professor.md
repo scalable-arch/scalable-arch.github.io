@@ -20,26 +20,38 @@ layout: posts-page
 
   Prof. Kim graduated from Seoul Science High School for gifted students in 1997. He received B.S., and M.S in Electrical Engineering and Computer Science from Seoul National University in 2001 and 2003, respectively. He earned a Ph.D in Electrical and Computer Engineering from The University of Texas at Austin in 2016.
 
+- ## Academic Bio
+
+  {:.inner-list}
+
+  - Assistant Professor / Sungkyunkwan University, 2020~present
+    - Department of Semiconductor Systems Engineering
+    - School of Electronic and Electrical Engineering
+    - Department of Semiconductor Convergence Engineering
+    - Department of Electrical and Computer Engineering
+    - Department of Semiconductor and Display Engineering
+    - Department of Artificial Intelligence
+    - Department of Applied Artificial Intelligence
+
+- ## Industry Bio
+
+  {:.inner-list}
+
+  - Senior Software Engineer / Tech Lead, Microsoft Azure, 2016~2020
+  - Senior Engineer, Samsung Electronics System LSI Division, 2003~2016
+
 - ## Education
 
   {:.inner-list}
 
-  - Ph.D in Electrical and Computer Engineering, The University of Texas at Austin, Dec 2016 (Advisor: Professor Mattan Erez)
-
-    {:.deps-list}
-
+  - Ph.D in Electrical and Computer Engineering, The University of Texas at Austin, 2011~2016
+    - Advisor: Professor Mattan Erez
     - Dissertation: "Strong, thorough, and efficient memory protection against existing and emerging DRAM errors"
 
-  - M.S. in Electrical Engineering and Computer Science, Seoul National University, Aug 2003 (Advisor: Professor Soo-Mook Moon)
-  - B.S. in Electrical Engineering, Seoul National University, Feb 2001
-  - Seoul Science High School for gifted students, Feb 1997
-
-- ## Industry
-
-  {:.inner-list}
-
-  - Senior Software Engineer / Tech Lead, Microsoft Azure, Nov/2016 - Feb/2020
-  - Senior Engineer, Samsung Electronics System LSI Division, Aug/2003 - Jul/2016
+  - M.S. in Electrical Engineering and Computer Science, Seoul National University, 2001~2003
+    - Advisor: Professor Soo-Mook Moon
+  - B.S. in Electrical Engineering, Seoul National University, 1997~2001
+  - Seoul Science High School for gifted students, 1994~1997
 
 - ## Honors
 
