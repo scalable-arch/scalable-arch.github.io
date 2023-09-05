@@ -1,5 +1,6 @@
 ---
 title: "Method and System Controlling Page Open Time for Memory Device"
+category: Computer Architecture
 pub-type: P
 ---
 

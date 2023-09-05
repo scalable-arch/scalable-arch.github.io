@@ -1,5 +1,6 @@
 ---
 title: "Electronic Device Controller for Improving Performance of Electronic Device"
+category: Computer Architecture
 pub-type: P
 ---
 

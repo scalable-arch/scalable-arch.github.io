@@ -1,5 +1,6 @@
 ---
 title: "Hybrid Image Data Processing System and Method"
+category: Computer Architecture
 pub-type: P
 ---
 

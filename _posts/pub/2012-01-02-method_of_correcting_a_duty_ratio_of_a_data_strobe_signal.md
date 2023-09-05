@@ -1,5 +1,6 @@
 ---
 title: "Method of Correcting a Duty Ratio of a Data Strobe Signal"
+category: Computer Architecture
 pub-type: P
 ---
 

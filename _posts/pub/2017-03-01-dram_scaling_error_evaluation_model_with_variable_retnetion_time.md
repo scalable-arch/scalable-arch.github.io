@@ -1,5 +1,6 @@
 ---
 title: "DRAM Scaling Error Evaluation Model with Variable Retention Time"
+category: Reliability
 tags: SELSE
 pub-type: W
 ---
