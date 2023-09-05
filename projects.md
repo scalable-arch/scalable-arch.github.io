@@ -4,14 +4,8 @@ permalink: /projects/
 layout: posts-page
 ---
 
-- R&D: Research & Development
-- HRD: Human Resource Development
-
----
-
 ## ON-GOING PROJECTS
 
-<br>
 {:.order-list}
 1. (R&D) 고신뢰 메모리를 위한 지능형 인메모리 오류정정 디바이스 개발 [정보통신기획평가원] [2021.04.01 ~ 2024.12.31]
 2. (R&D) 인공지능 반도체 기반 Multi Device 무선 충전 SoC 개발 [정보통신기획평가원] [2021.04.01 ~ 2023.12.31]
@@ -27,10 +21,15 @@ layout: posts-page
 
 ## COMPLETED PROJECTS
 
-<br>
 {:.order-list}
 1. (R&D) 분산 인공지능 시스템의 네트워크 개선 연구 [한국연구재단] [2020.03.01 ~ 2023.02.28]
 2. (R&D) AP에서 메모리 병목 현상을 막기 위한 데이터 압축 연구 [삼성전자] [2020.03.01 ~ 2021.02.28]
 3. (R&D) 인공지능 기반 멀티 포멧 메모리 압축 연구 [삼성전자] [2021.03.01 ~ 2022.02.28]
 4. (R&D) DRAM효율성 개선을 위한 동적 DRAM 주소 결정 기법 [삼성전자] [2022.03.01 ~ 2023.02.28]
 5. (HRD) 지능형반도체 전문인력양성 [한국산업기술평가관리원] [2016.03.01 ~ 2021.02.28]
+
+---
+
+- R&D: Research & Development
+- HRD: Human Resource Development
+
