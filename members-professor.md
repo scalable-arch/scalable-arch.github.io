@@ -84,18 +84,6 @@ layout: posts-page
   - External Review Committee, MICRO'21
   <br> <a href="/members/professor/services"> A Complete List </a>
 
-## Office
-
-  {:.inner-list}
-
-  - Phone: (+82) 31-299-4398
-  - Address:
-
-    {:.deps-list}
-
-    - 2066, Seobu-ro, Jangan-Gu, Suwon, Gyenonggi-Do, 16419, Korea,<br>#400514, Semiconductor Building
-    - (16419) 경기도 수원시 장안구 서부로 2066, 반도체관 400514호
-
 ## Etc.
 
   {:.inner-list}
