@@ -4,7 +4,7 @@ permalink: /projects/
 layout: posts-page
 ---
 
-<hr>
+<br>
 
 <table border="0">
   <tr>    
