@@ -76,14 +76,13 @@ layout: posts-page
   - Full Financial Sponsorship (해외학술연수) from Samsung Electronics, 2011-2016
   - Core Personnel (핵심인재) from Samsung Electronics, 2007-2011
  
-## Academic Services
+## Services
 
   {:.inner-list}
   - Organizing Committee, ISOCC'23, ISOC'22, HPCA'21
   - Program Committee, ICCD'23, ICCD'22, ICCD'21, ISCA'22
   - External Review Committee, MICRO'21
-    
-  <a href="/members/professor/services"> A Complete List </a>
+  <br> <a href="/members/professor/services"> A Complete List </a>
 
 ## Office
 
