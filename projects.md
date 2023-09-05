@@ -1,5 +1,5 @@
 ---
-title: PROJECTS
+title: Projects
 permalink: /projects/
 layout: page
 ---
@@ -8,7 +8,7 @@ layout: page
 
 <table border="0">
   <tr>
-    <td> <h2> ON-GOING </h2> </td>
+    <td> <h2> On-Going </h2> </td>
     <td nowrap>
       <ol>
         <li> <span style="background-color:#00838a;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#R&D</span> 고신뢰 메모리를 위한 지능형 인메모리 오류정정 디바이스 개발 [정보통신기획평가원] [2021.04.01 ~ 2024.12.31] </li>
@@ -24,7 +24,7 @@ layout: page
     </td>
   </tr>
   <tr>
-    <td> <h2> COMPLETED </h2> </td>
+    <td> <h2> Completed </h2> </td>
     <td>
       <ol>
         <li> <span style="background-color:#00838a;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#R&D</span> 분산 인공지능 시스템의 네트워크 개선 연구 [한국연구재단] [2020.03.01 ~ 2023.02.28] </li>
