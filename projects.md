@@ -4,6 +4,9 @@ permalink: /projects/
 layout: posts-page
 ---
 
+- <span style="background-color:#00838a;float:left;padding:2px 8px;border-radius:50px">Research & Development</span>
+- <span style="background-color:#086fb8;float:left;padding:2px 8px;border-radius:50px">Human Resource Development</span>
+
 <table border="0">
   <tr>
     <td> <h2> ON-GOING </h2> </td>
@@ -34,10 +37,3 @@ layout: posts-page
     </td>
   </tr>
 </table>
-
----
-
-
-- <span style="background-color:#00838a;float:left;padding:2px 8px;border-radius:50px">Research & Development</span>
-- <span style="background-color:#086fb8;float:left;padding:2px 8px;border-radius:50px">Human Resource Development</span>
-
