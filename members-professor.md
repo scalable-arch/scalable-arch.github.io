@@ -40,9 +40,12 @@ layout: posts-page
   {:.inner-list}
 
   - Senior Software Engineer / Tech Lead, Microsoft Azure, 2016~2020
+    
       {:.deps-list}
     - Datacenter Networking Accelerator (SmartNIC)
+      
   - Senior Engineer, Samsung Electronics System LSI Division, 2003~2016
+    
       {:.deps-list}
     - Samsung and Apple Application Processors
     - Multimedia System-on-a-Chips
@@ -54,13 +57,13 @@ layout: posts-page
   - Ph.D in Electrical and Computer Engineering, The University of Texas at Austin, 2011~2016
     
     {:.deps-list}
-    - Advisor: Professor Mattan Erez
+    - Advisor: Dr. Mattan Erez
     - Dissertation: "Strong, thorough, and efficient memory protection against existing and emerging DRAM errors"
 
   - M.S. in Electrical Engineering and Computer Science, Seoul National University, 2001~2003
     
     {:.deps-list}
-    - Advisor: Professor Soo-Mook Moon
+    - Advisor: Dr. Soo-Mook Moon
   - B.S. in Electrical Engineering, Seoul National University, 1997~2001
   - Seoul Science High School for gifted students, 1994~1997
 
@@ -74,6 +77,13 @@ layout: posts-page
   - Core Personnel (핵심인재) from Samsung Electronics, 2007-2011
  
 ## Academic Services
+
+  {:.inner-list}
+  - Organizing Committee, ISOCC'23, ISOC'22, HPCA'21
+  - Program Committee, ICCD'23, ICCD'22, ICCD'21, ISCA'22
+  - External Review Committee, MICRO'21
+    
+  <a href="/members/professor/services"> A Complete List </a>
 
 ## Office
 
