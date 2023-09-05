@@ -101,6 +101,7 @@ layout: posts-page
   {:.inner-list}
 
   - [Google Scholar](https://scholar.google.com/citations?user=Jbpv5q0AAAAJ&hl=en)
+  - [DBLP](https://dblp.org/pid/94/2042.html)
 
 {:.contact}
 
