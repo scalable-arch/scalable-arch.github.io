@@ -1,13 +1,16 @@
 ---
-title: Projects
+title:  
 permalink: /projects/
 layout: posts-page
 ---
 
 
-<hr>
-
 <table border="0">
+  <tr>
+    <td colspan=2>
+      <h1> PROJECTS </h1>
+    </td>
+  </tr>
   <tr>
     <td> <h2> ON-GOING </h2> </td>
     <td nowrap>
