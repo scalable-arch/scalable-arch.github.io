@@ -8,7 +8,14 @@ menu:
     url: /professor/
 
   - title: Members
-    url: /members/
+    url: /members/professor
+    sub_menu:
+      - title: Principal Investigator
+        url: /members/professor
+      - title: Students
+        url: /members/students
+      - title: Alumni
+        url: /members/alumni
 
   - title: Publications
     url: /publications/category
