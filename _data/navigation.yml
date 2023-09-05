@@ -4,7 +4,7 @@ menu:
   - title: Home
     url: /
     
-  - title: Members
+  - title: People
     url: /members/professor
     sub_menu:
       - title: Principal Investigator
@@ -24,16 +24,17 @@ menu:
       - title: By Publisher
         url: /publications/publisher
 
-  - title: Research & Projects
+  - title: Research
     url: /research/
-    sub_menu:
-      - title: Research
-        url: /research/
-      - title: Projects
-        url: /projects/
+    
+  - title: Projects
+    url: /projects/
 
-  - title: Schedule
-    url: /schedule/
+  - title: OpenSource
+    url: https://github.com/scalable-arch
 
   - title: Gallery
     url: /gallery/
+
+  - title: Schedule
+    url: /schedule/
