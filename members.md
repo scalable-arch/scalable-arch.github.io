@@ -1,21 +1,8 @@
 ---
-title: Members
-permalink: /members/
+title: Students
+permalink: /members/students
 layout: member
 ---
-
-## Principal Investigator
-
-- {:.member-img}![alt prof](/assets/images/prof.jpg)
-  - {:.member-name} Jungrae Kim (김정래)
-  - E-mail : **dale40** at **gmail** dot **com**
-  - Department of Semiconductor Systems Engineering
-  - School of Electronic and Electrical Engineering
-  - Department of Semiconductor Convergence Engineering
-  - Department of Electrical and Computer Engineering
-  - Department of Semiconductor and Display Engineering
-  - Department of Artificial Intelligence
-  - Department of Applied Artificial Intelligence
 
 ## Ph.D Students
 
