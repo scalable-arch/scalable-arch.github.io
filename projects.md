@@ -4,11 +4,7 @@ permalink: /projects/
 layout: posts-page
 ---
 
-<br>
-
 <table border="0">
-  <tr>    
-  </tr>
   <tr>
     <td> <h2> ON-GOING </h2> </td>
     <td nowrap>
