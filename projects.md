@@ -7,13 +7,15 @@ layout: posts-page
 
 <br>
 
+<hr>
+
 <table border="0">
 
   <tr>
     <td> <h2> ON-GOING </h2> </td>
     <td nowrap>
       <ol>
-        <li> <span style="background-color:#00838a;">R&D</span> 고신뢰 메모리를 위한 지능형 인메모리 오류정정 디바이스 개발 [정보통신기획평가원] [2021.04.01 ~ 2024.12.31] </li>
+        <li> <span style="background-color:#ddd;float:left">R&D</span> 고신뢰 메모리를 위한 지능형 인메모리 오류정정 디바이스 개발 [정보통신기획평가원] [2021.04.01 ~ 2024.12.31] </li>
         <li> (R&D) 인공지능 반도체 기반 Multi Device 무선 충전 SoC 개발 [정보통신기획평가원] [2021.04.01 ~ 2023.12.31] </li>
         <li> (R&D) AI 가속기를 위한 CXL/DDR5 기반 메모리 서브시스템 솔루션 개발 [한국산업기술평가관리원, 삼성전자, SK 하이닉스] [2023.04.01 ~ 2025.12.31] </li>
         <li> (R&D) 엣지용 자가지도학습 Flexible SW/HW 통합 솔루션 개발 [정보통신기획평가원] [2023.04.01 ~ 2026.12.31] </li>
