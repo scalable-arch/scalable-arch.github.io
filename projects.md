@@ -4,7 +4,6 @@ permalink: /projects/
 layout: posts-page
 ---
 
----
 
 
 <table border="0">
