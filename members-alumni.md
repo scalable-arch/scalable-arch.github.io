@@ -28,8 +28,8 @@ layout: posts-page
 Note
 
 - The undergraduate research program at SAL has two primary objectives:
-1) to provide hands-on experience in digital system development for those who intend to enter the industry after completing their undergraduate studies
-2) to lay a foundation for research for students students planning to pursue graduate programs.
+1) to lay a foundation for research for students planning to pursue graduate programs.
+2) to provide hands-on experience in digital system development for those who intend to enter the industry after completing their undergraduate studies.
 - PI wants to share his experience and knowledge to as many students as possible, even if they are not planning to enter the graudate program.
 
 
