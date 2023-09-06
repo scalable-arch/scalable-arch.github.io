@@ -4,7 +4,7 @@ permalink: /members/alumni/
 layout: posts-page
 ---
 
-# Graduate
+<h1>Graduate</h1>
 
 ---
 
@@ -22,7 +22,8 @@ layout: posts-page
 
 ---
 
-# Undergrad Research Program
+
+<h1>Undergrad Research Program</h1>
 
 ---
 
