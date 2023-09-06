@@ -8,15 +8,15 @@ layout: posts-page
 
 ## 2022
 
-{:.inner-list}
+  {:.inner-list}
 
-- **Hoyong Jin** (M.S.) - Open Edge Technologies (2022.08 ~)
-- **Sangjae Park** (M.S.) - AnaPass (2022.08 ~) (Technical Research Personnel)
-- **Daero Kim** (M.S.) - Samsung Electronics Foundry
-- **Donghun Jeong** (M.S.) - SK Hynix (2023.01 ~)
-- **Jihun Park** (M.S.) - SK Hynix (2023.01 ~)
-- **Taewon Park** (M.S.) - Samsung Electronics System LSI (2023.01 ~)
-- **Yuseok Song** (M.S.) - Samsung Electronics Memory (2023.01 ~)
+  - **Hoyong Jin** (M.S.) - Open Edge Technologies (2022.08 ~)
+  - **Sangjae Park** (M.S.) - AnaPass (2022.08 ~) (Technical Research Personnel)
+  - **Daero Kim** (M.S.) - Samsung Electronics Foundry
+  - **Donghun Jeong** (M.S.) - SK Hynix (2023.01 ~)
+  - **Jihun Park** (M.S.) - SK Hynix (2023.01 ~)
+  - **Taewon Park** (M.S.) - Samsung Electronics System LSI (2023.01 ~)
+  - **Yuseok Song** (M.S.) - Samsung Electronics Memory (2023.01 ~)
 
 # Undergrad Research Program
 
@@ -27,83 +27,83 @@ PI believes that he can share his experience and knowledge to the students and s
 
 ## 2023
 
-{:.inner-list}
+  {:.inner-list}
 
-- 박상현
-- 최보열
-- 김유진
-- 원태연
-- 조상원
-- 김지수
-- 구준모
-- 최지훈
-- 이지훈
-- 김보경
-- 김나현
-- 이혜림
-- 문주형
-- 김도형
-- 신재호
+  - 박상현
+  - 최보열
+  - 김유진
+  - 원태연
+  - 조상원
+  - 김지수
+  - 구준모
+  - 최지훈
+  - 이지훈
+  - 김보경
+  - 김나현
+  - 이혜림
+  - 문주형
+  - 김도형
+  - 신재호
   
 ## 2022
 
-{:.inner-list}
+  {:.inner-list}
 
-- 최보열
-- 박상현
-- 정기용
-- 이지호
-- 이현민
-- 임유진
-- 이준승
-- 박소영
-- 이인교
-- 정강민
-- 김진일
-- 김병현
-- 안수민
-- 송현지
-- 신서연
-- 구준모
-- 최명준
-- 신재호
-- 원태연
-- 나어진
-- 김영민
-- 전우성
+  - 정기용
+  - 임유진
+  - 이준승
+  - 박소영
+  - 최보열
+  - 박상현
+  - 이지호
+  - 이현민
+  - 이인교
+  - 정강민
+  - 김진일
+  - 김병현
+  - 안수민
+  - 송현지
+  - 신서연
+  - 구준모
+  - 최명준
+  - 신재호
+  - 원태연
+  - 나어진
+  - 김영민
+  - 전우성
 
 
 ## 2021
 
-{:.inner-list}
+  {:.inner-list}
 
-- 김동휘
-- 배현웅
-- 김윤수
-- 정명균
-- 김민재
-- 지동현
-- 황우림
-- 심민준
-- 정민호
-- 정준혁
-- 최보열
-- 박상현
+  - 김동휘
+  - 최보열
+  - 박상현
+  - 배현웅
+  - 김윤수
+  - 정명균
+  - 김민재
+  - 지동현
+  - 황우림
+  - 심민준
+  - 정민호
+  - 정준혁
 
 ## 2020
 
-{:.inner-list}
+  {:.inner-list}
 
-- 변효준
-- 김대현
-- 김낙현
-- 박태원
-- 송규한
-- 윤석준
-- 한승하
-- 정동훈
-- 진호용
-- 박상제
-- 유동규
-- 김동휘
-- 배현웅
+  - 진호용
+  - 박태원
+  - 정동훈
+  - 박상제
+  - 김동휘
+  - 배현웅
+  - 변효준
+  - 김대현
+  - 김낙현
+  - 송규한
+  - 윤석준
+  - 한승하
+  - 유동규
