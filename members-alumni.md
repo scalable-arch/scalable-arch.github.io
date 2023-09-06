@@ -27,7 +27,7 @@ Please note that the undergraduate research program at SAL has two primary objec
 2) to lay a foundation for research for students students planning to pursue graduate programs.
 PI believes that he can share his experience and knowledge to the students and supported many students, even if they are not planning to enter the graudate program.
 
-
+---
 ## 2023
   {:.inner-list}
   - 박상현
