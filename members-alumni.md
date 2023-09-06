@@ -18,12 +18,16 @@ layout: posts-page
   - **Taewon Park** (M.S.) - Samsung Electronics System LSI (2023.01 ~)
   - **Yuseok Song** (M.S.) - Samsung Electronics Memory (2023.01 ~)
 
+---
+
 # Undergrad Research Program
 
 Please note that the undergraduate research program at SAL has two primary objectives:
-1. to provide hands-on experience in digital system development for those who intend to enter the industry after completing their undergraduate studies
-2. to lay a foundation for research for students students planning to pursue graduate programs.
+1) to provide hands-on experience in digital system development for those who intend to enter the industry after completing their undergraduate studies
+2) to lay a foundation for research for students students planning to pursue graduate programs.
 PI believes that he can share his experience and knowledge to the students and supported many students, even if they are not planning to enter the graudate program.
+
+---
 
 ## 2023
 
