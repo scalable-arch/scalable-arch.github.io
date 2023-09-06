@@ -6,6 +6,8 @@ layout: posts-page
 
 # Graduate
 
+---
+
 ## 2022
 
   {:.inner-list}
@@ -21,6 +23,8 @@ layout: posts-page
 ---
 
 # Undergrad Research Program
+
+---
 
 Please note that the undergraduate research program at SAL has two primary objectives:
 1) to provide hands-on experience in digital system development for those who intend to enter the industry after completing their undergraduate studies
