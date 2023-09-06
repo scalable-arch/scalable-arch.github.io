@@ -7,6 +7,8 @@ layout: posts-page
 
 # Graduate
 
+---
+
 ## 2022
 
   {:.inner-list}
@@ -20,7 +22,7 @@ layout: posts-page
 
 
 
-
+---
 # Undergrad Research Program
 
 Note
