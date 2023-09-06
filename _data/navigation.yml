@@ -7,7 +7,7 @@ menu:
   - title: People
     url: /members/professor
     sub_menu:
-      - title: Principal Investigator
+      - title: PI
         url: /members/professor
       - title: Students
         url: /members/students
