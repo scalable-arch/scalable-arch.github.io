@@ -78,5 +78,5 @@ $ bundle exec jekyll serve
 ```
 $ git add .
 $ git commit -m "Changes updated"
-$ git push origin master
+$ git push origin main
 ```
