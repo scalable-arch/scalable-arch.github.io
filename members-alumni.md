@@ -1,7 +1,7 @@
 ---
 title: Alumni
 permalink: /members/alumni/
-layout: page
+layout: posts-page
 ---
 
 # Graduate
