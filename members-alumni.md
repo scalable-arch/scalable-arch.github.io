@@ -1,13 +1,15 @@
 ---
 title: Alumni
 permalink: /members/alumni/
-layout: page
+layout: posts-page
 ---
 
 ---
 # Graduate
----
+
 ## 2022
+
+  {:.inner-list}
   - **Hoyong Jin** (M.S.) - Open Edge Technologies (2022.08 ~)
   - **Sangjae Park** (M.S.) - AnaPass (2022.08 ~) (Technical Research Personnel)
   - **Daero Kim** (M.S.) - Samsung Electronics Foundry
@@ -16,7 +18,7 @@ layout: page
   - **Taewon Park** (M.S.) - Samsung Electronics System LSI (2023.01 ~)
   - **Yuseok Song** (M.S.) - Samsung Electronics Memory (2023.01 ~)
 
-<br><br>
+
 
 ---
 # Undergrad Research
