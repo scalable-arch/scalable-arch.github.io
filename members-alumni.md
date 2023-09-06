@@ -4,10 +4,8 @@ permalink: /members/alumni/
 layout: posts-page
 ---
 
-
-# Graduate
-
 ---
+# Graduate
 
 ## 2022
 
