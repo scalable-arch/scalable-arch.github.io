@@ -1,6 +1,7 @@
 ---
 title: "Hybrid Image Data Processing System and Method"
 category: Computer Architecture
+tags: Patent
 pub-type: P
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Electronic Device Controller for Improving Performance of Electronic Device"
 category: Computer Architecture
+tags: Patent
 pub-type: P
 ---
 

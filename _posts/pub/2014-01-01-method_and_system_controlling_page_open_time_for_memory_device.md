@@ -1,6 +1,7 @@
 ---
 title: "Method and System Controlling Page Open Time for Memory Device"
 category: Computer Architecture
+tags: Patent
 pub-type: P
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Device and Method for Testing Semiconductor Device"
 category: Computer Architecture
+tags: Patent
 pub-type: P
 ---
 

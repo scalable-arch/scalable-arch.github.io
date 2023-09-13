@@ -1,6 +1,7 @@
 ---
 title: "Data Processing Apparatus for Compressing Data According to Improved Variable Length Coding Method"
 category: Computer Architecture
+tags: Patent
 pub-type: P
 ---
 
