@@ -31,9 +31,10 @@ Mostly run by graudate students for undergraduate students.
 
 ### Recommendations
 
+아래는 이상적인 일정이고, 실제 모두 다 수행하는 것은 어려울 수 있습니다.
+
 <ul>
 <li> 대학원 진학 희망생 </li>
-  이상적인 일정이고 모두 다 듣는 것이 부담스러우면 안해도 됩니다.
   <ul>
     <li> 3학년 2학기까지 디지털시스템설계(또는 디시털시스템), 컴퓨터구조, OS 수업 듣기 (필수). 마이크로프로세서 수업 듣기 (장려) </li>
     <li> 3학년 2학기 URP/학부연구생: DRAM </li>
