@@ -10,11 +10,13 @@ layout: page
 
 S: Spring, F: Fall
 
-- SoC Design and Practice (2023F, 2023S, 2022F, 2021F)
-- Parallel Computer Architecture & Programming (2021S)
-- Microprocessor (2020S)
-- Digital System Design (2022S)
-- Introduction to Basis and Practice in Programming (2023S, 2022F, 2021F, 2020F)
+<ul>
+  <li> SoC Design and Practice (2023F, 2023S, 2022F, 2021F) </li>
+  <li> Parallel Computer Architecture & Programming (2021S) </li>
+  <li> Microprocessor (2020S) </li>
+  <li> Digital System Design (2022S) </li>
+  <li> Introduction to Basis and Practice in Programming (2023S, 2022F, 2021F, 2020F) </li>
+</ul>
 
 ---
 ## Undergraduate Research Program
