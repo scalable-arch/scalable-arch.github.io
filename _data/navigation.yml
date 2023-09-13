@@ -30,6 +30,9 @@ menu:
   - title: Projects
     url: /projects/
 
+  - title: Courses
+    url: /courses/
+
   - title: OpenSource
     url: https://github.com/scalable-arch
 
