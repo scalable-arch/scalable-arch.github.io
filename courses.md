@@ -21,6 +21,8 @@ S: Spring, F: Fall
 ---
 ## Undergraduate Research Program
 
+Mostly run by graudate students for undergraduate students.
+
 ### Program schedule (repeated every year)
 
 | Spring (1st)    | Summer                   | Fall (2nd)              | Winter                          |
@@ -44,14 +46,14 @@ S: Spring, F: Fall
   
 <li> 반도체기업 취업 희망생 </li>
   <ul>
-    <li> 3학년 2학기 URP/학부연구: DRAM </li>
-    <li> 3학년 겨울: DRAM Controller + SystemVerilog </li>
-    <li> 4학년 1학기: (정규수업) SoC설계및실습 </li>
+    <li> 3학년 2학기 URP/학부연구생: DRAM </li>
+    <li> 3학년 겨울 URP/학부연구생: DRAM Controller + SystemVerilog </li>
+    <li> 4학년 1학기 URP/학부연구생: (정규수업) SoC설계및실습 </li>
   </ul>
  
 <li> 반도체기업 취업 희망생 (인턴후) </li>
   <ul>
-    <li> 4학년 2학기: DRAM </li>
-    <li> 4학년 겨울: DRAM Controller + SystemVerilog </li>
+    <li> 4학년 2학기 URP/학부연구생: DRAM </li>
+    <li> 4학년 겨울 URP/학부연구생: DRAM Controller + SystemVerilog </li>
   </ul>
 </ul>
