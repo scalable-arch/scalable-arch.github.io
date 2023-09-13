@@ -20,15 +20,17 @@ S: Spring, F: Fall
 
 ---
 ## Undergraduate Research Program
-
+---
 Mostly run by graudate students for undergraduate students.
 
+---
 ### Program schedule (repeated every year)
 
 | Spring (1st)    | Summer                   | Fall (2nd)              | Winter                          |
 | ---             | ---                      | ---                     | ---                             |
 | CPU             | ECC <br> PCIe <br> C++   | DRAM <br> GP-GPU        | DRAM Controller <br> + SystemVerilog |
 
+---
 ### Recommendations
 
 아래는 이상적인 일정이고, 실제 모두 다 수행하는 것은 어려울 수 있습니다.
