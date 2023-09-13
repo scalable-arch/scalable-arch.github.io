@@ -44,7 +44,7 @@ S: Spring, F: Fall
   
 <li> 반도체기업 취업 희망생 </li>
   <ul>
-    <li> 3학년 2학기 URP/학부연: DRAM </li>
+    <li> 3학년 2학기 URP/학부연구: DRAM </li>
     <li> 3학년 겨울: DRAM Controller + SystemVerilog </li>
     <li> 4학년 1학기: (정규수업) SoC설계및실습 </li>
   </ul>
