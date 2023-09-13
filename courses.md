@@ -4,7 +4,9 @@ permalink: /courses/
 layout: page
 ---
 
-# Regular Classes
+## Regular Classes
+
+---
 
 S: Spring, F: Fall
 
@@ -14,16 +16,16 @@ S: Spring, F: Fall
 - Digital System Design (2022S)
 - Introduction to Basis and Practice in Programming (2023S, 2022F, 2021F, 2020F)
 
+---
+## Undergraduate Research Program
 
-# Undergraduate Research Program
-
-## Program schedule (repeated every year)
+### Program schedule (repeated every year)
 
 | Spring (1st)    | Summer                   | Fall (2nd)              | Winter                          |
 | ---             | ---                      | ---                     | ---                             |
 | CPU             | ECC <br> PCIe <br> C++   | DRAM <br> GP-GPU        | DRAM Controller <br> + SystemVerilog |
 
-## Recommendations
+### Recommendations
 
 - 대학원 진학 희망생
   - 3학년 2학기까지 디지털시스템설계(또는 디시털시스템), 컴퓨터구조, OS 수업 듣기
@@ -42,5 +44,3 @@ S: Spring, F: Fall
 - 반도체기업 취업 희망생 (인턴후)
   - 4학년 2학기: DRAM
   - 4학년 겨울: DRAM Controller + SystemVerilog
-
-  - 
