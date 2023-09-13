@@ -5,5 +5,6 @@ tags: JOK
 pub-type: J
 ---
 
-**Dongwhee Kim**, **Yujin Lim**, **Syngha Han**, and **Jungrae Kim** <br>
-Journal of KIISE, Journal, March. 2023
+**Dongwhee Kim\***, **Yujin Lim\***, **Syngha Han**, and **Jungrae Kim** <br>
+Journal of KIISE, Journal, March. 2023 <br>
+\* Joint First Authors

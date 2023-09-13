@@ -1,0 +1,9 @@
+---
+title: "Synergistic Integration: An Optimal Combination of On-Die and Rank-Level ECC for Enhanced Reliability"
+category: Reliability
+tags: ISOCC
+pub-type: C
+---
+
+**Wonyeong Jung**, **Dongwhee Kim**, and **Jungrae Kim** <br>
+The 20th International SoC Conference (ISOCC 2023), Poster, Oct. 2023
