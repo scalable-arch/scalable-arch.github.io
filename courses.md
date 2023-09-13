@@ -29,20 +29,29 @@ S: Spring, F: Fall
 
 ### Recommendations
 
-- 대학원 진학 희망생
-  - 3학년 2학기까지 디지털시스템설계(또는 디시털시스템), 컴퓨터구조, OS 수업 듣기
-  - 3학년 2학기: DRAM
-  - 3학년 겨울: DRAM Controller + SystemVerilog
-  - 4학년 1학기: CPU, (정규수업) SoC설계및실습
-  - 4학년 여름: ECC / PCIe / C++
-  - 4학년 2학기: GP-GPU
-  - 4학년 겨울: 연구실 논문 읽기 / gem5/ramulator/gpgpu-sim 도움
+<ul>
+<li> 대학원 진학 희망생 </li>
+  이상적인 일정이고 모두 다 듣는 것이 부담스러우면 안해도 됩니다.
+  <ul>
+    <li> 3학년 2학기까지 디지털시스템설계(또는 디시털시스템), 컴퓨터구조, OS 수업 듣기 (필수). 마이크로프로세서 수업 듣기 (장려) </li>
+    <li> 3학년 2학기 URP/학부연구생: DRAM </li>
+    <li> 3학년 겨울 URP/학부연구생: DRAM Controller + SystemVerilog </li>
+    <li> 4학년 1학기 URP/학부연구생: CPU, 정규수업: SoC설계및실습 </li>
+    <li> 4학년 여름 URP/학부연구생: ECC / PCIe / C++ </li>
+    <li> 4학년 2학기 URP/학부연구생: GP-GPU </li>
+    <li> 4학년 겨울 URP/학부연구생: 연구실 논문 읽기 / gem5/ramulator/gpgpu-sim 도움 </li>
+  </ul>
   
-- 반도체기업 취업 희망생
-  - 3학년 2학기: DRAM
-  - 3학년 겨울: DRAM Controller + SystemVerilog
-  - 4학년 1학기: (정규수업) SoC설계및실습
+<li> 반도체기업 취업 희망생 </li>
+  <ul>
+    <li> 3학년 2학기 URP/학부연: DRAM </li>
+    <li> 3학년 겨울: DRAM Controller + SystemVerilog </li>
+    <li> 4학년 1학기: (정규수업) SoC설계및실습 </li>
+  </ul>
  
-- 반도체기업 취업 희망생 (인턴후)
-  - 4학년 2학기: DRAM
-  - 4학년 겨울: DRAM Controller + SystemVerilog
+<li> 반도체기업 취업 희망생 (인턴후) </li>
+  <ul>
+    <li> 4학년 2학기: DRAM </li>
+    <li> 4학년 겨울: DRAM Controller + SystemVerilog </li>
+  </ul>
+</ul>
