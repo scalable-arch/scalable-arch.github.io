@@ -30,7 +30,7 @@ Mostly run by graudate students for undergraduate students.
 
 | Spring (1st)    | Summer                   | Fall (2nd)              | Winter                               |
 | ---             | ---                      | ---                     | ---                                  |
-| <ul><li>CPU</li></ul>             | <ul><li>ECC</li><li>PCIe</li></ul>   | <ul><li>DRAM</li><li>GP-GPU</li></ul>        | <ul><li>DRAM Controller</li> |
+| - CPU           | - ECC - CXL              | - DRAM - GP-GPU         | - DRAM Controller |
 
 ## Recommendations
 Below are ideal schedules for students who want to enter the graduate program or the industry. The PI does not expect students to enroll all the programs.
