@@ -48,14 +48,11 @@ Below are ideal schedules for students who want to enter the graduate program or
 ---
 
 #### For the industry
-  <ul>
-    <li> 3학년 2학기 URP/학부연구생: DRAM </li>
-    <li> 3학년 겨울 URP/학부연구생: DRAM Controller + SystemVerilog </li>
-    <li> 4학년 1학기 URP/학부연구생: (정규수업) SoC설계및실습 </li>
-  </ul>
- 
-#### 반도체기업 취업 희망생 (인턴후)
-  <ul>
-    <li> 4학년 2학기 URP/학부연구생: DRAM </li>
-    <li> 4학년 겨울 URP/학부연구생: DRAM Controller + SystemVerilog </li>
-  </ul>
+
+|                 || Ealier             | Junior (2nd)     | Junior (Winter)     | Senior (1st)            | Senior (Summer)           | Senior (2nd)               | Senior (Winter)    |
+|                 || ---                | ---              | ---                 | ---                     | Intern                    | Job Apply                  | ---                  |
+| Regular classes || Computer Architecture <br> Operating System <br> Digital System Design |                  |                     | SoC Design and Practice |                           |                            |                     |
+| URP             || N/A                | DRAM             | DRAM Controller     | CPU                     |                           |                            |  |
+| Self Study      ||                    |                  | SystemVerilog       |                         | Linux/Script              |                            |  |
+
+---
