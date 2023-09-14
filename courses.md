@@ -25,6 +25,7 @@ layout: page
 # Undergraduate Research Program (URP)
 ---
 Mostly run by graudate students for undergraduate students.
+
 ## Program schedule (repeated every year)
 | Spring (1st)    | Summer                   | Fall (2nd)              | Winter                               |
 | ---             | ---                      | ---                     | ---                                  |
@@ -44,6 +45,7 @@ Below are ideal schedules for students who want to enter the graduate program or
 | Regular classes || Computer Architecture <br> Operating System <br> Digital System Design |                  |                     | SoC Design and Practice |                           |                            |                     |
 | URP             || N/A                | DRAM             | DRAM Controller     | CPU                     | ECC / PCIe                | GP-GPU                     | Paper reading <br> Simulator |
 | Self Study      ||                    |                  | SystemVerilog       |                         | C++                       |                            |                      |
+
 ---
 
 #### For the industry
