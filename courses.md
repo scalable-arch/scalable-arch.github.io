@@ -38,6 +38,7 @@ Below are ideal schedules for students who want to enter the graduate program or
 (RC: Regular class, URP: Undergraudate Research Program, SS: Self Study)
 
 ---
+
 ### For graudate study
 
 |                 || Ealier             | Junior (2nd)     | Junior (Winter)     | Senior (1st)            | Senior (Summer)           | Senior (2nd)               | Senior (Winter)    |
@@ -46,6 +47,7 @@ Below are ideal schedules for students who want to enter the graduate program or
 | URP             || N/A                | DRAM             | DRAM Controller     | CPU                     | ECC / PCIe                | GP-GPU                     | Paper reading <br> Simulator |
 | Self Study      ||                    |                  | SystemVerilog       |                         | C++                       |                            |                      |
 ---
+
 #### For the industry
   <ul>
     <li> 3학년 2학기 URP/학부연구생: DRAM </li>
