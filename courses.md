@@ -4,7 +4,7 @@ permalink: /courses/
 layout: page
 ---
 
-# Regular Classes (RC)
+# Regular Classes
 
 ---
 
@@ -33,11 +33,11 @@ Mostly run by graudate students for undergraduate students.
 
 ## Recommendations
 Below are ideal schedules for students who want to enter the graduate program or the industry. The PI does not expect student to enroll all the programs.
-
+RC: Regular class, URP: Undergraudate Research Program, SS: Self Study
 ### For graudate study
 | Ealier             | Junior (2nd)    | Junior (Winter)      | Senior (1st)        | Senior (Summer)           | Senior (2nd)               | Senior (Winter)    |
 | ---                | ---             | ---                  | ---                 | ---                       | ---                        | ---                     |
-| (RC) Digital System Design <br> (RC) Computer Architecture <br> (RC) Operating System <br> (RC) Microprocessor | (URP) DRAM | (URP) DRAM Controller + SysteVerilog | (RC) SoC Design and Practice <br> (URP) CPU | (URP) ECC/PCIe/C++ | (URP) GP-GPU | (URP) Paper reading <br> (URP) Simulator |
+| (RC) Digital System Design <br> (RC) Computer Architecture <br> (RC) Operating System <br> (RC) Microprocessor | (URP) DRAM | (URP) DRAM Controller + SysteVerilog | (RC) SoC Design and Practice <br> (URP) CPU | (URP) ECC/PCIe <br> (SS) C++ | (URP) GP-GPU | (URP) Paper reading <br> (URP) Simulator |
 
   <ul>
     <li> 3학년 2학기까지 디지털시스템설계(또는 디시털시스템), 컴퓨터구조, OS 수업 듣기 (필수). 마이크로프로세서 수업 듣기 (장려) </li>
