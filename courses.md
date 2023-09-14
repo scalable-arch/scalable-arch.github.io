@@ -30,7 +30,7 @@ Mostly run by graudate students for undergraduate students.
 
 | Spring (1st)    | Summer                   | Fall (2nd)              | Winter                               |
 | ---             | ---                      | ---                     | ---                                  |
-| - CPU           | - ECC - CXL              | - DRAM - GP-GPU         | - DRAM Controller |
+| - CPU           | - ECC <br> - CXL         | - DRAM <br> - GP-GPU    | - DRAM Controller |
 
 ## Recommendations
 Below are ideal schedules for students who want to enter the graduate program or the industry. The PI does not expect students to enroll all the programs.
@@ -41,9 +41,9 @@ Below are ideal schedules for students who want to enter the graduate program or
 
 |                 || Ealier             | Junior (2nd)     | Junior (Winter)     | Senior (1st)            | Senior (Summer)           | Senior (2nd)               | Senior (Winter)    |
 |                 || ---                | ---              | ---                 | ---                     | ---                       | ---                        | ---                  |
-| Regular classes || <ul><li>Computer Architecture</li><li>Operating System</li><li>Digital System Design</li><li>Microprocessor</li></ul>|                  |                     | SoC Design and Practice |                           |                            |                     |
-| URP             || N/A                | DRAM             | DRAM Controller     | CPU                     | ECC / PCIe                | GP-GPU                     | Paper reading <br> Simulator |
-| Self Study      ||                    |                  | SystemVerilog       |                         | C++                       |                            |                      |
+| Regular classes || - Computer Architecture <br> - Operating System <br> - Digital System Design - Microprocessor |                  |                     | - SoC Design and Practice |                           |                            |                     |
+| URP             || N/A                | - DRAM           | - DRAM Controller   | - CPU                   | - ECC <br> - CXL                | - GP-GPU                   | - Simulators <br> - Paper reading |
+| Self Study      ||                    |                  | - SystemVerilog     |                         | - C++                       |                            |                      |
 
 ---
 
