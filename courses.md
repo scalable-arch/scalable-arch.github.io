@@ -8,7 +8,7 @@ layout: page
 
 ---
 
-S: Spring, F: Fall
+(S: Spring, F: Fall)
 
 <ul>
   <li> SoC Design and Practice (2023F, 2023S, 2022F, 2021F) </li>
