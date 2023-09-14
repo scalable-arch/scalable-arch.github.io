@@ -57,5 +57,3 @@ Below are ideal schedules for students who want to enter the graduate program or
 | Regular classes || - Computer Architecture <br> - Digital System Design |                  |                     | - SoC Design and Practice |                           |                            |                     |
 | URP             || N/A                | - DRAM           | - DRAM Controller   | - CPU                   |                           |                            |  |
 | Self Study      ||                    |                  | - SystemVerilog     |                         | - Linux/Script            |                            |  |
-
----
