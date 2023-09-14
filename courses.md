@@ -27,14 +27,13 @@ layout: page
 Mostly run by graudate students for undergraduate students.
 
 ## Program schedule (repeated every year)
+
 | Spring (1st)    | Summer                   | Fall (2nd)              | Winter                               |
 | ---             | ---                      | ---                     | ---                                  |
 | CPU             | ECC <br> PCIe <br> C++   | DRAM <br> GP-GPU        | DRAM Controller <br> + SystemVerilog |
 
 ## Recommendations
 Below are ideal schedules for students who want to enter the graduate program or the industry. The PI does not expect students to enroll all the programs.
-
-(RC: Regular class, URP: Undergraudate Research Program, SS: Self Study)
 
 ---
 
