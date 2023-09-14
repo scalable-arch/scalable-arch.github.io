@@ -4,7 +4,7 @@ permalink: /courses/
 layout: page
 ---
 
-# Regular Classes
+# Regular Classes (RC)
 
 ---
 
@@ -22,7 +22,7 @@ S: Spring, F: Fall
 <br>
 <br>
 
-# Undergraduate Research Program
+# Undergraduate Research Program (URP)
 ---
 Mostly run by graudate students for undergraduate students.
 
@@ -34,7 +34,11 @@ Mostly run by graudate students for undergraduate students.
 ## Recommendations
 Below are ideal schedules for students who want to enter the graduate program or the industry. The PI does not expect student to enroll all the programs.
 
-### 대학원 진학 희망생 
+### For graudate study
+| Ealier             | Junior (2nd)    | Junior (Winter)      | Senior (1st)        | Senior (Summer)           | Senior (2nd)               | Senior (Winter)    |
+| ---                | ---             | ---                  | ---                 | ---                       | ---                        | ---                     |
+| (RC) Digital System Design <br> (RC) Computer Architecture <br> (RC) Operating System <br> (RC) Microprocessor | (URP) DRAM | (URP) DRAM Controller + SysteVerilog | (RC) SoC Design and Practice <br> (URP) CPU | (URP) ECC/PCIe/C++ | (URP) GP-GPU | (URP) Paper reading <br> (URP) Simulator |
+
   <ul>
     <li> 3학년 2학기까지 디지털시스템설계(또는 디시털시스템), 컴퓨터구조, OS 수업 듣기 (필수). 마이크로프로세서 수업 듣기 (장려) </li>
     <li> 3학년 2학기 URP/학부연구생: DRAM </li>
@@ -45,7 +49,7 @@ Below are ideal schedules for students who want to enter the graduate program or
     <li> 4학년 겨울 URP/학부연구생: 연구실 논문 읽기 / gem5/ramulator/gpgpu-sim 도움 </li>
   </ul>
   
-#### 반도체기업 취업 희망생
+#### For the industry
   <ul>
     <li> 3학년 2학기 URP/학부연구생: DRAM </li>
     <li> 3학년 겨울 URP/학부연구생: DRAM Controller + SystemVerilog </li>
