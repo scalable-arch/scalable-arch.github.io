@@ -47,6 +47,9 @@ Below are ideal schedules for students who want to enter the graduate program or
 
 ---
 
+<br>
+<br>
+
 #### For the industry
 
 |                 || Ealier             | Junior (2nd)     | Junior (Winter)     | Senior (1st)            | Senior (Summer)           | Senior (2nd)               | Senior (Winter)    |
