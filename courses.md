@@ -37,25 +37,15 @@ Below are ideal schedules for students who want to enter the graduate program or
 
 (RC: Regular class, URP: Undergraudate Research Program, SS: Self Study)
 
-
+---
 ### For graudate study
 
-|                 | Ealier             | Junior (2nd)     | Junior (Winter)     | Senior (1st)            | Senior (Summer)           | Senior (2nd)               | Senior (Winter)    |
-|                 | ---                | ---              | ---                 | ---                     | ---                       | ---                        | ---                  |
-| Regular classes | Computer Architecture <br> Operating System <br> Digital System Design |                  |                     | SoC Design and Practice |                           |                            |                     |
-| URP             | N/A                | DRAM             | DRAM Controller     | CPU                     | ECC / PCIe                | GP-GPU                     | Paper reading <br> Simulator |
-| Self Study      |                    |                  | SystemVerilog       |                         | C++                       |                            |                      |
-
-  <ul>
-    <li> 3학년 2학기까지 디지털시스템설계(또는 디시털시스템), 컴퓨터구조, OS 수업 듣기 (필수). 마이크로프로세서 수업 듣기 (장려) </li>
-    <li> 3학년 2학기 URP/학부연구생: DRAM </li>
-    <li> 3학년 겨울 URP/학부연구생: DRAM Controller + SystemVerilog </li>
-    <li> 4학년 1학기 URP/학부연구생: CPU, 정규수업: SoC설계및실습 </li>
-    <li> 4학년 여름 URP/학부연구생: ECC / PCIe / C++ </li>
-    <li> 4학년 2학기 URP/학부연구생: GP-GPU </li>
-    <li> 4학년 겨울 URP/학부연구생: 연구실 논문 읽기 / gem5/ramulator/gpgpu-sim 도움 </li>
-  </ul>
-  
+|                 || Ealier             | Junior (2nd)     | Junior (Winter)     | Senior (1st)            | Senior (Summer)           | Senior (2nd)               | Senior (Winter)    |
+|                 || ---                | ---              | ---                 | ---                     | ---                       | ---                        | ---                  |
+| Regular classes || Computer Architecture <br> Operating System <br> Digital System Design |                  |                     | SoC Design and Practice |                           |                            |                     |
+| URP             || N/A                | DRAM             | DRAM Controller     | CPU                     | ECC / PCIe                | GP-GPU                     | Paper reading <br> Simulator |
+| Self Study      ||                    |                  | SystemVerilog       |                         | C++                       |                            |                      |
+---
 #### For the industry
   <ul>
     <li> 3학년 2학기 URP/학부연구생: DRAM </li>
