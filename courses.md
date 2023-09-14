@@ -20,19 +20,18 @@ S: Spring, F: Fall
 
 <br>
 <br>
+<br>
 
 # Undergraduate Research Program
 ---
 Mostly run by graudate students for undergraduate students.
 
 ## Program schedule (repeated every year)
-
 | Spring (1st)    | Summer                   | Fall (2nd)              | Winter                          |
 | ---             | ---                      | ---                     | ---                             |
 | CPU             | ECC <br> PCIe <br> C++   | DRAM <br> GP-GPU        | DRAM Controller <br> + SystemVerilog |
 
 ## Recommendations
-
 Below are ideal schedules for students who want to enter the graduate program or the industry. The PI does not expect student to enroll all the programs.
 
 ### 대학원 진학 희망생 
