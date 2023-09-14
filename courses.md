@@ -41,7 +41,7 @@ Below are ideal schedules for students who want to enter the graduate program or
 
 |                 || Ealier             | Junior (2nd)     | Junior (Winter)     | Senior (1st)            | Senior (Summer)           | Senior (2nd)               | Senior (Winter)    |
 |                 || ---                | ---              | ---                 | ---                     | ---                       | ---                        | ---                  |
-| Regular classes || Computer Architecture <br> Operating System <br> Digital System Design |                  |                     | SoC Design and Practice |                           |                            |                     |
+| Regular classes || Computer Architecture <br> Operating System <br> Digital System Design <br> Microprocessor |                  |                     | SoC Design and Practice |                           |                            |                     |
 | URP             || N/A                | DRAM             | DRAM Controller     | CPU                     | ECC / PCIe                | GP-GPU                     | Paper reading <br> Simulator |
 | Self Study      ||                    |                  | SystemVerilog       |                         | C++                       |                            |                      |
 
@@ -51,7 +51,7 @@ Below are ideal schedules for students who want to enter the graduate program or
 
 |                 || Ealier             | Junior (2nd)     | Junior (Winter)     | Senior (1st)            | Senior (Summer)           | Senior (2nd)               | Senior (Winter)    |
 |                 || ---                | ---              | ---                 | ---                     | Intern                    | Job Apply                  | ---                  |
-| Regular classes || Computer Architecture <br> Operating System <br> Digital System Design |                  |                     | SoC Design and Practice |                           |                            |                     |
+| Regular classes || Computer Architecture <br> Digital System Design |                  |                     | SoC Design and Practice |                           |                            |                     |
 | URP             || N/A                | DRAM             | DRAM Controller     | CPU                     |                           |                            |  |
 | Self Study      ||                    |                  | SystemVerilog       |                         | Linux/Script              |                            |  |
 
