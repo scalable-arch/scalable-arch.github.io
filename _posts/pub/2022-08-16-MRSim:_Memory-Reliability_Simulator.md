@@ -7,4 +7,3 @@ pub-type: SW
 
 **Jungrae Kim**<br>
 Korea Copyright Commission (No. C-2022-031812), August 16, 2022.
-
