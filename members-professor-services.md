@@ -27,12 +27,12 @@ layout: posts-page
 
 {: reversed="reversed" }
 
-  1. Compute Express Link, Qualitas Semiconductor, August-11-2023
-  1. PCIe Expression, Qualitas Semiconductor, February-13-2023
-  1. 반도체공학회 종합학술대회, 2022
-  1. Network Interface Card, Qualitas Semiconductor, February-17-2022
-  1. Data Center Networks, Qualitas Semiconductor, January-17-2022
-  1. Cross-optimization over Computation and Communication for Edge AI, SKKU AI colloquium, November-5-2021
+  1. Compute Express Link, Qualitas Semiconductor, Aug/2023
+  1. PCIe Express, Qualitas Semiconductor, Feb/2023
+  1. Data synchronization in heterogeneous systems, 반도체공학회 종합학술대회, 2022
+  1. Network Interface Card, Qualitas Semiconductor, Feb/2022
+  1. Data Center Networks, Qualitas Semiconductor, Jan/2022
+  1. Cross-optimization over Computation and Communication for Edge AI, SKKU AI colloquium, Nov/2021
   1. Accelerators in the Clouds, Samsung Electronics, 2020
   1. DRAM Errors in Data Centers, Samsung SDS, 2020
   1. AI Hardware, SK mySUNI, 2020
