@@ -8,10 +8,9 @@ layout: default
     <div class="index-wrap">
       <header class="section-title">
         <h2 class="title">News</h2>
-        <span>
-          {% if paginator.page > 1 %}{{ site.data.theme.t.page | default: 'Page'
-          | prepend: ' ' | append: ' ' }}{{ paginator.page }} {{
-          site.data.theme.t.of | default: 'of' }} {{ paginator.total_pages }}{%
+        <span> {% if paginator.page > 1 %} {{ 
+          site.data.theme.t.page | default: 'Page' | prepend: ' ' | append: ' ' }} {{ 
+          paginator.page }} {{ site.data.theme.t.of | default: 'of' }} {{ paginator.total_pages }} {% 
           endif %}
         </span>
       </header>
@@ -28,20 +27,20 @@ layout: default
           <a
             href="{{ paginator.previous_page_path | relative_url }}"
             class="previous"
-            ><span class="icon icon--arrow-right"
-              >{% include icon-arrow-left.svg %}</span
-            >
-            {{ site.data.theme.t.newer | default: 'Newer' }}</a
-          >
+            ><span class="icon icon--arrow-right">
+              {% include icon-arrow-left.svg %}
+            </span>
+            {{ site.data.theme.t.newer | default: 'Newer' }}
+          </a>
         </li>
         {% endif %} {% if paginator.next_page %}
         <li>
-          <a href="{{ paginator.next_page_path | relative_url }}" class="next"
-            >{{ site.data.theme.t.older | default: 'Older' }}
-            <span class="icon icon--arrow-right"
-              >{% include icon-arrow-right.svg %}</span
-            ></a
-          >
+          <a href="{{ paginator.next_page_path | relative_url }}" class="next">
+            {{ site.data.theme.t.older | default: 'Older' }}
+            <span class="icon icon--arrow-right">
+              {% include icon-arrow-right.svg %}
+            </span>
+          </a>
         </li>
         {% endif %}
       </ul>

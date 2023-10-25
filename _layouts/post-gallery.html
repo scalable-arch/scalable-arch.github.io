@@ -6,11 +6,11 @@ layout: page
 
 <section class="taxonomy-section">
   <div class="entries-{{ page.entries_layout | default: 'grid' }}">
-    {% assign gallery_posts = site.categories.gallery %} {% for post in
-    gallery_posts %} {% include entry-gallery.html %} {% endfor %}
+    {% assign gallery_posts = site.categories.gallery %} 
+    {% for post in gallery_posts %}{% include entry-gallery.html %}{% endfor %}
   </div>
-  <a href="#page-title" class="back-to-top"
-    >{{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }}
-    &uarr;</a
-  >
+  <a href="#page-title" class="back-to-top">
+    {{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }}
+    &uarr;
+  </a>
 </section>

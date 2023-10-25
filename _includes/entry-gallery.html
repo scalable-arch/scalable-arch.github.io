@@ -1,11 +1,12 @@
-{% if post.id %} {% assign title = post.title | markdownify | strip_html %} {%
-else %} {% assign title = post.title %} {% endif %}
+{% if post.id %} {% assign title = post.title | markdownify | strip_html %} {% 
+else %} {% assign title = post.title %} {% 
+endif %}
 
 <article class="entry gallery">
   <a href="{{ post.url | relative_url }}" rel="bookmark" class="gallery-box">
     <header class="entry-header">
-      {% if post.image.thumbnail %} {% assign entry_image = post.image.thumbnail
-      | relative_url | escape %}
+      {% if post.image.thumbnail %}
+      {% assign entry_image = post.image.thumbnail | relative_url | escape %}
       <div class="entry-image-cover">
         <span
           class="entry-image u-photo"
@@ -22,7 +23,7 @@ else %} {% assign title = post.title %} {% endif %}
       {% endif %}
     </header>
     <div class="gallery-item">
-      <h3 class="entry-title">{{ title }}</h3>
+      <h3 class="entry-title"> {{ title }} </h3>
       <footer class="entry-meta">
         <ul>
           {% if post.date %}
@@ -36,9 +37,9 @@ else %} {% assign title = post.title %} {% endif %}
           </li>
           {% endif %} {% if post.read_time %}
           <li>
-            <span class="icon">{% include icon-stopwatch.svg %}</span>{% capture
-            read_time %}{% include read-time.html %}{% endcapture %}{{ read_time
-            | strip }}
+            <span class="icon">{% include icon-stopwatch.svg %}</span>
+            {% capture read_time %}{% include read-time.html %}{% endcapture %}
+            {{ read_time | strip }}
           </li>
           {% endif %}
         </ul>
