@@ -9,8 +9,8 @@ layout: default
       <header class="section-title">
         <h2 class="title">News</h2>
         <span> {% if paginator.page > 1 %} {{ 
-          site.data.theme.t.page | default: 'Page' | prepend: ' ' | append: ' ' }} {{ 
-          paginator.page }} {{ site.data.theme.t.of | default: 'of' }} {{ paginator.total_pages }} {% 
+            site.data.theme.t.page | default: 'Page' | prepend: ' ' | append: ' ' }} {{ 
+            paginator.page }} {{ site.data.theme.t.of | default: 'of' }} {{ paginator.total_pages }} {% 
           endif %}
         </span>
       </header>

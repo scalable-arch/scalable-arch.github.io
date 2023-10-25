@@ -32,7 +32,7 @@ endif %}
               class="entry-time"
               datetime="{{ post.date | date_to_xmlschema }}"
             >
-              {{ post.date | date: "%Y-%m-%d" }}
+              {{ post.date | date: "%Y-%m" }}
             </time>
           </li>
           {% endif %} {% if post.read_time %}
