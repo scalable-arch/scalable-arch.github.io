@@ -9,21 +9,37 @@ endfor %} {{ content }}
 
 <!-- Category -->
 <div>
-  {%if page.url == '/publications/category'%}
-
+  {% if page.url == '/publications/category' %}
   <ul class="taxonomy-index" id="category-list">
-    {% assign categories_max = 0 %} {% for category in site.categories %} {% if
-    category[1].size > categories_max %} {% assign categories_max =
-    category[1].size %} {% endif %} {% endfor %} {% for i in (1..categories_max)
-    reversed %} {% for category in site.categories %} {% if category[1].size ==
-    i %}
-    <li>
-      <a class="category-link" data-category="{{ category[0] | slugify }}">
-        <strong>{{ category[0] }}</strong>
-        <!-- <span class="taxonomy-count">{{ i }}</span> -->
-      </a>
-    </li>
-    {% endif %} {% endfor %} {% endfor %}
+    <!-- Computer Architecture Category First -->
+    {% for category in site.categories %}
+      {% if category[0] == 'Computer Architecture' %}
+        <li>
+          <a class="category-link" data-category="{{ category[0] | slugify }}">
+            <strong>{{ category[0] }}</strong>
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+
+    <!-- Other Categories Sorted by Post Count -->
+    {% assign categories_max = 0 %}
+    {% for category in site.categories %}
+      {% if category[1].size > categories_max %}
+        {% assign categories_max = category[1].size %}
+      {% endif %}
+    {% endfor %}
+    {% for i in (1..categories_max) reversed %}
+      {% for category in site.categories %}
+        {% if category[1].size == i and category[0] != 'Computer Architecture' %}
+          <li>
+            <a class="category-link" data-category="{{ category[0] | slugify }}">
+              <strong>{{ category[0] }}</strong>
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
   </ul>
 
   {% assign categories_max = 0 %} {% for category in site.categories %} {% if
