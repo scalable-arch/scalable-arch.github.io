@@ -6,6 +6,18 @@ layout: page
 <!-- Category -->
 <div>
   <ul class="taxonomy-index" id="category-list">
+    <!-- Add Computer Architecture Category First -->
+    {% for category in site.categories %}
+      {% if category[0] == 'Computer Architecture' %}
+        <li>
+          <a class="category-link" data-category="{{ category[0] | slugify }}">
+            <strong>{{ category[0] }}</strong>
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+
+    <!-- Add Other Categories -->
     {% assign categories_max = 0 %}
     {% for category in site.categories %}
       {% if category[1].size > categories_max %}
@@ -14,9 +26,9 @@ layout: page
     {% endfor %}
     {% for i in (1..categories_max) reversed %}
       {% for category in site.categories %}
-        {% if category[1].size == i and category[0] != "gallery" and category[0] != "research" %}
+        {% if category[1].size == i and category[0] != "gallery" and category[0] != "research" and category[0] != "Computer Architecture" %}
           <li>
-            <a class="category-link" data-category="{{ category[0] | slugify }}" >
+            <a class="category-link" data-category="{{ category[0] | slugify }}">
               <strong>{{ category[0] }}</strong>
             </a>
           </li>
