@@ -6,4 +6,4 @@ pub-type: C
 ---
 
 **Yujin Lim**, **Dongwhee Kim** and **Jungrae Kim**<br>
-The Design, Automation and Test in Europe Conference (**DATE**), acceptance rate = 25%, March. 2024
+The Design, Automation and Test in Europe Conference (**DATE**), Best Paper Award Nominee, acceptance rate = 25%, March. 2024
