@@ -14,7 +14,7 @@ layout: posts-page
 
 ## Conferences
 
-[ConfSearch.ethz.ch](https://confsearch.ethz.ch/?query=HPCA+HPDC+SC+IPDPS+ASPLOS+SBAC-PAD+DAC+ISCA+MICRO+CLOUD+PACT+ICS+FPGA+CF+DATE+DSN+FAST&sortby=deadline)
+[ConfSearch.ethz.ch](https://confsearch.ethz.ch/?query=ISCA+HPCA+MICRO+ASPLOS+HPDC+SC+DAC+PACT+USENIX-ATC+FAST+DSN+DATE+IPDPS+HPDC&sortby=deadline)
 
 <!--
 <table>
