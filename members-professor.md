@@ -45,7 +45,8 @@ layout: posts-page
   {:.inner-list}
 
 
-  - Assistant Professor, Sungkyunkwan University, 2020~Present 
+  - Assistant Professor, Sungkyunkwan University, 2020~Present
+    
       {:.deps-list}
     - Department of Semicondcutor Systems Engineering
     
