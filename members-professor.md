@@ -40,10 +40,15 @@ layout: posts-page
   ![image](https://github.com/scalable-arch/scalable-arch.github.io/assets/10312505/135c1732-2e47-4a8b-b6a6-3367f9b1e4dc){:width="700"}
 
 
-## Prior Professional Experience
+## Professional Experience
 
   {:.inner-list}
 
+
+  - Assistant Professor, Sungkyunkwan University, 2020~Present 
+      {:.deps-list}
+    - Department of Semicondcutor Systems Engineering
+    
   - Senior Software Engineer / Tech Lead, Microsoft Azure, 2016~2020
     
       {:.deps-list}
