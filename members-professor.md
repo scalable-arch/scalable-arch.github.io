@@ -48,7 +48,7 @@ layout: posts-page
   - Assistant Professor, Sungkyunkwan University, 2020~Present
     
       {:.deps-list}
-    - Department of Semicondcutor Systems Engineering
+    - Department of Semiconductor Systems Engineering
     
   - Senior Software Engineer / Tech Lead, Microsoft Azure, 2016~2020
     
