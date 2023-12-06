@@ -85,7 +85,7 @@ layout: posts-page
   {:.inner-list}
 
   - Best Paper Finalist, DATE 2024
-  - Best Studnet Paper Finalist, SC 2023
+  - Best Student Paper Finalist, SC 2023
   - Best Paper Finalist, HPCA 2015 (one of the top conferences in computer architecture)
   - Best Paper Award, SELSE 2017
   - Full Financial Sponsorship (해외학술연수) from Samsung Electronics, 2011-2016
