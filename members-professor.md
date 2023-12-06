@@ -37,7 +37,8 @@ layout: posts-page
 
 ## Visualized Bio
 
-  ![image](https://github.com/scalable-arch/scalable-arch.github.io/assets/10312505/82f2ed31-539b-4f27-8a60-1a4f09e362b5){:width="600"}
+  ![image](https://github.com/scalable-arch/scalable-arch.github.io/assets/10312505/135c1732-2e47-4a8b-b6a6-3367f9b1e4dc){:width="700"}
+
 
 ## Prior Professional Experience
 
