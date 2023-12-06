@@ -35,8 +35,9 @@ layout: posts-page
     - Department of Artificial Intelligence
     - Department of Applied Artificial Intelligence
 
+## Visualized Bio
 
-![image](https://github.com/scalable-arch/scalable-arch.github.io/assets/10312505/82f2ed31-539b-4f27-8a60-1a4f09e362b5){:width="600"}
+  ![image](https://github.com/scalable-arch/scalable-arch.github.io/assets/10312505/82f2ed31-539b-4f27-8a60-1a4f09e362b5){:width="600"}
 
 ## Prior Professional Experience
 
