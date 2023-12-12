@@ -36,19 +36,21 @@
   <link
     rel="mask-icon"
     href="/assets/favicon/safari-pinned-tab.svg"
-    color="#5bbad5"
+    color="#366fad"
   />
   <meta name="msapplication-TileColor" content="#da532c" />
   <meta name="theme-color" content="#ffffff" />
 
+   
+     
     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>UVMMU: Hardware-Offloaded Page Migration for Heterogeneous Computing | Scalable Architecture Lab.</title>
 <meta name="generator" content="Jekyll v4.3.2" />
 <meta property="og:title" content="UVMMU: Hardware-Offloaded Page Migration for Heterogeneous Computing" />
 <meta name="author" content="Admin" />
 <meta property="og:locale" content="ko_KR" />
-<meta name="description" content="Jihun Park, Donghun Jeong, and Jungrae Kim Design, Automation and Test in Europe Conference (DATE23), Oral, acceptance rate = 25%, Apr. 2023" />
-<meta property="og:description" content="Jihun Park, Donghun Jeong, and Jungrae Kim Design, Automation and Test in Europe Conference (DATE23), Oral, acceptance rate = 25%, Apr. 2023" />
+<meta name="description" content="Jihun Park, Donghun Jeong, and Jungrae Kim Design, Automation and Test in Europe Conference (DATE23), Oral, acceptance rate = 25%, Apr. 2023 Link: [Slides(pptx)]" />
+<meta property="og:description" content="Jihun Park, Donghun Jeong, and Jungrae Kim Design, Automation and Test in Europe Conference (DATE23), Oral, acceptance rate = 25%, Apr. 2023 Link: [Slides(pptx)]" />
 <link rel="canonical" href="http://localhost:4000/computer%20architecture/2023/04/17/UVMMU-_Hardware-Offladed_Page_Migration_for_Heterogeneous_Computing.html" />
 <meta property="og:url" content="http://localhost:4000/computer%20architecture/2023/04/17/UVMMU-_Hardware-Offladed_Page_Migration_for_Heterogeneous_Computing.html" />
 <meta property="og:site_name" content="Scalable Architecture Lab." />
@@ -57,7 +59,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="UVMMU: Hardware-Offloaded Page Migration for Heterogeneous Computing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Admin"},"dateModified":"2023-04-17T00:00:00+09:00","datePublished":"2023-04-17T00:00:00+09:00","description":"Jihun Park, Donghun Jeong, and Jungrae Kim Design, Automation and Test in Europe Conference (DATE23), Oral, acceptance rate = 25%, Apr. 2023","headline":"UVMMU: Hardware-Offloaded Page Migration for Heterogeneous Computing","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/computer%20architecture/2023/04/17/UVMMU-_Hardware-Offladed_Page_Migration_for_Heterogeneous_Computing.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"Admin"},"url":"http://localhost:4000/computer%20architecture/2023/04/17/UVMMU-_Hardware-Offladed_Page_Migration_for_Heterogeneous_Computing.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Admin"},"dateModified":"2023-04-17T00:00:00+09:00","datePublished":"2023-04-17T00:00:00+09:00","description":"Jihun Park, Donghun Jeong, and Jungrae Kim Design, Automation and Test in Europe Conference (DATE23), Oral, acceptance rate = 25%, Apr. 2023 Link: [Slides(pptx)]","headline":"UVMMU: Hardware-Offloaded Page Migration for Heterogeneous Computing","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/computer%20architecture/2023/04/17/UVMMU-_Hardware-Offladed_Page_Migration_for_Heterogeneous_Computing.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"Admin"},"url":"http://localhost:4000/computer%20architecture/2023/04/17/UVMMU-_Hardware-Offladed_Page_Migration_for_Heterogeneous_Computing.html"}</script>
 <!-- End Jekyll SEO tag -->
  
 
@@ -79,6 +81,7 @@
     href="https://fonts.googleapis.com/css?family=Noto+Sans+Korean:400,400i,600,600i"
   />
    
+  
 </head>
 
   <body
@@ -127,12 +130,23 @@ id="primary-nav"
       </li>
     
       <li class="menu-item">
-        <a href="/professor/" >Professor</a>
+        <a href="/members/professor" >People</a>
         
-      </li>
-    
-      <li class="menu-item">
-        <a href="/members/" >Members</a>
+          <ul class="sub-menu">
+            
+              <li class="sub-menu-item">
+                <a href="/members/professor" >PI</a>
+              </li>
+            
+              <li class="sub-menu-item">
+                <a href="/members/students" >Students</a>
+              </li>
+            
+              <li class="sub-menu-item">
+                <a href="/members/alumni" >Alumni</a>
+              </li>
+            
+          </ul>
         
       </li>
     
@@ -142,15 +156,11 @@ id="primary-nav"
           <ul class="sub-menu">
             
               <li class="sub-menu-item">
-                <a href="/publications/category" >By Category</a>
+                <a href="/publications/category" >Select Publications</a>
               </li>
             
               <li class="sub-menu-item">
-                <a href="/publications/year" >By Year</a>
-              </li>
-            
-              <li class="sub-menu-item">
-                <a href="/publications/publisher" >By Publisher</a>
+                <a href="/publications/year" >Full Pulbications</a>
               </li>
             
           </ul>
@@ -158,29 +168,32 @@ id="primary-nav"
       </li>
     
       <li class="menu-item">
-        <a href="/research/" >Research & Projects</a>
-        
-          <ul class="sub-menu">
-            
-              <li class="sub-menu-item">
-                <a href="/research/" >Research</a>
-              </li>
-            
-              <li class="sub-menu-item">
-                <a href="/projects/" >Projects</a>
-              </li>
-            
-          </ul>
+        <a href="/research/" >Research</a>
         
       </li>
     
       <li class="menu-item">
-        <a href="/schedule/" >Schedule</a>
+        <a href="/projects/" >Projects</a>
+        
+      </li>
+    
+      <li class="menu-item">
+        <a href="/courses/" >Courses</a>
+        
+      </li>
+    
+      <li class="menu-item">
+        <a href="https://github.com/scalable-arch" >OpenSource</a>
         
       </li>
     
       <li class="menu-item">
         <a href="/gallery/" >Gallery</a>
+        
+      </li>
+    
+      <li class="menu-item">
+        <a href="/schedule/" >Schedule</a>
         
       </li>
     
@@ -221,12 +234,23 @@ id="primary-nav"
       </li>
     
       <li class="menu-item">
-        <a href="/professor/" >Professor</a>
+        <a href="/members/professor" >People</a>
         
-      </li>
-    
-      <li class="menu-item">
-        <a href="/members/" >Members</a>
+          <ul class="sub-menu">
+            
+              <li class="sub-menu-item">
+                <a href="/members/professor" >PI</a>
+              </li>
+            
+              <li class="sub-menu-item">
+                <a href="/members/students" >Students</a>
+              </li>
+            
+              <li class="sub-menu-item">
+                <a href="/members/alumni" >Alumni</a>
+              </li>
+            
+          </ul>
         
       </li>
     
@@ -236,15 +260,11 @@ id="primary-nav"
           <ul class="sub-menu">
             
               <li class="sub-menu-item">
-                <a href="/publications/category" >By Category</a>
+                <a href="/publications/category" >Select Publications</a>
               </li>
             
               <li class="sub-menu-item">
-                <a href="/publications/year" >By Year</a>
-              </li>
-            
-              <li class="sub-menu-item">
-                <a href="/publications/publisher" >By Publisher</a>
+                <a href="/publications/year" >Full Pulbications</a>
               </li>
             
           </ul>
@@ -252,29 +272,32 @@ id="primary-nav"
       </li>
     
       <li class="menu-item">
-        <a href="/research/" >Research & Projects</a>
-        
-          <ul class="sub-menu">
-            
-              <li class="sub-menu-item">
-                <a href="/research/" >Research</a>
-              </li>
-            
-              <li class="sub-menu-item">
-                <a href="/projects/" >Projects</a>
-              </li>
-            
-          </ul>
+        <a href="/research/" >Research</a>
         
       </li>
     
       <li class="menu-item">
-        <a href="/schedule/" >Schedule</a>
+        <a href="/projects/" >Projects</a>
+        
+      </li>
+    
+      <li class="menu-item">
+        <a href="/courses/" >Courses</a>
+        
+      </li>
+    
+      <li class="menu-item">
+        <a href="https://github.com/scalable-arch" >OpenSource</a>
         
       </li>
     
       <li class="menu-item">
         <a href="/gallery/" >Gallery</a>
+        
+      </li>
+    
+      <li class="menu-item">
+        <a href="/schedule/" >Schedule</a>
         
       </li>
     
@@ -330,19 +353,21 @@ id="primary-nav"
       <h1 id="page-title" class="intro-title">
         UVMMU: Hardware-Offloaded Page Migration for Heterogeneous Computing
  
+        
       </h1>
-
         
 
 
       <p class="entry-meta">
-        <span class="byline-item"
-          >by Admin</span
-        ><span class="byline-item"
-          ><time datetime="2023-04-17T00:00:00+09:00"
-            >2023-04-17</time
-          > </span
-        >
+        
+        <span class="byline-item">by Admin</span>
+        <span class="byline-item">
+          <time datetime="2023-04-17T00:00:00+09:00">
+             2023-04-17
+            
+          </time> 
+        </span>
+        
       </p>
         
     </div>
@@ -355,7 +380,8 @@ id="primary-nav"
     <article class="entry-wrap">
       
       <div class="entry-content"><p><strong>Jihun Park</strong>, <strong>Donghun Jeong</strong>, and <strong>Jungrae Kim</strong> <br />
-Design, Automation and Test in Europe Conference (DATE23), Oral, acceptance rate = 25%, Apr. 2023</p>
+Design, Automation and Test in Europe Conference (DATE23), Oral, acceptance rate = 25%, Apr. 2023 <br />
+Link: [<a href="https://github.com/scalable-arch/scalable-arch.github.io/raw/main/assets/materials/2023-DATE-UVMMU(slides).pptx"><code class="language-plaintext highlighter-rouge">Slides(pptx)</code></a>]</p>
 </div>
       
     </article>

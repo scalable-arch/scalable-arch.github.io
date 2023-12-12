@@ -17,12 +17,10 @@ menu:
   - title: Publications
     url: /publications/category
     sub_menu:
-      - title: By Category
+      - title: Select Publications
         url: /publications/category
-      - title: By Year
+      - title: Full Pulbications
         url: /publications/year
-      - title: By Publisher
-        url: /publications/publisher
 
   - title: Research
     url: /research/

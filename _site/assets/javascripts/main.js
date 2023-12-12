@@ -23,7 +23,7 @@ function animateMenuItems() {
 };
 
 var myWrapper = document.querySelector('.wrapper');
-var  myMenu= document.querySelector('.sidebar');
+var myMenu= document.querySelector('.sidebar');
 var mySlieder = document.querySelector('.inner');
 var myToggle = document.querySelector('.toggle');
 var myInitialContent = document.querySelector('.initial-content');
@@ -55,8 +55,6 @@ function toggleClassMenu() {
        document.body.classList.remove('menu-active')
     }
   }
-
-  
 }
 
 // Animation smoother
