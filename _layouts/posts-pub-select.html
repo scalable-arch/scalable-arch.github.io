@@ -1,0 +1,105 @@
+---
+layout: page
+---
+<!--List only the publications-->
+
+<!-- Category -->
+<div>
+  <ul class="taxonomy-index" id="category-list" style="margin-bottom: 0;">
+    <!-- Add Computer Architecture Category First -->
+    {% for category in site.categories %}
+      {% if category[0] == 'Computer Architecture' %}
+        <li>
+          <a class="category-link" data-category="{{ category[0] | slugify }}">
+            <strong>{{ category[0] }}</strong>
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+
+    <!-- Add Other Categories -->
+    {% assign categories_max = 0 %}
+    {% for category in site.categories %}
+      {% if category[1].size > categories_max %}
+        {% assign categories_max = category[1].size %}
+      {% endif %}
+    {% endfor %}
+    {% for i in (1..categories_max) reversed %}
+      {% for category in site.categories %}
+        {% if category[1].size == i and category[0] != "gallery" and category[0] != "research" and category[0] != "Computer Architecture" %}
+          <li>
+            <a class="category-link" data-category="{{ category[0] | slugify }}">
+              <strong>{{ category[0] }}</strong>
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </ul>
+
+ 
+  
+  
+{% assign categories_max = 0 %}
+{% for category in site.categories %}
+  {% if category[1].size > categories_max %}
+    {% assign categories_max = category[1].size %}
+  {% endif %}
+{% endfor %}
+
+<!-- Computer Architecture Section First -->
+{% for category in site.categories %}
+  {% if category[0] == 'Computer Architecture' %}
+    <section
+      id="{{ category[0] | slugify | downcase }}"
+      class="taxonomy-section"
+      style="{{ 'display: block' }}"
+    >
+      <div class="entries-{{ page.entries_layout | default: 'list' }}">
+        {% for post in category.last %}{% include entry-pub2.html %} {% endfor %}
+      </div>
+      <a href="#page-title" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+    </section>
+  {% endif %}
+{% endfor %}
+
+<!-- Other Categories Sections -->
+{% for i in (1..categories_max) reversed %}
+  {% for category in site.categories %}
+    {% if category[1].size == i and category[0] != 'Computer Architecture' %}
+      <section
+        id="{{ category[0] | slugify | downcase }}"
+        class="taxonomy-section"
+        style="display: none"
+      >
+        <div class="entries-{{ page.entries_layout | default: 'list' }}">
+          {% for post in category.last %}{% include entry-pub2.html %} {% endfor %}
+        </div>
+        <a href="#page-title" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+      </section>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+</div>
+<!-- Category -->
+
+  <script src="/assets/javascripts/tab.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('.toggleButton').forEach(function(button) {
+            button.addEventListener('click', function() {
+                var targetId = this.getAttribute('data-target');
+                var imageContainer = document.getElementById(targetId);
+  
+                if (imageContainer.style.display === 'none') {
+                    imageContainer.style.display = 'block';
+                    this.textContent = '접기';
+                } else {
+                    imageContainer.style.display = 'none';
+                    this.textContent = '펼치기';
+                }
+            });
+        });
+    });
+  </script>
+</div>

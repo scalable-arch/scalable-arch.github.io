@@ -2,6 +2,7 @@
 title: "ROC-DRAM: Low Latency and Low Power DRAM using Rows with Opposite Charging"
 category: Computer Architecture
 tags: DAC
+abstract_img: "/assets/images/pub-abstract/DAC23_ROC-DRAM.png"
 pub-type: C
 ---
 

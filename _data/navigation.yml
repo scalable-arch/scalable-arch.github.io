@@ -18,9 +18,9 @@ menu:
     url: /publications/category
     sub_menu:
       - title: Select Publications
-        url: /publications/category
+        url: /publications/select
       - title: Full Pulbications
-        url: /publications/year
+        url: /publications/full
 
   - title: Research
     url: /research/

@@ -2,6 +2,8 @@
 title: "Multi-Prediction Compression: An Efficient and Scalable Memory Compression Framework for GP-GPU"
 category: Computer Architecture
 tags: IEEE-CAL
+paper_url: "https://ieeexplore.ieee.org/document/9780608"
+abstract_img: "/assets/images/pub-abstract/CAL22_MPC.png"
 pub-type: J
 ---
 

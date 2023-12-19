@@ -2,6 +2,7 @@
 title: "SELCC: Enhancing MLC Reliability and Endurance with Single Cell Error Correction Codes"
 category: Reliability
 tags: DATE
+abstract_img: "/assets/images/pub-abstract/DATE24_SELCC_Enhancing MLC Reliability.png"
 pub-type: C
 ---
 

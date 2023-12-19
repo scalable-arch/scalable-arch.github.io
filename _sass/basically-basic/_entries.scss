@@ -21,12 +21,12 @@
 .tags {
   display: flex;
   gap: 8px;
-  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 
   span {
-    font-size: 12px;
+    font-size: 14px;
 
-    padding: 2px 8px;
+    padding: 1px 6px;
     border-radius: 50px;
   }
 
@@ -38,9 +38,9 @@
   }
 }
 .entry-title {
-  @include fluid-type($min-vw, $max-vw, 18px, 24px);
+  @include fluid-type($min-vw, $max-vw, 16px, 20px); // hojung 24px -> 20px
 
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.1rem; // hojung 0.5rem -> 0.1rem
   line-height: inherit;
 
   &.news {
@@ -126,21 +126,41 @@
    Entry list
    ========================================================================== */
 
+/* hojung 추가 */   
+.content-container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+
+  .text-part {
+    flex: 4; // 텍스트 부분의 비율 조절
+  }
+
+  .image-part {
+    flex: 3; // 이미지 부분의 비율 조절
+  }
+}
+
+   
 .entries-list {
   padding: 1em;
   @include breakpoint($large) {
     padding: 0em;
   }
   .entry-title {
+    
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
     overflow: hidden;
     text-overflow: ellipsis;
-    word-wrap: break-word; /* break long words that could overflow */
+    word-wrap: break-word; /* break long words that could overflow 
+    /* word-wrap: break-word;  /* 긴 단어가 넘어갈 경우 자동으로 줄바꿈 */
+    /*overflow-wrap: break-word;   /* 단어를 줄바꿈하기 위한 설정 */
   }
 
   .entry-excerpt {
+    /*
     margin-bottom: 0.5rem;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -148,7 +168,12 @@
     overflow: hidden;
     text-overflow: ellipsis;
     font-weight: 300;
-
+    */
+    margin-bottom: 0.5rem;
+    font-weight: 300;
+    word-wrap: break-word; /* 긴 단어가 넘어갈 경우 자동으로 줄바꿈 */
+    overflow-wrap: break-word; /* 단어를 줄바꿈하기 위한 설정 */
+    font-size: 16px;
     @include breakpoint($medium) {
       // width: span(11 of 16);
     }

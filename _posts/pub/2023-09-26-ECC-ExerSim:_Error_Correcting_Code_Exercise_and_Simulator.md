@@ -2,6 +2,7 @@
 title: "ECC-ExerSim: Error-Correcting Code Exercise and Simulator"
 category: Reliability
 tags: SW-Copyright
+abstract_img: "/assets/images/pub-abstract/SW-Copyright23_ECC-ExerSim.png"
 pub-type: SW
 ---
 

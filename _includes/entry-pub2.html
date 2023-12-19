@@ -1,29 +1,68 @@
 {% if post.id %} {% assign title = post.title | markdownify | strip_html %} {%
-else %} {% assign title = post.title %} {% endif %}
-<article class="entry">
-  <header class="entry-header">
-    <div class="tags">
-      <span class="tag">{{post.tags}}</span>
-      <span class="category"> {{post.categories}}</span>
+  else %} {% assign title = post.title %} {% endif %}
+  <article class="entry">
+    <header class="entry-header">
+      <div class="tags">
+        <span class="tag">{{post.tags}}</span>
+        <span class="category"> {{post.categories}}</span>
+      </div>
+      <a href="{{ post.url | relative_url }}" rel="bookmark">
+        <h3 class="entry-title publications">{{ title }}</h3>
+      </a>
+    </header>
+  
+    <div class="entry-excerpt">
+     {% if post.excerpt %} {{ post.excerpt | markdownify }} {% endif %}
+  <!--{% if post.paper_url %}
+        <a href="{{ post.paper_url }}" title="Read the paper">
+          Paper: <img src="/assets/images/paper_icon.png" alt="Paper Icon" style="width:20px; height:20px;">
+        </a>
+      {% endif %} -->
+
+      <div>
+        {% if post.paper_url %}
+          <a href="{{ post.paper_url }}" title="Read the paper">
+            <span style="vertical-align: bottom; line-height: 22px;">Paper:</span>
+            <img src="/assets/images/paper_icon.png" alt="Paper Icon" style="width: auto; height: 22px;">
+          </a>
+        {% endif %}
+      
+        {% if post.paper_ppt %}
+          <a href="{{ post.paper_ppt }}" title="Download the presentation" style="padding-left: 5px;">
+            <span style="vertical-align: bottom; line-height: 22px;">PPT:</span>
+            <img src="/assets/images/ppt_icon.png" alt="PPT Icon" style="width: auto; height: 20px; padding-left: 2px;">
+          </a>
+        {% endif %}
+
+        {% if post.paper_poster %}
+          <a href="{{ post.paper_poster }}" title="Download the presentation" style="padding-left: 5px;">
+            <span style="vertical-align: bottom; line-height: 22px;">Poster:</span>
+            <img src="/assets/images/poster_icon.png" alt="PPT Icon" style="width: auto; height: 21px; padding-left: 2px;">
+          </a>
+        {% endif %}
+
+        {% if post.paper_git %}
+          <a href="{{ post.paper_git }}" title="View the code on GitHub" style="padding-left: 5px;">
+            <span style="vertical-align: bottom; line-height: 22px;">Git:</span>
+            <img src="/assets/images/git_icon.png" alt="GitHub Icon" style="width: 20px; height: 20px; padding-left: 2px;">
+          </a>
+        {% endif %}
+      </div>
+      
+
     </div>
-    <a href="{{ post.url | relative_url }}" rel="bookmark">
-      <h3 class="entry-title publications">{{ title }}</h3>
-    </a>
-  </header>
-
-  <div class="entry-excerpt">
-    {% if post.excerpt %} {{ post.excerpt | markdownify }} {% endif %}
-  </div>
-
-  <footer class="entry-meta">
-    <ul>
-      {% if post.read_time %}
-      <li>
-        <span class="icon">{% include icon-stopwatch.svg %}</span>{% capture
-        read_time %}{% include read-time.html %}{% endcapture %}{{ read_time |
-        strip }}
-      </li>
-      {% endif %}
-    </ul>
-  </footer>
-</article>
+  
+    
+    <footer class="entry-meta">
+      <ul>
+        {% if post.read_time %}
+        <li>
+          <span class="icon">{% include icon-stopwatch.svg %}</span>{% capture
+          read_time %}{% include read-time.html %}{% endcapture %}{{ read_time |
+          strip }}
+        </li>
+        {% endif %}
+      </ul>
+    </footer>
+  </article>
+  
