@@ -15,7 +15,7 @@ menu:
         url: /members/alumni
 
   - title: Publications
-    url: /publications/category
+    url: /publications/select
     sub_menu:
       - title: Select Publications
         url: /publications/select
