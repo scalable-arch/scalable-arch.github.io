@@ -7,28 +7,58 @@ layout: page
   <ul class="taxonomy-index">
   </ul>
 
-  {% assign postsInYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+  <!-- Count each type -->
+  {% assign typeC_count = 0 %} {% 
+  assign typeJ_count = 0 %} {% 
+  assign typeP_count = 0 %} {%
+  assign typeSW_count = 0 %} {%
+  assign typeT_count = 0 %}
+  {% for post in site.posts %} {% if post.pub %} {% 
+    if post.pub-type == 'C' %} {% 
+      assign typeC_count = typeC_count | plus: 1 %} {% 
+    elsif post.pub-type == 'J' %} {% 
+      assign typeJ_count = typeJ_count | plus: 1 %} {%
+    elsif post.pub-type == 'P' %} {% 
+      assign typeP_count = typeP_count | plus: 1 %} {%
+    elsif post.pub-type == 'SW' %} {% 
+      assign typeSW_count = typeSW_count | plus: 1 %} {%
+    elsif post.pub-type == 'T' %} {% 
+      assign typeT_count = typeT_count | plus: 1 %} {%
+    endif %} {%
+  endif %} {% endfor %}
+  
   <section
     id="full"
     class="taxonomy-section entries-list"
     style="display: block"
   >
-    {% for year in postsInYear %} {% assign post_count = 0 %}
-    {% for post in year.items %} {% if post.pub %} {%
-      assign post_count = post_count | plus: 1 %} {% 
+    <!-- List papers -->
+    {% for post in site.posts %} {% if post.pub %} {% 
+      if post.pub-type == 'C' %} {% 
+        assign title_modified = '[C' | append: typeC_count | append: '] ' | append: post.title %} {%
+        assign typeC_count = typeC_count | minus: 1 %} {% include entry-pub2.html %} {%
+      elsif post.pub-type == 'J' %} {% 
+        assign title_modified = '[J' | append: typeJ_count | append: '] ' | append: post.title %} {%
+        assign typeJ_count = typeJ_count | minus: 1 %} {% include entry-pub2.html %} {%
+      elsif post.pub-type == 'T' %} {% 
+        assign title_modified = '[T' | append: typeT_count | append: '] ' | append: post.title %} {%
+        assign typeT_count = typeT_count | minus: 1 %} {% include entry-pub2.html %} {%
+      endif %} {%
     endif %} {% endfor %} 
-    {% if post_count != 0 %}
-    <h2>{{ year.name }}</h2>
-      {% for post in year.items %} {% if post.pub %} {% 
-        include entry-pub2.html %} {% 
-      endif %} {% endfor %} 
-    <br>
-    {% endif %}
-    {% endfor %}
+    
+    <!-- List others -->
+    {% for post in site.posts %} {% if post.pub %} {% 
+      if post.pub-type == 'P' %} {% 
+        assign title_modified = '[P' | append: typeP_count | append: '] ' | append: post.title %} {%
+        assign typeP_count = typeP_count | minus: 1 %} {% include entry-pub2.html %} {%
+      elsif post.pub-type == 'SW' %} {% 
+        assign title_modified = '[SW' | append: typeSW_count | append: '] ' | append: post.title %} {%
+        assign typeSW_count = typeSW_count | minus: 1 %} {% include entry-pub2.html %} {%
+      endif %} {%
+    endif %} {% endfor %} 
 
     <a href="#page-title" class="back-to-top">
-      {{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }}
-      &uarr;
+      {{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }}&uarr;
     </a>
   </section>
 </div>
