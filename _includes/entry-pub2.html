@@ -1,5 +1,9 @@
-{% if post.id %} {% assign title = post.title | markdownify | strip_html %} {%
-  else %} {% assign title = post.title %} {% endif %}
+{% if post.id %} {% 
+  if title_modified %} {% assign title = title_modified %} {%
+  else %} {% assign title = post.title | markdownify | strip_html %} {%
+  endif %} {%
+else %} {% assign title = post.title %} {% 
+endif %}
   <article class="entry">
     <header class="entry-header">
       <div class="tags">
