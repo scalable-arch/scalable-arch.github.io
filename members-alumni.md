@@ -7,21 +7,24 @@ layout: posts-page
 ---
 # Graduate
 
-## 2022
+## 2023
 
   {:.inner-list}
   - **Hoyong Jin** (M.S.) - Open Edge Technologies (2022.08 ~)
   - **Sangjae Park** (M.S.) - AnaPass (2022.08 ~) (Technical Research Personnel)
   - **Daero Kim** (M.S.) - Samsung Electronics Foundry
+  - **Taewon Park** (M.S.) - Samsung Electronics System LSI (2023.01 ~)
+  - **Jihun Park** (M.S.) - SK Hynix (2023.01 ~)
+  - **Yuseok Song** (M.S.) - Samsung Electronics Memory (2023.01 ~)
+  - **Donghun Jeong** (M.S.) - SK Hynix (2023.01 ~)
 
-## 2023
+## 2024
 
   {:.inner-list}
-  - **Donghun Jeong** (M.S.) - SK Hynix (2023.01 ~)
-  - **Jihun Park** (M.S.) - SK Hynix (2023.01 ~)
-  - **Taewon Park** (M.S.) - Samsung Electronics System LSI (2023.01 ~)
-  - **Yuseok Song** (M.S.) - Samsung Electronics Memory (2023.01 ~)
-
+  - **Wonyeong Jung** - (M.S.) - Samsung Electronics Memory
+  - **Jaeyoon Lee** (M.S.) - LG Electronics CTO (2024.02 ~)
+  - **Dongwhee Kim** (M.S.) - Samsung Electronics Memory (2024.01 ~)
+  - **Kiheon Kwon** (M.S.) - DB GlobalChip (2024.01 ~)
 
 
 ---
