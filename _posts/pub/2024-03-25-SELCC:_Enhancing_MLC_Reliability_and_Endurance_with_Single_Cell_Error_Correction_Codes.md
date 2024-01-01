@@ -4,6 +4,7 @@ category: Reliability
 tags: DATE
 abstract_img: "/assets/images/pub-abstract/DATE24_SELCC_Enhancing MLC Reliability.png"
 pub-type: C
+select: y
 ---
 
 **Yujin Lim**, **Dongwhee Kim** and **Jungrae Kim**<br>

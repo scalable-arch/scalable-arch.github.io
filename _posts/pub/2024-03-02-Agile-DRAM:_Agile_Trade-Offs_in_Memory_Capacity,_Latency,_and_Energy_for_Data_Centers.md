@@ -4,6 +4,7 @@ category: Computer Architecture
 tags: HPCA
 abstract_img: "/assets/images/pub-abstract/HPCA24_Agile-DRAM.png"
 pub-type: C
+select: y
 ---
 
 **Jaeyoon Lee**, **Wonyeong Jung**, **Dongwhee Kim**, **Daero Kim**, **Junseung Lee**, and **Jungrae Kim**<br>

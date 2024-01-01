@@ -8,6 +8,7 @@ paper_poster: "https://github.com/scalable-arch/scalable-arch.github.io/raw/main
 paper_git: "https://github.com/xyz123479/ECC-exercise/tree/main/02_Application/02_DDR5_ODECC_RLECC"
 abstract_img: "/assets/images/pub-abstract/SC23_Unity ECC.png"
 pub-type: C
+select: y
 ---
 
 **Dongwhee Kim**, **Jaeyoon Lee**, **Wonyeong Jung**, Michael Sullivan, and **Jungrae Kim** <br>

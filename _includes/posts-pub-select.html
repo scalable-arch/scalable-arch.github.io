@@ -51,7 +51,9 @@
       style="display: active; border-bottom: none"
     >
       <div class="entries-{{ page.entries_layout | default: 'list' }}">
-        {% for post in category.last %}{% include entry-pub2.html %} {% endfor %}
+        {% for post in category.last %}{% 
+          if post.select != 'n' %}{% include entry-pub2.html %}{% endif %} {% 
+        endfor %}
       </div>
     </section>
   {% endif %}
@@ -67,7 +69,9 @@
         style="display: none; border-bottom: none"
       >
         <div class="entries-{{ page.entries_layout | default: 'list' }}">
-          {% for post in category.last %}{% include entry-pub2.html %} {% endfor %}
+          {% for post in category.last %}{% 
+            if post.select != 'n' %}{% include entry-pub2.html %}{% endif %} {% 
+          endfor %}
         </div>
       </section>
     {% endif %}
