@@ -1,7 +1,7 @@
 ---
 title: Principal Investigator
 permalink: /members/professor/
-layout: posts-page
+layout: page-posts
 ---
 
 {:.professor-img}

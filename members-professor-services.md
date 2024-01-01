@@ -1,7 +1,7 @@
 ---
 title: Services
 permalink: /members/professor/services
-layout: posts-page
+layout: page-posts
 ---
 
 ## Academic Services

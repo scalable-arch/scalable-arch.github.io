@@ -1,7 +1,7 @@
 ---
 title: Schedule
 permalink: /schedule/
-layout: posts-page
+layout: page-posts
 ---
 
 ## Principal Investigator
