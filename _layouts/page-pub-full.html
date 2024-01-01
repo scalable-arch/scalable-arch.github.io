@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<!-- Top -->
+<div id="BackToTop" style="margin-top: -80px; padding-top: 80px"></div>
+
+<!-- Title -->
+{% assign page-title_modified = page.title %}
+{% include page-intro.html %} 
+
+<main id="main" class="page-content" aria-label="Content">
+  <!-- List -->
+  <div class="inner">
+    <article class="entry-wrap">
+      <div class="entry-content">{% include posts-pub-full.html %}</div>
+    </article>
+  </div>
+  
+  <!-- Back to Top -->
+  <div class="inner">
+    <a href="#BackToTop" class="back-to-top">
+      {{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }}&uarr;
+    </a>
+  </div>
+</main>

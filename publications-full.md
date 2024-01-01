@@ -1,5 +1,5 @@
 ---
 title: Publications
 permalink: /publications/full
-layout: posts-pub-full
+layout: page-pub-full
 ---
