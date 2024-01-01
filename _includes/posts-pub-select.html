@@ -1,11 +1,6 @@
----
-layout: page
----
-<!--List only the publications-->
-
 <!-- Category -->
 <div>
-  <ul class="taxonomy-index" id="category-list">
+  <ul class="taxonomy-index" id="category-list" style="margin-bottom: 0;">
     <!-- Add Computer Architecture Category First -->
     {% for category in site.categories %}
       {% if category[0] == 'Computer Architecture' %}
@@ -53,12 +48,11 @@ layout: page
     <section
       id="{{ category[0] | slugify | downcase }}"
       class="taxonomy-section"
-      style="{{ 'display: block' }}"
+      style="display: active; border-bottom: none"
     >
       <div class="entries-{{ page.entries_layout | default: 'list' }}">
         {% for post in category.last %}{% include entry-pub2.html %} {% endfor %}
       </div>
-      <a href="#page-title" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
     </section>
   {% endif %}
 {% endfor %}
@@ -70,12 +64,11 @@ layout: page
       <section
         id="{{ category[0] | slugify | downcase }}"
         class="taxonomy-section"
-        style="display: none"
+        style="display: none; border-bottom: none"
       >
         <div class="entries-{{ page.entries_layout | default: 'list' }}">
           {% for post in category.last %}{% include entry-pub2.html %} {% endfor %}
         </div>
-        <a href="#page-title" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
       </section>
     {% endif %}
   {% endfor %}
@@ -83,5 +76,5 @@ layout: page
 </div>
 <!-- Category -->
 
-  <script src="/assets/javascripts/tab.js"></script>
+<script src="/assets/javascripts/tab.js"></script>
 

@@ -1,5 +1,7 @@
 ---
-title: Publications
+title: Selected Publications
+title2: Full Publications
 permalink: /publications/
-layout: posts-pub
+layout: page-pub
 ---
+<!-- layout: posts-pub -->
