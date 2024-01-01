@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+<!-- Top -->
+<div id="BackToTop" style="margin-top: -80px; padding-top: 80px"></div>
 
 <!-- Title1 -->
 {% assign page-title_modified = page.title %}
@@ -27,8 +29,9 @@ layout: default
     </article>
   </div>
   
+  <!-- Back to Top -->
   <div class="inner">
-    <a href="#page-title" class="back-to-top">
+    <a href="#BackToTop" class="back-to-top">
       {{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }}&uarr;
     </a>
   </div>
