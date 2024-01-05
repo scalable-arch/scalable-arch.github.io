@@ -5,6 +5,7 @@ tags: JOK
 paper_url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11225038"
 abstract_img: "/assets/images/pub-abstract/JOK23_DNN Retraining Method Reducing.png"
 pub-type: J
+select: y
 ---
 
 **Dongwhee Kim\***, **Yujin Lim\***, **Syngha Han**, and **Jungrae Kim** <br>

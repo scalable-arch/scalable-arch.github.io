@@ -1,0 +1,69 @@
+<!-- Category -->
+<div>
+  <ul class="taxonomy-index" id="category-list" style="margin-bottom: 0;">
+    <!-- Add Computer Architecture Category First -->
+    {% for category in site.categories %}
+      {% if category[0] == 'Computer Architecture' %}
+        <li>
+          <a class="cat-link2 category-link" data-category="{{ category[0] | slugify }}_full">
+            <strong>{{ category[0] }}</strong>
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+
+    <!-- Add Other Categories -->
+    {% assign categories_max = 0 %}
+    {% for category in site.categories %}
+      {% if category[1].size > categories_max %}
+        {% assign categories_max = category[1].size %}
+      {% endif %}
+    {% endfor %}
+    {% for i in (1..categories_max) reversed %}
+      {% for category in site.categories %}
+        {% if category[1].size == i and category[0] != "gallery" and category[0] != "research" and category[0] != "Computer Architecture" %}
+          <li>
+            <a class="cat-link2 category-link" data-category="{{ category[0] | slugify }}_full">
+              <strong>{{ category[0] }}</strong>
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </ul>
+
+ 
+
+<!-- Computer Architecture Section First -->
+{% for category in site.categories %}
+  {% if category[0] == 'Computer Architecture' %}
+    <section
+      id="{{ category[0] | slugify | downcase }}_full"
+      class="cat-section2 taxonomy-section"
+      style="display: active; border-bottom: none"
+    >
+      <div class="entries-{{ page.entries_layout | default: 'list' }}">
+        {% include posts-pub-a-category-full.html %} 
+      </div>
+    </section>
+  {% endif %}
+{% endfor %}
+
+<!-- Other Categories Sections -->
+{% for i in (1..categories_max) reversed %}
+  {% for category in site.categories %}
+    {% if category[1].size == i and category[0] != 'Computer Architecture' %}
+      <section
+        id="{{ category[0] | slugify | downcase }}_full"
+        class="cat-section2 taxonomy-section"
+        style="display: none; border-bottom: none"
+      >
+        <div class="entries-{{ page.entries_layout | default: 'list' }}">
+          {% include posts-pub-a-category-full.html %}
+        </div>
+      </section>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+</div>
+<!-- Category -->

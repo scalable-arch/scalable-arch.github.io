@@ -3,6 +3,7 @@ title: "Auto-Tiler: Variable-Dimension Autoencoder with Tiling for Compressing I
 category: Artificial Intelligence
 tags: MDPI-Sensors
 pub-type: J
+select: y
 ---
 
 Jeongsoo Park, **Jungrae Kim**, Jong Hwan Ko<br>

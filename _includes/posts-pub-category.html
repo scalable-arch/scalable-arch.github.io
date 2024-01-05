@@ -32,15 +32,7 @@
     {% endfor %}
   </ul>
 
- 
   
-  
-{% assign categories_max = 0 %}
-{% for category in site.categories %}
-  {% if category[1].size > categories_max %}
-    {% assign categories_max = category[1].size %}
-  {% endif %}
-{% endfor %}
 
 <!-- Computer Architecture Section First -->
 {% for category in site.categories %}
@@ -51,8 +43,7 @@
       style="display: active; border-bottom: none"
     >
       <div class="entries-{{ page.entries_layout | default: 'list' }}">
-        {% for post in category.last %}{% 
-          if post.select != 'n' %}{% include entry-pub2.html %}{% endif %} {% 
+        {% for post in category.last %} {% include entry-pub2.html %} {% 
         endfor %}
       </div>
     </section>
@@ -69,8 +60,7 @@
         style="display: none; border-bottom: none"
       >
         <div class="entries-{{ page.entries_layout | default: 'list' }}">
-          {% for post in category.last %}{% 
-            if post.select != 'n' %}{% include entry-pub2.html %}{% endif %} {% 
+          {% for post in category.last %} {% include entry-pub2.html %} {% 
           endfor %}
         </div>
       </section>

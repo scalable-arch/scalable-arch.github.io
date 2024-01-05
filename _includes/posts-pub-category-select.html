@@ -1,0 +1,73 @@
+<!-- Category -->
+<div>
+  <ul class="taxonomy-index" id="category-list" style="margin-bottom: 0;">
+    <!-- Add Computer Architecture Category First -->
+    {% for category in site.categories %}
+      {% if category[0] == 'Computer Architecture' %}
+        <li>
+          <a class="cat-select category-link" data-category="{{ category[0] | slugify }}_select">
+            <strong>{{ category[0] }}</strong>
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+
+    <!-- Add Other Categories -->
+    {% assign categories_max = 0 %}
+    {% for category in site.categories %}
+      {% if category[1].size > categories_max %}
+        {% assign categories_max = category[1].size %}
+      {% endif %}
+    {% endfor %}
+    {% for i in (1..categories_max) reversed %}
+      {% for category in site.categories %}
+        {% if category[1].size == i and category[0] != "gallery" and category[0] != "research" and category[0] != "Computer Architecture" %}
+          <li>
+            <a class="cat-select category-link" data-category="{{ category[0] | slugify }}_select">
+              <strong>{{ category[0] }}</strong>
+            </a>
+          </li>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </ul>
+
+
+
+<!-- Computer Architecture Section First -->
+{% for category in site.categories %}
+  {% if category[0] == 'Computer Architecture' %}
+    <section
+      id="{{ category[0] | slugify | downcase }}_select"
+      class="cat-select-section taxonomy-section"
+      style="display: active; border-bottom: none"
+    >
+      <div class="entries-{{ page.entries_layout | default: 'list' }}">
+        {% for post in category.last %}{% 
+          if post.select == 'y' %}{% include entry-pub2.html %}{% endif %} {% 
+        endfor %}
+      </div>
+    </section>
+  {% endif %}
+{% endfor %}
+
+<!-- Other Categories Sections -->
+{% for i in (1..categories_max) reversed %}
+  {% for category in site.categories %}
+    {% if category[1].size == i and category[0] != 'Computer Architecture' %}
+      <section
+        id="{{ category[0] | slugify | downcase }}_select"
+        class="cat-select-section taxonomy-section"
+        style="display: none; border-bottom: none"
+      >
+        <div class="entries-{{ page.entries_layout | default: 'list' }}">
+          {% for post in category.last %}{% 
+            if post.select == 'y' %}{% include entry-pub2.html %}{% endif %} {% 
+          endfor %}
+        </div>
+      </section>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+</div>
+<!-- Category -->

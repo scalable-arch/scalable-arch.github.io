@@ -11,7 +11,7 @@ layout: default
   <!-- List1 -->
   <div class="inner">
     <article class="entry-wrap">
-      <div class="entry-content">{% include posts-pub-select.html %}</div>
+      <div class="entry-content">{% include posts-pub-category-select.html %}</div>
     </article>
   </div>
 
@@ -22,10 +22,11 @@ layout: default
       <h1 id="page-title2" class="intro-title"> {{ page-title_modified }} </h1>
     </div>
   </div>
+  <br>
   <!-- List2 -->
   <div class="inner">
     <article class="entry-wrap">
-      <div class="entry-content">{% include posts-pub-full.html %}</div>
+      <div class="entry-content">{% include posts-pub-category-full.html %}</div>
     </article>
   </div>
   
@@ -36,3 +37,5 @@ layout: default
     </a>
   </div>
 </main>
+
+<script src="/assets/javascripts/tab_two.js"></script>
