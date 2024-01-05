@@ -17,10 +17,10 @@ menu:
   - title: Publications
     url: /publications/
     sub_menu:
-      - title: Select Publications
-        url: /publications/select
-      - title: Full Pulbications
-        url: /publications/full
+      # - title: Select Publications
+      #   url: /publications/select
+      # - title: Full Pulbications
+      #   url: /publications/full
 
   - title: Research
     url: /research/
