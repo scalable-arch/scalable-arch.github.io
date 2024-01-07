@@ -3,6 +3,7 @@ title: "Frugal ECC: Efficient and Versatile Memory Error Protection through Fine
 category: Reliability
 tags: SC
 pub-type: C
+select: y
 ---
 
 **Jungrae Kim**, Michael Sullivan, Seong-Lyong Gong, Mattan Erez<br>
