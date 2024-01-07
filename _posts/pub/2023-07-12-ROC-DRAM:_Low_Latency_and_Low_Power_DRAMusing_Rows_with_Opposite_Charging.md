@@ -4,7 +4,7 @@ category: Computer Architecture
 tags: DAC
 abstract_img: "/assets/images/pub-abstract/DAC23_ROC-DRAM.png"
 pub-type: C
-select: y
+select: n
 ---
 
 **Jaeyoon Lee**, **Daero Kim**, and **Jungrae Kim** <br>
