@@ -3,7 +3,6 @@ title: "A Weight-Sharing Autoencoder with Dynamic Quantization for Efficient Fea
 category: Artificial Intelligence
 tags: ICTC
 pub-type: C
-select: y
 ---
 
 Ji Sub Choi, **Jungrae Kim**, Jong Hwan Ko <br>
