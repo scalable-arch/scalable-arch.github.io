@@ -3,6 +3,7 @@ title: "ERUCA: Efficient DRAM Resource Utilization and Resource Conflict Avoidan
 category: Computer Architecture
 tags: HPCA
 pub-type: C
+select: y
 ---
 
 Sangkug Lym, Heonjae Ha, Yongkee Kwon, Chun-kai Chang, **Jungrae Kim**, Mattan Erez<br>
