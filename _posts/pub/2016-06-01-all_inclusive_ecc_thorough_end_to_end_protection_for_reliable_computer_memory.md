@@ -3,6 +3,7 @@ title: "All-Inclusive ECC: Thorough End-to-End Protection for Reliable Computer 
 category: Reliability
 tags: ISCA
 pub-type: C
+select: y
 ---
 
 **Jungrae Kim**, Michael Sullivan, Sangkug Lym, Mattan Erez<br>
