@@ -3,6 +3,7 @@ title: "Bit-Plane Compression: Transforming Data for Better Compression in Many-
 category: Computer Architecture
 tags: ISCA
 pub-type: C
+select: y
 ---
 
 **Jungrae Kim**, Michael Sullivan, Esha Choukse, Mattan Erez<br>
