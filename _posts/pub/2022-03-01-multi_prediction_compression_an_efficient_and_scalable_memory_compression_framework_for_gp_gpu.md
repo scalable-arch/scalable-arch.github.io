@@ -5,6 +5,7 @@ tags: IEEE-CAL
 paper_url: "https://ieeexplore.ieee.org/document/9780608"
 abstract_img: "/assets/images/pub-abstract/CAL22_MPC.png"
 pub-type: J
+select: y
 ---
 
 **Hoyong Jin, Donghun Jeong, Taewon Park**, Jong Hwan Ko, and **Jungrae Kim**<br>
