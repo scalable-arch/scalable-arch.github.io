@@ -18,7 +18,7 @@
   assign category_list = category_list | split: "," %}
 
 
-  <!-- Category Tab -->
+  <!-- [1] Category Tab -->
   <ul class="taxonomy-index" id="category-list" style="margin-bottom: 0;">
     {% for cat in category_list %} {% 
       for category in site.categories %} {% 
@@ -33,21 +33,73 @@
     endfor %}
   </ul>
 
-  <!-- Pub Sections -->
-  {% for cat in category_list %} {% 
-    for category in site.categories %} {% 
-      if category[0] == cat %}
-        <section
-          id="{{ category[0] | slugify | downcase }}_full"
-          class="cat-section2 taxonomy-section"
-          style="display: none; border-bottom: none"
-        >
-          <div class="entries-{{ page.entries_layout | default: 'list' }}">
-            {% include posts-pub-a-category-full.html %}
-          </div>
-        </section>
-      {% endif %} {% 
-    endfor %} {% 
-  endfor %}
+
+  <!-- Count each categories -->
+  {% assign typeC_count = 0 %} {% 
+  assign typeJ_count = 0 %} {% 
+  assign typeP_count = 0 %} {%
+  assign typeSW_count = 0 %} {%
+  assign typeT_count = 0 %}
+  {% for post in site.posts %} {% if post.pub %} {% 
+    if post.pub-type == 'C' %} {% 
+      assign typeC_count = typeC_count | plus: 1 %} {% 
+    elsif post.pub-type == 'J' %} {% 
+      assign typeJ_count = typeJ_count | plus: 1 %} {%
+    elsif post.pub-type == 'P' %} {% 
+      assign typeP_count = typeP_count | plus: 1 %} {%
+    elsif post.pub-type == 'SW' %} {% 
+      assign typeSW_count = typeSW_count | plus: 1 %} {%
+    elsif post.pub-type == 'T' %} {% 
+      assign typeT_count = typeT_count | plus: 1 %} {%
+    endif %} {%
+  endif %} {% endfor %}
+ 
+
+  <!-- [2] Category Sections -->
+  {% for cat in category_list %} 
+    <section
+      id="{{ cat | slugify | downcase }}_full"
+      class="cat-section2 taxonomy-section"
+      style="display: none; border-bottom: none"
+    >
+    <div class="entries-{{ page.entries_layout | default: 'list' }}">
+      {% assign C_id = typeC_count %} {%
+      assign J_id = typeJ_count %} {%
+      assign P_id = typeP_count %} {%
+      assign SW_id = typeSW_count %} {%
+      assign T_id = typeT_count %}
+      
+      <!-- List papers -->
+      {% for post in site.posts %} {% if post.pub %} {% 
+        if post.pub-type == 'C' %} {% 
+          assign title_modified = '[C' | append: C_id | append: '] ' | append: post.title %} {%
+          assign C_id = C_id | minus: 1 %} {% 
+          if post.category == cat %} {% include entry-pub2.html %} {% endif %} {%
+        elsif post.pub-type == 'J' %} {% 
+          assign title_modified = '[J' | append: J_id | append: '] ' | append: post.title %} {%
+          assign J_id = J_id | minus: 1 %} {% 
+          if post.category == cat %} {% include entry-pub2.html %} {% endif %} {%
+        elsif post.pub-type == 'T' %} {% 
+          assign title_modified = '[T' | append: T_id | append: '] ' | append: post.title %} {%
+          assign T_id = T_id | minus: 1 %} {% 
+          if post.category == cat %} {% include entry-pub2.html %} {% endif %} {%
+        endif %} {%
+      endif %} {% endfor %} 
+      
+      <!-- List others -->
+      {% for post in site.posts %} {% if post.pub %} {% 
+        if post.pub-type == 'P' %} {% 
+          assign title_modified = '[P' | append: P_id | append: '] ' | append: post.title %} {%
+          assign P_id = P_id | minus: 1 %} {% 
+          if post.category == cat %} {% include entry-pub2.html %} {% endif %} {%
+        elsif post.pub-type == 'SW' %} {% 
+          assign title_modified = '[SW' | append: SW_id | append: '] ' | append: post.title %} {%
+          assign SW_id = SW_id | minus: 1 %} {% 
+          if post.category == cat %} {% include entry-pub2.html %} {% endif %} {%
+        endif %} {%
+      endif %} {% endfor %} 
+    </div>
+    </section> 
+  {% endfor %}
 </div>
 <!-- Category -->
