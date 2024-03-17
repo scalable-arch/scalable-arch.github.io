@@ -12,7 +12,7 @@ layout: page-posts
 
 - {:.professor-name} ## Jungrae Kim (김정래)
 
-  Jungrae Kim is an assistant professor of Semiconductor Systems Engineering Department in College of Information and Communication Engineering at SKKU (SungKyunKwan University).
+  Jungrae Kim is an associate professor of Semiconductor Systems Engineering Department in College of Information and Communication Engineering at SKKU (SungKyunKwan University).
 
   His research topics are diverse key aspects of computer architecture, including Artificial Intelligence, Cloud Computing, Neural Processing Unit, Memory Sub-system, Distributed Hardware System, and Reliable Computing.
 
@@ -24,7 +24,7 @@ layout: page-posts
 
   {:.inner-list}
 
-  - Assistant Professor / Sungkyunkwan University, 2020~present
+  - Associate Professor / Sungkyunkwan University, 2020~present
  
     {:.deps-list}
     - Department of Semiconductor Systems Engineering
@@ -45,7 +45,7 @@ layout: page-posts
   {:.inner-list}
 
 
-  - Assistant Professor, Sungkyunkwan University, 2020~Present
+  - Associate Professor, Sungkyunkwan University, 2020~Present
     
       {:.deps-list}
     - Department of Semiconductor Systems Engineering
