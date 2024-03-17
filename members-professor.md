@@ -84,7 +84,7 @@ layout: page-posts
 
   {:.inner-list}
 
-  - Best Paper Finalist, DATE 2024
+  - Best Paper Award, DATE 2024
   - Best Student Paper Finalist, SC 2023
   - Best Paper Finalist, HPCA 2015 (one of the top conferences in computer architecture)
   - Best Paper Award, SELSE 2017
