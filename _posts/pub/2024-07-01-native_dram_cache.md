@@ -1,6 +1,6 @@
 ---
 title: "Native DRAM Cache: Re-architecting DRAM as a Large-Scale Cache for Data Centers"
-category: Computer architecture
+category: Computer Architecture
 tags: ISCA
 pub-type: C
 select: y
