@@ -6,6 +6,5 @@ pub-type: J
 select: y
 ---
 
-**Hyochan Kim**, **Ji Sub Choi**, **Jungrae Kim∗**, **Jong Hwan Ko\*** <br>
-Future Generation Computer Systems, Journal, May 2023, impact factor=7.5, JCR rank 91.4 pth <br>
-\* Corresponding Authors
+**Hyochan Kim**, **Ji Sub Choi**, **Jungrae Kim**, **Jong Hwan Ko** <br>
+Future Generation Computer Systems, Journal, May 2023, impact factor=7.5, JCR rank 91.4 pth
