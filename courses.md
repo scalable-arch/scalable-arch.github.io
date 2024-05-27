@@ -24,20 +24,21 @@ layout: page
 
 # Undergraduate Research Program (URP)
 ---
-Mostly run by graudate students for undergraduate students.
 
-## Program schedule (repeated every year)
-
-| Spring (1st)    | Summer                   | Fall (2nd)              | Winter                               |
-| ---             | ---                      | ---                     | ---                                  |
-| * CPU           | * ECC <br> * CXL         | - DRAM <br> - GP-GPU    | - DRAM Controller |
+| - CPU           | - ECC <br> - CXL         | - DRAM <br> - GP-GPU    | - DRAM Controller |
 
 ## Recommendations
 Below are ideal schedules for students who want to enter the graduate program or the industry. The PI does not expect students to enroll all the programs.
 
 ---
+<br>
+<br>
+<br>
 
 ### For graudate study
+---
+
+---
 
 |                 || Ealier             | Junior (2nd)     | Junior (Winter)     | Senior (1st)            | Senior (Summer)           | Senior (2nd)               | Senior (Winter)    |
 |                 || ---                | ---              | ---                 | ---                     | ---                       | ---                        | ---                  |
@@ -45,12 +46,14 @@ Below are ideal schedules for students who want to enter the graduate program or
 | URP             || N/A                | - DRAM           | - DRAM Controller   | - CPU                   | - ECC <br> - CXL                | - GP-GPU                   | - Simulators <br> - Paper reading |
 | Self Study      ||                    |                  | - SystemVerilog     |                         | - C++                       |                            |                      |
 
----
-
+<br>
 <br>
 <br>
 
 ### For the industry
+---
+
+---
 
 |                 || Ealier             | Junior (2nd)     | Junior (Winter)     | Senior (1st)            | Senior (Summer)           | Senior (2nd)               | Senior (Winter)    |
 |                 || ---                | ---              | ---                 | ---                     | Intern                    | Job Apply                  | ---                  |
