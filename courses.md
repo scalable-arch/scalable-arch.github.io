@@ -11,11 +11,11 @@ layout: page
 (S: Spring, F: Fall)
 
 <ul>
-  <li> SoC Design and Practice (2023F, 2023S, 2022F, 2021F) </li>
+  <li> SoC Design and Practice (2024S, 2023F, 2023S, 2022F, 2021F) </li>
   <li> Parallel Computer Architecture & Programming (2021S) </li>
-  <li> Microprocessor (2020S) </li>
+  <li> Microprocessor (2024S, 2020S) </li>
   <li> Digital System Design (2022S) </li>
-  <li> Introduction to Basis and Practice in Programming (2023S, 2022F, 2021F, 2020F) </li>
+  <li> Introduction to Basis and Practice in Programming (2024S, 2023S, 2022F, 2021F, 2020F) </li>
 </ul>
 
 <br>
