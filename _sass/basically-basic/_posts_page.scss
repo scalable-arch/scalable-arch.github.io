@@ -137,6 +137,15 @@
   }
   .member-name {
     font-size: 1.3rem !important;
+    
+    > ul {
+      margin-top: 1rem;
+
+      li {
+        margin-bottom: 0.3rem;
+        font-size: 0.875rem;
+      }
+    }
   }
 }
 
