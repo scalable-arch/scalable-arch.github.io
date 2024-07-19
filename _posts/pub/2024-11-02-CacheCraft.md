@@ -3,6 +3,7 @@ title: "CacheCraft: Enhancing GPU Performance under Memory Protection through Re
 category: Computer Architecture
 tags: MICRO
 pub-type: C
+select: y
 ---
 
 **Soyoung Park**, **Hojung Namkoong**, **Boyeol Choi**, **Michael Sullivan**, and **Jungrae Kim** <br>
