@@ -7,4 +7,4 @@ select: y
 ---
 
 **Soyoung Park**, **Hojung Namkoong**, **Boyeol Choi**, **Michael Sullivan**, and **Jungrae Kim** <br>
-The IEEE/ACM International Symposium on Microarchitecture (MICRO), Nov. 2024
+The IEEE/ACM International Symposium on Microarchitecture (MICRO), acceptance rate = 22.7%, Nov. 2024
