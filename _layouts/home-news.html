@@ -8,19 +8,22 @@ layout: default
     <div class="index-wrap">
       <header class="section-title">
         <h2 class="title">News</h2>
-        <span> {% if paginator.page > 1 %} {{ 
+        <!-- Paging -->
+        <!-- <span> {% if paginator.page > 1 %} {{ 
             site.data.theme.t.page | default: 'Page' | prepend: ' ' | append: ' ' }} {{ 
             paginator.page }} {{ site.data.theme.t.of | default: 'of' }} {{ paginator.total_pages }} {% 
           endif %}
-        </span>
+        </span> -->
       </header>
 
       <div class="entries-{{ page.entries_layout | default: 'list' }}">
         {% include posts-news.html %}
+        <!-- {% include posts-all.html %} -->
       </div>
     </div>
-
-    <nav class="pager">
+    
+    <!-- Paging -->
+    <!-- <nav class="pager">
       <ul>
         {% if paginator.previous_page %}
         <li>
@@ -44,7 +47,7 @@ layout: default
         </li>
         {% endif %}
       </ul>
-    </nav>
+    </nav> -->
     {% endif %}
 
     <h5 class="welcom-message">

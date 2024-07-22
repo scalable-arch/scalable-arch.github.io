@@ -1,2 +1,10 @@
-{% for post in paginator.posts %} {% if post.news %} {% include entry-news.html
-%} {% endif %} {% endfor %}
+{% for post in site.posts %} {% if post.news %} 
+  {% include entry-news.html %} 
+{% endif %} {% endfor %}
+
+<!-- Paging
+Bug: Jekyll's paging is based on all posts. With the code below, 
+the number of posts on each page will be inconsistent and less than 
+'paginate' setting   -->
+<!-- {% for post in paginator.posts %} {% if post.news %} {% include entry-news.html
+%} {% endif %} {% endfor %} -->
