@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+<!-- Top -->
+<div id="BackToTop" style="margin-top: -80px; padding-top: 80px"></div>
 
 <main id="main" class="page-content" aria-label="Content">
   <div class="index inner">
@@ -49,6 +51,10 @@ layout: default
       </ul>
     </nav> -->
     {% endif %}
+    
+    <a href="#BackToTop" class="back-to-top">
+      {{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }}&uarr;
+    </a>
 
     <h5 class="welcom-message">
       성균관대학교 확장 가능 컴퓨터 구조 연구실에 오신 것을 환영합니다.
