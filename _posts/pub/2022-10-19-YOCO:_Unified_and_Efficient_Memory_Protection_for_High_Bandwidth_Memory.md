@@ -8,4 +8,4 @@ abstract_img: "/assets/images/pub-abstract/ISOCC22_YOCO.png"
 ---
 
 **Dongwhee Kim**, and **Jungrae Kim** <br>
-The 19th International SoC Conference (ISOCC 2022), Oct. 2022
+The International SoC Conference (ISOCC), Oct. 2022
