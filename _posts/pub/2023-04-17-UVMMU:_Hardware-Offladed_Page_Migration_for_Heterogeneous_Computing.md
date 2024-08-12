@@ -10,5 +10,5 @@ select: y
 ---
 
 **Jihun Park**, **Donghun Jeong**, and **Jungrae Kim** <br>
-Design, Automation and Test in Europe Conference (DATE'23), acceptance rate = 25%, Apr. 2023 <br>
+The Design, Automation and Test in Europe Conference (DATE), acceptance rate = 25%, Apr. 2023 <br>
 Link: [[```Slides(pptx)```](https://github.com/scalable-arch/scalable-arch.github.io/raw/main/assets/materials/2023-DATE-UVMMU(slides).pptx)]
