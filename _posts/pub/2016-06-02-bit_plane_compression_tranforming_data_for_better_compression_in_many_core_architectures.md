@@ -8,5 +8,5 @@ select: y
 ---
 
 **Jungrae Kim**, Michael Sullivan, Esha Choukse, Mattan Erez<br>
-The 43rd ACM/IEEE International Symposium on Computer Architecture (**ISCA-43**), acceptance rate = 19%, June 2016.
+The ACM/IEEE International Symposium on Computer Architecture (**ISCA**), acceptance rate = 19%, June 2016.
 
