@@ -8,5 +8,5 @@ select: y
 ---
 
 Seong-Lyong Gong, **Jungrae Kim**, Sangkug Lym, Michael Sullivan, Howard David, Mattan Erez<br>
-The 24th IEEE International Symposium on High Performance Computer Architecture (**HPCA-24**), acceptance rate = 21%, Feb. 2018.
+The IEEE International Symposium on High Performance Computer Architecture (**HPCA**), acceptance rate = 21%, Feb. 2018.
 
