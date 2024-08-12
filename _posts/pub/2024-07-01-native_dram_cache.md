@@ -8,4 +8,4 @@ select: y
 ---
 
 **Yesin Ryu**, Yoojin Kim, Giyong Jung, Jungho Ahn, and **Jungrae Kim**<br>
-International Symposium on Computer Architecture (**ISCA**), acceptance rate = 19.6%, July, 2024
+The International Symposium on Computer Architecture (**ISCA**), acceptance rate = 19.6%, July, 2024
