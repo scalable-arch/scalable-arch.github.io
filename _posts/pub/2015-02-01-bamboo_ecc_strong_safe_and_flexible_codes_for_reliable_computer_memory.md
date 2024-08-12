@@ -8,5 +8,5 @@ select: y
 ---
 
 **Jungrae Kim**, Michael Sullivan, Mattan Erez<br>
-The 21st IEEE International Symposium on High Performance Computer Architecture (**HPCA-21**), acceptance rate = 23%, Best Paper, Feb. 2015.
+The IEEE International Symposium on High Performance Computer Architecture (**HPCA**), acceptance rate = 23%, **Best Paper Nominee**, Feb. 2015.
 
