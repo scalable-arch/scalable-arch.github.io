@@ -8,5 +8,5 @@ select: y
 ---
 
 Sangkug Lym, Heonjae Ha, Yongkee Kwon, Chun-kai Chang, **Jungrae Kim**, Mattan Erez<br>
-The 24th IEEE International Symposium on High Performance Computer Architecture (**HPCA-24**), acceptance rate = 21%, Feb. 2018.
+The IEEE International Symposium on High Performance Computer Architecture (**HPCA**), acceptance rate = 21%, Feb. 2018.
 
