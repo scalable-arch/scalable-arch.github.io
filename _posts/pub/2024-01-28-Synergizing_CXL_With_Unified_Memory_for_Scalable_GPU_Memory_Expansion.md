@@ -6,4 +6,4 @@ pub-type: C
 ---
 
 **Junseung Lee** and **Jungrae Kim** <br>
-The International Conference on Electronics, Information, and Communication (ICEIC), Paper, Jan. 2024
+The International Conference on Electronics, Information, and Communication (ICEIC), Jan. 2024
