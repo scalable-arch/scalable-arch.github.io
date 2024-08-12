@@ -8,4 +8,4 @@ abstract_img: "/assets/images/pub-abstract/ACCESS22_On-die Dynamic Remapping Cac
 ---
 
 **Sangjae Park** and **Jungrae Kim**<br>
-IEEE ACCESS, vol.10, pp.78970-78982, impact factor = 3.476, July. 2022
+IEEE ACCESS, impact factor = 3.476, July. 2022
