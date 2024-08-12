@@ -6,4 +6,4 @@ pub-type: C
 ---
 
 **Hojung Namkoong**, and **Jungrae Kim** <br>
-The International SoC Conference (ISOCC 2023), Oct. 2023
+The International SoC Conference (ISOCC), Oct. 2023
