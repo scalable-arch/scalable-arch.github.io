@@ -7,4 +7,4 @@ pub-type: C
 ---
 
 **Yujin Lim**, **Dongwhee Kim**, and **Jungrae Kim** <br>
-The 20th International SoC Conference (ISOCC 2023), Oct. 2023
+The International SoC Conference (ISOCC 2023), Oct. 2023
