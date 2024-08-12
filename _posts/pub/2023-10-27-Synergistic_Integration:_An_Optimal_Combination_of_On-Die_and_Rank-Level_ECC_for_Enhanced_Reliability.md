@@ -7,4 +7,4 @@ pub-type: C
 ---
 
 **Wonyeong Jung**, **Dongwhee Kim**, and **Jungrae Kim** <br>
-The 20th International SoC Conference (ISOCC 2023), Oct. 2023
+The 20th International SoC Conference (ISOCC), Oct. 2023
