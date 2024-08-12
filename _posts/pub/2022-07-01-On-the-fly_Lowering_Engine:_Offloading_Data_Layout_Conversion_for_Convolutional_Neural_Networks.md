@@ -9,5 +9,5 @@ select: y
 ---
 
 **MinGu Kang**, Sang Min Hyun, Tae Hee Han, **Jungrae Kim**\*, and Seokin Hong* <br>
-IEEE ACCESS, vol.10, pp.79730-79746, impact factor = 3.476, July. 2022
+IEEE ACCESS, impact factor = 3.476, July. 2022
 \* Corresponding Authors
