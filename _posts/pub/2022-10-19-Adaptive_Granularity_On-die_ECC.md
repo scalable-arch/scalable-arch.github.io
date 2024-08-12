@@ -8,4 +8,4 @@ abstract_img: "/assets/images/pub-abstract/ISOCC22_Adaptive Granularity On-die E
 ---
 
 **Daero Kim**, and **Jungrae Kim** <br>
-The 19th International SoC Conference (ISOCC 2022), Poster, Oct. 2022
+The 19th International SoC Conference (ISOCC 2022), Oct. 2022
