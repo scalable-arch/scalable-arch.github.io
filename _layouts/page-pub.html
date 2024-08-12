@@ -4,11 +4,26 @@ layout: default
 <!-- Top -->
 <div id="BackToTop" style="margin-top: -80px; padding-top: 80px"></div>
 
-<!-- Title -->
+<!-- Title1 -->
 {% assign page-title_modified = page.title %}
 {% include page-intro.html %} 
 <main id="main" class="page-content" aria-label="Content">
-  <!-- List -->
+  <!-- List1 -->
+  <div class="inner">
+    <article class="entry-wrap">
+      <div class="entry-content">{% include posts-pub-select.html %}</div>
+    </article>
+  </div>
+
+  <!-- Title2 -->
+  {% assign page-title_modified = page.title2 %}
+  <div class="inner">
+    <div class="intro-text">
+      <h1 id="page-title2" class="intro-title"> {{ page-title_modified }} </h1>
+    </div>
+  </div>
+  <br>
+  <!-- List2 -->
   <div class="inner">
     <article class="entry-wrap">
       <div class="entry-content">{% include posts-pub-full.html %}</div>

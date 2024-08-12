@@ -1,0 +1,20 @@
+<!-- All -->
+<div>
+  <!-- Just for a Line -->
+  <ul class="taxonomy-index">
+  </ul>
+  
+  <section
+    id="full"
+    class="entries-list"
+    style="display: block"
+  >
+    <!-- List papers -->
+    {% for post in site.posts %} {% if post.pub %} {% if post.select == 'y' %} {%
+      include entry-pub2.html %} {%
+    endif %} {% endif %} {% endfor %} 
+
+  </section>
+</div>
+<!-- All -->
+
