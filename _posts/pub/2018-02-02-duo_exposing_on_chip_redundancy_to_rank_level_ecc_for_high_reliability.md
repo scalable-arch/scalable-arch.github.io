@@ -3,6 +3,7 @@ title: "DUO: Exposing On-chip Redundancy to Rank-level ECC for High Reliability"
 category: Reliability
 tags: HPCA
 pub-type: C
+paper_url: "https://ieeexplore.ieee.org/abstract/document/8327047"
 select: y
 ---
 

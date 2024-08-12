@@ -3,6 +3,7 @@ title: "Native DRAM Cache: Re-architecting DRAM as a Large-Scale Cache for Data 
 category: Computer Architecture
 tags: ISCA
 pub-type: C
+paper_url: "https://ieeexplore.ieee.org/abstract/document/10609656"
 select: y
 ---
 

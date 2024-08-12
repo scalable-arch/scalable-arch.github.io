@@ -3,6 +3,7 @@ title: "Frugal ECC: Efficient and Versatile Memory Error Protection through Fine
 category: Reliability
 tags: SC
 pub-type: C
+paper_url: "https://dl.acm.org/doi/abs/10.1145/2807591.2807659"
 select: y
 ---
 

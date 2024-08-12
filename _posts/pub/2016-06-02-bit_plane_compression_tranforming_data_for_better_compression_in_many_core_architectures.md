@@ -3,6 +3,7 @@ title: "Bit-Plane Compression: Transforming Data for Better Compression in Many-
 category: Computer Architecture
 tags: ISCA
 pub-type: C
+paper_url: "https://dl.acm.org/doi/abs/10.1145/3007787.3001172"
 select: y
 ---
 

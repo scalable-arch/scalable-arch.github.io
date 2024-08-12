@@ -2,9 +2,9 @@
 title: "On-die Dynamic Remapping Cache: Strong and Independent Protection against Intermittent Faults"
 category: Reliability
 tags: IEEE-ACCESS
+pub-type: J
 paper_url: "https://ieeexplore.ieee.org/document/9834921"
 abstract_img: "/assets/images/pub-abstract/ACCESS22_On-die Dynamic Remapping Cache.png"
-pub-type: J
 ---
 
 **Sangjae Park** and **Jungrae Kim**<br>

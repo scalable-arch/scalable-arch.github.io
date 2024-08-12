@@ -3,6 +3,7 @@ title: "ERUCA: Efficient DRAM Resource Utilization and Resource Conflict Avoidan
 category: Computer Architecture
 tags: HPCA
 pub-type: C
+paper_url: "https://ieeexplore.ieee.org/abstract/document/8327046"
 select: y
 ---
 

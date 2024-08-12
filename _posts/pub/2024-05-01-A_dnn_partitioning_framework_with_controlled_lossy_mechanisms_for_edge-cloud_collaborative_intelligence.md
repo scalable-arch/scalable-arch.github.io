@@ -3,6 +3,7 @@ title: "A DNN Partitioning Framework with Controlled Lossy Mechanisms for Edge-C
 category: Artificial Intelligence
 tags: FGCS
 pub-type: J
+paper_url: "https://www.sciencedirect.com/science/article/pii/S0167739X24000062"
 select: y
 ---
 

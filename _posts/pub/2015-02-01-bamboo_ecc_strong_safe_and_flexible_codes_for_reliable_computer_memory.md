@@ -3,6 +3,7 @@ title: "Bamboo ECC: Strong, Safe, and Flexible Codes for Reliable Computer Memor
 category: Reliability
 tags: HPCA
 pub-type: C
+paper_url: "https://ieeexplore.ieee.org/abstract/document/7056025"
 select: y
 ---
 
