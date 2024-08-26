@@ -11,7 +11,7 @@ layout: page-posts
 
   {:.inner-list}
   - **Hoyong Jin** (M.S.) - Hyundai Motors (2024.07 ~)
-  - **Sangjae Park** (M.S.) - AnaPass (2022.08 ~) (Technical Research Personnel)
+  - **Sangjae Park** (M.S.) - AnaPass (2022.08 ~) (Technical Research Personnel, 전문연구요원)
   - **Daero Kim** (M.S.) - Samsung Electronics Foundry
   - **Taewon Park** (M.S.) - Samsung Electronics System LSI (2023.01 ~)
   - **Jihun Park** (M.S.) - SK Hynix (2023.01 ~)
