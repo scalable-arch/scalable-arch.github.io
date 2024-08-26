@@ -10,7 +10,7 @@ layout: page-posts
 ## 2023
 
   {:.inner-list}
-  - **Hoyong Jin** (M.S.) - Open Edge Technologies (2022.08 ~)
+  - **Hoyong Jin** (M.S.) - Hyundai Motors (2024.07 ~)
   - **Sangjae Park** (M.S.) - AnaPass (2022.08 ~) (Technical Research Personnel)
   - **Daero Kim** (M.S.) - Samsung Electronics Foundry
   - **Taewon Park** (M.S.) - Samsung Electronics System LSI (2023.01 ~)
