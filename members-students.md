@@ -37,11 +37,6 @@ layout: member
 
 ## M.S. Students
 
-- {:.member-name} **Hojung Namkoong / 남궁호정**
-  - E-mail : **hjhj8794** at **gmail.com**
-  - Dept. : Electrical and Computer Engineering
-  - <br>
-
 - {:.member-name} **Soyoung Park / 박소영**
   - E-mail : **soyong0504** at **g.skku.edu**
   - Dept. : Artificial Intelligence

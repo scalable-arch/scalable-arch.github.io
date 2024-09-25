@@ -25,6 +25,7 @@ layout: page-posts
   - **Jaeyoon Lee** (M.S.) - LG Electronics CTO (2024.02 ~)
   - **Dongwhee Kim** (M.S.) - Samsung Electronics Memory (2024.01 ~)
   - **Kiheon Kwon** (M.S.) - DB GlobalChip (2024.01 ~)
+  - **Hojung Namkoong** (M.S.)
 
 
 ---
