@@ -8,11 +8,15 @@ layout: default
   <div class="inner">
     <article class="entry-wrap">
       {% if page.image.thumbnail %}
-      <img src="{{page.image.thumbnail}}" />
-      {%endif%}
+      <div style="max-width: 400px; width: 90%; margin: 0 auto; text-align: center;">
+        <img src="{{page.image.thumbnail}}"/>
+        {{ content }}
+      </div>
+      {% else %}
       <div class="entry-content">{{ content }}</div>
-      {% if site.disqus.shortname %} 
-        {% include disqus_comments.html %} 
+      {% if site.disqus.shortname %} {% 
+      include disqus_comments.html %} {% 
+      endif %}
       {% endif %}
     </article>
   </div>
