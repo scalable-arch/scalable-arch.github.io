@@ -14,7 +14,7 @@ layout: page-posts
   1. Program Committee, [The 40th IEEE International Conference on Computer Design (ICCD)](https://iccd-conf.com/2022/), Oct/2022
   1. Organizing Committee, [The 19th International SoC Design Conference (ISOCC)](http://2022.isocc.org/), Oct/2022
   1. Organizing Committee, [The 9th IoT Technology & Business Forum](https://www.theieie.org/events/?part=02&c_id=797), Sep/2022
-  1. Program Committee, [The 49th ACM/IEEE Annual International Symposium on Computer Architecture (ISCA)](https://www.iscaconf.org/isca2022/), June/2022
+  1. External Program Committee, [The 49th ACM/IEEE Annual International Symposium on Computer Architecture (ISCA)](https://www.iscaconf.org/isca2022/), June/2022
   1. Program Committee, [The 29th Korean Conference on Semiconductors](http://kcs.cosar.or.kr/2022/welcome.jsp), Jan/2022     
   1. Program Committee, [The 39th IEEE International Conference on Computer Design (ICCD)](https://iccd-conf.com/2021/), Oct/2021 
   1. External Review Committee, [The 54th IEEE/ACM International Symposium on Microarchitecture (MICRO)](https://microarch.org/micro54/), Oct/2021
