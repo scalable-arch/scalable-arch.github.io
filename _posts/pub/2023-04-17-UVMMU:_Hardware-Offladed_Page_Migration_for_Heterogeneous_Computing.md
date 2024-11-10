@@ -4,7 +4,7 @@ category: Computer Architecture
 tags: DATE
 pub-type: C
 paper_url: "https://ieeexplore.ieee.org/document/10137307"
-paper_ppt: "/assets/materials/2023-DATE-UVMMU(slides).pptx"
+paper_slides: "/assets/materials/2023-DATE-UVMMU(slides).pptx"
 abstract_img: "/assets/images/pub-abstract/DATE23_UVMMU.png"
 select: y
 ---

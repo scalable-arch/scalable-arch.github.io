@@ -4,7 +4,7 @@ category: Reliability
 tags: SC
 pub-type: C
 paper_url: "https://dl.acm.org/doi/10.1145/3581784.3607081"
-paper_ppt: "/assets/materials/2023-SC-Unity_ECC(slides).pdf"
+paper_slides: "/assets/materials/2023-SC-Unity_ECC(slides).pdf"
 paper_poster: "/assets/materials/2023-SC-Unity_ECC(poster).pdf"
 paper_git: "https://github.com/xyz123479/ECC-exercise/tree/main/02_Application/02_DDR5_ODECC_RLECC"
 abstract_img: "/assets/images/pub-abstract/SC23_Unity ECC.png"

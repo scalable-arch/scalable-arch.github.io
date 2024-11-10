@@ -3,7 +3,7 @@ title: "CacheCraft: Enhancing GPU Performance under Memory Protection through Re
 category: Computer Architecture
 tags: MICRO
 pub-type: C
-paper_ppt: "/assets/materials/2024-MICRO-CacheCraft(slides).pdf"
+paper_slides: "/assets/materials/2024-MICRO-CacheCraft(slides).pdf"
 select: y
 ---
 
