@@ -8,5 +8,6 @@ select: y
 ---
 
 **Jungrae Kim**, Michael Sullivan, Seong-Lyong Gong, Mattan Erez<br>
-The International Conference on High Performance Computing, Networking, Storage and Analysis (**SC**), acceptance rate: 22%, Nov. 2015.
+The International Conference on High Performance Computing, Networking, Storage and Analysis (**SC**), acceptance rate: 22%, Nov. 2015. <br>
+Link: [[```Paper```](https://dl.acm.org/doi/abs/10.1145/2807591.2807659)]
 

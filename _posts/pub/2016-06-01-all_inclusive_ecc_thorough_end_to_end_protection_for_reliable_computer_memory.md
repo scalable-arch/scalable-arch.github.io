@@ -8,5 +8,6 @@ select: y
 ---
 
 **Jungrae Kim**, Michael Sullivan, Sangkug Lym, Mattan Erez<br>
-The ACM/IEEE International Symposium on Computer Architecture (**ISCA**), acceptance rate = 19%, June 2016.
+The ACM/IEEE International Symposium on Computer Architecture (**ISCA**), acceptance rate = 19%, June 2016. <br>
+Link: [[```Paper```](https://dl.acm.org/doi/abs/10.1145/3007787.3001203)]
 

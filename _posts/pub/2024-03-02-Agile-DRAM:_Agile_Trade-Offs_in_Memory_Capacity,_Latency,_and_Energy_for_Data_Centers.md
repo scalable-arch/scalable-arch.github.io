@@ -9,5 +9,5 @@ select: y
 ---
 
 **Jaeyoon Lee**, **Wonyeong Jung**, **Dongwhee Kim**, **Daero Kim**, **Junseung Lee**, and **Jungrae Kim**<br>
-The IEEE International Symposium on High Performance Computer Architecture (**HPCA**), acceptance rate = 18%, March. 2024
-
+The IEEE International Symposium on High Performance Computer Architecture (**HPCA**), acceptance rate = 18%, March. 2024 <br>
+Link: [[```Paper```](https://ieeexplore.ieee.org/abstract/document/10476434)]

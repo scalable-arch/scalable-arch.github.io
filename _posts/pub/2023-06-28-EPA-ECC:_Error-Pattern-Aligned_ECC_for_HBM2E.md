@@ -8,4 +8,5 @@ abstract_img: "/assets/images/pub-abstract/ITC-CSCC23_EPA ECC.png"
 ---
 
 **Kiheon Kwon**, **Dongwhee Kim**, **Soyoung Park**, and **Jungrae Kim** <br>
-The International Technical Conference on Circuits/Systems, Computers and Communications (ITC-CSCC), June. 2023
+The International Technical Conference on Circuits/Systems, Computers and Communications (ITC-CSCC), June. 2023 <br>
+Link: [[```Paper```](https://ieeexplore.ieee.org/document/10212882)]

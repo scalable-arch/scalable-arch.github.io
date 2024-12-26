@@ -11,4 +11,5 @@ select: y
 
 **Yujin Lim**, **Dongwhee Kim** and **Jungrae Kim**<br>
 The Design, Automation and Test in Europe Conference (**DATE**), **Best Paper Award Winner**, acceptance rate = 25%, March. 2024 <br>
-Link: [[```Slides(ppt)```](https://github.com/scalable-arch/scalable-arch.github.io/raw/main/assets/materials/2024-DATE-SELCC(slides).pptx)]
+Link: [[```Paper```](https://ieeexplore.ieee.org/abstract/document/10546752)]
+    [[```Slides(ppt)```](https://github.com/scalable-arch/scalable-arch.github.io/raw/main/assets/materials/2024-DATE-SELCC(slides).pptx)]

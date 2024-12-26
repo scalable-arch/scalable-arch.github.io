@@ -9,4 +9,5 @@ select: y
 ---
 
 **Hoyong Jin, Donghun Jeong, Taewon Park**, Jong Hwan Ko, and **Jungrae Kim**<br>
-IEEE Computer Architecture Letters, impact factor = 2.118, May. 2022
+IEEE Computer Architecture Letters, impact factor = 2.118, May. 2022 <br>
+Link: [[```Paper```](https://ieeexplore.ieee.org/document/9780608)]

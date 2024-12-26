@@ -8,4 +8,5 @@ select: y
 ---
 
 **Hyochan Kim**, **Ji Sub Choi**, **Jungrae Kim**, **Jong Hwan Ko** <br>
-Future Generation Computer Systems, Journal, May 2024, impact factor=7.5, JCR rank 91.4 pth
+Future Generation Computer Systems, Journal, May 2024, impact factor=7.5, JCR rank 91.4 pth <br>
+Link: [[```Paper```](https://www.sciencedirect.com/science/article/pii/S0167739X24000062)]
