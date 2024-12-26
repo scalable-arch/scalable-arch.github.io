@@ -3,10 +3,12 @@ title: "CacheCraft: Enhancing GPU Performance under Memory Protection through Re
 category: Computer Architecture
 tags: MICRO
 pub-type: C
+paper_url: "https://ieeexplore.ieee.org/abstract/document/10764566"
 paper_slides: "/assets/materials/2024-MICRO-CacheCraft(slides).pptx"
 select: y
 ---
 
 **Soyoung Park**, **Hojung Namkoong**, **Boyeol Choi**, **Michael Sullivan**, and **Jungrae Kim** <br>
 The IEEE/ACM International Symposium on Microarchitecture (MICRO), acceptance rate = 22.7%, Nov. 2024 <br>
-Link: [[```Slides(ppt)```](https://github.com/scalable-arch/scalable-arch.github.io/raw/main/assets/materials/2024-MICRO-CacheCraft(slides).pptx)]
+Link: [[```Paper```](https://ieeexplore.ieee.org/abstract/document/10764566)]
+    [[```Slides(ppt)```](https://github.com/scalable-arch/scalable-arch.github.io/raw/main/assets/materials/2024-MICRO-CacheCraft(slides).pptx)]
