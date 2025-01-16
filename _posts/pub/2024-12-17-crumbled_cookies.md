@@ -7,4 +7,4 @@ select: n
 ---
 
 Nivedita Singh, Yejin Do, Yongsang Yu, Imane Fouad, **Jungrae Kim**, Hyoungshick Kim <br>
-ACM Transactions on the Web, Dec. 2024 <br>
+ACM Transactions on the Web, Jan. 2025 <br>
