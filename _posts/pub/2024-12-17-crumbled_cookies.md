@@ -3,6 +3,7 @@ title: "Crumbled Cookies: Exploring E-commerce Websites? Cookie Policies with Da
 category: Security
 tags: Transactions on Web
 pub-type: J
+paper_url: "https://dl.acm.org/doi/10.1145/3708515"
 select: n
 ---
 
