@@ -3,6 +3,7 @@ title: "Auto Digit Selection for Most Significant Digit First Multiplication"
 category: Computer Architecture
 tags: IEEE Embedded Systems Letters
 pub-type: J
+paper_url: "https://ieeexplore.ieee.org/abstract/document/10764566"
 select: n
 ---
 
