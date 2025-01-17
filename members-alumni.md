@@ -1,4 +1,4 @@
----
+![image](https://github.com/user-attachments/assets/5fd09cf8-7ebe-44e1-af5c-85a3390bc23c)---
 title: Alumni
 permalink: /members/alumni/
 layout: page-posts
@@ -10,22 +10,30 @@ layout: page-posts
 ## 2023
 
   {:.inner-list}
-  - **Hoyong Jin** (M.S.) - Hyundai Motors (2024.07 ~)
-  - **Sangjae Park** (M.S.) - AnaPass (2022.08 ~) (Technical Research Personnel, 전문연구요원)
+  - **Hoyong Jin** (M.S.) - Hyundai Motors
+  - **Sangjae Park** (M.S.) - AnaPass (Technical Research Personnel, 전문연구요원)
   - **Daero Kim** (M.S.) - Samsung Electronics Foundry
-  - **Taewon Park** (M.S.) - Samsung Electronics System LSI (2023.01 ~)
-  - **Jihun Park** (M.S.) - SK Hynix (2023.01 ~)
-  - **Yuseok Song** (M.S.) - Samsung Electronics Memory (2023.01 ~)
-  - **Donghun Jeong** (M.S.) - SK Hynix (2023.01 ~)
+  - **Taewon Park** (M.S.) - Samsung Electronics System LSI
+  - **Jihun Park** (M.S.) - SK Hynix
+  - **Yuseok Song** (M.S.) - Samsung Electronics Memory
+  - **Donghun Jeong** (M.S.) - SK Hynix
 
 ## 2024
 
   {:.inner-list}
   - **Wonyeong Jung** - (M.S.) - Samsung Electronics Memory
-  - **Jaeyoon Lee** (M.S.) - LG Electronics CTO (2024.02 ~)
-  - **Dongwhee Kim** (M.S.) - Samsung Electronics Memory (2024.01 ~)
-  - **Kiheon Kwon** (M.S.) - DB GlobalChip (2024.01 ~)
-  - **Hojung Namkoong** (M.S.)
+  - **Jaeyoon Lee** (M.S.) - LG Electronics CTO
+  - **Dongwhee Kim** (M.S.) - Samsung Electronics Memory
+  - **Kiheon Kwon** (M.S.) - DB GlobalChip
+  - **Hojung Namkoong** (M.S.) - LIG Nex1
+
+## 2025
+  {:.inner-list}
+  - **Yoonyul Yoo** - (M.S.) - Samsung Electronics Memory
+  - **Soyoung Park** - (M.S.) - SK Hynix
+  - **Junseong Lee** - (M.S.) - Furiosa AI
+  - **Yujin Lim** - (M.S.)
+
 
 
 ---
