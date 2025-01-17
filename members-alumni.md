@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/5fd09cf8-7ebe-44e1-af5c-85a3390bc23c)---
 title: Alumni
 permalink: /members/alumni/
 layout: page-posts
