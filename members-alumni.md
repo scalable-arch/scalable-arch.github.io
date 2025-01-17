@@ -28,6 +28,7 @@ layout: page-posts
   - **Hojung Namkoong** (M.S.) - LIG Nex1
 
 ## 2025
+
   {:.inner-list}
   - **Yoonyul Yoo** - (M.S.) - Samsung Electronics Memory
   - **Soyoung Park** - (M.S.) - SK Hynix
