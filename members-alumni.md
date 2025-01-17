@@ -1,3 +1,4 @@
+---
 title: Alumni
 permalink: /members/alumni/
 layout: page-posts
