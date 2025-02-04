@@ -33,7 +33,7 @@ layout: page-posts
   - **Yoonyul Yoo** - (M.S.) - Samsung Electronics Memory
   - **Soyoung Park** - (M.S.) - SK Hynix
   - **Junseong Lee** - (M.S.) - Furiosa AI
-  - **Yujin Lim** - (M.S.)
+  - **Yujin Lim** - (M.S.) - OpenEdges Technology 
 
 
 
