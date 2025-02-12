@@ -12,3 +12,5 @@ select: y
 The International Symposium on Computer Architecture (**ISCA**), acceptance rate = 19.6%, July, 2024 <br>
 Link: [[```Paper```](https://ieeexplore.ieee.org/abstract/document/10609656)]
     [[```Slides(ppt)```](https://github.com/scalable-arch/scalable-arch.github.io/raw/main/assets/materials/2024-ISCA-NDC(slides).pptx)]
+
+**IEEE Micro Top Picks** in Computer Architecture (Honorable Mention)
