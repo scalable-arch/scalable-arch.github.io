@@ -84,9 +84,10 @@ layout: page-posts
 
   {:.inner-list}
 
+  - Top Picks in Computer Architecture (Honorable Mention), IEEE Micro 2025
   - Best Paper Award, DATE 2024
   - Best Student Paper Finalist, SC 2023
-  - Best Paper Finalist, HPCA 2015 (one of the top conferences in computer architecture)
+  - Best Paper Finalist, HPCA 2015
   - Best Paper Award, SELSE 2017
   - Full Financial Sponsorship (해외학술연수) from Samsung Electronics, 2011-2016
   - Core Personnel (핵심인재) from Samsung Electronics, 2007-2011
