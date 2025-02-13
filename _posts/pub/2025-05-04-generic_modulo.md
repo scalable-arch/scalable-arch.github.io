@@ -8,4 +8,4 @@ select: n
 ---
 
 Saeid Gorgin, Amirhossein Sadr, Dara Rahmati and **Jungrae Kim** <br>
-IEEE International Symposium on Computer Arithmetic (ARITH), May. 2025
+The IEEE International Symposium on Computer Arithmetic (ARITH), May. 2025
