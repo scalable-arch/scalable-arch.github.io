@@ -8,4 +8,4 @@ select: y
 ---
 
 Saeid Gorgin, Ghassem Jaberipur, Jeong-A Lee, Seokjoo Shin, **Jungrae Kim** <br>
-IEEE Embedded Systems Letters, Feb. 2025 <br>
+IEEE Embedded Systems Letters, March. 2025 <br>
