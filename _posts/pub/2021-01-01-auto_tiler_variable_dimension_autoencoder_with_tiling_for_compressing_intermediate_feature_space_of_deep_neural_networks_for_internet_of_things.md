@@ -1,7 +1,7 @@
 ---
 title: "Auto-Tiler: Variable-Dimension Autoencoder with Tiling for Compressing Intermediate Feature Space of Deep Neural Networks for Internet of Things"
 category: Artificial Intelligence
-tags: MDPI-Sensors
+tags: Sensors
 pub-type: J
 ---
 
