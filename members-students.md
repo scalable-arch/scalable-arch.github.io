@@ -34,28 +34,13 @@ layout: member
   - E-mail : **990520kog2** at **gmail.com** 
   - Dept. : Semiconductor Convergence Engineering
 
+- {:.member-img}![alt member](/assets/images/member.png)
+  - {:.member-name} **Taeyeon Song / 송태연**
+  - E-mail : **sty0316** at **g.skku.edu** 
+  - Dept. : Electrical and Computer Engineering
+
 
 ## M.S. Students
-
-- {:.member-name} **Soyoung Park / 박소영**
-  - E-mail : **soyong0504** at **g.skku.edu**
-  - Dept. : Artificial Intelligence
-  - <br>
-
-- {:.member-name} **Yujin Lim / 임유진**
-  - E-mail : **dbwls1229** at **kakao.com**
-  - Dept. : Electrical and Computer Engineering
-  - <br>
-
-- {:.member-name} **Junseung Lee / 이준승**
-  - E-mail : **junseung0728** at **naver.com**
-  - Dept. : Electrical and Computer Engineering
-  - <br>
-
-- {:.member-name} **Yoonyul Yoo / 유윤열**
-  - E-mail : **soodoju** at **gmail.com**
-  - Dept. : Electrical and Computer Engineering
-  - <br>
 
 - {:.member-name} **Giyong Jung / 정기용**
   - E-mail : **jyk2498** at **gmail.com**
@@ -65,16 +50,6 @@ layout: member
 - {:.member-name} **Yoojin Kim / 김유진**
   - E-mail : **g24067yjs** at **g.skku.edu**
   - Dept. : Electrical and Computer Engineering
-  - <br>
-
-- {:.member-name} **Yonghyun Yang / 양용현**
-  - E-mail : **peaceyh1** at **gmail.com** 
-  - Dept. : Semiconductor and Display Engineering
-  - <br>
-
-- {:.member-name} **Boyul Choi / 최보열**
-  - E-mail : **gju06051** at **gmail.com**
-  - Dept. : Semiconductor Convergence Engineering
   - <br>
 
 - {:.member-name} **Sanghyun Park / 박상현**
@@ -87,25 +62,40 @@ layout: member
   - Dept. : Semiconductor Convergence Engineering
   - <br>
 
+- {:.member-name} **Yonghyun Yang / 양용현**
+  - E-mail : **peaceyh1** at **gmail.com** 
+  - Dept. : Semiconductor and Display Engineering
+  - <br>
+
+- {:.member-name} **Boyul Choi / 최보열**
+  - E-mail : **gju06051** at **gmail.com**
+  - Dept. : Semiconductor Convergence Engineering
+  - <br>
+
 - {:.member-name} **Sanyhyun Hong / 홍상현**
   - E-mail : **hsangh1596** at **gmail.com** 
   - Dept. : Semiconductor Convergence Engineering
   - <br>
 
-
-## Integrated B.S. - M.S Students
-
 - {:.member-name} **Seunghyun Kim 김승현**
-  - E-mail : kusukusukusun at gmail.com
-  - Dept. : Semiconductor Systems Engineering
+  - E-mail : **kusukusukusun** at **gmail.com**
+  - Dept. : Artificial Intelligence
   - <br>
 
 - {:.member-name} **Junhwan Kim 김준환**
-  - E-mail : 99june18 at naver.com
-  - Dept. : Semiconductor Systems Engineering
+  - E-mail : **99june18** at **naver.com**
+  - Dept. : Electrical and Computer Engineering
   - <br>
 
 - {:.member-name} **Jaehyeck Choi 최재혁**
-  - E-mail : hyungyu66 at naver.com
-  - Dept. : Semiconductor Systems Engineering
+  - E-mail : **hyungyu66** at **naver.com**
+  - Dept. : Semiconductor Display Engineering
+  - <br>
+
+
+## Integrated B.S. - M.S Students
+
+- {:.member-name} **Seomgim Jeong 정섬김**
+  - E-mail : **wjdtjarla4** at **g.skku.edu**
+  - Dept. : Electronic and Electrical Engineering
   - <br>
