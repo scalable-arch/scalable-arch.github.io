@@ -1,6 +1,6 @@
 ---
 title: "Generic Modulo-(2^n±δ) Addition Algorithm via Two-Valued Digit Encoding"
-category: Computer Architecture
+category: Computer Arithmetic
 tags: ARITH
 pub-type: C
 paper_url: 
