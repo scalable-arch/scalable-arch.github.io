@@ -85,6 +85,7 @@ layout: page-posts
   {:.inner-list}
 
   - Top Picks in Computer Architecture (Honorable Mention), IEEE Micro 2025
+  - Research Excellence Award, College of ICE, SKKU 2025
   - Best Paper Award, DATE 2024
   - Best Student Paper Finalist, SC 2023
   - Best Paper Finalist, HPCA 2015
