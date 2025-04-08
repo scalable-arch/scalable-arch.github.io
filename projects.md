@@ -28,11 +28,11 @@ layout: page
       <ol>
         <li> <span style="background-color:#00838a;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#R&D</span> 슈퍼컴향 프로세서 및 메모리의 신뢰성 향상 솔루션 설계 [삼성전자] [2023.12.26 ~ 2024.12.25] </li>
         <li> <span style="background-color:#00838a;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#R&D</span> 고신뢰성 SoC를 위한 DRAM 오류 정정 기법 개발 [삼성전자] [2023.03.01 ~ 2024.02.28] </li>
-        <li> <span style="background-color:#00838a;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#R&D</span> 인공지능 반도체 기반 Multi Device 무선 충전 SoC 개발 [정보통신기획평가원] [2021.04.01 ~ 2023.12.31] </li>
-        <li> <span style="background-color:#00838a;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#R&D</span> 분산 인공지능 시스템의 네트워크 개선 연구 [한국연구재단] [2020.03.01 ~ 2023.02.28] </li>
         <li> <span style="background-color:#00838a;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#R&D</span> DRAM효율성 개선을 위한 동적 DRAM 주소 결정 기법 [삼성전자] [2022.03.01 ~ 2023.02.28] </li>
+        <li> <span style="background-color:#00838a;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#R&D</span> 인공지능 반도체 기반 Multi Device 무선 충전 SoC 개발 [정보통신기획평가원] [2021.04.01 ~ 2023.12.31] </li>
         <li> <span style="background-color:#00838a;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#R&D</span> 인공지능 기반 멀티 포멧 메모리 압축 연구 [삼성전자] [2021.03.01 ~ 2022.02.28] </li>
         <li> <span style="background-color:#00838a;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#R&D</span> AP에서 메모리 병목 현상을 막기 위한 데이터 압축 연구 [삼성전자] [2020.03.01 ~ 2021.02.28] </li>
+        <li> <span style="background-color:#00838a;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#R&D</span> 분산 인공지능 시스템의 네트워크 개선 연구 [한국연구재단] [2020.03.01 ~ 2023.02.28] </li>
         <li> <span style="background-color:#086fb8;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#HRD</span> 지능형반도체 전문인력양성 [한국산업기술평가관리원] [2016.03.01 ~ 2021.02.28] </li>
       </ol>
     </td>
