@@ -13,3 +13,4 @@ select: y
 The Design, Automation and Test in Europe Conference (**DATE**), **Best Paper Award Winner**, acceptance rate = 25%, March. 2024 <br>
 Link: [[```Paper```](https://ieeexplore.ieee.org/abstract/document/10546752)]
     [[```Slides(ppt)```](https://github.com/scalable-arch/scalable-arch.github.io/raw/main/assets/materials/2024-DATE-SELCC(slides).pptx)]
+    [[```Github```](https://github.com/scalable-arch/DATE_24-SELCC)]
