@@ -5,5 +5,5 @@ tags: Patent
 pub-type: P
 ---
 
-Sang-hyo Kim, Dong Geun Lee, **Jungrae Kim**, and Seokin Hong, Dong Hyun Kong<br>
+Sang-hyo Kim, Dong Geun Lee, **Jungrae Kim**, Seokin Hong, and Dong Hyun Kong<br>
 KR/US(#12,267,087) / 2025.
