@@ -4,7 +4,7 @@ category: Computer Architecture
 tags: KIISE
 pub-type: J
 paper_url: "https://www.dbpia.co.kr/journal/publicationDetail?publicationId=PLCT00000749"
-select: y
+select: n
 ---
 
 Yesin Ryu, **Jungrae Kim** <br>
