@@ -9,3 +9,5 @@ select: n
 
 Yesin Ryu, **Jungrae Kim** <br>
 Communications of the Korean Institute of Information Scientists and Engineers, Apr. 2025 <br>
+
+Link: [[```Paper```](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12134391)]
