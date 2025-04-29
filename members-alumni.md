@@ -7,6 +7,23 @@ layout: page-posts
 ---
 # Graduate
 
+## 2025
+
+  {:.inner-list}
+  - **Yoonyul Yoo** - (M.S.) - Samsung Electronics Memory
+  - **Soyoung Park** - (M.S.) - SK Hynix
+  - **Junseong Lee** - (M.S.) - Furiosa AI
+  - **Yujin Lim** - (M.S.) - OpenEdges Technology 
+
+## 2024
+
+  {:.inner-list}
+  - **Wonyeong Jung** - (M.S.) - Samsung Electronics Memory
+  - **Jaeyoon Lee** (M.S.) - LG Electronics CTO
+  - **Dongwhee Kim** (M.S.) - Samsung Electronics Memory
+  - **Kiheon Kwon** (M.S.) - DB GlobalChip
+  - **Hojung Namkoong** (M.S.) - LIG Nex1
+  - 
 ## 2023
 
   {:.inner-list}
@@ -17,24 +34,6 @@ layout: page-posts
   - **Jihun Park** (M.S.) - SK Hynix
   - **Yuseok Song** (M.S.) - Samsung Electronics Memory
   - **Donghun Jeong** (M.S.) - SK Hynix
-
-## 2024
-
-  {:.inner-list}
-  - **Wonyeong Jung** - (M.S.) - Samsung Electronics Memory
-  - **Jaeyoon Lee** (M.S.) - LG Electronics CTO
-  - **Dongwhee Kim** (M.S.) - Samsung Electronics Memory
-  - **Kiheon Kwon** (M.S.) - DB GlobalChip
-  - **Hojung Namkoong** (M.S.) - LIG Nex1
-
-## 2025
-
-  {:.inner-list}
-  - **Yoonyul Yoo** - (M.S.) - Samsung Electronics Memory
-  - **Soyoung Park** - (M.S.) - SK Hynix
-  - **Junseong Lee** - (M.S.) - Furiosa AI
-  - **Yujin Lim** - (M.S.) - OpenEdges Technology 
-
 
 
 ---
