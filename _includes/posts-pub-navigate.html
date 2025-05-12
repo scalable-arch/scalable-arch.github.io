@@ -24,6 +24,7 @@
         {% assign typeT_count = typeT_count | plus: 1 %}
         {% assign post.pid = 'T' | append: typeT_count %}
       {% endif %}
+      {{ post.pid }} <br>
     {% endif %}
   {% endfor %}
   
