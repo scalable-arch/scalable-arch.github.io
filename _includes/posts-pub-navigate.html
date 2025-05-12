@@ -21,7 +21,7 @@
       {% endif %}
     {% endif %}
   {% endfor %}
-  
+
   <!-- Publication Navigation -->
   <nav class="timeline__nav" style="position:fixed; top: 100px; z-index: 99; transition: top 0.3s ease-out;">
     <ul style="list-style: none; list-style-position: inside; margin: 0 0;">
@@ -30,21 +30,20 @@
       {% assign pub_years = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
       {% for year in pub_years %}
       <li><span><a href="#{{ year.name }}">{{ year.name }}</a></span></li>
-      {% endfor %} 
+      {% endfor %}
     </ul>
   </nav>
 
   <section class="timeline__section">
     <div style="margin 0 auto; padding 150px 16.66% 50px; width: 100%;">
-      
       <!-- Select Publications -->
       <h2 class="milestone" id="select">Select</h2>
       <hr style="margin: 0; height: 2px; line-height: 2px; border-bottom: 2px;">
       {% assign categories = "Reliability DRAM GPU" | split: ' ' %}
       {% for category in categories %}
       <h3 class="pub_category">{{ category }}</h3>
-      <ul style="list-style:none;">
-          
+      <ul style="list-style: none;">
+    
       {% assign typeC_count2 = typeC_count %}
       {% assign typeJ_count2 = typeJ_count %}
       {% assign typeP_count2 = typeP_count %}
@@ -78,10 +77,44 @@
       </ul>
       {% endfor %}
       <hr style="margin: 0; height: 2px; line-height: 2px; border-bottom: 2px;">
-      
+
       <!-- Year-by-year Publications -->
       {% for year in pub_years %}
       <h2 class="milestone" id="{{ year.name }}">{{ year.name }}</h2>
+        {% assign typeC_count2 = typeC_count %}
+        {% assign typeJ_count2 = typeJ_count %}
+        {% assign typeP_count2 = typeP_count %}
+        {% assign typeSW_count2 = typeSW_count %}
+        {% assign typeT_count2 = typeT_count %}
+        {% for post in site.posts %}
+          {% if post.pub %}
+            {% if post.pub-type == 'C' %}
+              {% assign pid = 'C' | append: typeC_count2 %}
+              {% assign typeC_count2 = typeC_count2 | minus: 1 %}
+            {% elsif post.pub-type == 'J' %}
+              {% assign pid = 'J' | append: typeJ_count2 %}
+              {% assign typeJ_count2 = typeJ_count2 | minus: 1 %}
+            {% elsif post.pub-type == 'P' %}
+              {% assign pid = 'P' | append: typeP_count2 %}
+              {% assign typeP_count2 = typeP_count2 | minus: 1 %}
+            {% elsif post.pub-type == 'SW' %}
+              {% assign pid = 'SW' | append: typeSW_count2 %}
+              {% assign typeSW_count2 = typeSW_count2 | minus: 1 %}
+            {% elsif post.pub-type == 'T' %}
+              {% assign pid = 'T' | append: typeT_count2 %}
+              {% assign typeT_count2 = typeT_count2 | minus: 1 %}
+            {% endif %}
+            {% if 'post.date | date: "%Y"' == year.name %}
+            <h3 class="pub_title" id="pid">{{ post.title }}</h3>
+            <h4 class="pub_author">{{ post.author }}</h4>
+            <h3 class="pub_venue">{{ post.venue }} </h3>
+            <h5 class="pub_venue2">{{ post.venue2 }} </h5>
+            <hr>
+            {% endif %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
       {% endfor %} 
     </div>
   </section>
