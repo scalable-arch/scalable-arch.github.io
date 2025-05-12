@@ -41,7 +41,7 @@
     {% assign categories = "Reliability Security DRAM GPU".split(' ') %}
     {{ categories }}
     {% for cat in categories %}
-      <h3 class="pub_category">{{ cat }} </h3>
+      <h3 class="pub_category">{{ cat }}</h3>
       <ul style="list-style:none;">
       {% for post in site.posts %}
         {{ post.select.casecmp?("y") }}
