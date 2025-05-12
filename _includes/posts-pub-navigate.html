@@ -43,11 +43,12 @@
       <h3 class="pub_category">{{ category }}</h3>
       <ul style="list-style:none;">
       {% for post in site.posts %}
-        {{ post.pub }} AA {{ post.select }} {{ (post.select == 'y') }}
-        {{ post.select.casecmp?("y") }} BB {{ post.category }} {{ post.category == "Reliability" }}
-        {{ post.category.casecmp?(category) }}
-        {% if post.pub && (post.select == 'y') && (post.category == category) %}
-          <li> {{ post.title }}</li>
+        {% if post.pub %}
+          {% if post.select == "y" %}
+            {% if post.category == category %}
+        <li> {{ post.title }}</li>
+            {% endif %}
+          {% endif %}
         {% endif %}
       {% endfor %}
       </ul>
