@@ -1,5 +1,4 @@
 ---
-year: 2025
 title: "RowHammer 공격과 방어: 기술적 진화와 도전 과제"
 author: Yesin Ryu and Jungrae Kim
 pub-type: J
