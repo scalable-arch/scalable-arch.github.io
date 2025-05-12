@@ -29,7 +29,7 @@
       <!-- List year -->
       {% assign pub_years = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
       {% for year in pub_years %}
-        <li><span>{{ year.name }}</span></li>
+      <li><span>{{ year.name }}</span></li>
       {% endfor %} 
     </ul>
   </nav>
@@ -38,7 +38,8 @@
     <!-- Select Publications -->
     <h2 class="milestone">Select</h2>
     <hr style="margin: 0; height: 2px; line-height: 2px; border-bottom: 2px;">
-    {% for cat in ["Reliability", "Security", "DRAM", "GPU"] %}
+    {% assign categories = Array["Reliability", "Security", "DRAM", "GPU"] %}
+    {% for cat in categories %}
       <h3 class="pub_category">{{ cat }} </h3>
       <ul style="list-style:none;">
       {% for post in site.posts %}
