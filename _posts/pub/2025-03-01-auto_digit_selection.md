@@ -1,5 +1,4 @@
 ---
-year: 2025
 title: "Auto Digit Selection for Most Significant Digit First Multiplication"
 author: Saeid Gorgin, Ghassem Jaberipur, Jeong-A Lee, Seokjoo Shin, and Jungrae Kim
 pub-type: J
@@ -15,4 +14,4 @@ url_github:
 ---
 
 Saeid Gorgin, Ghassem Jaberipur, Jeong-A Lee, Seokjoo Shin, **Jungrae Kim** <br>
-The IEEE Embedded Systems Letters, March. 2025 <br>
+IEEE Embedded Systems Letters, March. 2025
