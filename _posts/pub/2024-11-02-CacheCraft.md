@@ -3,7 +3,7 @@ title: "CacheCraft: Enhancing GPU Performance under Memory Protection through Re
 author: Soyoung Park, Hojung Namkoong, Boyeol Choi, Michael Sullivan, and Jungrae Kim
 pub-type: C
 venue: MICRO
-venue2: (IEEE/ACM International Symposium on Microarchitecture)
+venue2: (IEEE/ACM Intl. Symp. on Microarchitecture)
 venue3: acceptance rate = 22.7%, Nov. 2024
 tier: T
 category: GPU
