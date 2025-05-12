@@ -35,25 +35,27 @@
   </nav>
 
   <section class="timeline__section">
-    <!-- Select Publications -->
-    <h2 class="milestone">Select</h2>
-    <hr style="margin: 0; height: 2px; line-height: 2px; border-bottom: 2px;">
-    {% assign categories = "Reliability DRAM GPU" | split: ' ' %}
-    {% for category in categories %}
-      <h3 class="pub_category">{{ category }}</h3>
-      <ul style="list-style:none;">
-      {% for post in site.posts %}
-        {% if post.pub %}
-          {% if post.select == "y" %}
-            {% if post.category == category %}
-        <li> {{ post.title }}</li>
+    <div style="margin 0 auto; padding 0 16.66% 50px; width: 100%;">
+      <!-- Select Publications -->
+      <h2 class="milestone">Select</h2>
+      <hr style="margin: 0; height: 2px; line-height: 2px; border-bottom: 2px;">
+      {% assign categories = "Reliability DRAM GPU" | split: ' ' %}
+      {% for category in categories %}
+        <h3 class="pub_category">{{ category }}</h3>
+        <ul style="list-style:none;">
+        {% for post in site.posts %}
+          {% if post.pub %}
+            {% if post.select == "y" %}
+              {% if post.category == category %}
+          <li> {{ post.title }}</li>
+              {% endif %}
             {% endif %}
           {% endif %}
-        {% endif %}
+        {% endfor %}
+        </ul>
       {% endfor %}
-      </ul>
-    {% endfor %}
-    <hr style="margin: 0; height: 2px; line-height: 2px; border-bottom: 2px;">
+      <hr style="margin: 0; height: 2px; line-height: 2px; border-bottom: 2px;">
+    </div>
   </section>
     
 </article>
