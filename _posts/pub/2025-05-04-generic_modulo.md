@@ -14,4 +14,4 @@ url_github:
 ---
 
 Saeid Gorgin, Amirhossein Sadr, Dara Rahmati and **Jungrae Kim** <br>
-The IEEE International Symposium on Computer Arithmetic (ARITH), May 2025
+IEEE International Symposium on Computer Arithmetic (ARITH), May 2025
