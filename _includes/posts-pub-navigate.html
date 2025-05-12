@@ -38,7 +38,8 @@
     <!-- Select Publications -->
     <h2 class="milestone">Select</h2>
     <hr style="margin: 0; height: 2px; line-height: 2px; border-bottom: 2px;">
-    {% for category in ["Reliability", "DRAM", "GPU"] %}
+    {% assign categories = "Reliability DRAM GPU" | split: ' ' %}
+    {% for category in categories %}
       <h3 class="pub_category">{{ category }}</h3>
       <ul style="list-style:none;">
       {% for post in site.posts %}
