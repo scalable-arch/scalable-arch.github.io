@@ -38,13 +38,13 @@
     <!-- Select Publications -->
     <h2 class="milestone">Select</h2>
     <hr style="margin: 0; height: 2px; line-height: 2px; border-bottom: 2px;">
-    {% for cat in ["Reliability", "DRAM", "GPU"] %}
-      <h3 class="pub_category">{{ cat }}</h3>
+    {% for category in ["Reliability", "DRAM", "GPU"] %}
+      <h3 class="pub_category">{{ category }}</h3>
       <ul style="list-style:none;">
       {% for post in site.posts %}
         {{ post.select.casecmp?("y") }}
-        {{ post.category.casecmp?(cat) }}
-        {% if post.pub && post.select.casecmp?("y") && post.category.casecmp?(cat) %}
+        {{ post.category.casecmp?(category) }}
+        {% if post.pub && post.select.casecmp?("y") && post.category.casecmp?(category) %}
           <li> {{ post.title }}</li>
         {% endif %}
       {% endfor %}
