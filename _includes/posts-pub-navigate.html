@@ -6,7 +6,7 @@
   {% assign typeP_count = 0 %}
   {% assign typeSW_count = 0 %}
   {% assign typeT_count = 0 %}
-  {% for post in site.posts | sort: "date", "last" %}
+  {% for post in site.posts | sort: 'post.date', 'last' %}
     {% if post.pub %}
       {% if post.pub-type == 'C' %}
         {% assign typeC_count = typeC_count | plus: 1 %}
