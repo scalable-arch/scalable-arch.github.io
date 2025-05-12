@@ -1,11 +1,17 @@
 ---
+year: 2025
 title: "CacheCraft: Enhancing GPU Performance under Memory Protection through Reconstructed Caching"
-category: Computer Architecture
-tags: MICRO
+author: Soyoung Park, Hojung Namkoong, Boyeol Choi, Michael Sullivan, and Jungrae Kim
 pub-type: C
-paper_url: "https://ieeexplore.ieee.org/abstract/document/10764566"
-paper_slides: "/assets/materials/2024-MICRO-CacheCraft(slides).pptx"
+venue: MICRO
+venue2: (IEEE/ACM International Symposium on Microarchitecture)
+venue3: acceptance rate = 22.7%, Nov. 2024
+tier: T
+category: GPU
 select: y
+url_paper: https://ieeexplore.ieee.org/abstract/document/10764566
+url_ppt: https://github.com/scalable-arch/scalable-arch.github.io/raw/main/assets/materials/2024-MICRO-CacheCraft(slides).pptx
+url_github:
 ---
 
 **Soyoung Park**, **Hojung Namkoong**, **Boyeol Choi**, **Michael Sullivan**, and **Jungrae Kim** <br>
