@@ -10,19 +10,19 @@
     {% if post.pub %}
       {% if post.pub-type == 'C' %}
         {% assign typeC_count = typeC_count | plus: 1 %}
-        {% assign post.pid = "C".append(typeC_count) %}
+        {% assign post.pid = 'C' | append: typeC_count %}
       {% elsif post.pub-type == 'J' %}
         {% assign typeJ_count = typeJ_count | plus: 1 %}
-        {% assign post.pid = "J".append(typeJ_count) %}
+        {% assign post.pid = 'J' | append: typeJ_count %}
       {% elsif post.pub-type == 'P' %}
         {% assign typeP_count = typeP_count | plus: 1 %}
-        {% assign post.pid = "P".append(typeP_count) %}
+        {% assign post.pid = 'P' | append: typeP_count %}
       {% elsif post.pub-type == 'SW' %}
         {% assign typeSW_count = typeSW_count | plus: 1 %}
-        {% assign post.pid = "SW".append(typeSW_count) %}
+        {% assign post.pid = 'SW' | append: typeSW_count %}
       {% elsif post.pub-type == 'T' %}
         {% assign typeT_count = typeT_count | plus: 1 %}
-        {% assign post.pid = "T".append(typeT_count) %}
+        {% assign post.pid = 'T' | append: typeT_count %}
       {% endif %}
     {% endif %}
   {% endfor %}
