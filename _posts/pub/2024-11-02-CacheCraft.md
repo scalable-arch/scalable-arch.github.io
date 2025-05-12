@@ -1,5 +1,4 @@
 ---
-year: 2025
 title: "CacheCraft: Enhancing GPU Performance under Memory Protection through Reconstructed Caching"
 author: Soyoung Park, Hojung Namkoong, Boyeol Choi, Michael Sullivan, and Jungrae Kim
 pub-type: C
