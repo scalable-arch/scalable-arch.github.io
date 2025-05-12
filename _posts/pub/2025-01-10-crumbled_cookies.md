@@ -1,5 +1,4 @@
 ---
-year: 2025
 title: "Crumbled Cookies: Exploring E-commerce Websites? Cookie Policies with Data Protection Regulations"
 author: Nivedita Singh, Yejin Do, Yongsang Yu, Imane Fouad, Jungrae Kim, and Hyoungshick Kim
 pub-type: J
