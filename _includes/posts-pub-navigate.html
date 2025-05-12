@@ -1,0 +1,13 @@
+<!-- Publication Navigation -->
+<article class="timeline">
+  <nav class="timeline__nav" style="top: 190px;">
+    <ul>
+      <li class="active"><span>Select</span></li>
+      <!-- List year -->
+      {% assign pubsInYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+      {% for year in pubsInYear %}
+        <li><span>{{ year.name }}</span></li>
+      {% endfor %} 
+    </ul>
+  </nav>
+</article>
