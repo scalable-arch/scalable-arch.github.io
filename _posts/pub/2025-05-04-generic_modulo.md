@@ -1,11 +1,18 @@
 ---
+year: 2025
 title: "Generic Modulo-(2^n±δ) Addition Algorithm via Two-Valued Digit Encoding"
-category: Computer Arithmetic
-tags: ARITH
+author: Taewon Park, Saeid Gorgin, Dongwhee Kim, Jaeho Shin, Michael B. Sullivan, and Jungrae Kim
 pub-type: C
-paper_url: 
-select: n
+venue: ARITH
+venue2: (IEEE International Symposium on Computer Arithmetic)
+venue3: May 2025
+tier: M
+category: Arithmetic
+select: y
+url_paper:
+url_ppt:
+url_github:
 ---
 
 Saeid Gorgin, Amirhossein Sadr, Dara Rahmati and **Jungrae Kim** <br>
-The IEEE International Symposium on Computer Arithmetic (ARITH), May. 2025
+The IEEE International Symposium on Computer Arithmetic (ARITH), May 2025
