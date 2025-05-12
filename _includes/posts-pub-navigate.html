@@ -6,7 +6,7 @@
   {% assign typeP_count = 0 %}
   {% assign typeSW_count = 0 %}
   {% assign typeT_count = 0 %}
-  {% assign pub_years = [] %}
+  {% pub_years = [] %}
   {% for post in site.posts %}
     {% if post.pub %}
       {% pub_years.append('post.date | date: "%Y"' %}
