@@ -1,5 +1,4 @@
 ---
-year: 2025
 title: "Generic Modulo-(2^n±δ) Addition Algorithm via Two-Valued Digit Encoding"
 author: Taewon Park, Saeid Gorgin, Dongwhee Kim, Jaeho Shin, Michael B. Sullivan, and Jungrae Kim
 pub-type: C
