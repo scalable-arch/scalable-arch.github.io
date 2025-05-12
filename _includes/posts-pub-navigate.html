@@ -23,7 +23,7 @@
   {% endfor %}
 
   <!-- Publication Navigation -->
-  <nav class="timeline__nav" style="position:fixed; top: 100px; z-index: 99; transition: top 0.3s ease-out;">
+  <nav class="timeline__nav" style="position: fixed; z-index: 99; top: 100px; transition: top 0.3s ease-out;">
     <ul style="list-style: none; list-style-position: inside; margin: 0 0;">
       <li class="active"><span><a href="#select">Select</a></span></li>
       <!-- List year -->
@@ -35,11 +35,11 @@
   </nav>
 
   <section class="timeline__section">
-    <div style="margin 0 auto; padding 150px 16.66% 50px; width: 100%;">
+    <div style="margin: 0 auto; padding: 0 16.66% 50px; width: 100%;">
       <!-- Select Publications -->
       <h2 class="milestone" id="select">Select</h2>
       <hr style="margin: 0; height: 2px; line-height: 2px; border-bottom: 2px;">
-      {% assign categories = "Reliability DRAM GPU" | split: ' ' %}
+      {% assign categories = "Reliability DRAM GPU Security" | split: ' ' %}
       {% for category in categories %}
       <h3 class="pub_category">{{ category }}</h3>
       <ul style="list-style: none;">
