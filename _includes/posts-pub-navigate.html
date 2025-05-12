@@ -1,30 +1,30 @@
 <article class="timeline" style="position: relative; max-width: 200px; margin: 0 auto;">
 
   <!-- Count each type -->
-  {% assign typeC_count = 0 %}
-  {% assign typeJ_count = 0 %}
-  {% assign typeP_count = 0 %}
-  {% assign typeSW_count = 0 %}
-  {% assign typeT_count = 0 %}
-  {% pub_years = [] %}
-  {% for post in site.posts %}
-    {% if post.pub %}
-      {% pub_years.append('post.date | date: "%Y"' %}
-      {% if post.pub-type == 'C' %}
-        {% assign typeC_count = typeC_count | plus: 1 %}
-      {% elsif post.pub-type == 'J' %}
-        {% assign typeJ_count = typeJ_count | plus: 1 %}
-      {% elsif post.pub-type == 'P' %}
-        {% assign typeP_count = typeP_count | plus: 1 %}
-      {% elsif post.pub-type == 'SW' %}
-        {% assign typeSW_count = typeSW_count | plus: 1 %}
-      {% elsif post.pub-type == 'T' %}
-        {% assign typeT_count = typeT_count | plus: 1 %}
-      {% endif %}
-    {% endif %}
-  {% endfor %}
-  {% uniq(pub_years) %}
-
+  {%
+  assign typeC_count = 0
+  assign typeJ_count = 0
+  assign typeP_count = 0
+  assign typeSW_count = 0
+  assign typeT_count = 0
+  for post in site.posts
+    if post.pub
+      if post.pub-type == 'C'
+        assign typeC_count = typeC_count | plus: 1
+      elsif post.pub-type == 'J'
+        assign typeJ_count = typeJ_count | plus: 1
+      elsif post.pub-type == 'P'
+        assign typeP_count = typeP_count | plus: 1
+      elsif post.pub-type == 'SW'
+        assign typeSW_count = typeSW_count | plus: 1
+      elsif post.pub-type == 'T'
+        assign typeT_count = typeT_count | plus: 1
+      endif
+    endif
+  endfor
+  assign pub_years = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"'
+  %}
+  
   <!-- Publication Navigation -->
   <nav class="timeline__nav" style="position:fixed; top: 190px; z-index: 99; transition: top 0.3s ease-out;">
     <ul style="list-style: none; list-style-position: inside; margin: 15px 0;">
