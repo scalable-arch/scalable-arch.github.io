@@ -7,7 +7,7 @@ venue: KIISE
 venue2: (Communications of the Korean Institute of Information Scientists and Engineers)
 venue3: Apr. 2025
 tier: 
-category: Safety
+category: Security
 select: n
 url_paper: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12134391
 url_ppt:
