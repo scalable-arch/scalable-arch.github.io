@@ -38,17 +38,16 @@
     <!-- Select Publications -->
     <h2 class="milestone">Select</h2>
     <hr style="margin: 0; height: 2px; line-height: 2px; border-bottom: 2px;">
-    <ul style="list-style: none;">
     {% for cat in ["Reliability", "Security", "DRAM", "GPU"] %}
       <h3 class="pub_category">{{ cat }} </h3>
-      <ul>
+      <ul style="list-style:none;">
       {% for post in site.posts %}
         {% if post.pub && post.select && post.category.eqls? cat %}
           <li>pub.title</li>
         {% endif %}
       {% endfor %}
       </ul>
-    </ul>
+    {% endfor %}
     <hr style="margin: 0; height: 2px; line-height: 2px; border-bottom: 2px;">
   </section>
     
