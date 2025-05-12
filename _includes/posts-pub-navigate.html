@@ -46,7 +46,7 @@
         {{ post.pub }} AA {{ post.select }} {{ post.select == "y" }}
         {{ post.select.casecmp?("y") }} BB {{ post.category }}
         {{ post.category.casecmp?(category) }}
-        {% if post.pub && post.select == "y" && post.category == category %}
+        {% if post.pub && (post.select == "y") && (post.category == category) %}
           <li> {{ post.title }}</li>
         {% endif %}
       {% endfor %}
