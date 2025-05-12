@@ -104,8 +104,8 @@
               {% assign pid = 'T' | append: typeT_count2 %}
               {% assign typeT_count2 = typeT_count2 | minus: 1 %}
             {% endif %}
-            {{ post.date | date: "%Y"}}
-            {% if year.name == (post.date | date: "%Y") %}
+            {{ 'post.date | date: "%Y"'}}
+            {% if year.name == 'post.date | date: "%Y"' %}
             <h3 class="pub_title" id="pid">{{ post.title }}</h3>
             <h4 class="pub_author">{{ post.author }}</h4>
             <h3 class="pub_venue">{{ post.venue }} </h3>
