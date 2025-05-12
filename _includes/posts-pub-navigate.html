@@ -8,11 +8,16 @@
   {% assign typeT_count = 0 %}
   {% for post in site.posts | sort: 'post.date' | reverse %}
     {% if post.pub %}
-      {% if post.pub-type == 'C'     assign typeC_count = typeC_count | plus: 1 %}
-      {% elsif post.pub-type == 'J'  assign typeJ_count = typeJ_count | plus: 1 %}
-      {% elsif post.pub-type == 'P'  assign typeP_count = typeP_count | plus: 1 %}
-      {% elsif post.pub-type == 'SW' assign typeSW_count = typeSW_count | plus: 1 %}
-      {% elsif post.pub-type == 'T'  assign typeT_count = typeT_count | plus: 1 %}
+      {% if post.pub-type == 'C' %}
+        {% assign typeC_count = typeC_count | plus: 1 %}
+      {% elsif post.pub-type == 'J' %}
+        {% assign typeJ_count = typeJ_count | plus: 1 %}
+      {% elsif post.pub-type == 'P' %}
+        {% assign typeP_count = typeP_count | plus: 1 %}
+      {% elsif post.pub-type == 'SW' %}
+        {% assign typeSW_count = typeSW_count | plus: 1 %}
+      {% elsif post.pub-type == 'T' %}
+        {% assign typeT_count = typeT_count | plus: 1 %}
       {% endif %}
     {% endif %}
   {% endfor %}
