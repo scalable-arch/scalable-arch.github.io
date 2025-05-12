@@ -81,6 +81,7 @@
       <!-- Year-by-year Publications -->
       {% for year in pub_years %}
       <h2 class="milestone" id="{{ year.name }}">{{ year.name }}</h2>
+      <hr>
         {% assign typeC_count2 = typeC_count %}
         {% assign typeJ_count2 = typeJ_count %}
         {% assign typeP_count2 = typeP_count %}
@@ -106,9 +107,9 @@
             {% endif %}
             {% assign pyear = post.date | date: "%Y" %}
             {% if year.name == pyear %}
-            <h3 class="pub_title" id="pid">{{ post.title }}</h3>
-            <h4 class="pub_author">{{ post.author }}</h4>
-            <h3 class="pub_venue">{{ post.venue }} </h3>
+            <h4 class="pub_title" id="pid">[{{ pid }}] {{ post.title }}</h4>
+            <h5 class="pub_author">{{ post.author }}</h5>
+            <h4 class="pub_venue">{{ post.venue }} </h4>
             <h5 class="pub_venue2">{{ post.venue2 }} </h5>
             <hr>
             {% endif %}
