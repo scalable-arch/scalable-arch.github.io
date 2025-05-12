@@ -3,7 +3,7 @@ title: "Generic Modulo-(2^n±δ) Addition Algorithm via Two-Valued Digit Encodin
 author: Taewon Park, Saeid Gorgin, Dongwhee Kim, Jaeho Shin, Michael B. Sullivan, and Jungrae Kim
 pub-type: C
 venue: ARITH
-venue2: (IEEE International Symposium on Computer Arithmetic)
+venue2: (IEEE Intl. Symp. on Computer Arithmetic)
 venue3: May 2025
 tier: M
 category: Arithmetic
