@@ -53,24 +53,24 @@
         {% for post in site.posts %}
           {% if post.pub %}
             {% if post.pub-type == 'C' %}
-              {% assign pid = typeC_count2 %}
+              {% assign pid = 'C' | append: typeC_count2 %}
               {% assign typeC_count2 = typeC_count2 | minus: 1 %}
             {% elsif post.pub-type == 'J' %}
-              {% assign pid = typeJ_count2 %}
+              {% assign pid = 'J' | append: typeJ_count2 %}
               {% assign typeJ_count2 = typeJ_count2 | minus: 1 %}
             {% elsif post.pub-type == 'P' %}
-              {% assign pid = typeP_count2 %}
+              {% assign pid = 'P' | append: typeP_count2 %}
               {% assign typeP_count2 = typeP_count2 | minus: 1 %}
             {% elsif post.pub-type == 'SW' %}
-              {% assign pid = typeSW_count2 %}
+              {% assign pid = 'SW' | append: typeSW_count2 %}
               {% assign typeSW_count2 = typeSW_count2 | minus: 1 %}
             {% elsif post.pub-type == 'T' %}
-              {% assign pid = typeT_count2 %}
+              {% assign pid = 'T' | append: typeT_count2 %}
               {% assign typeT_count2 = typeT_count2 | minus: 1 %}
             {% endif %}
             {% if post.select == "y" %}
               {% if post.category == category %}
-          <li> {{ pid }} [{{ post.venue }}] {{ post.title }}</li>
+          <li> <a href="#{{ pid }}>[{{ post.venue }}] {{ post.title }}</a></li>
               {% endif %}
             {% endif %}
           {% endif %}
