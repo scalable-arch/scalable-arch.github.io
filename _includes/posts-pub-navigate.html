@@ -44,7 +44,9 @@
       <h3 class="pub_category">{{ cat }} </h3>
       <ul style="list-style:none;">
       {% for post in site.posts %}
-        {% if post.pub && post.select.casecmp?("Y") && post.category.casecmp?(cat) %}
+        {{ post.select.casecmp?("y") }}
+        {{ post.category.casecmp?("cat") }}
+        {% if post.pub && post.select.casecmp?("y") && post.category.casecmp?(cat) %}
           <li> {{ post.title }}</li>
         {% endif %}
       {% endfor %}
