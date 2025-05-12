@@ -29,7 +29,7 @@
       <!-- List year -->
       {% assign pub_years = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
       {% for year in pub_years %}
-      <li><span>{{ year.name }}</span></li>
+      <li><span><a href="#{{ year.name }}">{{ year.name }}</a></span></li>
       {% endfor %} 
     </ul>
   </nav>
@@ -78,6 +78,11 @@
       </ul>
       {% endfor %}
       <hr style="margin: 0; height: 2px; line-height: 2px; border-bottom: 2px;">
+      
+      <!-- Year-by-year Publications -->
+      {% for year in pub_years %}
+      <h2 class="milestone" id="{{ year }}">{{ year }}</h2>
+      {% endfor %} 
     </div>
   </section>
     
