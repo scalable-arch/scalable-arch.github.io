@@ -22,14 +22,18 @@
       endif
     endif
   endfor
-  assign pub_years = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"'
   %}
+
+  {% {{typeC_count}} %}
+  
+  {% {{typeJ_count}} %}
   
   <!-- Publication Navigation -->
   <nav class="timeline__nav" style="position:fixed; top: 190px; z-index: 99; transition: top 0.3s ease-out;">
     <ul style="list-style: none; list-style-position: inside; margin: 15px 0;">
       <li class="active"><span>Select</span></li>
       <!-- List year -->
+      {% assign pub_years = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
       {% for year in pub_years %}
         <li><span>{{ year.name }}</span></li>
       {% endfor %} 
