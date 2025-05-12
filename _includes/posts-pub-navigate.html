@@ -44,11 +44,33 @@
       {% for category in categories %}
         <h3 class="pub_category">{{ category }}</h3>
         <ul style="list-style:none;">
+          
+        {% assign typeC_count2 = typeC_count %}
+        {% assign typeJ_count2 = typeJ_count %}
+        {% assign typeP_count2 = typeP_count %}
+        {% assign typeSW_count2 = typeSW_count %}
+        {% assign typeT_count2 = typeT_count %}
         {% for post in site.posts %}
           {% if post.pub %}
+            {% if post.pub-type == 'C' %}
+              {% assign pid = typeC_count2 %}
+              {% assign typeC_count2 = typeC_count2 | minus: 1 %}
+            {% elsif post.pub-type == 'J' %}
+              {% assign pid = typeJ_count2 %}
+              {% assign typeJ_count2 = typeJ_count2 | minus: 1 %}
+            {% elsif post.pub-type == 'P' %}
+              {% assign pid = typeP_count2 %}
+              {% assign typeP_count2 = typeP_count2 | minus: 1 %}
+            {% elsif post.pub-type == 'SW' %}
+              {% assign pid = typeSW_count2 %}
+              {% assign typeSW_count2 = typeSW_count2 | minus: 1 %}
+            {% elsif post.pub-type == 'T' %}
+              {% assign pid = typeT_count2 %}
+              {% assign typeT_count2 = typeT_count2 | minus: 1 %}
+            {% endif %}
             {% if post.select == "y" %}
               {% if post.category == category %}
-          <li> {{ post.pid }} [{{ post.venue }}] {{ post.title }}</li>
+          <li> {{ pid }} [{{ post.venue }}] {{ post.title }}</li>
               {% endif %}
             {% endif %}
           {% endif %}
