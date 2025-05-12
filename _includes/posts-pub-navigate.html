@@ -6,8 +6,10 @@
   {% assign typeP_count = 0 %}
   {% assign typeSW_count = 0 %}
   {% assign typeT_count = 0 %}
+  {% assign pub_years = [] %}
   {% for post in site.posts %}
     {% if post.pub %}
+      {% pub_years.append('post.date | date: "%Y"' %}
       {% if post.pub-type == 'C' %}
         {% assign typeC_count = typeC_count | plus: 1 %}
       {% elsif post.pub-type == 'J' %}
@@ -21,14 +23,14 @@
       {% endif %}
     {% endif %}
   {% endfor %}
+  {% uniq(pub_years) %}
 
   <!-- Publication Navigation -->
   <nav class="timeline__nav" style="position:fixed; top: 190px; z-index: 99; transition: top 0.3s ease-out;">
     <ul style="list-style: none; list-style-position: inside; margin: 15px 0;">
       <li class="active"><span>Select</span></li>
       <!-- List year -->
-      {% assign pubsInYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
-      {% for year in pubsInYear %}
+      {% for year in pub_years %}
         <li><span>{{ year.name }}</span></li>
       {% endfor %} 
     </ul>
