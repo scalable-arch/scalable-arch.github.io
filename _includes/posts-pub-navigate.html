@@ -115,7 +115,7 @@
             {% if post.tier == 'M' %} <span style="color: white; background-color: #E06060; border: 1px solid red; border-radius: 7px; padding: 0 5px; line-height: 0.1; margin-right: 5px; margin-bottom: 0;">Major</span> {% endif %}
             <span style="color: white; background-color: #60E060; border: 1px solid green; border-radius: 7px; padding: 0 0; line-height: 0.1; margin-right: 5px; margin-bottom: 0;">{{ post.category }}</span> {% endif %}
             {{ post.venue3 }}<br>
-            Links: 
+            Links: <% if post.url_paper %> <a href="{{ post.url_paper }}" target="_blank">Paper</a> %> <% if post.url_ppt %> <a href="{{ post.url_paper }}" target="_blank">PPT</a> %> <% if post.url_ppt %> <a href="{{ post.url_git }}" target="_blank">GitHub</a> %>
             <hr>
           {% endif %}
         {% endfor %}
