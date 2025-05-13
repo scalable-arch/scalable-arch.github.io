@@ -1,6 +1,6 @@
 ---
 title: "All-Inclusive ECC: Thorough End-to-End Protection for Reliable Computer Memory"
-author: Jungrae Kim, Michael Sullivan, Sangkug Lym, and Mattan Erez
+author: Jungrae Kim, Michael B. Sullivan, Sangkug Lym, and Mattan Erez
 pub-type: C
 venue: ISCA
 venue2: ACM/IEEE Intl. Symp. on Computer Architecture
