@@ -8,7 +8,7 @@ venue3: Apr. 2025
 tier: 
 category: Reliability
 select: n
-url_paper: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12134391
+url_paper:
 url_ppt:
 url_github:
 ---
