@@ -1,6 +1,6 @@
 ---
 title: "Bit-Plane Compression: Transforming Data for Better Compression in Many-core Architectures"
-author: Jungrae Kim, Michael Sullivan, Esha Choukse, and Mattan Erez
+author: Jungrae Kim, Michael B. Sullivan, Esha Choukse, and Mattan Erez
 pub-type: C
 venue: ISCA
 venue2: ACM/IEEE Intl. Symp. on Computer Architecture
