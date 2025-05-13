@@ -3,7 +3,7 @@ title: "합성 곱 신경망의 연산 가속화 방법 및 합성 곱 신경망
 author: Jungrae Kim, Seokin Hong, Taehee Han, Mingu Kang
 pub-type: P
 venue: Patent
-venue2: KR(10-2763260)
+venue2: KR patent (#10-2763260)
 venue3: Jan. 2025
 tier: 
 category: Accel
