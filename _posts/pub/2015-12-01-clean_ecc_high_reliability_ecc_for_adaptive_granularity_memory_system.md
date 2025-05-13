@@ -1,10 +1,16 @@
 ---
 title: "CLEAN-ECC: High Reliability ECC for Adaptive Granularity Memory System"
-category: Reliability
-tags: MICRO
+author: Seong-Lyong Gong, Minsoo Rhu, Jungrae Kim, Jinsuk Chung, and Mattan Erez
 pub-type: C
-paper_url: "https://dl.acm.org/doi/abs/10.1145/2830772.2830799"
+venue: MICRO
+venue2: IEEE/ACM Intl. Symp. on Microarchitecture
+venue3: acceptance rate = 22%, Dec. 2015
+tier: T
+category: Reliability
 select: y
+url_paper: https://dl.acm.org/doi/abs/10.1145/2830772.2830799
+url_ppt:
+url_github:
 ---
 
 Seong-Lyong Gong, Minsoo Rhu, **Jungrae Kim**, Jinsuk Chung, Mattan Erez<br>
