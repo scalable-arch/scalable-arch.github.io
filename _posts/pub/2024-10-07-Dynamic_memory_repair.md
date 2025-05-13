@@ -1,8 +1,16 @@
 ---
-title: "동적 수리 메모리 디바이스"
-category: Computer Architecture
-tags: Patent
+title: "Apparatus and method for remapping of memory"
+author: Jungrae Kim, Sangje Park
 pub-type: P
+venue: Patent
+venue2: KR(#10-2716293)
+venue3: Oct. 2024
+tier: 
+category: DRAM
+select: n
+url_paper: https://patents.google.com/patent/KR102716293B1/
+url_ppt:
+url_github:
 ---
 
 **Jungrae Kim**, Sangje Park<br>
