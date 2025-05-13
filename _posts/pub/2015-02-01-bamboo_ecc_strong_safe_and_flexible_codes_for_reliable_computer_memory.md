@@ -1,6 +1,6 @@
 ---
 title: "Bamboo ECC: Strong, Safe, and Flexible Codes for Reliable Computer Memory"
-author: Jungrae Kim, Michael Sullivan, and Mattan Erez
+author: Jungrae Kim, Michael B. Sullivan, and Mattan Erez
 pub-type: C
 venue: HPCA
 venue2: IEEE Intl. Symp. on High Performance Computer Architecture
