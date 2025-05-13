@@ -3,7 +3,7 @@ title: "On-the-Fly Lowering Engine: Offloading Data Layout Conversion for Convol
 author: "MinGu Kang, Sang Min Hyun, Tae Hee Han, Jungrae Kim*, and Seokin Hong* (*: Corresponding authors)"
 pub-type: J
 venue: ACCESS
-venue2: IEEE ACCESS
+venue2: IEEE Access
 venue3: impact factor = 3.476, July 2022
 tier: M
 category: GPU
