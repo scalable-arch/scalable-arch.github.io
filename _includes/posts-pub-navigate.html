@@ -107,10 +107,10 @@
             {% endif %}
             {% assign pyear = post.date | date: "%Y" %}
             {% if year.name == pyear %}
-            <div class="pub_title" id="pid">[{{ pid }}] <b>{{ post.title }}</b></div><br>
-            <div class="pub_author">{{ post.author }}</div><br>
-            <div class="pub_venue">{{ post.venue }} </div>
-            <div class="pub_venue2">{{ post.venue2 }} </div><br>
+            <div class="pub_title" id="pid">[{{ pid }}] <b>{{ post.title }}</b></div>
+            <div class="pub_author">{{ post.author }}</div>
+            <div class="pub_venue" style="display: inline;">{{ post.venue }} </div>
+            <div class="pub_venue2" style="display: inline;">{{ post.venue2 }} </div><br>
             <hr>
             {% endif %}
           {% endif %}
