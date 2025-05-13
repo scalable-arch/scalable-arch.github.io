@@ -8,7 +8,7 @@ venue3: Apr. 2025
 tier: 
 category: Reliability
 select: n
-url_paper:
+url_paper: https://patents.google.com/patent/US12267087B2/
 url_ppt:
 url_github:
 ---
