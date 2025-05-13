@@ -1,8 +1,14 @@
 ---
 title: "Method and System Controlling Page Open Time for Memory Device"
-category: Computer Architecture
-tags: Patent
+author: Jungrae Kim and Wooil Kim
 pub-type: P
+venue: Patent
+venue2: KR/EU/US(#8,688,942)
+venue3: Apr. 2014
+tier: 
+category: DRAM
+select: n
+url_paper: https://patents.google.com/patent/US8688942B2
 ---
 
 **Jungrae Kim**, and Wooil Kim<br>
