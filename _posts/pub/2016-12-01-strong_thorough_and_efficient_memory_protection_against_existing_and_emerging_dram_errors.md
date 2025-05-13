@@ -4,7 +4,7 @@ author: Jungrae Kim
 pub-type: T
 venue: Thesis
 venue2: Ph.D Thesis
-venue3: Dec. 2016
+venue3: The University of Texas at Austin, Dec. 2016
 tier: 
 category: Reliability
 select: n
