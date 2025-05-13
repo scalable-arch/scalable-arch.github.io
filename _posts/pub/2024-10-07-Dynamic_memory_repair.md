@@ -3,7 +3,7 @@ title: "Apparatus and method for remapping of memory"
 author: Jungrae Kim, Sangje Park
 pub-type: P
 venue: Patent
-venue2: KR(#10-2716293)
+venue2: KR patent (#10-2716293)
 venue3: Oct. 2024
 tier: 
 category: DRAM
