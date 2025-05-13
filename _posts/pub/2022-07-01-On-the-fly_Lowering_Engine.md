@@ -1,6 +1,6 @@
 ---
 title: "On-the-fly Lowering Engine: Offloading Data Layout Conversion for Convolutional Neural Networks"
-author: MinGu Kang, Sang Min Hyun, Tae Hee Han, Jungrae Kim*, and Seokin Hong* (*: Corresponding authors)
+author: MinGu Kang, Sang Min Hyun, Tae Hee Han, Jungrae Kim\*, and Seokin Hong\* (\*: Corresponding authors)
 pub-type: J
 venue: ACCESS
 venue2: IEEE ACCESS
