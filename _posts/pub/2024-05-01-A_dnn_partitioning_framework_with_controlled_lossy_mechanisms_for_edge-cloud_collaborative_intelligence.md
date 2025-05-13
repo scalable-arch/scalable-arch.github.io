@@ -3,7 +3,7 @@ title: "A DNN Partitioning Framework with Controlled Lossy Mechanisms for Edge-C
 author: Hyochan Kim, Ji Sub Choi, Jungrae Kim, Jong Hwan Ko
 pub-type: J
 venue: FGCS
-venue2: (Future Generation Computer Systems)
+venue2: Future Generation Computer Systems
 venue3: impact factor=7.5, JCR rank 91.4 pth, May. 2024
 tier: T
 category: AI
