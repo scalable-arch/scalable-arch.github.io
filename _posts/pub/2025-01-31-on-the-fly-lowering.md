@@ -1,6 +1,6 @@
 ---
 title: "Method for accerlerating computation of convolutional neural network and device of accerlerating computation of convolutional neural network"
-author: Jungrae Kim, Seokin Hong, Taehee Han, Mingu Kang
+author: Jungrae Kim, Seokin Hong, Taehee Han, and Mingu Kang
 pub-type: P
 venue: Patent
 venue2: KR patent (#10-2763260)
