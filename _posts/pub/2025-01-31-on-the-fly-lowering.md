@@ -1,5 +1,5 @@
 ---
-title: "컨볼루션 뉴럴 네트워크 실행 가속화를 위한 실시간 데이터 전처리 장치"
+title: "합성 곱 신경망의 연산 가속화 방법 및 합성 곱 신경망의 연산 가속화 장치"
 author: Jungrae Kim, Seokin Hong, Taehee Han, Mingu Kang
 pub-type: P
 venue: Patent
