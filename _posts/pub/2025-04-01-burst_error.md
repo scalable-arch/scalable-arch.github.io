@@ -3,7 +3,7 @@ title: "Method for generating burst error correction code, device for generating
 author: Sang-hyo Kim, Dong Geun Lee, Jungrae Kim, Seokin Hong, and Dong Hyun Kong
 pub-type: P
 venue: Patent
-venue2: KR/US(#12,267,087) patent
+venue2: KR/US(#12,267,087)
 venue3: Apr. 2025
 tier: 
 category: Reliability
