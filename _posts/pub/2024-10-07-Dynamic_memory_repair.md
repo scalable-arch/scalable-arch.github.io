@@ -1,6 +1,6 @@
 ---
 title: "Apparatus and method for remapping of memory"
-author: Jungrae Kim, Sangje Park
+author: Jungrae Kim and Sangje Park
 pub-type: P
 venue: Patent
 venue2: KR patent (#10-2716293)
