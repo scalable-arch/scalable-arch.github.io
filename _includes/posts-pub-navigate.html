@@ -114,7 +114,7 @@
             Links: {% if post.url_paper %} <a href="{{ post.url_paper }}" style="color: navy;" target="_blank">Paper</a> {% endif %} {% if post.url_ppt %} <a href="{{ post.url_ppt }}" style="color: navy;" target="_blank">PPT</a> {% endif %} {% if post.url_git %} <a href="{{ post.url_git }}" style="color: navy;" target="_blank">GitHub</a> {% endif %} <br>
             <div class="pub_title" id="{{ pid }}">[{{ pid }}] <b>{{ post.title }}</b></div>
             {{ post.author }} <br>
-            <div class="pub_venue2" style="display: inline;">{{ post.venue2 }}, {{ post.venue3 }}</div><br>
+            <div class="pub_venue2" style="display: inline;">{{ post.venue2 }} ({{ post.venue }}), {{ post.venue3 }}</div><br>
             <hr>
             {% endif %}
           {% endif %}
