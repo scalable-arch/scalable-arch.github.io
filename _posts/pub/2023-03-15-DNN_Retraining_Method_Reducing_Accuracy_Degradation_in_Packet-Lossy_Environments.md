@@ -1,6 +1,6 @@
 ---
 title: "DNN Retraining Method Reducing Accuracy Degradation in Packet-Lossy Environments"
-author: Dongwhee Kim*, Yujin Lim*, Syngha Han, and Jungrae Kim (* Joint First Authors)
+author: Dongwhee Kim*, Yujin Lim*, Syngha Han, and Jungrae Kim (* Joint first authors)
 pub-type: J
 venue: JOK
 venue2: Journal of the Korean Institute of Information Scientists and Engineers
