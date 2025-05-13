@@ -3,8 +3,8 @@ title: "Frugal ECC: Efficient and Versatile Memory Error Protection through Fine
 author: Jungrae Kim, Michael Sullivan, Seong-Lyong Gong, and Mattan Erez
 pub-type: C
 venue: SC
-venue2: Intl. Conf. on High Performance Computing, Networking, Storage and Analysis
-venue3: acceptance rate: 22%, Nov. 2015
+venue2: Intl. Conf. on High Performance Computing, Networking, Storage, and Analysis
+venue3: acceptance rate = 22%, Nov. 2015
 tier: T
 category: Reliability
 select: y
