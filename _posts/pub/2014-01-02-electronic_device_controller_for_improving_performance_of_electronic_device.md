@@ -6,7 +6,7 @@ venue: Patent
 venue2: KR/JP/CN/US(#8,725,439)
 venue3: May 2014
 tier: 
-category: Reliability
+category: DRAM
 select: n
 url_paper: https://patents.google.com/patent/US8725439B2
 ---
