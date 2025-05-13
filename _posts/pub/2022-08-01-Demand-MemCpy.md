@@ -3,7 +3,7 @@ title: "Demand MemCpy: Overlapping of Computation and Data Transfer for Heteroge
 author: Donghun Jeong, Jihun Park, and Jungrae Kim
 pub-type: J
 venue: ACCESS
-venue2: IEEE ACCESS
+venue2: IEEE Access
 venue3: impact factor = 3.476, July 2022
 tier: M
 category: GPU
