@@ -3,7 +3,7 @@ title: "Native DRAM Cache: Re-architecting DRAM as a Large-Scale Cache for Data 
 author: Yesin Ryu, Yoojin Kim, Giyong Jung, Jungho Ahn, and Jungrae Kim
 pub-type: C
 venue: ISCA
-venue2: (Intl. Symp. on Computer Architecture)
+venue2: Intl. Symp. on Computer Architecture
 venue3: acceptance rate = 19.6%, July. 2024
 tier: T
 category: DRAM
