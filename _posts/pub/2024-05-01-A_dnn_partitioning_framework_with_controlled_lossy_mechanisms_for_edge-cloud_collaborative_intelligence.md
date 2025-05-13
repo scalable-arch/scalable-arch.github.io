@@ -1,6 +1,6 @@
 ---
 title: "A DNN Partitioning Framework with Controlled Lossy Mechanisms for Edge-Cloud Collaborative Intelligence"
-author: Hyochan Kim, Ji Sub Choi, Jungrae Kim, Jong Hwan Ko
+author: Hyochan Kim, Ji Sub Choi, Jungrae Kim, and Jong Hwan Ko
 pub-type: J
 venue: FGCS
 venue2: Future Generation Computer Systems
