@@ -111,9 +111,9 @@
             {{ post.author }} <br>
             <div class="pub_venue" style="display: inline; color: purple; font-size: 120%;">{{ post.venue }} </div>
             <div class="pub_venue2" style="display: inline;">{{ post.venue2 }} </div><br>
-            {% if post.tier == 'T' %} <span style="color: red; background-color: #C0C0C0; border: 1px solid red; padding: 0 5px; line-height: 0.1; margin-right: 5px; margin-bottom: 0;">Top-tier</span> {% endif %}
-            {% if post.tier == 'M' %} <span style="color: red; background-color: #C0C0C0; border: 1px solid red; padding: 0 5px; line-height: 0.1; margin-right: 5px; margin-bottom: 0;">Major</span> {% endif %}
-            <span style="color: green; background-color: #C0C0C0; border: 1px solid green; padding: 0 5px; line-height: 0.1; margin-right: 5px; margin-bottom: 0;">{{ post.category }}</span> {% endif %}
+            {% if post.tier == 'T' %} <span style="color: red; background-color: #C04040; border: 1px solid red; padding: 0 5px; line-height: 0.1; margin-right: 5px; margin-bottom: 0;">Top-tier</span> {% endif %}
+            {% if post.tier == 'M' %} <span style="color: red; background-color: #C04040; border: 1px solid red; padding: 0 5px; line-height: 0.1; margin-right: 5px; margin-bottom: 0;">Major</span> {% endif %}
+            <span style="color: green; background-color: #40C040; border: 1px solid green; padding: 0 5px; line-height: 0.1; margin-right: 5px; margin-bottom: 0;">{{ post.category }}</span> {% endif %}
             {{ post.venue3 }}
             <hr>
           {% endif %}
