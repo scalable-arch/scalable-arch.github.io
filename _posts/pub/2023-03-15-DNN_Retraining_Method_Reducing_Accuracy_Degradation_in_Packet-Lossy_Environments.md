@@ -1,9 +1,14 @@
 ---
 title: "DNN Retraining Method Reducing Accuracy Degradation in Packet-Lossy Environments"
-category: Artificial Intelligence
-tags: JOK
+author: Dongwhee Kim*, Yujin Lim*, Syngha Han, and Jungrae Kim (* Joint First Authors)
 pub-type: J
-paper_url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11225038"
+venue: JOK
+venue2: Journal of the Korean Institute of Information Scientists and Engineers
+venue3: Mar. 2023
+tier:
+category: AI
+select: n
+url_paper: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11225038
 abstract_img: "/assets/images/pub-abstract/JOK23_DNN Retraining Method Reducing.png"
 ---
 
