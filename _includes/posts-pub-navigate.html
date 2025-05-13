@@ -111,6 +111,10 @@
             {{ post.author }}
             <div class="pub_venue" style="display: inline;">{{ post.venue }} </div>
             <div class="pub_venue2" style="display: inline;">{{ post.venue2 }} </div><br>
+            {% if post.tier == 'T' %} <span style="color: red; border: 1px solid red; padding: 0 5px; line-height: 0.1; margin-right: 5px; margin-bottom: 0;"> %}>Top-tier</span> {% endif %}
+            {% if post.tier == 'M' %} <span style="color: red; border: 1px solid red; padding: 0 5px; line-height: 0.1; margin-right: 5px; margin-bottom: 0;"> %}>Major</span> {% endif %}
+            <span style="color: green; border: 1px solid green; padding: 0 5px; line-height: 0.1; margin-right: 5px; margin-bottom: 0;"> %}>{{ post.category }}</span> {% endif %}
+            {{ post.venue3 }}
             <hr>
             {% endif %}
           {% endif %}
