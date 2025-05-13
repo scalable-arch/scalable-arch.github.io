@@ -1,10 +1,16 @@
 ---
 title: "DUO: Exposing On-chip Redundancy to Rank-level ECC for High Reliability"
-category: Reliability
-tags: HPCA
+author: Seong-Lyong Gong, Jungrae Kim, Sangkug Lym, Michael Sullivan, Howard David, and Mattan Erez
 pub-type: C
-paper_url: "https://ieeexplore.ieee.org/abstract/document/8327047"
+venue: HPCA
+venue2: IEEE Intl. Symp. on High Performance Computer Architecture
+venue3: acceptance rate = 21%, Feb. 2018
+tier: T
+category: Reliability
 select: y
+url_paper: https://ieeexplore.ieee.org/document/8327047
+url_ppt:
+url_github:
 ---
 
 Seong-Lyong Gong, **Jungrae Kim**, Sangkug Lym, Michael Sullivan, Howard David, Mattan Erez<br>
