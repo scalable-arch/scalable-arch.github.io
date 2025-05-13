@@ -3,7 +3,7 @@ title: "Synergizing CXL With Unified Memory for Scalable GPU Memory Expansion"
 author: Junseung Lee and Jungrae Kim
 pub-type: C
 venue: ICEIC
-venue2: Intl. Conf. on Electronics, Information, and Communication (ICEIC)
+venue2: Intl. Conf. on Electronics, Information, and Communication
 venue3: Jan. 2024
 tier: 
 category: GPU
