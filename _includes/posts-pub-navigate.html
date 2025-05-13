@@ -109,11 +109,11 @@
             {% if year.name == pyear %}
             <div class="pub_title" id="pid">[{{ pid }}] <b>{{ post.title }}</b></div>
             {{ post.author }} <br>
-            <span style="color: white; background-color: #D060D0; border: 1px solid purple; padding: 0 5px; line-height: 0.1; margin-right: 5px; margin-bottom: 0;">{{ post.venue }} </span>
+            <span style="color: white; background-color: #D060D0; border: 1px solid purple; border-radius: 3px; padding: 0 0; line-height: 0.1; margin-right: 5px; margin-bottom: 0;">{{ post.venue }} </span>
             <div class="pub_venue2" style="display: inline;">{{ post.venue2 }} </div><br>
-            {% if post.tier == 'T' %} <span style="color: white; background-color: #E06060; border: 1px solid red; padding: 0 5px; line-height: 0.1; margin-right: 5px; margin-bottom: 0;">Top-tier</span> {% endif %}
-            {% if post.tier == 'M' %} <span style="color: white; background-color: #E06060; border: 1px solid red; padding: 0 5px; line-height: 0.1; margin-right: 5px; margin-bottom: 0;">Major</span> {% endif %}
-            <span style="color: white; background-color: #60E060; border: 1px solid green; padding: 0 5px; line-height: 0.1; margin-right: 5px; margin-bottom: 0;">{{ post.category }}</span> {% endif %}
+            {% if post.tier == 'T' %} <span style="color: white; background-color: #E06060; border: 1px solid red; border-radius: 3px; padding: 0 5px; line-height: 0.1; margin-right: 5px; margin-bottom: 0;">Top-tier</span> {% endif %}
+            {% if post.tier == 'M' %} <span style="color: white; background-color: #E06060; border: 1px solid red; border-radius: 3px; padding: 0 5px; line-height: 0.1; margin-right: 5px; margin-bottom: 0;">Major</span> {% endif %}
+            <span style="color: white; background-color: #60E060; border: 1px solid green; border-radius: 3px; padding: 0 0; line-height: 0.1; margin-right: 5px; margin-bottom: 0;">{{ post.category }}</span> {% endif %}
             {{ post.venue3 }}
             <hr>
           {% endif %}
