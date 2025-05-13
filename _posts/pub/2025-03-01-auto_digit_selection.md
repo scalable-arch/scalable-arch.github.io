@@ -6,7 +6,7 @@ venue: ESL
 venue2: IEEE Embedded Systems Letters
 venue3: March 2025
 tier: M
-category: Arith
+category: Arithmetic
 select: y
 url_paper: https://ieeexplore.ieee.org/document/10841412
 url_ppt:
