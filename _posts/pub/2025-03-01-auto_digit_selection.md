@@ -3,7 +3,7 @@ title: "Auto Digit Selection for Most Significant Digit First Multiplication"
 author: Saeid Gorgin, Ghassem Jaberipur, Jeong-A Lee, Seokjoo Shin, and Jungrae Kim
 pub-type: J
 venue: ESL
-venue2: (IEEE Embedded Systems Letters)
+venue2: IEEE Embedded Systems Letters
 venue3: March 2025
 tier: M
 category: Arith
