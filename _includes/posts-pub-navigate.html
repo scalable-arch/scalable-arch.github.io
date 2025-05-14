@@ -26,11 +26,11 @@
   <!-- <nav class="timeline__nav"> -->
   <nav class="timeline__nav">
     <ul>
-      <li><span><a href="#select">Select</a></span></li>
+      <li><a href="#select">Select</a></li>
       <!-- List year -->
       {% assign pub_years = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
       {% for year in pub_years %}
-      <li><span><a href="#{{ year.name }}">{{ year.name }}</a></span></li>
+      <li><a href="#{{ year.name }}">{{ year.name }}</a></li>
       {% endfor %}
     </ul>
   </nav>
