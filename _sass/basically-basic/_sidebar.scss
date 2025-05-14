@@ -178,7 +178,7 @@
 
 .timeline__nav {
   position: fixed;
-  top: 30px;
+  top: 40px;
   z-index: 9999;
   transition: top 0.3s ease-out;
 
@@ -188,13 +188,13 @@
      margin: 0 0;
 
     li {
+      .active {
+        color: $accent-color;
+        font-size: 140%;
+        font-weight: bold;
+      }
       a {
         font-size: 120%;
-        .active {
-          color: $accent-color;
-          font-size: 140%;
-          font-weight: bold;
-        }
         &:hover {
           color: $accent-color;
           font-size: 140%;
