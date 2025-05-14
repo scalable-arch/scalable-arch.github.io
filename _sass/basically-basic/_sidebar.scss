@@ -190,25 +190,10 @@
      
     li {
       a {
-        position: relative;
-        color: blue;
-
         &:hover {
-          color: $text-color;
+          color: $accent-color;
           transition: color 0.5s;
         }
-      }
-    }
-  }
-
-  li {
-    a {
-      position: relative;
-      color: red;
-
-      &:hover {
-        color: $text-color;
-        transition: color 0.5s;
       }
     }
   }
