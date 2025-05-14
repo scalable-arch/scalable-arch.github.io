@@ -38,11 +38,12 @@
   <section class="timeline__section">
     <!-- Select Publications -->
     <h2 class="milestone" id="select">Select</h2>
-    <hr style="margin: 0; height: 2px; line-height: 2px; border-bottom: 2px;">
+    <hr class="milestone">
+    <!--<hr style="margin: 0; height: 2px; line-height: 2px; border-bottom: 2px;">-->>
     {% assign categories = "Reliability DRAM GPU Accel AI Security Arithmetic" | split: ' ' %}
     {% for category in categories %}
     <h4 class="pub_category">{{ category }}</h4>
-    <hr>
+    <hr class="category">
     <ul style="list-style: none;">
     {% assign typeC_count2 = typeC_count %}
     {% assign typeJ_count2 = typeJ_count %}
@@ -76,7 +77,7 @@
     {% endfor %}
     </ul>
     {% endfor %}
-    <hr style="margin: 0; height: 2px; line-height: 2px; border-bottom: 2px;">
+    <hr class="milestone">
     <!-- Year-by-year Publications -->
     {% for year in pub_years %}
     <h2 class="milestone" id="{{ year.name }}">{{ year.name }}</h2>
