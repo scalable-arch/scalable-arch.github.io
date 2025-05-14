@@ -191,10 +191,15 @@
     li {
       a {
         font-size: 120%;
-         
+        .active {
+          color: $accent-color;
+          font-size: 140%;
+          font-weight: bold;
+        }
         &:hover {
           color: $accent-color;
           font-size: 140%;
+          font-weight: bold;
           transition: color 0.5s, font-size 0.5s;
         }
       }
