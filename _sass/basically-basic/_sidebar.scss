@@ -173,22 +173,27 @@
 
 
 /* ==========================================================================
-   Sidebar
+   Timeline
    ========================================================================== */
 
 .timeline__nav {
   position: fixed;
   top: 100px;
   left: 0;
-  background-color: $sidebar-background-color;
   height: 100%;
   z-index: 9999;
   transition: top 0.3s ease-out;
-   
+
+  ul {
+     list-style: none;
+     list-style-position: inside;
+     margin: 0 0;
+  }
+
   li {
     a {
       position: relative;
-      color: $base06;
+      color: $text-color;
 
       &:hover {
         color: $text-color;
