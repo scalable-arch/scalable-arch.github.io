@@ -196,12 +196,13 @@
           font-weight: bold;
           transition: color 0.5s, font-size 0.5s;
         }
-        .active {
-          color: $accent-color;
-          font-size: 140%;
-          font-weight: bold;
-        }
       }
     }
   }
+}
+
+.timeline__section {
+   margin: 0 auto;
+   padding: 0 80px 50px;
+   width: 100%;
 }
