@@ -186,12 +186,25 @@
      list-style: none;
      list-style-position: inside;
      margin: 0 0;
+
+     
+    li {
+      a {
+        position: relative;
+        color: blue;
+
+        &:hover {
+          color: $text-color;
+          transition: color 0.5s;
+        }
+      }
+    }
   }
 
   li {
     a {
       position: relative;
-      color: $text-color;
+      color: red;
 
       &:hover {
         color: $text-color;
