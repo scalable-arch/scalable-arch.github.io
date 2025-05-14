@@ -204,4 +204,14 @@
 .timeline__section {
    margin: 0 auto;
    padding-left: 75pt;
+   hr {
+     .milestone {
+       border-top: 2px solid;
+     }
+     .category {
+       width: 50%;
+       text-align: left;
+       margin-left: 0;
+     }
+   }
 }
