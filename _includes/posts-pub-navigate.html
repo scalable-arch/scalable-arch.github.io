@@ -24,8 +24,8 @@
 
   <!-- Publication Navigation -->
   <!-- <nav class="timeline__nav"> -->
-  <nav class="timeline__nav" style="position: fixed; z-index: 99; top: 100px; transition: top 0.3s ease-out;">
-    <ul style="list-style: none; list-style-position: inside; margin: 0 0;">
+  <nav class="timeline__nav">
+    <ul>
       <li><span><a href="#select">Select</a></span></li>
       <!-- List year -->
       {% assign pub_years = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
