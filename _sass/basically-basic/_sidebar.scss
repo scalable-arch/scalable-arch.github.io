@@ -209,12 +209,13 @@
      top: -100px;
      visibility: hidden;
    }
-   a.select {
+  span.pub_title_select {
+    color: initial;
      &:hover {
        color: $text-color;
        transition: color 0.5s;
      }
-   }
+  }
    hr.milestone {
     height: 0;
     margin: 0;
