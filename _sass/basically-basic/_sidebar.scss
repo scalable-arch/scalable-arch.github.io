@@ -191,7 +191,7 @@
         font-size: 120%;
         color: black;
         &.dark {
-          color: #333333;
+          color: $text_color;
         }
         &:hover {
           color: $accent-color;
