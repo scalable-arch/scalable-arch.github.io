@@ -41,41 +41,41 @@
     <hr class="milestone">
     {% assign categories = "Reliability DRAM GPU Accel AI Security Arithmetic" | split: ' ' %}
     {% for category in categories %}
-    <div class="section">
-    <h4 class="pub_category">{{ category }}</h4>
-    <hr class="category">
-    <ul style="list-style: none;">
-    {% assign typeC_count2 = typeC_count %}
-    {% assign typeJ_count2 = typeJ_count %}
-    {% assign typeP_count2 = typeP_count %}
-    {% assign typeSW_count2 = typeSW_count %}
-    {% assign typeT_count2 = typeT_count %}
-    {% for post in site.posts %}
-      {% if post.pub %}
-        {% if post.pub-type == 'C' %}
-          {% assign pid = 'C' | append: typeC_count2 %}
-          {% assign typeC_count2 = typeC_count2 | minus: 1 %}
-        {% elsif post.pub-type == 'J' %}
-          {% assign pid = 'J' | append: typeJ_count2 %}
-          {% assign typeJ_count2 = typeJ_count2 | minus: 1 %}
-        {% elsif post.pub-type == 'P' %}
-          {% assign pid = 'P' | append: typeP_count2 %}
-          {% assign typeP_count2 = typeP_count2 | minus: 1 %}
-        {% elsif post.pub-type == 'SW' %}
-          {% assign pid = 'SW' | append: typeSW_count2 %}
-          {% assign typeSW_count2 = typeSW_count2 | minus: 1 %}
-        {% elsif post.pub-type == 'T' %}
-          {% assign pid = 'T' | append: typeT_count2 %}
-          {% assign typeT_count2 = typeT_count2 | minus: 1 %}
-        {% endif %}
-        {% if post.select == "y" %}
-          {% if post.category == category %}
-      <li> <a href="#{{ pid }}"><span style="color: white; background-color: #D060D0; border: 1px solid purple; border-radius: 7px; padding: 0 0; line-height: 0.1; margin-left: 5px; margin-right: 5px; margin-bottom: 0;">{{ post.venue }}'{{ post.date | date: "%y"' }}</span>{{ post.title }}</a></li>
+    <div class="section__select">
+      <h4 class="pub_category">{{ category }}</h4>
+      <hr class="category">
+      <ul style="list-style: none;">
+      {% assign typeC_count2 = typeC_count %}
+      {% assign typeJ_count2 = typeJ_count %}
+      {% assign typeP_count2 = typeP_count %}
+      {% assign typeSW_count2 = typeSW_count %}
+      {% assign typeT_count2 = typeT_count %}
+      {% for post in site.posts %}
+        {% if post.pub %}
+          {% if post.pub-type == 'C' %}
+            {% assign pid = 'C' | append: typeC_count2 %}
+            {% assign typeC_count2 = typeC_count2 | minus: 1 %}
+          {% elsif post.pub-type == 'J' %}
+            {% assign pid = 'J' | append: typeJ_count2 %}
+            {% assign typeJ_count2 = typeJ_count2 | minus: 1 %}
+          {% elsif post.pub-type == 'P' %}
+            {% assign pid = 'P' | append: typeP_count2 %}
+            {% assign typeP_count2 = typeP_count2 | minus: 1 %}
+          {% elsif post.pub-type == 'SW' %}
+            {% assign pid = 'SW' | append: typeSW_count2 %}
+            {% assign typeSW_count2 = typeSW_count2 | minus: 1 %}
+          {% elsif post.pub-type == 'T' %}
+            {% assign pid = 'T' | append: typeT_count2 %}
+            {% assign typeT_count2 = typeT_count2 | minus: 1 %}
+          {% endif %}
+          {% if post.select == "y" %}
+            {% if post.category == category %}
+        <li> <a href="#{{ pid }}"><span style="color: white; background-color: #D060D0; border: 1px solid purple; border-radius: 7px; padding: 0 0; line-height: 0.1; margin-left: 5px; margin-right: 5px; margin-bottom: 0;">{{ post.venue }}'{{ post.date | date: "%y"' }}</span>{{ post.title }}</a></li>
+            {% endif %}
           {% endif %}
         {% endif %}
-      {% endif %}
-    {% endfor %}
-    </ul>
+      {% endfor %}
+      </ul>
     </div>
     {% endfor %}
     <hr class="milestone">
@@ -83,7 +83,7 @@
     {% for year in pub_years %}
     <h2 class="milestone" id="{{ year.name }}">{{ year.name }}</h2>
     <hr class="milestone">
-    <div class="section">
+    <div class="section__year">
       {% assign typeC_count2 = typeC_count %}
       {% assign typeJ_count2 = typeJ_count %}
       {% assign typeP_count2 = typeP_count %}
