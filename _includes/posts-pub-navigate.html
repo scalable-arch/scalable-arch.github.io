@@ -70,7 +70,8 @@
           {% endif %}
           {% if post.select == "y" %}
             {% if post.category == category %}
-        <li> <a href="#{{ pid }}"><span style="color: white; background-color: #D060D0; border: 1px solid purple; border-radius: 7px; padding: 0 0; line-height: 0.1; margin-left: 5px; margin-right: 5px; margin-bottom: 0;">{{ post.venue }}'{{ post.date | date: "%y"' }}</span>{{ post.title }}</a></li>
+        <li> <a href="#{{ pid }}">
+                    <span class="venue">{{ post.venue }}'{{ post.date | date: "%y"' }}</span>{{ post.title }}</a></li>
             {% endif %}
           {% endif %}
         {% endif %}
@@ -110,7 +111,6 @@
           {% assign pyear = post.date | date: "%Y" %}
           {% if year.name == pyear %}
           <span class="venue">{{ post.venue }}</span>
-          <span style="color: white; background-color: #D060D0; border: 1px solid purple; border-radius: 7px; padding: 0 0; line-height: 0.1; margin-left: 5px; margin-right: 5px; margin-bottom: 0;">{{ post.venue }}</span>
           {% if post.tier == 'T' %} <span style="color: white; background-color: #E06060; border: 1px solid red; border-radius: 7px; padding: 0 0; line-height: 0.1; margin-left: 5px; margin-right: 5px; margin-bottom: 0;">Top-tier</span> {% endif %}
           {% if post.tier == 'M' %} <span style="color: white; background-color: #E06060; border: 1px solid red; border-radius: 7px; padding: 0 0; line-height: 0.1; margin-left: 5px; margin-right: 5px; margin-bottom: 0;">Major</span> {% endif %}
           <span style="color: white; background-color: #60E060; border: 1px solid green; border-radius: 7px; padding: 0 0; line-height: 0.1; margin-left: 5px; margin-right: 5px; margin-bottom: 0;">{{ post.category }}</span>
