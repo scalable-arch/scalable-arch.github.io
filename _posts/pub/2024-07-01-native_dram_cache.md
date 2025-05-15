@@ -4,7 +4,7 @@ author: Yesin Ryu, Yoojin Kim, Giyong Jung, Jungho Ahn, and Jungrae Kim
 pub-type: C
 venue: ISCA
 venue2: Intl. Symp. on Computer Architecture
-venue3: acceptance rate = 19.6%, July 2024
+venue3: <b>IEEE Micro Top Picks</b> in Computer Architecture (Honorable Mention), acceptance rate = 19.6%, July 2024
 tier: T
 category: DRAM
 select: y
