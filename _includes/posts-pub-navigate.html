@@ -113,7 +113,7 @@
           <span class="venue">{{ post.venue }}</span>
           {% if post.tier == 'T' %} <span class="tier">Top-tier</span> {% endif %}
           {% if post.tier == 'M' %} <span class="tier">Major</span> {% endif %}
-          <span style="color: white; background-color: #60E060; border: 1px solid green; border-radius: 7px; padding: 0 0; line-height: 0.1; margin-left: 5px; margin-right: 5px; margin-bottom: 0;">{{ post.category }}</span>
+          <span class="category">{{ post.category }}</span>
           Link: {% if post.url_paper %} <a href="{{ post.url_paper }}" style="color: navy;" target="_blank">[Paper]</a> {% endif %} {% if post.url_ppt %} <a href="{{ post.url_ppt }}" style="color: navy;" target="_blank">[PPT]</a> {% endif %} {% if post.url_git %} <a href="{{ post.url_git }}" style="color: navy;" target="_blank">[GitHub]</a> {% endif %} <br>
           <div class="pub_title" id="{{ pid }}">[{{ pid }}] <b>{{ post.title }}</b></div>
           {{ post.author }} <br>
