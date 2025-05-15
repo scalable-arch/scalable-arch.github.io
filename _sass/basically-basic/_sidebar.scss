@@ -178,7 +178,6 @@
 
 .timeline__nav {
   position: fixed;
-  //top: 40px;
   z-index: 9999;
   transition: top 0.3s ease-out;
 
@@ -190,6 +189,10 @@
     li {
       a {
         font-size: 120%;
+        color: black;
+        &.dark {
+          color: #333333;
+        }
         &:hover {
           color: $accent-color;
           font-size: 140%;
