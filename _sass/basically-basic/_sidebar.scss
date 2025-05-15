@@ -230,7 +230,7 @@
   span.venue {
     color: white;
     background-color: #D060D0;
-    border: 1px;
+    border: 1px solid purple;
     border-radius: 8px;
     padding: 0 5px;
     margin: 0;
@@ -238,7 +238,15 @@
   span.tier {
     color: white;
     background-color: #E06060;
-    border: 1px;
+    border: 1px solid red;
+    border-radius: 8px;
+    padding: 0 5px;
+    margin: 0;
+  }
+  span.category {
+    color: white;
+    background-color: #60E060;
+    border: 1px solid green;
     border-radius: 8px;
     padding: 0 5px;
     margin: 0;
