@@ -39,12 +39,11 @@
     <!-- Select Publications -->
     <h2 class="milestone" id="select">Select</h2>
     <hr class="milestone">
-    <!--<hr style="margin: 0; height: 2px; line-height: 2px; border-bottom: 2px;">-->
     {% assign categories = "Reliability DRAM GPU Accel AI Security Arithmetic" | split: ' ' %}
     {% for category in categories %}
     <div style="padding-left: 15px;">
     <h4 class="pub_category">{{ category }}</h4>
-    <hr class="category"></div>
+    <hr class="category">
     <ul style="list-style: none;">
     {% assign typeC_count2 = typeC_count %}
     {% assign typeJ_count2 = typeJ_count %}
@@ -77,6 +76,7 @@
       {% endif %}
     {% endfor %}
     </ul>
+    </div>
     {% endfor %}
     <hr class="milestone">
     <!-- Year-by-year Publications -->
