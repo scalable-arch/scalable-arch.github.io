@@ -189,10 +189,10 @@
     li {
       a {
         font-size: 120%;
-        &.default {
+        .default {
           color: black;
         }
-        &.dark {
+        .dark {
           color: white;
         }
         &:hover {
