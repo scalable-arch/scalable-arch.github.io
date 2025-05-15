@@ -208,6 +208,8 @@
      position: relative;
      top: -100px;
      visibility: hidden;
+   }
+   a.select {
      &:hover {
        color: $text-color;
        transition: color 0.5s;
