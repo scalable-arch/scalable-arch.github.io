@@ -42,8 +42,9 @@
     <!--<hr style="margin: 0; height: 2px; line-height: 2px; border-bottom: 2px;">-->
     {% assign categories = "Reliability DRAM GPU Accel AI Security Arithmetic" | split: ' ' %}
     {% for category in categories %}
+    <div style="padding-left: 15px;">
     <h4 class="pub_category">{{ category }}</h4>
-    <hr class="category">
+    <hr class="category"></div>
     <ul style="list-style: none;">
     {% assign typeC_count2 = typeC_count %}
     {% assign typeJ_count2 = typeJ_count %}
