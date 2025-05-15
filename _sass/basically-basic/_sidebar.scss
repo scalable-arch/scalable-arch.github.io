@@ -203,11 +203,14 @@
 .timeline__section {
    margin: 0 auto;
    padding-left: 75pt;
-   a.milestone {
+   a.item {
      display: block;
      position: relative;
      top: -100px;
      visibility: hidden;
+   }
+   a.select:over {
+     color: lighten(initial, 50%);
    }
    hr.milestone {
     height: 0;
