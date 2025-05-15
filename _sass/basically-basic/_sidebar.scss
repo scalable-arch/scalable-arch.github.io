@@ -189,7 +189,9 @@
     li {
       a {
         font-size: 120%;
-        color: black;
+        &.default {
+          color: black;
+        }
         &.dark {
           color: white;
         }
