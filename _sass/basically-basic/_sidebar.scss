@@ -203,9 +203,11 @@
 .timeline__section {
    margin: 0 auto;
    padding-left: 75pt;
-   h2.milestone {
+   a.milestone {
+     display: block;
      position: relative;
      top: -100px;
+     visibility: hidden;
    }
    hr.milestone {
     height: 0;
