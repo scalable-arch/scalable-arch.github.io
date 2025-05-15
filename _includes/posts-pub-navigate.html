@@ -82,7 +82,8 @@
     <!-- Year-by-year Publications -->
     {% for year in pub_years %}
     <h2 class="milestone" id="{{ year.name }}">{{ year.name }}</h2>
-    <hr>
+    <hr class="milestone">
+    <div class="section">
       {% assign typeC_count2 = typeC_count %}
       {% assign typeJ_count2 = typeJ_count %}
       {% assign typeP_count2 = typeP_count %}
@@ -120,6 +121,7 @@
           {% endif %}
         {% endif %}
       {% endfor %}
+    </div>
     {% endfor %} 
 </section>
 
