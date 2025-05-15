@@ -188,13 +188,7 @@
 
     li {
       a {
-        font-size: 120%;
-        .default {
-          color: black;
-        }
-        .dark {
-          color: white;
-        }
+        font-size: 125%;
         &:hover {
           color: $accent-color;
           font-size: 140%;
