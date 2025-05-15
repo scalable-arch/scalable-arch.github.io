@@ -209,8 +209,8 @@
      top: -100px;
      visibility: hidden;
    }
-   a.select:over {
-     color: lighten(initial, 50%);
+   a.select:hover {
+     color: #fff;
    }
    hr.milestone {
     height: 0;
