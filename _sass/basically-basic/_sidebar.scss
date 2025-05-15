@@ -203,14 +203,20 @@
 .timeline__section {
    margin: 0 auto;
    padding-left: 75pt;
-   hr {
-     .milestone {
-       border-top: 2px solid;
-     }
-     .category {
-       width: 50%;
-       text-align: left;
-       margin-left: 0;
-     }
-   }
+   hr.milestone {
+    height: 0;
+    margin: 2.25rem 0;
+    padding: 0;
+    border: 0;
+    border-bottom: 3px solid #bbb;
+  }
+  hr.category {
+    width: 70%;
+    text-align: right;
+    height: 0;
+    margin: 2.25rem 0;
+    padding: 0;
+    border: 0;
+    border-bottom: 1px solid #bbb;
+  }
 }
