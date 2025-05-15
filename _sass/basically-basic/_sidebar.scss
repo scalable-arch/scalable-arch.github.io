@@ -203,6 +203,10 @@
 .timeline__section {
    margin: 0 auto;
    padding-left: 75pt;
+   div.section {
+     padding-left: 15px;
+     line-height: 1;
+   }
    hr.milestone {
     height: 0;
     margin: 0;
