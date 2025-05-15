@@ -110,9 +110,9 @@
           {% endif %}
           {% assign pyear = post.date | date: "%Y" %}
           {% if year.name == pyear %}
-          <span class="venue">{{ post.venue }}</span>
           {% if post.tier == 'T' %} <span class="tier">Top-tier</span> {% endif %}
           {% if post.tier == 'M' %} <span class="tier">Major</span> {% endif %}
+          <span class="venue">{{ post.venue }}</span>
           <span class="category">{{ post.category }}</span>
           Link: {% if post.url_paper %} <a href="{{ post.url_paper }}"  target="_blank">[<b>Paper</b>]</a> {% endif %} 
                 {% if post.url_ppt %} <a href="{{ post.url_ppt }}" target="_blank">[<b>Slides</b>]</a> {% endif %} 
