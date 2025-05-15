@@ -203,10 +203,6 @@
 .timeline__section {
    margin: 0 auto;
    padding-left: 75pt;
-   div.section {
-     padding-left: 15px;
-     line-height: 1.2;
-   }
    hr.milestone {
     height: 0;
     margin: 0;
@@ -214,6 +210,14 @@
     margin-bottom: 2px;
     border: 0;
     border-bottom: 3px solid #bbb;
+  }
+  div.section_select {
+    padding-left: 15px;
+    line-height: 1.2;
+  }
+  div.section_year {
+    padding-left: 15px;
+    line-height: 1.4;
   }
   hr.category {
     height: 0;
