@@ -71,8 +71,7 @@
           {% endif %}
           {% if post.select == "y" %}
             {% if post.category == category %}
-        <li> <a href="#{{ pid }}">
-                    <span class="venue">{{ post.venue }}'{{ post.date | date: "%y"' }}</span> {{ post.title }}</a></li>
+        <li> <a href="#{{ pid }}"><span class="venue">{{ post.venue }}'{{ post.date | date: "%y"' }}</span> <span class="pub_title">{{ post.title }}</span></a></li>
             {% endif %}
           {% endif %}
         {% endif %}
