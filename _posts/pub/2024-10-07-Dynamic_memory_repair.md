@@ -8,7 +8,7 @@ venue3: Oct. 2024
 tier: 
 category: DRAM
 select: n
-url_paper: https://patents.google.com/patent/KR102716293B1/
+url_paper: https://patents.google.com/patent/KR102716293B1
 url_ppt:
 url_github:
 ---
