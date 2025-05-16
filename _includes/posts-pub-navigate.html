@@ -7,20 +7,29 @@
   {% assign typeSW_count = 0 %}
   {% assign typeT_count = 0 %}
   {% for post in site.posts %}
+    {% assign print_year = 0 %}
     {% if post.pub %}
       {% if post.pub-type == 'C' %}
         {% assign typeC_count = typeC_count | plus: 1 %}
+        {% assign print_year = 1 %}
       {% elsif post.pub-type == 'J' %}
         {% assign typeJ_count = typeJ_count | plus: 1 %}
+        {% assign print_year = 1 %}
       {% elsif post.pub-type == 'P' %}
         {% assign typeP_count = typeP_count | plus: 1 %}
       {% elsif post.pub-type == 'SW' %}
         {% assign typeSW_count = typeSW_count | plus: 1 %}
       {% elsif post.pub-type == 'T' %}
         {% assign typeT_count = typeT_count | plus: 1 %}
+        {% assign print_year = 1 %}
+      {% endif %}
+      {% if print_year == 1 %}
+        {% assign year = 'post.date | date: "%Y"' %}
+        {% assign years = years | push: date %}
       {% endif %}
     {% endif %}
   {% endfor %}
+  {% assign years = years | uniq %}
 
   <!-- Publication Navigation -->
   <!-- <nav class="timeline__nav"> -->
@@ -28,24 +37,6 @@
     <ul>
       <li><a href="#select">Select</a></li>
       <!-- List year -->
-      {% for post in site.posts %}
-        {% assign print_select = 0 %}
-        {% assign years = "" | split: ',' %}
-        {% if post.pub %}
-          {% if post.pub-type == 'C' %}
-            {% assign print_select = 1 %}
-          {% elsif post.pub-type == 'J' %}
-            {% assign print_select = 1 %}
-          {% elsif post.pub-type == 'T' %}
-            {% assign print_select = 1 %}
-          {% endif %}
-          {% if print_select == 1 %}
-            {% assign years = years | (push: post.date | date: "%Y") %}
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-      {% assign years = years | uniq %}
-      {{ years }}
       {% for year in years %}
       <li><a href="#{{ year.name }}">{{ year.name }}</a></li>
       {% endfor %}
