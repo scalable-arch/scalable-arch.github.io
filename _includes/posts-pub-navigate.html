@@ -112,6 +112,7 @@
         {% endif %}
       {% endfor %}
     </div>
+    {% endfor %}
 
     <a class="item" id=patent></a>
     <h2 class="milestone">Patent</h2>
@@ -128,7 +129,7 @@
             {% assign pid = 'SW' | append: typeSW_count2 %}
             {% assign typeSW_count2 = typeSW_count2 | minus: 1 %}
           {% endif %}
-          {% assign pyear = post.date | date: "%Y" %}
+          {% if post.pub-type == 'P' %}
           <span class="venue">{{ post.venue }}</span>
           <span class="category">{{ post.category }}</span>
           Link: {% if post.url_paper %} <a href="{{ post.url_paper }}" target="_blank"> <span class="url">Patent</span> </a> {% endif %} 
@@ -139,10 +140,10 @@
           <span class="pub_author">{{ post.author }}</span><br>
           <div class="pub_venue2" style="display: inline;">{{ post.venue2 }} (<b>{{ post.venue }}</b>), {{ post.venue3 }}</div><br>
           <hr class="category">
+          {% endif %}
         {% endif %}
       {% endfor %}
     </div>
-    {% endfor %} 
 </section>
 
 </article>
