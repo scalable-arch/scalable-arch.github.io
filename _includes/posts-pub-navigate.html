@@ -31,18 +31,15 @@
     {% endif %}
   {% endfor %}
   {% assign years = years | split: ' ' | uniq %}
-  {{ years }} 
 
   <!-- Publication Navigation -->
   <!-- <nav class="timeline__nav"> -->
   <nav class="timeline__nav">
-    
-  {{ years }} 
     <ul>
       <li><a href="#select">Select</a></li>
       <!-- List year -->
       {% for year in years %}
-      <li><a href="#{{ year.name }}">{{ year.name }}</a></li>
+      <li><a href="#{{ year }}">{{ year }}</a></li>
       {% endfor %}
       <li><a href="#patent">Patent</a></li>
     </ul>
@@ -111,7 +108,7 @@
             {% assign print_select = 1 %}
           {% endif %}
           {% assign pyear = post.date | date: "%Y" %}
-          {% if year.name != pyear %}
+          {% if year != pyear %}
             {% assign print_select = 0 %}
           {% endif %}
           {% if print_select == 1 %}
