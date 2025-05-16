@@ -39,7 +39,7 @@
           {% elsif post.pub-type == 'T' %}
             {% assign print_select = 1 %}
           {% endif %}
-          {% if print_select %}
+          {% if print_select == 1 %}
             {% assign years = years | push: 'post.date | date: "%Y"' %}
             {{ years }}
           {% endif %}
