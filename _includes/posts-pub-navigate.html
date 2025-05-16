@@ -27,7 +27,6 @@
       {% if print_year == 1 %}
         {% assign year = post.date | date: "%Y" %}
         {% assign years = years | push: year %}
-        {{ years }} <br>
       {% endif %}
     {% endif %}
   {% endfor %}
@@ -37,6 +36,8 @@
   <!-- Publication Navigation -->
   <!-- <nav class="timeline__nav"> -->
   <nav class="timeline__nav">
+    
+  {{ years }} 
     <ul>
       <li><a href="#select">Select</a></li>
       <!-- List year -->
