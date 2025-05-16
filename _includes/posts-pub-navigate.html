@@ -40,12 +40,12 @@
             {% assign print_select = 1 %}
           {% endif %}
           {% if print_select %}
-            {% assign years | push: 'post.date | date: "%Y"' %}
+            {% assign years = years | push: 'post.date | date: "%Y"' %}
           {% endif %}
         {% endif %}
       {% endfor %}
-      {% assign pub_years = years | uniq %}
-      {% for year in pub_years %}
+      {% assign years = years | uniq %}
+      {% for year in years %}
       <li><a href="#{{ year.name }}">{{ year.name }}</a></li>
       {% endfor %}
       <li><a href="#patent">Patent</a></li>
