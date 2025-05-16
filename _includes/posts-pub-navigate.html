@@ -24,8 +24,8 @@
         {% assign print_year = 1 %}
       {% endif %}
       {% if print_year == 1 %}
-        {% assign year = 'post.date | date: "%Y"' %}
-        {% assign years = years | push: date %}
+        {% assign year = post.date | date: "%Y" %}
+        {% assign years = years | push: year %}
       {% endif %}
     {% endif %}
   {% endfor %}
