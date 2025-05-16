@@ -156,7 +156,7 @@
             {% assign typeSW_count2 = typeSW_count2 | minus: 1 %}
             {% assign print_select = 1 %}
           {% endif %}
-          {% if print_select %}
+          {% if print_select == 1 %}
           <span class="venue">{{ post.venue }}</span>
           <span class="category">{{ post.category }}</span>
           Link: {% if post.url_paper %} <a href="{{ post.url_paper }}" target="_blank"> <span class="url">Patent</span> </a> {% endif %} 
