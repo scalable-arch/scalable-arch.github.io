@@ -6,32 +6,24 @@
   {% assign typeP_count = 0 %}
   {% assign typeSW_count = 0 %}
   {% assign typeT_count = 0 %}
-  {% assign years = "" | split: ',' %}
   {% for post in site.posts %}
-    {% assign print_year = 0 %}
     {% if post.pub %}
       {% if post.pub-type == 'C' %}
         {% assign typeC_count = typeC_count | plus: 1 %}
-        {% assign print_year = 1 %}
       {% elsif post.pub-type == 'J' %}
         {% assign typeJ_count = typeJ_count | plus: 1 %}
-        {% assign print_year = 1 %}
       {% elsif post.pub-type == 'P' %}
         {% assign typeP_count = typeP_count | plus: 1 %}
       {% elsif post.pub-type == 'SW' %}
         {% assign typeSW_count = typeSW_count | plus: 1 %}
       {% elsif post.pub-type == 'T' %}
         {% assign typeT_count = typeT_count | plus: 1 %}
-        {% assign print_year = 1 %}
       {% endif %}
       {% if print_year == 1 %}
         {% assign year = post.date | date: '%Y' %}
-        {% assign years = years | push: year %}
       {% endif %}
     {% endif %}
   {% endfor %}
-  {% assign years = years | split: ' ' | uniq %}
-  {{ years }}
 
   <!-- Publication Navigation -->
   <!-- <nav class="timeline__nav"> -->
@@ -39,6 +31,7 @@
     <ul>
       <li><a href="#select">Select</a></li>
       <!-- List year -->
+      {% assign years = "2025 2024 2023 2022 2021 2018 2017 2016 2015 2003" | split: ' ' %}
       {% for year in years %}
       <li><a href="#{{ year }}">{{ year }}</a></li>
       {% endfor %}
