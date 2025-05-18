@@ -12,6 +12,3 @@ url_paper: https://ieeexplore.ieee.org/document/10762528
 url_ppt:
 url_github:
 ---
-
-**Soyoung Park** and **Jungrae Kim** <br>
-The International SoC Conference (ISOCC), Aug. 2024
