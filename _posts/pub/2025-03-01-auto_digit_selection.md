@@ -12,6 +12,3 @@ url_paper: https://ieeexplore.ieee.org/document/10841412
 url_ppt:
 url_github:
 ---
-
-Saeid Gorgin, Ghassem Jaberipur, Jeong-A Lee, Seokjoo Shin, **Jungrae Kim** <br>
-IEEE Embedded Systems Letters, March. 2025
