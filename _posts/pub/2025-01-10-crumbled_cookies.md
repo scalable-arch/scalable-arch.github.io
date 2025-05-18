@@ -12,6 +12,3 @@ url_paper: "https://dl.acm.org/doi/10.1145/3708515"
 url_ppt:
 url_github:
 ---
-
-Nivedita Singh, Yejin Do, Yongsang Yu, Imane Fouad, **Jungrae Kim**, Hyoungshick Kim <br>
-ACM Transactions on the Web, Jan. 2025 <br>
