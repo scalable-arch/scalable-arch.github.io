@@ -12,6 +12,3 @@ url_paper: https://patents.google.com/patent/US12216540B2/
 url_ppt:
 url_github:
 ---
-
-**Jungrae Kim**, Sang-hyo Kim, Seokin Hong, and Yuseok Song<br>
-KR/US(#12,216,540) / 2025.
