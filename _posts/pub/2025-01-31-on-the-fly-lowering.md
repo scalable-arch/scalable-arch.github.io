@@ -12,6 +12,3 @@ url_paper: https://patents.google.com/patent/KR20230160588A
 url_ppt:
 url_github:
 ---
-
-**Jungrae Kim**, Seokin Hong, Taehee Han, Mingu Kang<br>
-KR(10-2763260), 2025.
