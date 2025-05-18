@@ -12,7 +12,3 @@ url_paper: https://patents.google.com/patent/KR102716293B1
 url_ppt:
 url_github:
 ---
-
-**Jungrae Kim**, Sangje Park<br>
-KR(#10-2716293), 2024.
-
