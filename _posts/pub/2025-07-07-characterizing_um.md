@@ -3,7 +3,7 @@ title: "Characterization of the Impact of Migration Granularity on GPU Unified M
 author: Yonghyun Yang, Sanhyun Park, and Jungrae Kim
 pub-type: C
 venue: ITC-CSCC
-venue2: Intl. Technical Conference on Circuits/Systems, Computers and Communications 
+venue2: Intl. Technical Conf. on Circuits/Systems, Computers and Communications 
 venue3: July 2025
 tier: 
 category: GPU
