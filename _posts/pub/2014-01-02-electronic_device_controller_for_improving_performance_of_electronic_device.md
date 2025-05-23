@@ -3,7 +3,7 @@ title: "Electronic Device Controller for Improving Performance of Electronic Dev
 author: Jungrae Kim
 pub-type: P
 venue: Patent
-venue2: KR/JP/CN/US(#8,725,439)
+venue2: US(#8,725,439)/JP/CN/KR
 venue3: May 2014
 tier: 
 category: DRAM
