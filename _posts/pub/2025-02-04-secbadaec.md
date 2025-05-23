@@ -3,7 +3,7 @@ title: "Semiconductor chip for correcting aligned error, semiconductor system fo
 author: Jungrae Kim, Sang-hyo Kim, Seokin Hong, and Yuseok Song
 pub-type: P
 venue: Patent
-venue2: KR/US(#12,216,540) patent
+venue2: US(#12,216,540) patent
 venue3: Feb. 2025
 tier: 
 category: Reliability
