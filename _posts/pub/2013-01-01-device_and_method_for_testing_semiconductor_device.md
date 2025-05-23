@@ -3,7 +3,7 @@ title: "Device and Method for Testing Semiconductor Device"
 author: Jungrae Kim
 pub-type: P
 venue: Patent
-venue2: KR/US(#8,621,292)
+venue2: US(#8,621,292)/KR
 venue3: Dec. 2013
 tier: 
 category: DRAM
