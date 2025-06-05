@@ -1,6 +1,6 @@
 ---
 title: "Generic Modulo-(2^n±δ) Addition Algorithm via Two-Valued Digit Encoding"
-author: Taewon Park, Saeid Gorgin, Dongwhee Kim, Jaeho Shin, Michael B. Sullivan, and Jungrae Kim
+author: Saeid Gorgin, Amirhossein Sadr, Dara Rahmati, and Jungrae Kim
 pub-type: C
 venue: ARITH
 venue2: IEEE Intl. Symp. on Computer Arithmetic
