@@ -44,9 +44,9 @@
     <a class="item" id="select"></a>
     <h2 class="milestone">Select</h2>
     <hr class="milestone">
-    Top-tier conference papers: ISCA x 3, MICRO x 2, HPCA x 4, ASPLOS x 1, SC x 2, DAC x 2, DATE x 2
+    Top-tier conference papers: ISCA x 3, MICRO x 2, HPCA x 4, ASPLOS x 1, SC x 3, DAC x 2, DATE x 2
     <hr class="category">
-    {% assign categories = "Reliability DRAM GPU Accel AI Security Arithmetic" | split: ' ' %}
+    {% assign categories = "Reliability DRAM GPU Accel Interconnect Security Arithmetic AI" | split: ' ' %}
     {% for category in categories %}
     <div class="section__select">
       <h4 class="pub_category">{{ category }}</h4>
