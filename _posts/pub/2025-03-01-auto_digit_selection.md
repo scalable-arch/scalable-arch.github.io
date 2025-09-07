@@ -4,7 +4,7 @@ author: Saeid Gorgin, Ghassem Jaberipur, Jeong-A Lee, Seokjoo Shin, and Jungrae 
 pub-type: J
 venue: ESL
 venue2: IEEE Embedded Systems Letters
-venue3: March 2025
+venue3: Jan. 2025
 tier: M
 category: Arithmetic
 select: y
