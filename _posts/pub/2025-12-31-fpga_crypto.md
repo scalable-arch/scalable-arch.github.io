@@ -1,0 +1,14 @@
+---
+title: "Efficient Modular Addition for FPGA-Based Cryptographic Operations"
+author: Saeid Gorgin, Amirhossein Sadr, Dara Rahmati, Ali Jahanian, and Jungrae Kim
+pub-type: J
+venue: TCAD
+venue2: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems
+venue3: Accepted
+tier: M
+category: Arithmetic
+select: y
+url_paper: 
+url_ppt:
+url_github:
+---
