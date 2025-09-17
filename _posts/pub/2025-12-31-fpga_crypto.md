@@ -8,7 +8,7 @@ venue3: Accepted
 tier: M
 category: Arithmetic
 select: y
-url_paper: 
+url_paper: https://ieeexplore.ieee.org/document/11164365
 url_ppt:
 url_github:
 ---
