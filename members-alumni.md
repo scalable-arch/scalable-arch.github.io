@@ -22,7 +22,7 @@ layout: page-posts
   {:.inner-list}
   - **Wonyeong Jung** - (M.S.) - Samsung Electronics Memory
   - **Jaeyoon Lee** (M.S.) - LG Electronics CTO
-  - **Dongwhee Kim** (M.S.) - Samsung Electronics Memory
+  - **Dongwhee Kim** (M.S.) - University of Texas at Austin
   - **Kiheon Kwon** (M.S.) - DB GlobalChip
   - **Hojung Namkoong** (M.S.) - LIG Nex1
 
