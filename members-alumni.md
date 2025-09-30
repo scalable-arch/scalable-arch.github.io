@@ -23,7 +23,7 @@ layout: page-posts
   - **Dongwhee Kim** (M.S.) - Samsung Electronics Memory
   - **Kiheon Kwon** (M.S.) - DB GlobalChip
   - **Hojung Namkoong** (M.S.) - LIG Nex1
-  - 
+
 ## 2023
 
   {:.inner-list}
