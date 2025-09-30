@@ -11,9 +11,11 @@ layout: page-posts
 
   {:.inner-list}
   - **Yoonyul Yoo** - (M.S.) - Samsung Electronics Memory
+  - **Yonghyun Yang** - (M.S.) - Samsung Electronics S.LSI
   - **Soyoung Park** - (M.S.) - SK Hynix
   - **Junseong Lee** - (M.S.) - Furiosa AI
-  - **Yujin Lim** - (M.S.) - OpenEdges Technology 
+  - **Yujin Lim** - (M.S.) - OpenEdges Technology
+  - **Giyong Jung** - (M.S.) - MangoBoost 
 
 ## 2024
 
