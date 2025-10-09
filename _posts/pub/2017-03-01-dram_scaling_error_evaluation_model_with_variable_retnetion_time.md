@@ -1,5 +1,5 @@
 ---
-title: "DRAM Scaling Error Evaluation Model with Variable Retention Time"
+title: "DRAM Scaling Error Evaluation Model with Various Retention Time"
 author: Seong-Lyong Gong, Jungrae Kim, and Mattan Erez
 pub-type: W
 venue: SELSE
@@ -12,7 +12,3 @@ url_paper: https://ieeexplore.ieee.org/document/8023728
 url_ppt:
 url_github:
 ---
-
-Seong-Lyong Gong, **Jungrae Kim**, Mattan Erez<br>
-The IEEE Workshop on Silicon Errors in Logic - System Effects (**SELSE**), **Best Paper Award**, March 2017.
-
