@@ -4,7 +4,7 @@ author: Saeid Gorgin, Amirhossein Sadr, Dara Rahmati, Ali Jahanian, and Jungrae 
 pub-type: J
 venue: TCAD
 venue2: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems
-venue3: Accepted
+venue3: impact factor=2.9, JCR rank 60.8pth, Accepted
 tier: M
 category: Arithmetic
 select: y
