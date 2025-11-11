@@ -4,7 +4,7 @@ author: Nivedita Singh, Yejin Do, Yongsang Yu, Imane Fouad, Jungrae Kim, and Hyo
 pub-type: J
 venue: TWEB
 venue2: ACM Transactions on the Web
-venue3: Jan. 2025
+venue3: impact factor=4.1, JCR rank 70.3pth, Jan. 2025
 tier: M
 category: Security
 select: n
