@@ -4,7 +4,7 @@ author: Saeid Gorgin, Ghassem Jaberipur, Jeong-A Lee, Seokjoo Shin, and Jungrae 
 pub-type: J
 venue: ESL
 venue2: IEEE Embedded Systems Letters
-venue3: impact factor=1.7, JCR rank 26.3pth, Jan. 2025
+venue3: impact factor=2.0, JCR rank 37.5pth, Jan. 2025
 tier: M
 category: Arithmetic
 select: y
