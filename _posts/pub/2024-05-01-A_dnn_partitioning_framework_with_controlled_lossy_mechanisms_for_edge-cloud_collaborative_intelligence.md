@@ -4,7 +4,7 @@ author: Hyochan Kim, Ji Sub Choi, Jungrae Kim, and Jong Hwan Ko
 pub-type: J
 venue: FGCS
 venue2: Future Generation Computer Systems
-venue3: impact factor=7.5, JCR rank 90.6pth, May 2024
+venue3: impact factor=6.2, JCR rank 90.6pth, May 2024
 tier: T
 category: AI
 select: y
@@ -14,5 +14,5 @@ url_github:
 ---
 
 **Hyochan Kim**, **Ji Sub Choi**, **Jungrae Kim**, **Jong Hwan Ko** <br>
-Future Generation Computer Systems, Journal, May 2024, impact factor=7.5, JCR rank 90.6 pth <br>
+Future Generation Computer Systems, Journal, May 2024, impact factor=6.2, JCR rank 90.6 pth <br>
 Link: [[```Paper```](https://www.sciencedirect.com/science/article/pii/S0167739X24000062)]
