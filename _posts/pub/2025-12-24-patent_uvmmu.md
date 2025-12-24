@@ -1,5 +1,5 @@
 ---
-title: "Method and Apparatus for Providing Virtual Memory Management of Heterogeneous Systems"
+title: "Method and apparatus for providing virtual memory management of heterogeneous systems"
 author: Jihun Park, Donghun Jeong, and Jungrae Kim
 pub-type: P
 venue: Patent
