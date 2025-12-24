@@ -11,8 +11,10 @@ layout: page
     <td> <h2> On-Going </h2> </td>
     <td nowrap>
       <ol>
+        <li> <span style="background-color:#00838a;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#R&D</span> 3D IC DRAM기반 차세대 NPU HW/SW Solution 개발 [삼성전자] [2025.09.01 ~ 2030.08.31] </li>
         <li> <span style="background-color:#00838a;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#R&D</span> AI 가속기를 위한 CXL/DDR5 기반 메모리 서브시스템 솔루션 개발 [한국산업기술평가관리원, 삼성전자, SK 하이닉스] [2023.04.01 ~ 2025.12.31] </li>
         <li> <span style="background-color:#00838a;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#R&D</span> 엣지용 자가지도학습 Flexible SW/HW 통합 솔루션 개발 [정보통신기획평가원] [2023.04.01 ~ 2026.12.31] </li>
+        <li> <span style="background-color:#086fb8;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#HRD</span> AI반도체혁신연구소(성균관대학교) [한국산업기술평가관리원] [2025.07.01 ~ 2030.12.31] </li>
         <li> <span style="background-color:#086fb8;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#HRD</span> 반도체특성화대학원 지원사업 [한국산업기술평가관리원] [2023.03.01 ~ 2028.2.28] </li>
         <li> <span style="background-color:#086fb8;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#HRD</span> 차세대시스템반도체설계전문인력양성 [한국산업기술평가관리원] [2021.03.01 ~ 2026.2.28] </li>
         <li> <span style="background-color:#086fb8;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#HRD</span> ISRC 산학밀착형loT반도체시스템융합인력육성 [과학기술정보통신부] [2021.04.01 ~ 2024.12.31] </li>
