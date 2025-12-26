@@ -8,7 +8,7 @@ venue3: Dec. 2025
 tier: 
 category: GPU
 select: n
-url_paper: 
+url_paper: https://patents.google.com/patent/KR20240083656A/en
 url_ppt:
 url_github:
 ---
