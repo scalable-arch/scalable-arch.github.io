@@ -19,7 +19,7 @@ layout: page
         <li> <span style="background-color:#086fb8;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#HRD</span> 차세대시스템반도체설계전문인력양성 [한국산업기술평가관리원] [2021.03.01 ~ 2026.2.28] </li>
         <li> <span style="background-color:#086fb8;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#HRD</span> ISRC 산학밀착형loT반도체시스템융합인력육성 [과학기술정보통신부] [2021.04.01 ~ 2024.12.31] </li>
         <li> <span style="background-color:#086fb8;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#HRD</span> Brain Korea21 [한국연구재단] [2020.09.01 ~ 2027.08.31] </li>
-        <li> <span style="background-color:#086fb8;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#HRD</span> 인공지능대학원지원 [정보통신기획평가원] [2019.04.01 ~ 2023.12.31] </li>
+        <li> <span style="background-color:#086fb8;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#HRD</span> 인공지능대학원지원 [정보통신기획평가원] [2019.04.01 ~ 2028.12.31] </li>
       </ol>
     </td>
   </tr>
