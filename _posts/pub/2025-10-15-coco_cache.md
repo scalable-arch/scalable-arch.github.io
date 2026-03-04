@@ -8,7 +8,7 @@ venue3: Oct. 2025
 tier: 
 category: DRAM
 select: n
-url_paper:
+url_paper: https://ieeexplore.ieee.org/document/11329712/
 url_ppt:
 url_github:
 ---
