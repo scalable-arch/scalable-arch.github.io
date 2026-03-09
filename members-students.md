@@ -24,10 +24,9 @@ layout: member
 - {:.member-img}![alt member](/assets/images/member.png)
   - {:.member-name} **Boyul Choi / 최보열**
   - E-mail : **gju06051** at **gmail.com**
-  - Dept. : Semiconductor Convergence Engineering
+  - Dept. : Electrical and Computer Engineering
 
 ## Integrated M.S. - Ph.D Students
-
 - {:.member-img}![alt member](/assets/images/member.png)
   - {:.member-name} **Hanum Ko / 고한음**
   - E-mail : **990520kog2** at **gmail.com** 
@@ -48,10 +47,9 @@ layout: member
   - E-mail : **leesr0222** at **skku.edu**
   - Dept. : Electronic and Electrical Engineering
 
-
 ## M.S. Students
 
-- {:.member-name} **Hyunseo Lim 임현서**
+- {:.member-name} **Hyunseo Lim / 임현서**
   - E-mail : **hyunseo.lim0** at **gmail.com**
   - Dept. : Electrical and Computer Engineering
   - <br>
@@ -87,3 +85,5 @@ layout: member
   - <br>
 
 ## Integrated B.S. - M.S Students
+
+  
