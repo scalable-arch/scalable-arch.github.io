@@ -21,13 +21,12 @@ layout: member
   - E-mail : **todrl1783** at **gmail.com**
   - Dept. : Semiconductor and Display Engineering
 
+- {:.member-img}![alt member](/assets/images/member.png)
+  - {:.member-name} **Boyul Choi / 최보열**
+  - E-mail : **gju06051** at **gmail.com**
+  - Dept. : Semiconductor Convergence Engineering
 
 ## Integrated M.S. - Ph.D Students
-
-- {:.member-img}![alt member](/assets/images/member.png)
-  - {:.member-name} **Hyunseo Lim / 임현서**
-  - E-mail : **hyunseo.lim0** at **gmail.com**
-  - Dept. : Electrical and Computer Engineering
 
 - {:.member-img}![alt member](/assets/images/member.png)
   - {:.member-name} **Hanum Ko / 고한음**
@@ -35,40 +34,26 @@ layout: member
   - Dept. : Semiconductor Convergence Engineering
 
 - {:.member-img}![alt member](/assets/images/member.png)
-  - {:.member-name} **Taeyeon Song / 송태연**
-  - E-mail : **sty0316** at **g.skku.edu** 
-  - Dept. : Electrical and Computer Engineering
-
-- {:.member-img}![alt member](/assets/images/member.png)
   - {:.member-name} **Seomgim Jeong 정섬김**
   - E-mail : **wjdtjarla4** at **g.skku.edu**
   - Dept. : Electronic and Electrical Engineering
 
+- {:.member-img}![alt member](/assets/images/member.png)
+  - {:.member-name} **Changyu Son  손찬규**
+  - E-mail : **ghsnffnfn** at **g.skku.edu**
+  - Dept. : Electronic and Electrical Engineering
+
+- {:.member-img}![alt member](/assets/images/member.png)
+  - {:.member-name} **Seungro Lee  이승로**
+  - E-mail : **leesr0222** at **skku.edu**
+  - Dept. : Electronic and Electrical Engineering
+
+
 ## M.S. Students
 
-- {:.member-name} **Yoojin Kim / 김유진**
-  - E-mail : **g24067yjs** at **g.skku.edu**
+- {:.member-name} **Hyunseo Lim 임현서**
+  - E-mail : **hyunseo.lim0** at **gmail.com**
   - Dept. : Electrical and Computer Engineering
-  - <br>
-
-- {:.member-name} **Sanghyun Park / 박상현**
-  - E-mail : **psh2018314072** at **gmail.com**
-  - Dept. : Semiconductor Convergence Engineering
-  - <br>
-
-- {:.member-name} **Jaeho Shin / 신재호**
-  - E-mail : **wogh533** at **g.skku.edu**
-  - Dept. : Semiconductor Convergence Engineering
-  - <br>
-
-- {:.member-name} **Boyul Choi / 최보열**
-  - E-mail : **gju06051** at **gmail.com**
-  - Dept. : Semiconductor Convergence Engineering
-  - <br>
-
-- {:.member-name} **Sanyhyun Hong / 홍상현**
-  - E-mail : **hsangh1596** at **gmail.com** 
-  - Dept. : Semiconductor Convergence Engineering
   - <br>
 
 - {:.member-name} **Seunghyun Kim 김승현**
@@ -81,13 +66,15 @@ layout: member
   - Dept. : Electrical and Computer Engineering
   - <br>
 
+- {:.member-name} **Taeyeon Song / 송태연**
+  - E-mail : **sty0316** at **g.skku.edu** 
+  - Dept. : Electrical and Computer Engineering
+  - <br>
+
 - {:.member-name} **Jaehyeck Choi 최재혁**
   - E-mail : **hyungyu66** at **naver.com**
   - Dept. : Semiconductor Display Engineering
   - <br>
-
-
-## Integrated B.S. - M.S Students
 
 - {:.member-name} **Minjun Ko  고민준**
   - E-mail : **gmj8182** at **naver.com**
@@ -99,12 +86,4 @@ layout: member
   - Dept. : Electronic and Electrical Engineering
   - <br>
 
-- {:.member-name} **Changyu Son  손찬규**
-  - E-mail : **ghsnffnfn** at **g.skku.edu**
-  - Dept. : Electronic and Electrical Engineering
-  - <br>
-
-- {:.member-name} **Seungro Lee  이승로**
-  - E-mail : **leesr0222** at **skku.edu**
-  - Dept. : Electronic and Electrical Engineering
-  - <br>
+## Integrated B.S. - M.S Students

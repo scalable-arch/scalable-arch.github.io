@@ -7,11 +7,19 @@ layout: page-posts
 ---
 # Graduate
 
+## 2026
+
+  {:.inner-list}
+  - **Yonghyun Yang** - (M.S.) - Samsung Electronics S.LSI
+  - **Yoojin Kim** - (M.S.) - MangoBoost 
+  - **Sanghyun Park** - (M.S.) - Furiosa AI
+  - **Jaeho Shin** - (M.S.) - 
+  - **Sanyhyun Hong** - (M.S.) -  
+
 ## 2025
 
   {:.inner-list}
   - **Yoonyul Yoo** - (M.S.) - Samsung Electronics Memory
-  - **Yonghyun Yang** - (M.S.) - Samsung Electronics S.LSI
   - **Soyoung Park** - (M.S.) - SK Hynix
   - **Junseong Lee** - (M.S.) - Furiosa AI
   - **Yujin Lim** - (M.S.) - OpenEdges Technology
