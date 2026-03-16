@@ -33,17 +33,17 @@ layout: member
   - Dept. : Semiconductor Convergence Engineering
 
 - {:.member-img}![alt member](/assets/images/member.png)
-  - {:.member-name} **Seomgim Jeong 정섬김**
+  - {:.member-name} **Seomgim Jeong / 정섬김**
   - E-mail : **wjdtjarla4** at **g.skku.edu**
   - Dept. : Electronic and Electrical Engineering
 
 - {:.member-img}![alt member](/assets/images/member.png)
-  - {:.member-name} **Changyu Son  손찬규**
+  - {:.member-name} **Changyu Son / 손찬규**
   - E-mail : **ghsnffnfn** at **g.skku.edu**
   - Dept. : Electronic and Electrical Engineering
 
 - {:.member-img}![alt member](/assets/images/member.png)
-  - {:.member-name} **Seungro Lee  이승로**
+  - {:.member-name} **Seungro Lee / 이승로**
   - E-mail : **leesr0222** at **skku.edu**
   - Dept. : Electronic and Electrical Engineering
 
@@ -54,12 +54,12 @@ layout: member
   - Dept. : Electrical and Computer Engineering
   - <br>
 
-- {:.member-name} **Seunghyun Kim 김승현**
+- {:.member-name} **Seunghyun Kim / 김승현**
   - E-mail : **kusukusukusun** at **gmail.com**
   - Dept. : Artificial Intelligence
   - <br>
 
-- {:.member-name} **Junhwan Kim 김준환**
+- {:.member-name} **Junhwan Kim / 김준환**
   - E-mail : **99june18** at **naver.com**
   - Dept. : Electrical and Computer Engineering
   - <br>
@@ -69,17 +69,17 @@ layout: member
   - Dept. : Electrical and Computer Engineering
   - <br>
 
-- {:.member-name} **Jaehyeck Choi 최재혁**
+- {:.member-name} **Jaehyeck Choi / 최재혁**
   - E-mail : **hyungyu66** at **naver.com**
   - Dept. : Semiconductor Display Engineering
   - <br>
 
-- {:.member-name} **Minjun Ko  고민준**
+- {:.member-name} **Minjun Ko / 고민준**
   - E-mail : **gmj8182** at **naver.com**
   - Dept. : Electronic and Electrical Engineering
   - <br>
 
-- {:.member-name} **Byeonghun Kim  김병훈**
+- {:.member-name} **Byeonghun Kim / 김병훈**
   - E-mail : **camac0987** at **g.skku.edu**
   - Dept. : Electronic and Electrical Engineering
   - <br>
