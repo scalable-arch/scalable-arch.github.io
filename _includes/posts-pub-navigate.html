@@ -56,6 +56,9 @@
             {% assign pid = 'T' | append: typeT_count2 %}
             {% assign typeT_count2 = typeT_count2 | minus: 1 %}
           {% endif %}
+
+          {% assign post.pid = pid %}
+        
           {% if post.select == "y" %}
             {% if post.category == category %}
         <li> <a href="#{{ pid }}"><span class="venue">{{ post.venue }}'{{ post.date | date: "%y"' }}</span> <span class="pub_title_select">{{ post.title }}</span></a></li>
