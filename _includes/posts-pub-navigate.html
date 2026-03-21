@@ -40,6 +40,11 @@
     {% assign paper.pid = 'P' | append: id %}
     {% assign id = id | minus: 1 %}
   {% endfor %}
+  {% assign id  = papers_sw_count %}
+  {% for paper in papers_sw %}
+    {% assign paper.pid = 'SW' | append: id %}
+    {% assign id = id | minus: 1 %}
+  {% endfor %}
   
   {% assign papers = papers_c | concat: papers_j | concat: papers_w | concat: papers_t %}
   {% assign papers_by_year = papers | group_by_exp: "paper", "paper.date | date: '%Y'" %}
