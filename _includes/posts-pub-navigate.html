@@ -1,7 +1,7 @@
 <article class="timeline" style="position: relative; max-width: 980px; margin: 0 auto;">
 
   <!-- Extract information from data -->
-  {% assign papers = site.posts | where_exp: "post", "post.pub-type == 'C' | post.pub-type == 'J' | post.pub-type == 'W' | post.pub-type == 'T'" %}
+  {% assign papers = site.posts | where_exp: "post", "post.pub-type == 'C' or post.pub-type == 'J' or post.pub-type == 'W' or post.pub-type == 'T'" %}
   {% assign papers_by_year = papers | group_by_exp: "paper", "paper.date | date: '%Y'" %}
   {% assign typeC_count  = site.posts | where: 'pub-type', "C" | size %}
   {% assign typeJ_count  = site.posts | where: 'pub-type', "J" | size %}
