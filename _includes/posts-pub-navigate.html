@@ -3,20 +3,27 @@
   <!-- Extract information from data -->
   {% assign papers = site.posts | where: 'pub-type', "C", "J", "W", "T" %} 
   {% assign papers_by_year = papers | group_by_exp: "paper", "paper.date | date: '%Y'" %}
-  {{ papers_by_year }}
-
-  <br>
-  {% assign posts_by_pub_type = site.posts | group_by_exp: "post", "post.pub-type" %}
-  {{ posts_by_pub_type }}
+  {% assign typeC_count  = site.posts | where: 'pub-type', "C" | size %}
+  {% assign typeJ_count  = site.posts | where: 'pub-type', "J" | size %}
+  {% assign typeW_count  = site.posts | where: 'pub-type', "W" | size %}
+  {% assign typeP_count  = site.posts | where: 'pub-type', "P" | size %}
+  {% assign typeSW_count = site.posts | where: 'pub-type', "SW" | size %}
   
   <br>
-
-  {{ posts_by_pub_type["C"] }}
+  {{ papers }}
+  
+  <br>
+  {{ papers_by_year 
 
   
   <br>
+  {{ typeC_count }}
+  
+  <br>
+  {{ typeJ_count }}
 
-  {{ posts_by_pub_type["C"].size }}
+  <br>
+  {{ typeW_count }}
   
   <!-- Publication Navigation -->
   <nav class="timeline__nav">
