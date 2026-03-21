@@ -78,23 +78,10 @@
       {% assign typeJ_count2 = papers_j_count %}
       {% assign typeT_count2 = papers_t_count %}
       {% for post in site.posts %}
-        {% if post.pub %}
-          {% if post.pub-type == 'C' %}
-            {% assign pid = 'C' | append: typeC_count2 %}
-            {% assign typeC_count2 = typeC_count2 | minus: 1 %}
-          {% elsif post.pub-type == 'J' %}
-            {% assign pid = 'J' | append: typeJ_count2 %}
-            {% assign typeJ_count2 = typeJ_count2 | minus: 1 %}
-          {% elsif post.pub-type == 'T' %}
-            {% assign pid = 'T' | append: typeT_count2 %}
-            {% assign typeT_count2 = typeT_count2 | minus: 1 %}
-          {% endif %}
-
-          {% assign post.pid = pid %}
-        
+        {% if post.pub %}        
           {% if post.select == "y" %}
             {% if post.category == category %}
-        <li> <a href="#{{ pid }}"><span class="venue">{{ post.venue }}'{{ post.date | date: "%y"' }}</span> <span class="pub_title_select">{{ post.title }}</span></a></li>
+        <li> <a href="#{{ post.pid }}"><span class="venue">{{ post.venue }}'{{ post.date | date: "%y"' }}</span> <span class="pub_title_select">{{ post.title }}</span></a></li>
             {% endif %}
           {% endif %}
         {% endif %}
