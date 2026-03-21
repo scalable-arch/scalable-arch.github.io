@@ -1,17 +1,17 @@
 <article class="timeline" style="position: relative; max-width: 980px; margin: 0 auto;">
 
   <!-- Extract information from data -->
-  {% assign years = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+  {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
   {% assign posts_by_pub_type = site.posts | group_by_exp: "post", "post.pub-type" %}
-  {% assign typeC_count = posts_by_pub_type["C"] %>
-  {{ typeC_count }}
+  {{ posts_by_year }}
+  {{ posts_by_pub_type }}
   
   <!-- Publication Navigation -->
   <nav class="timeline__nav">
     <ul>
       <li><a href="#select">Select</a></li>
       <!-- List year -->
-      {% for year in years %}
+      {% for year in posts_by_year %}
       <li><a href="#{{ year.name }}">{{ year.name }}</a></li>
       {% endfor %}
       <li><a href="#patent">Patent</a></li>
@@ -83,7 +83,7 @@
     {% endfor %}
     <hr class="milestone">
     <!-- Year-by-year Publications -->
-    {% for year in years %}
+    {% for year in posts_by_year %}
     <a class="item" id="{{ year.name }}"></a>
     <h2 class="milestone">{{ year.name }}</h2>
     <hr class="milestone">
