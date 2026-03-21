@@ -73,9 +73,9 @@
     <h2 class="milestone">{{ year.name }}</h2>
     <hr class="milestone">
     <div class="section__year">
-      {% assign typeC_count2 = typeC_count %}
-      {% assign typeJ_count2 = typeJ_count %}
-      {% assign typeT_count2 = typeT_count %}
+      {% assign typeC_count2 = papers_c_count %}
+      {% assign typeJ_count2 = papers_j_count %}
+      {% assign typeT_count2 = papers_t_count %}
       {% for post in site.posts %}
         {% assign print_select = 0 %}
         {% if post.pub %}
@@ -119,8 +119,8 @@
     <h2 class="milestone">Patent</h2>
     <hr class="milestone">
     <div class="section__year">
-      {% assign typeP_count2 = typeP_count %}
-      {% assign typeSW_count2 = typeSW_count %}
+      {% assign typeP_count2 = papers_p_count %}
+      {% assign typeSW_count2 = papers_sw_count %}
       {% for post in site.posts %}
         {% assign print_select = 0 %}
         {% if post.pub %}
