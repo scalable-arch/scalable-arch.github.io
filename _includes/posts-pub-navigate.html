@@ -1,27 +1,23 @@
 <article class="timeline" style="position: relative; max-width: 980px; margin: 0 auto;">
 
   <!-- Extract information from data -->
-  {% assign papers = site.posts | where_exp: "post", "post.pub-type == 'C'" %}
+  {% assign papers_c = site.posts | where: 'pub-type', 'C' %}
+  {% assign papers_j = site.posts | where: 'pub-type', 'J' %}
+  {% assign papers_w = site.posts | where: 'pub-type', 'W' %}
+  {% assign papers_t = site.posts | where: 'pub-type', 'T' %}
+  
+  {% assign papers_c_count  = papers_c | size %}
+  {% assign papers_j_count  = papers_j | size %}
+  {% assign papers_w_count  = papers_w | size %}
+  {% assign papers_t_count  = papers_t | size %}
+  {% assign papers_p_count  = site.posts | where: 'pub-type', 'P' | size %}
+  {% assign papers_sw_count = site.posts | where: 'pub-type', 'SW' | size %}
+  
+  {% assign papers = papers_c | concat: papers_j | concat: papers_w | concat: papers_t %}
   {% assign papers_by_year = papers | group_by_exp: "paper", "paper.date | date: '%Y'" %}
-  {% assign typeC_count  = site.posts | where: 'pub-type', "C" | size %}
-  {% assign typeJ_count  = site.posts | where: 'pub-type', "J" | size %}
-  {% assign typeW_count  = site.posts | where: 'pub-type', "W" | size %}
-  {% assign typeT_count  = site.posts | where: 'pub-type', "T" | size %}
-  {% assign typeP_count  = site.posts | where: 'pub-type', "P" | size %}
-  {% assign typeSW_count = site.posts | where: 'pub-type', "SW" | size %}
   
   <br>
   {{ papers_by_year }}
-
-  
-  <br>
-  {{ typeC_count }}
-  
-  <br>
-  {{ typeJ_count }}
-
-  <br>
-  {{ typeW_count }}
   
   <!-- Publication Navigation -->
   <nav class="timeline__nav">
