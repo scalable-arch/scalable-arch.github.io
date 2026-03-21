@@ -15,10 +15,7 @@
   
   {% assign papers = papers_c | concat: papers_j | concat: papers_w | concat: papers_t %}
   {% assign papers_by_year = papers | group_by_exp: "paper", "paper.date | date: '%Y'" %}
-  
-  <br>
-  {{ papers_by_year }}
-  
+
   <!-- Publication Navigation -->
   <nav class="timeline__nav">
     <ul>
@@ -30,31 +27,6 @@
       <li><a href="#patent">Patent</a></li>
     </ul>
   </nav>
-
-  <!-- Count each type -->
-  {% assign typeC_count = 0 %}
-  {% assign typeJ_count = 0 %}
-  {% assign typeP_count = 0 %}
-  {% assign typeSW_count = 0 %}
-  {% assign typeT_count = 0 %}
-  {% for post in site.posts %}
-    {% if post.pub %}
-      {% if post.pub-type == 'C' %}
-        {% assign typeC_count = typeC_count | plus: 1 %}
-      {% elsif post.pub-type == 'J' %}
-        {% assign typeJ_count = typeJ_count | plus: 1 %}
-      {% elsif post.pub-type == 'P' %}
-        {% assign typeP_count = typeP_count | plus: 1 %}
-      {% elsif post.pub-type == 'SW' %}
-        {% assign typeSW_count = typeSW_count | plus: 1 %}
-      {% elsif post.pub-type == 'T' %}
-        {% assign typeT_count = typeT_count | plus: 1 %}
-      {% endif %}
-      {% if print_year == 1 %}
-        {% assign year = post.date | date: '%Y' %}
-      {% endif %}
-    {% endif %}
-  {% endfor %}
 
   <section class="timeline__section">
     <!-- Select Publications -->
@@ -69,9 +41,9 @@
       <h4 class="pub_category">{{ category }}</h4>
       <hr class="category">
       <ul style="list-style: none;">
-      {% assign typeC_count2 = typeC_count %}
-      {% assign typeJ_count2 = typeJ_count %}
-      {% assign typeT_count2 = typeT_count %}
+      {% assign typeC_count2 = papers_c_count %}
+      {% assign typeJ_count2 = papers_j_count %}
+      {% assign typeT_count2 = papers_t_count %}
       {% for post in site.posts %}
         {% if post.pub %}
           {% if post.pub-type == 'C' %}
