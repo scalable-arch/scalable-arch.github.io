@@ -8,7 +8,7 @@
       <!-- Extract years from data -->
       {% assign years = [] %}
       {% for post in site.posts %}
-        {% years << (post.date | date: "%Y ") %}
+        {% assign years = years | concat: (post.date | date: "%Y") %}
       {% endfor %}
       {% assign years = years | uniq %}
       {{ years }}
