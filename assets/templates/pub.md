@@ -3,6 +3,7 @@ title: "Test"
 category: Computer Architecture
 tags: ISCA
 pub-type: C
+pid:
 ---
 
 A, B, C, D, ...<br>
@@ -29,6 +30,7 @@ etc.
     - W: Refereed Workshop Proceedings
     - P: Patent (filed+granted)
     - T: Technical report
+  - pid: auto-generated
 
 - 본문 구역
   - 저자의 이름 작성
