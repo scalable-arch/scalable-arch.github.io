@@ -1,11 +1,11 @@
 <article class="timeline" style="position: relative; max-width: 980px; margin: 0 auto;">
 
   <!-- Extract information from data -->
-  {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
-  {{ posts_by_year }}
+  {% assign papers = site.posts | where: 'pub-type', "C" or "J" %} 
+  {% assign papers_by_year = papers | group_by_exp: "paper", "paper.date | date: '%Y'" %}
+  {{ papers_by_year }}
 
   <br>
-  
   {% assign posts_by_pub_type = site.posts | group_by_exp: "post", "post.pub-type" %}
   {{ posts_by_pub_type }}
   
@@ -23,7 +23,7 @@
     <ul>
       <li><a href="#select">Select</a></li>
       <!-- List year -->
-      {% for year in posts_by_year %}
+      {% for year in papers_by_year %}
       <li><a href="#{{ year.name }}">{{ year.name }}</a></li>
       {% endfor %}
       <li><a href="#patent">Patent</a></li>
@@ -95,7 +95,7 @@
     {% endfor %}
     <hr class="milestone">
     <!-- Year-by-year Publications -->
-    {% for year in posts_by_year %}
+    {% for year in papers_by_year %}
     <a class="item" id="{{ year.name }}"></a>
     <h2 class="milestone">{{ year.name }}</h2>
     <hr class="milestone">
