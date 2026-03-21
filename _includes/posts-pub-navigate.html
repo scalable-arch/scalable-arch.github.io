@@ -1,7 +1,7 @@
 <article class="timeline" style="position: relative; max-width: 980px; margin: 0 auto;">
 
   <!-- Extract information from data -->
-  {% assign papers = site.posts | where: 'pub-type', "C" or "J" %} 
+  {% assign papers = site.posts | where: 'pub-type', "C", "J", "W", "T" %} 
   {% assign papers_by_year = papers | group_by_exp: "paper", "paper.date | date: '%Y'" %}
   {{ papers_by_year }}
 
