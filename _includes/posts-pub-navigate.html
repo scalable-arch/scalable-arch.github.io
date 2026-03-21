@@ -1,5 +1,18 @@
 <article class="timeline" style="position: relative; max-width: 980px; margin: 0 auto;">
 
+  <!-- Publication Navigation -->
+  <nav class="timeline__nav">
+    <ul>
+      <li><a href="#select">Select</a></li>
+      <!-- List year -->
+      {% assign years = "2026 2025 2024 2023 2022 2021 2018 2017 2016 2015 2003" | split: ' ' %}
+      {% for year in years %}
+      <li><a href="#{{ year }}">{{ year }}</a></li>
+      {% endfor %}
+      <li><a href="#patent">Patent</a></li>
+    </ul>
+  </nav>
+
   <!-- Count each type -->
   {% assign typeC_count = 0 %}
   {% assign typeJ_count = 0 %}
@@ -24,20 +37,6 @@
       {% endif %}
     {% endif %}
   {% endfor %}
-
-  <!-- Publication Navigation -->
-  <!-- <nav class="timeline__nav"> -->
-  <nav class="timeline__nav">
-    <ul>
-      <li><a href="#select">Select</a></li>
-      <!-- List year -->
-      {% assign years = "2026 2025 2024 2023 2022 2021 2018 2017 2016 2015 2003" | split: ' ' %}
-      {% for year in years %}
-      <li><a href="#{{ year }}">{{ year }}</a></li>
-      {% endfor %}
-      <li><a href="#patent">Patent</a></li>
-    </ul>
-  </nav>
 
   <section class="timeline__section">
     <!-- Select Publications -->
