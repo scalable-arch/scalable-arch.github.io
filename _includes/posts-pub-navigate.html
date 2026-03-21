@@ -3,9 +3,13 @@
   <!-- Extract information from data -->
   {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
   {{ posts_by_year }}
+
+  <br>
   
   {% assign posts_by_pub_type = site.posts | group_by_exp: "post", "post.pub-type" %}
   {{ posts_by_pub_type }}
+  
+  <br>
 
   {{ posts_by_pub_type["C"].size }}
   
