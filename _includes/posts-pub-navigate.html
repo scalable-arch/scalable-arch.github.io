@@ -22,6 +22,8 @@
   {% for paper in papers_c %}
     {% assign paper.pid = 'C' | append: id %}
     {% assign id = id | minus: 1 %}
+    {{ paper.pid }}
+    <br>
   {% endfor %}
   {% assign id  = papers_j_count %}
   {% for paper in papers_j %}
