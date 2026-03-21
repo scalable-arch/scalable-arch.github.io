@@ -1,6 +1,7 @@
 <article class="timeline" style="position: relative; max-width: 980px; margin: 0 auto;">
 
   <!-- Extract information from data -->
+  <!-- Papers by type -->
   {% assign papers_c  = site.posts | where: 'pub-type', 'C' %}
   {% assign papers_j  = site.posts | where: 'pub-type', 'J' %}
   {% assign papers_w  = site.posts | where: 'pub-type', 'W' %}
@@ -8,6 +9,7 @@
   {% assign papers_p  = site.posts | where: 'pub-type', 'P' %}
   {% assign papers_sw = site.posts | where: 'pub-type', 'SW' %}
   
+  <!-- Counts by type -->
   {% assign papers_c_count  = papers_c  | size %}
   {% assign papers_j_count  = papers_j  | size %}
   {% assign papers_w_count  = papers_w  | size %}
@@ -15,6 +17,7 @@
   {% assign papers_p_count  = papers_p  | size %}
   {% assign papers_sw_count = papers_sw | size %}
 
+  <!-- Assign IDs -->
   {% assign id  = papers_c_count %}
   {% for paper in papers_c %}
     {% assign paper.pid = 'C' | append: id %}
