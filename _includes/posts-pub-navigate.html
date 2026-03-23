@@ -102,7 +102,9 @@
               {% endif %}
             {% endif %}
             {% if i == 3 %}
-              {% if post.tier != '' %}
+              {% if post.tier == 'T' %}
+                {% continue %}
+              {% else if post.tier == 'M' %}
                 {% continue %}
               {% endif %}
             {% endif %}
