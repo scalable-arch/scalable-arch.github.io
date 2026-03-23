@@ -83,6 +83,8 @@
               {% when 'T' %}
                 {% assign pid = 'T' | append: typeT_count2 %}
                 {% assign typeT_count2 = typeT_count2 | minus: 1 %}
+              {% else %}
+                {% continue %}
             {% endcase %}
       
             <!-- check year -->
