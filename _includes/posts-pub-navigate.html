@@ -102,16 +102,17 @@
       {% for post in site.posts %}
         <!-- Assign IDs -->
         {% if post.pub %}
-          {% if post.pub-type == 'C' %}
-            {% assign pid = 'C' | append: typeC_count2 %}
-            {% assign typeC_count2 = typeC_count2 | minus: 1 %}
-          {% elsif post.pub-type == 'J' %}
-            {% assign pid = 'J' | append: typeJ_count2 %}
-            {% assign typeJ_count2 = typeJ_count2 | minus: 1 %}
-          {% elsif post.pub-type == 'T' %}
-            {% assign pid = 'T' | append: typeT_count2 %}
-            {% assign typeT_count2 = typeT_count2 | minus: 1 %}
-          {% endif %}
+          {% case post.pub-type %}
+            {% when 'C' %}
+              {% assign pid = 'C' | append: typeC_count2 %}
+              {% assign typeC_count2 = typeC_count2 | minus: 1 %}
+            {% when 'J' %}
+              {% assign pid = 'J' | append: typeJ_count2 %}
+              {% assign typeJ_count2 = typeJ_count2 | minus: 1 %}
+            {% when 'T' %}
+              {% assign pid = 'T' | append: typeT_count2 %}
+              {% assign typeT_count2 = typeT_count2 | minus: 1 %}
+          {% endcase %}
           <!-- check year -->
           {% assign pyear = post.date | date: "%Y" %}
           {% if year.name != pyear %}
