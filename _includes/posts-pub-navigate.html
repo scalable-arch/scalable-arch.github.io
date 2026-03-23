@@ -19,7 +19,6 @@
 
   <!-- Assign IDs -->
   {% assign id  = papers_c_count %}
-  {{ id }} <br>
   {% for paper in papers_c %}
     {% assign pid = 'C' | append: id %}
     {% decrement id %}
@@ -52,14 +51,13 @@
     {% assign id = id | minus: 1 %}
   {% endfor %}
   
-  {% assign papers = papers_c | concat: papers_j | concat: papers_w | concat: papers_t %}
-  {% assign papers_by_year = papers | group_by_exp: "paper", "paper.date | date: '%Y'" %}
-
   <!-- Publication Navigation -->
   <nav class="timeline__nav">
     <ul>
       <li><a href="#select">Select</a></li>
-      <!-- List year -->
+      <!-- List years with conference/journal/workshop/thesis publications -->
+      {% assign papers = papers_c | concat: papers_j | concat: papers_w | concat: papers_t %}
+      {% assign papers_by_year = papers | group_by_exp: "paper", "paper.date | date: '%Y'" %}
       {% for year in papers_by_year %}
       <li><a href="#{{ year.name }}">{{ year.name }}</a></li>
       {% endfor %}
@@ -80,14 +78,11 @@
       <h4 class="pub_category">{{ category }}</h4>
       <hr class="category">
       <ul style="list-style: none;">
-      {% assign typeC_count2 = papers_c_count %}
-      {% assign typeJ_count2 = papers_j_count %}
-      {% assign typeT_count2 = papers_t_count %}
       {% for post in site.posts %}
         {% if post.pub %}        
           {% if post.select == "y" %}
             {% if post.category == category %}
-        <li> <a href="#{{ post.pid }}"><span class="venue">{{ post.venue }}'{{ post.date | date: "%y"' }}</span> <span class="pub_title_select">{{ post.title }}</span></a></li>
+        <li> <a href="#{{ forloop.index }}"><span class="venue">{{ post.venue }}'{{ post.date | date: "%y"' }}</span> <span class="pub_title_select">{{ post.title }}</span></a></li>
             {% endif %}
           {% endif %}
         {% endif %}
