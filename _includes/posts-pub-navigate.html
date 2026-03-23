@@ -19,9 +19,12 @@
 
   <!-- Assign IDs -->
   {% assign id  = papers_c_count %}
+  {{ id }} <br>
   {% for paper in papers_c %}
     {% assign pid = 'C' | append: id %}
     {% decrement id %}
+    {{ id }} <br>
+    {{ pid }} <br>
   {% endfor %}
   {% assign id  = papers_j_count %}
   {% for paper in papers_j %}
