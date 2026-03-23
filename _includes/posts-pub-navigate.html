@@ -17,38 +17,6 @@
   {% assign papers_p_count  = papers_p  | size %}
   {% assign papers_sw_count = papers_sw | size %}
 
-  <!-- Assign IDs -->
-  {% assign id  = papers_c_count %}
-  {% for paper in papers_c %}
-    {% assign pid = 'C' | append: id %}
-    {% assign id = id | minus: 1 %}
-  {% endfor %}
-  {% assign id  = papers_j_count %}
-  {% for paper in papers_j %}
-    {% assign paper.pid = 'J' | append: id %}
-    {% assign id = id | minus: 1 %}
-  {% endfor %}
-  {% assign id  = papers_w_count %}
-  {% for paper in papers_w %}
-    {% assign paper.pid = 'W' | append: id %}
-    {% assign id = id | minus: 1 %}
-  {% endfor %}
-  {% assign id  = papers_t_count %}
-  {% for paper in papers_t %}
-    {% assign paper.pid = 'T' | append: id %}
-    {% assign id = id | minus: 1 %}
-  {% endfor %}
-  {% assign id  = papers_p_count %}
-  {% for paper in papers_p %}
-    {% assign paper.pid = 'P' | append: id %}
-    {% assign id = id | minus: 1 %}
-  {% endfor %}
-  {% assign id  = papers_sw_count %}
-  {% for paper in papers_sw %}
-    {% assign paper.pid = 'SW' | append: id %}
-    {% assign id = id | minus: 1 %}
-  {% endfor %}
-  
   <!-- Publication Navigation -->
   <nav class="timeline__nav">
     <ul>
