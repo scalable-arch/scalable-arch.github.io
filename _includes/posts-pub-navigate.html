@@ -90,23 +90,20 @@
             {% if year.name != pyear %}
               {% continue %}
             {% endif %}
-            {% if i == 1 %}
-              {% if post.tier != 'T' %}
+            {% if post.tier == 'T' %}
+              {% if i != 1 %}
                 {% continue %}
               {% endif %}
-            {% elsif i == 2 %}
-              {% if post.tier != 'M' %}
+            {% elsif post.tier == 'M' %}
+              {% if i != 2 %}
                 {% continue %}
               {% endif %}
-            {% elsif i == 3 %}
-              "{{ i }}"
-              {% if post.tier == 'T' %}
-                {% continue %}
-              {% elsif post.tier == 'M' %}
+            {% else %}
+              {% if i != 3 %}
                 {% continue %}
               {% endif %}
             {% endif %}
-      
+
             {% if post.tier == 'T' %} <span class="tier">Top-tier</span> {% endif %}
             {% if post.tier == 'M' %} <span class="tier">Major</span> {% endif %}
             <span class="venue">{{ post.venue }}</span>
