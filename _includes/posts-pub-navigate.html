@@ -100,26 +100,23 @@
       {% assign typeJ_count2 = papers_j_count %}
       {% assign typeT_count2 = papers_t_count %}
       {% for post in site.posts %}
-        {% assign print_select = 0 %}
+        <!-- Assign IDs -->
         {% if post.pub %}
           {% if post.pub-type == 'C' %}
             {% assign pid = 'C' | append: typeC_count2 %}
             {% assign typeC_count2 = typeC_count2 | minus: 1 %}
-            {% assign print_select = 1 %}
           {% elsif post.pub-type == 'J' %}
             {% assign pid = 'J' | append: typeJ_count2 %}
             {% assign typeJ_count2 = typeJ_count2 | minus: 1 %}
-            {% assign print_select = 1 %}
           {% elsif post.pub-type == 'T' %}
             {% assign pid = 'T' | append: typeT_count2 %}
             {% assign typeT_count2 = typeT_count2 | minus: 1 %}
-            {% assign print_select = 1 %}
           {% endif %}
+          <!-- check year -->
           {% assign pyear = post.date | date: "%Y" %}
           {% if year.name != pyear %}
-            {% assign print_select = 0 %}
+            {% continue %}
           {% endif %}
-          {% if print_select == 1 %}
           {% if post.tier == 'T' %} <span class="tier">Top-tier</span> {% endif %}
           {% if post.tier == 'M' %} <span class="tier">Major</span> {% endif %}
           <span class="venue">{{ post.venue }}</span>
@@ -132,7 +129,6 @@
           <span class="pub_author">{{ post.author }}</span><br>
           <div class="pub_venue2" style="display: inline;">{{ post.venue2 }} (<b>{{ post.venue }}</b>), {{ post.venue3 }}</div><br>
           <hr class="category">
-          {% endif %}
         {% endif %}
       {% endfor %}
     </div>
