@@ -4,7 +4,7 @@ author: Jungrae Kim, Michael B. Sullivan, and Mattan Erez
 pub-type: C
 venue: HPCA
 venue2: IEEE Intl. Symp. on High Performance Computer Architecture
-venue3: <b>Best Paper Nominee</b>, acceptance rate = 23%, Feb. 2015
+venue3: <font color="#086FB8"><b>Best Paper Nominee</b></font>, acceptance rate = 23%, Feb. 2015
 tier: T
 category: Reliability
 select: y
