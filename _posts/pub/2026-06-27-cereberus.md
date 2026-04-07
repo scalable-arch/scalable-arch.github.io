@@ -1,6 +1,6 @@
 ---
 title: "Cerberus: Cross-Layer ECC Co-Design for Robust and Efficient Memory Protection"
-author: JunHwan Kim, Seunghyun Kim, Yesin Ryu, Saeid Gorgin, Jungrae Kim
+author: Junhwan Kim, Seunghyun Kim, Yesin Ryu, Saeid Gorgin, Jungrae Kim
 pub-type: C
 venue: ISCA
 venue2: ACM/IEEE Intl. Symp. on Computer Architecture
