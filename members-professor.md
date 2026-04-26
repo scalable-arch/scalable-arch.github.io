@@ -84,6 +84,7 @@ layout: page-posts
 
   {:.inner-list}
 
+  - Best Paper Finalist, ISCA, 2026
   - Best Paper Finalist, ASPLOS, 2026
   - Top Picks in Computer Architecture (Honorable Mention), IEEE Micro, 2025
   - Research Excellence Award, College of ICE, SKKU, 2025
