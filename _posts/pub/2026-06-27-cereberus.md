@@ -4,7 +4,7 @@ author: Junhwan Kim, Seunghyun Kim, Yesin Ryu, Saeid Gorgin, Jungrae Kim
 pub-type: C
 venue: ISCA
 venue2: ACM/IEEE Intl. Symp. on Computer Architecture
-venue3: acceptance rate = 19%, Jun. 2026
+venue3: <font color="#086FB8"><b>Best Paper Finalist</b></font>, acceptance rate = 19%, Jun. 2026
 tier: T
 category: Reliability
 select: y
