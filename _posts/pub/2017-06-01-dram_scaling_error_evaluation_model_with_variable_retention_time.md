@@ -4,7 +4,7 @@ author: Seong-Lyong Gong, Jungrae Kim, and Mattan Erez
 pub-type: C
 venue: DSN-W
 venue2: IEEE/IFIP Intl. Conf. on Dependable Systems and Networks Workshops 
-venue3: <font color="#086FB8"><b>Best Paper Award</b></font> in Silicon Errors in Logic, System Effects (SELSE) Workshop, June 2017
+venue3: <font color="#086FB8"><b>Best Paper Winner</b></font> in Silicon Errors in Logic, System Effects (SELSE) Workshop, June 2017
 tier: 
 category: Reliability
 select: n
