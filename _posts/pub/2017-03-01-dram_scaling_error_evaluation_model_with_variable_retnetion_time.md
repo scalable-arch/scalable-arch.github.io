@@ -4,7 +4,7 @@ author: Seong-Lyong Gong, Jungrae Kim, and Mattan Erez
 pub-type: W
 venue: SELSE
 venue2: IEEE Workshop on Silicon Errors in Logic - System Effects
-venue3: <font color="#086FB8"><b>Best Paper Award</b></font>, March 2017
+venue3: <font color="#086FB8"><b>Best Paper Winner</b></font>, March 2017
 tier: 
 category: Reliability
 select: n
