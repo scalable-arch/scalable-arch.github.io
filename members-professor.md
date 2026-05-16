@@ -96,28 +96,26 @@ layout: page-posts
   - Full Financial Sponsorship (해외학술연수), Samsung Electronics, 2011-2016
   - Core Personnel (핵심인재), Samsung Electronics, 2007-2011
   - Special Scholarship Program for Undergraduate Students (대학특별장학생), Korea Foundation of Advanced Studies, 1998-2000
- 
+
+
 ## Services
 
   {:.inner-list}
   - Organizing Committee / ISOCC'23, ISOCC'22, HPCA'21
   - Program Committee / ICCD'23, ISCA'22, ICCD'22, ICCD'21
   - External Review Committee / MICRO'21
+  - Organizing Committee / ISOCC'23, ISOCC'22, HPCA'21
   <br> <a href="/members/professor/services"> A Complete List </a>
 
 ## Media
 
   {:.inner-list}
-  - [Deep Neural Networks: Unpacking Breakthroughs in Efficiency, Interpretability, and Reliability](https://scipapermill.com/2026/05/16/deep-neural-networks-unpacking-breakthroughs-in-efficiency-interpretability-and-reliability/)
-  - [Researchers solve silent packet drop problem in multi-node chip interconnects](https://www.sdxcentral.com/news/researchers-solve-silent-packet-drop-problem-in-multi-node-chip-interconnects/)
-  - [Special Issue on Top Picks From the 2024 Computer Architecture Conferences](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11176886)
-  - [성균관대 김정래·홍석인 교수팀, 컴퓨터구조 분야 최고 권위 'IEEE Micro Top Picks'에 나란히 선정 … 국내 최초 단일 대학 동시 선정](https://biz.newdaily.co.kr/site/data/html/2025/10/13/2025101300220.html)
-  - [김정래 성대 교수, 차세대 메모리 연구로 DATE학회 최우수 논문상](https://www.joongang.co.kr/article/25236533)
-  - [주식회사 텐, 성균관대 SAL-COMPASS LAB과 AI 인프라 산학 협력](https://www.mk.co.kr/news/it/10919372)
-
-
-Organizing Committee / ISOCC'23, ISOCC'22, HPCA'21
-
+  - [2026/05] [Deep Neural Networks: Unpacking Breakthroughs in Efficiency, Interpretability, and Reliability](https://scipapermill.com/2026/05/16/deep-neural-networks-unpacking-breakthroughs-in-efficiency-interpretability-and-reliability/)
+  - [2025/10] [성균관대 김정래·홍석인 교수팀, 컴퓨터구조 분야 최고 권위 'IEEE Micro Top Picks'에 나란히 선정 … 국내 최초 단일 대학 동시 선정](https://biz.newdaily.co.kr/site/data/html/2025/10/13/2025101300220.html)
+  - [2025/09] [Special Issue on Top Picks From the 2024 Computer Architecture Conferences](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11176886)
+  - [2025/07] [Researchers solve silent packet drop problem in multi-node chip interconnects](https://www.sdxcentral.com/news/researchers-solve-silent-packet-drop-problem-in-multi-node-chip-interconnects/)
+  - [2024/03] [김정래 성대 교수, 차세대 메모리 연구로 DATE학회 최우수 논문상](https://www.joongang.co.kr/article/25236533)
+  - [2024/01] [주식회사 텐, 성균관대 SAL-COMPASS LAB과 AI 인프라 산학 협력](https://www.mk.co.kr/news/it/10919372)
 
 
 ## Etc.
