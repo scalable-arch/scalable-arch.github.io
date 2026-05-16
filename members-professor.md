@@ -98,15 +98,6 @@ layout: page-posts
   - Special Scholarship Program for Undergraduate Students (대학특별장학생), Korea Foundation of Advanced Studies, 1998-2000
 
 
-## Services
-
-  {:.inner-list}
-  - Organizing Committee / ISOCC'23, ISOCC'22, HPCA'21
-  - Program Committee / ICCD'23, ISCA'22, ICCD'22, ICCD'21
-  - External Review Committee / MICRO'21
-  - Organizing Committee / ISOCC'23, ISOCC'22, HPCA'21
-  <br> <a href="/members/professor/services"> A Complete List </a>
-
 ## Media
 
   {:.inner-list}
@@ -116,6 +107,16 @@ layout: page-posts
   - [2025/07] [Researchers solve silent packet drop problem in multi-node chip interconnects](https://www.sdxcentral.com/news/researchers-solve-silent-packet-drop-problem-in-multi-node-chip-interconnects/)
   - [2024/03] [김정래 성대 교수, 차세대 메모리 연구로 DATE학회 최우수 논문상](https://www.joongang.co.kr/article/25236533)
   - [2024/01] [주식회사 텐, 성균관대 SAL-COMPASS LAB과 AI 인프라 산학 협력](https://www.mk.co.kr/news/it/10919372)
+
+
+## Services
+
+  {:.inner-list}
+  - Organizing Committee / ISOCC'23, ISOCC'22, HPCA'21
+  - Program Committee / ICCD'23, ISCA'22, ICCD'22, ICCD'21
+  - External Review Committee / MICRO'21
+  - Organizing Committee / ISOCC'23, ISOCC'22, HPCA'21
+  <br> <a href="/members/professor/services"> A Complete List </a>
 
 
 ## Etc.
