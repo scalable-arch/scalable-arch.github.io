@@ -29,7 +29,6 @@ layout: page
         <li> <span style="background-color:#00838a;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#R&D</span> 슈퍼컴향 프로세서 및 메모리의 신뢰성 향상 솔루션 설계 [삼성전자] [2023.12.26 ~ 2024.12.25] </li>
         <li> <span style="background-color:#00838a;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#R&D</span> 고신뢰성 SoC를 위한 DRAM 오류 정정 기법 개발 [삼성전자] [2023.03.01 ~ 2024.02.28] </li>
         <li> <span style="background-color:#00838a;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#R&D</span> DRAM효율성 개선을 위한 동적 DRAM 주소 결정 기법 [삼성전자] [2022.03.01 ~ 2023.02.28] </li>
-        <li> <span style="background-color:#00838a;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#R&D</span> 3D IC DRAM기반 차세대 NPU HW/SW Solution 개발 [삼성전자] [2025.09.01 ~ 2030.08.31] </li>
         <li> <span style="background-color:#00838a;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#R&D</span> 고신뢰 메모리를 위한 지능형 인메모리 오류정정 디바이스 개발 [정보통신기획평가원] [2021.04.01 ~ 2024.12.31] </li>
         <li> <span style="background-color:#00838a;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#R&D</span> 인공지능 반도체 기반 Multi Device 무선 충전 SoC 개발 [정보통신기획평가원] [2021.04.01 ~ 2023.12.31] </li>
         <li> <span style="background-color:#00838a;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#R&D</span> 인공지능 기반 멀티 포멧 메모리 압축 연구 [삼성전자] [2021.03.01 ~ 2022.02.28] </li>
