@@ -12,8 +12,9 @@ layout: page
     <td nowrap>
       <ol>
         <li> <span style="background-color:#00838a;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#R&D</span> 모바일/엣지 환경을 위한 차세대 PIM HW/SW 플랫폼 기술 개발 [정보통신기획평가원] [2026.04.01 ~ 2028.12.31] </li>
-        <li> <span style="background-color:#00838a;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#R&D</span> LPDDR6 인터페이스 개발 및 저전력, 고속 메모리 네트워크 개발 [정보통신기획평가원] [2024.04.01 ~ 2028.12.31] </li>
+        <li> <span style="background-color:#00838a;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#R&D</span> LPDDR6 인터페이스 개발 및 저전력, 고속 메모리 네트워크 개발 [정보통신기획평가원] [2026.04.01 ~ 2028.12.31] </li>
         <li> <span style="background-color:#00838a;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#R&D</span> 엣지용 자가지도학습 Flexible SW/HW 통합 솔루션 개발 [정보통신기획평가원] [2023.04.01 ~ 2026.12.31] </li>
+        <li> <span style="background-color:#00838a;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#R&D</span> 3D IC DRAM 기반 스케일러블 NPU 아키텍처 연구 [삼성전자] [2025.09.01 ~ 2030.08.31] </li>
         <li> <span style="background-color:#086fb8;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#HRD</span> AI반도체혁신연구소(성균관대학교) [한국산업기술평가관리원] [2025.07.01 ~ 2030.12.31] </li>
         <li> <span style="background-color:#086fb8;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#HRD</span> 반도체특성화대학원 지원사업 [한국산업기술평가관리원] [2023.03.01 ~ 2028.2.28] </li>
         <li> <span style="background-color:#086fb8;font-size:12px;float:left;padding:2px 8px;border-radius:50px">#HRD</span> Brain Korea21 [한국연구재단] [2020.09.01 ~ 2027.08.31] </li>
