@@ -116,7 +116,7 @@
             <a class="item" id="{{ forloop.index }}"></a>
             <span class="pub_title">[{{ pid }}] <b>{{ post.title }}</b></span><br>
             <span class="pub_author">{{ post.author }}</span><br>
-            <div class="pub_venue2" style="display: inline;">{{ post.venue2 }} (<b>{{ post.venue }}</b>), {{ post.venue3 }}</div><br>
+            <div class="pub_venue2" style="display: inline;"><b>{{ post.venue }}</b> ({{ post.venue2 }}), {{ post.venue3 }}</div><br>
             <hr class="category">
           {% endif %}
         {% endfor %}
