@@ -6,9 +6,10 @@ venue: ISCA
 venue2: ACM/IEEE Intl. Symp. on Computer Architecture
 venue3: <font color="#086FB8"><b>Best Paper Winner</b></font>, acceptance rate = 19%, Jun. 2026
 tier: T
+
 category: Reliability
 select: y
 url_paper: 
-url_ppt: 
+url_ppt: https://github.com/user-attachments/files/29782478/2026-ISCA-Cerberus.slides.4.pptx
 url_github:
 ---
