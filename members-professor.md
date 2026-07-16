@@ -101,6 +101,7 @@ layout: page-posts
 ## Media
 
   {:.inner-list}
+  - [2026/07] [성균관대 김정래 교수 연구팀, AI 반도체 올림픽 'ISCA 2026'서 대한민국 최초 최우수 논문상 쾌거](https://www.etnews.com/20260706000064)   
   - [2026/05] [Deep Neural Networks: Unpacking Breakthroughs in Efficiency, Interpretability, and Reliability](https://scipapermill.com/2026/05/16/deep-neural-networks-unpacking-breakthroughs-in-efficiency-interpretability-and-reliability/)
   - [2025/10] [성균관대 김정래·홍석인 교수팀, 컴퓨터구조 분야 최고 권위 'IEEE Micro Top Picks'에 나란히 선정 … 국내 최초 단일 대학 동시 선정](https://biz.newdaily.co.kr/site/data/html/2025/10/13/2025101300220.html)
   - [2025/09] [Special Issue on Top Picks From the 2024 Computer Architecture Conferences](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11176886)
@@ -112,6 +113,7 @@ layout: page-posts
 ## Services
 
   {:.inner-list}
+  - Associate Editor / IEEE Computer Architecture Letters (2025-)
   - Organizing Committee / ISOCC'23, ISOCC'22, HPCA'21
   - Program Committee / ICCD'23, ISCA'22, ICCD'22, ICCD'21
   - External Review Committee / MICRO'21
