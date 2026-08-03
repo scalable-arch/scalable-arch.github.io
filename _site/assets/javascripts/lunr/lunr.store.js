@@ -1,92 +1,77 @@
 var store = [{
-        "title": "SAL",
-        "excerpt":"","categories": ["gallery"],
-        "tags": [],
-        "url": "http://localhost:4000/gallery/0001/01/01/SAL.html"
-      },{
         "title": "Lazy Register Reconcile for Local Register Allocation",
-        "excerpt":"Jungrae KimMS Thesis / Seoul National University, Aug. 2003. ","categories": ["Computer Architecture"],
+        "excerpt":"Jungrae KimMS Thesis / Seoul National University, Aug. 2003. ","categories": ["Compiler"],
         "tags": [],
-        "url": "http://localhost:4000/computer%20architecture/2003/08/01/Lazy_Register_Reconcile_for_Local_Register_Allocation.html"
-      },{
-        "title": "Data Processing Apparatus for Compressing Data According to Improved Variable Length Coding Method",
-        "excerpt":"Jungrae Kim, Jinpyo Park, Jaehong Park, Youngjun KwonKR(#10-20,070,075,100), 2006. ","categories": ["Computer Architecture"],
-        "tags": ["Patent"],
-        "url": "http://localhost:4000/computer%20architecture/2006/01/01/data_processing_apparatus_for_compressing_data_according_to_improved_variable_length_coding_method.html"
+        "url": "http://localhost:4000/compiler/2003/08/01/Lazy_Register_Reconcile_for_Local_Register_Allocation.html"
       },{
         "title": "Hybrid Image Data Processing System and Method",
-        "excerpt":"Jungrae Kim, Jinpyo Park, Jaehong Park, Youngjun KwonKR/TW/CN/US(#8,229,235), 2012. ","categories": ["Computer Architecture"],
-        "tags": ["Patent"],
-        "url": "http://localhost:4000/computer%20architecture/2012/01/01/hybrid_data_processing_system_and_method.html"
-      },{
-        "title": "Method of Correcting a Duty Ratio of a Data Strobe Signal",
-        "excerpt":"KyongMook Lim, Jinsu Jung, Kwanho Kim, Jungrae Kim, Taesun KimKR/US(#US20130219208A1), 2012. ","categories": ["Computer Architecture"],
-        "tags": ["Patent"],
-        "url": "http://localhost:4000/computer%20architecture/2012/01/02/method_of_correcting_a_duty_ratio_of_a_data_strobe_signal.html"
+        "excerpt":"Jungrae Kim, Jinpyo Park, Jaehong Park, Youngjun KwonKR/TW/CN/US(#8,229,235), 2012. ","categories": ["AP"],
+        "tags": [],
+        "url": "http://localhost:4000/ap/2012/01/01/hybrid_data_processing_system_and_method.html"
       },{
         "title": "Device and Method for Testing Semiconductor Device",
-        "excerpt":"Jungrae KimKR/US(#8,621,292) / 2013. ","categories": ["Computer Architecture"],
-        "tags": ["Patent"],
-        "url": "http://localhost:4000/computer%20architecture/2013/01/01/device_and_method_for_testing_semiconductor_device.html"
+        "excerpt":"Jungrae KimKR/US(#8,621,292) / 2013. ","categories": ["DRAM"],
+        "tags": [],
+        "url": "http://localhost:4000/dram/2013/01/01/device_and_method_for_testing_semiconductor_device.html"
       },{
         "title": "Method and System Controlling Page Open Time for Memory Device",
-        "excerpt":"Jungrae Kim, and Wooil KimKR/EU/US(#8,688,942) / 2014. ","categories": ["Computer Architecture"],
-        "tags": ["Patent"],
-        "url": "http://localhost:4000/computer%20architecture/2014/01/01/method_and_system_controlling_page_open_time_for_memory_device.html"
+        "excerpt":"Jungrae Kim, and Wooil KimKR/EU/US(#8,688,942) / 2014. ","categories": ["DRAM"],
+        "tags": [],
+        "url": "http://localhost:4000/dram/2014/01/01/method_and_system_controlling_page_open_time_for_memory_device.html"
       },{
         "title": "Electronic Device Controller for Improving Performance of Electronic Device",
-        "excerpt":"Jungrae KimKR/JP/CN/US(#8,625,439), 2014. ","categories": ["Computer Architecture"],
-        "tags": ["Patent"],
-        "url": "http://localhost:4000/computer%20architecture/2014/01/02/electronic_device_controller_for_improving_performance_of_electronic_device.html"
+        "excerpt":"Jungrae KimKR/JP/CN/US(#8,725,439), 2014. ","categories": ["DRAM"],
+        "tags": [],
+        "url": "http://localhost:4000/dram/2014/01/02/electronic_device_controller_for_improving_performance_of_electronic_device.html"
       },{
         "title": "Bamboo ECC: Strong, Safe, and Flexible Codes for Reliable Computer Memory",
-        "excerpt":"Jungrae Kim, Michael Sullivan, Mattan ErezThe 21st IEEE International Symposium on High Performance Computer Architecture (HPCA-21), acceptance rate = 23%, Best Paper, Feb. 2015. ","categories": ["Reliability"],
-        "tags": ["HPCA"],
+        "excerpt":"Jungrae Kim, Michael Sullivan, Mattan ErezThe IEEE International Symposium on High Performance Computer Architecture (HPCA), acceptance rate = 23%, Best Paper Nominee, Feb. 2015. Link: [Paper] ","categories": ["Reliability"],
+        "tags": [],
         "url": "http://localhost:4000/reliability/2015/02/01/bamboo_ecc_strong_safe_and_flexible_codes_for_reliable_computer_memory.html"
       },{
         "title": "Frugal ECC: Efficient and Versatile Memory Error Protection through Fine-grained Compression",
-        "excerpt":"Jungrae Kim, Michael Sullivan, Seong-Lyong Gong, Mattan ErezSC15: The International Conference on High Performance Computing, Networking, Storage and Analysis (SC15) / Acceptance Rate: 22%, Nov. 2015. ","categories": ["Reliability"],
-        "tags": ["SC"],
+        "excerpt":"Jungrae Kim, Michael Sullivan, Seong-Lyong Gong, Mattan ErezThe International Conference on High Performance Computing, Networking, Storage and Analysis (SC), acceptance rate: 22%, Nov. 2015. Link: [Paper] ","categories": ["Reliability"],
+        "tags": [],
         "url": "http://localhost:4000/reliability/2015/11/01/frugal_ecc_efficient_and_versatile_memory_error_protection_through_fine_grained_compression.html"
       },{
         "title": "CLEAN-ECC: High Reliability ECC for Adaptive Granularity Memory System",
-        "excerpt":"Seong-Lyong Gong, Minsoo Rhu, Jungrae Kim, Jinsuk Chung, Mattan ErezThe 48th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO-48), acceptance rate = 22%, Dec. 2015. ","categories": ["Reliability"],
-        "tags": ["MICRO"],
+        "excerpt":"Seong-Lyong Gong, Minsoo Rhu, Jungrae Kim, Jinsuk Chung, Mattan ErezThe Annual IEEE/ACM International Symposium on Microarchitecture (MICRO), acceptance rate = 22%, Dec. 2015. Link: [Paper] ","categories": ["Reliability"],
+        "tags": [],
         "url": "http://localhost:4000/reliability/2015/12/01/clean_ecc_high_reliability_ecc_for_adaptive_granularity_memory_system.html"
       },{
         "title": "All-Inclusive ECC: Thorough End-to-End Protection for Reliable Computer Memory",
-        "excerpt":"Jungrae Kim, Michael Sullivan, Sangkug Lym, Mattan ErezThe 43rd ACM/IEEE International Symposium on Computer Architecture (ISCA-43), acceptance rate = 19%, June 2016. ","categories": ["Reliability"],
-        "tags": ["ISCA"],
+        "excerpt":"Jungrae Kim, Michael Sullivan, Sangkug Lym, Mattan ErezThe ACM/IEEE International Symposium on Computer Architecture (ISCA), acceptance rate = 19%, June 2016. Link: [Paper] ","categories": ["Reliability"],
+        "tags": [],
         "url": "http://localhost:4000/reliability/2016/06/01/all_inclusive_ecc_thorough_end_to_end_protection_for_reliable_computer_memory.html"
       },{
         "title": "Bit-Plane Compression: Transforming Data for Better Compression in Many-core Architectures",
-        "excerpt":"Jungrae Kim, Michael Sullivan, Esha Choukse, Mattan ErezThe 43rd ACM/IEEE International Symposium on Computer Architecture (ISCA-43), acceptance rate = 19%, June 2016. ","categories": ["Computer Architecture"],
-        "tags": ["ISCA"],
-        "url": "http://localhost:4000/computer%20architecture/2016/06/02/bit_plane_compression_tranforming_data_for_better_compression_in_many_core_architectures.html"
+        "excerpt":"Jungrae Kim, Michael Sullivan, Esha Choukse, Mattan ErezThe ACM/IEEE International Symposium on Computer Architecture (ISCA), acceptance rate = 19%, June 2016. Link: [Paper] ","categories": ["GPU"],
+        "tags": [],
+        "url": "http://localhost:4000/gpu/2016/06/02/bit_plane_compression_tranforming_data_for_better_compression_in_many_core_architectures.html"
       },{
         "title": "Strong, Thorough, and Efficient Memory Protection against Existing and Emerging DRAM Errors",
         "excerpt":"Jungrae KimPh.D Thesis / The University of Texas at Austin, Dec. 2016. ","categories": ["Reliability"],
         "tags": [],
         "url": "http://localhost:4000/reliability/2016/12/01/strong_thorough_and_efficient_memory_protection_against_existing_and_emerging_dram_errors.html"
       },{
-        "title": "DRAM Scaling Error Evaluation Model with Variable Retention Time",
-        "excerpt":"Seong-Lyong Gong, Jungrae Kim, Mattan ErezThe 13rd IEEE Workshop on Silicon Errors in Logic - System Effects (SELSE), Best Paper Award, March 2017. ","categories": ["Reliability"],
-        "tags": ["SELSE"],
+        "title": "DRAM Scaling Error Evaluation Model with Various Retention Time",
+        "excerpt":"","categories": ["Reliability"],
+        "tags": [],
         "url": "http://localhost:4000/reliability/2017/03/01/dram_scaling_error_evaluation_model_with_variable_retnetion_time.html"
       },{
-        "title": "DRAM Scaling Error Evaluation Model with Variable Retention Time",
-        "excerpt":"Seong-Lyong Gong, Jungrae Kim, Mattan ErezThe 47th Annual IEEE/IFIP International Conference on Dependable Systems and Networks Workshops (DSN-W), June 2017. ","categories": ["Reliability"],
-        "tags": ["DSN-W"],
+        "title": "DRAM Scaling Error Evaluation Model with Various Retention Time",
+        "excerpt":"","categories": ["Reliability"],
+        "tags": [],
         "url": "http://localhost:4000/reliability/2017/06/01/dram_scaling_error_evaluation_model_with_variable_retention_time.html"
       },{
         "title": "ERUCA: Efficient DRAM Resource Utilization and Resource Conflict Avoidance for Memory System Parallelism",
-        "excerpt":"Sangkug Lym, Heonjae Ha, Yongkee Kwon, Chun-kai Chang, Jungrae Kim, Mattan ErezThe 24th IEEE International Symposium on High Performance Computer Architecture (HPCA-24), acceptance rate = 21%, Feb. 2018. ","categories": ["Computer Architecture"],
-        "tags": ["HPCA"],
-        "url": "http://localhost:4000/computer%20architecture/2018/02/01/eruca_efficient_dram_resource_utilization_and_resource_conflict_avoidance_for_memory_system_parallelism.html"
+        "excerpt":"Sangkug Lym, Heonjae Ha, Yongkee Kwon, Chun-kai Chang, Jungrae Kim, Mattan ErezThe IEEE International Symposium on High Performance Computer Architecture (HPCA), acceptance rate = 21%, Feb. 2018. Link: [Paper] ","categories": ["DRAM"],
+        "tags": [],
+        "url": "http://localhost:4000/dram/2018/02/01/eruca_efficient_dram_resource_utilization_and_resource_conflict_avoidance_for_memory_system_parallelism.html"
       },{
         "title": "DUO: Exposing On-chip Redundancy to Rank-level ECC for High Reliability",
-        "excerpt":"Seong-Lyong Gong, Jungrae Kim, Sangkug Lym, Michael Sullivan, Howard David, Mattan ErezThe 24th IEEE International Symposium on High Performance Computer Architecture (HPCA-24), acceptance rate = 21%, Feb. 2018. ","categories": ["Reliability"],
-        "tags": ["HPCA"],
+        "excerpt":"Seong-Lyong Gong, Jungrae Kim, Sangkug Lym, Michael Sullivan, Howard David, Mattan ErezThe IEEE International Symposium on High Performance Computer Architecture (HPCA), acceptance rate = 21%, Feb. 2018. Link: [Paper] ","categories": ["Reliability"],
+        "tags": [],
         "url": "http://localhost:4000/reliability/2018/02/02/duo_exposing_on_chip_redundancy_to_rank_level_ecc_for_high_reliability.html"
       },{
         "title": "2020-03",
@@ -140,9 +125,9 @@ var store = [{
         "url": "http://localhost:4000/2021/01/01/news_009.html"
       },{
         "title": "Auto-Tiler: Variable-Dimension Autoencoder with Tiling for Compressing Intermediate Feature Space of Deep Neural Networks for Internet of Things",
-        "excerpt":"Jeongsoo Park, Jungrae Kim, Jong Hwan KoMDPI Sensors, impact factor = 3.275, Jan. 2021 ","categories": ["Artificial Intelligence"],
-        "tags": ["MDPI-Sensors"],
-        "url": "http://localhost:4000/artificial%20intelligence/2021/01/01/auto_tiler_variable_dimension_autoencoder_with_tiling_for_compressing_intermediate_feature_space_of_deep_neural_networks_for_internet_of_things.html"
+        "excerpt":"Jeongsoo Park, Jungrae Kim, Jong Hwan KoMDPI Sensors, impact factor = 3.275, Jan. 2021 ","categories": ["AI"],
+        "tags": [],
+        "url": "http://localhost:4000/ai/2021/01/01/auto_tiler.html"
       },{
         "title": "2021-02",
         "excerpt":"Prof. Jungrae Kim gave a talk on “Computation and Communication Cross-Optimization in Cloud Computing” at Computer System Society Winter Conference. ","categories": [],
@@ -200,9 +185,14 @@ var store = [{
         "url": "http://localhost:4000/2021/10/01/news_018.html"
       },{
         "title": "A Weight-Sharing Autoencoder with Dynamic Quantization for Efficient Feature Compression",
-        "excerpt":"Ji Sub Choi, Jungrae Kim, Jong Hwan Ko International Conference on ICT Convergence, pp.1111-1113, Oct 2021 ","categories": ["Artificial Intelligence"],
-        "tags": ["ICTC"],
-        "url": "http://localhost:4000/artificial%20intelligence/2021/10/20/a_weight_sharing_autoencoder_with_dynamic_quantization_for_efficient_feature_compression.html"
+        "excerpt":"Ji Sub Choi, Jungrae Kim, Jong Hwan Ko International Conference on ICT Convergence, pp.1111-1113, Oct 2021 ","categories": ["AI"],
+        "tags": [],
+        "url": "http://localhost:4000/ai/2021/10/20/a_weight_sharing_autoencoder_with_dynamic_quantization_for_efficient_feature_compression.html"
+      },{
+        "title": "SAL",
+        "excerpt":"","categories": ["gallery"],
+        "tags": [],
+        "url": "http://localhost:4000/gallery/2022/01/01/SAL.html"
       },{
         "title": "2022-01",
         "excerpt":"Prof. Jungrae Kim signed a technical advisory contract with Qualitas Semiconductor. ","categories": [],
@@ -220,9 +210,9 @@ var store = [{
         "url": "http://localhost:4000/2022/03/01/news_020.html"
       },{
         "title": "Multi-Prediction Compression: An Efficient and Scalable Memory Compression Framework for GP-GPU",
-        "excerpt":"Hoyong Jin, Donghun Jeong, Taewon Park, Jong Hwan Ko, and Jungrae KimIEEE Computer Architecture Letters, vol.21, no.2, pp.37-40, impact factor = 2.118, May. 2022 ","categories": ["Computer Architecture"],
-        "tags": ["IEEE-CAL"],
-        "url": "http://localhost:4000/computer%20architecture/2022/03/01/multi_prediction_compression_an_efficient_and_scalable_memory_compression_framework_for_gp_gpu.html"
+        "excerpt":"Hoyong Jin, Donghun Jeong, Taewon Park, Jong Hwan Ko, and Jungrae KimIEEE Computer Architecture Letters, impact factor = 2.118, May. 2022 Link: [Paper] ","categories": ["GPU"],
+        "tags": [],
+        "url": "http://localhost:4000/gpu/2022/03/01/multi_prediction_compression_an_efficient_and_scalable_memory_compression_framework_for_gp_gpu.html"
       },{
         "title": "2022-05",
         "excerpt":"Hoyong Jin’s paper, “Multi-Prediction Compression: An Efficient and Scalable Memory Compression Framework for GP-GPU”, has been accepted to IEEE Computer Architecture Letters[CAL]. Congratulation! ","categories": [],
@@ -245,14 +235,14 @@ var store = [{
         "url": "http://localhost:4000/2022/07/01/news_023.html"
       },{
         "title": "On-die Dynamic Remapping Cache: Strong and Independent Protection against Intermittent Faults",
-        "excerpt":"Sangjae Park and Jungrae KimIEEE ACCESS, vol.10, pp.78970-78982, impact factor = 3.476, July. 2022 ","categories": ["Reliability"],
-        "tags": ["IEEE-ACCESS"],
-        "url": "http://localhost:4000/reliability/2022/07/01/On-die-Dynamic-Remapping-Cache-_Strong_and_Independent_Protection_against_Intermittent_Faults.html"
+        "excerpt":"Sangjae Park and Jungrae KimIEEE ACCESS, impact factor = 3.476, July. 2022 Link: [Paper] ","categories": ["DRAM"],
+        "tags": [],
+        "url": "http://localhost:4000/dram/2022/07/01/On-die-Dynamic-Remapping-Cache.html"
       },{
-        "title": "On-the-fly Lowering Engine: Offloading Data Layout Conversion for Convolutional Neural Networks",
-        "excerpt":"MinGu Kang, Sang Min Hyun, Tae Hee Han, Jungrae Kim, and Seokin Hong IEEE ACCESS, vol.10, pp.79730-79746, impact factor = 3.476, July. 2022 ","categories": ["Computer Architecture"],
-        "tags": ["IEEE-ACCESS"],
-        "url": "http://localhost:4000/computer%20architecture/2022/07/01/On-the-fly_Lowering_Engine-_Offloading_Data_Layout_Conversion_for_Convolutional_Neural_Networks.html"
+        "title": "On-the-Fly Lowering Engine: Offloading Data Layout Conversion for Convolutional Neural Networks",
+        "excerpt":"MinGu Kang, Sang Min Hyun, Tae Hee Han, Jungrae Kim*, and Seokin Hong* IEEE ACCESS, impact factor = 3.476, July. 2022* Corresponding Authors Link: [Paper] ","categories": ["GPU"],
+        "tags": [],
+        "url": "http://localhost:4000/gpu/2022/07/01/On-the-fly_Lowering_Engine.html"
       },{
         "title": "2022-08",
         "excerpt":"Donghun Jeong’s paper, “Demand MemCpy: Overlapping of Computation and Data Transfer for Heterogeneous Computing”, has been accepted to IEEE Access. Congratulation! ","categories": [],
@@ -260,9 +250,9 @@ var store = [{
         "url": "http://localhost:4000/2022/08/01/news_024.html"
       },{
         "title": "Demand MemCpy: Overlapping of Computation and Data Transfer for Heterogeneous Computing",
-        "excerpt":"Donghun Jeong, Jihun Park, and Jungrae Kim IEEE ACCESS, vol.10, pp.79925-79938, impact factor = 3.476, July. 2022 ","categories": ["Computer Architecture"],
-        "tags": ["IEEE-ACCESS"],
-        "url": "http://localhost:4000/computer%20architecture/2022/08/01/Demand-MemCpy-_Overlapping_of_Computation_and_Data_Tranfser_for_Heterogeneous_Computing.html"
+        "excerpt":"Donghun Jeong, Jihun Park, and Jungrae Kim IEEE ACCESS, impact factor = 3.476, July. 2022 Link: [Paper] ","categories": ["GPU"],
+        "tags": [],
+        "url": "http://localhost:4000/gpu/2022/08/01/Demand-MemCpy.html"
       },{
         "title": "2022-08",
         "excerpt":"Jungrae Kim’s SW-copyright, “MRSim”, has been registered to Korea Copyright Commission (No. C-2022-031812). Congratulation! ","categories": [],
@@ -271,8 +261,8 @@ var store = [{
       },{
         "title": "MRSim: Memory-Reliability Simulator",
         "excerpt":"Jungrae KimKorea Copyright Commission (No. C-2022-031812), August 16, 2022. ","categories": ["Reliability"],
-        "tags": ["SW-Copyright"],
-        "url": "http://localhost:4000/reliability/2022/08/16/MRSim-_Memory-Reliability_Simulator.html"
+        "tags": [],
+        "url": "http://localhost:4000/reliability/2022/08/16/MRSim.html"
       },{
         "title": "2022-08",
         "excerpt":"Yuseok Song’s paper, “SEC-BADAEC: An Efficient ECC with No Vacancy for Strong Memory Protection”, has been accepted to IEEE Access. Congratulation! ","categories": [],
@@ -280,9 +270,9 @@ var store = [{
         "url": "http://localhost:4000/2022/08/22/news_026.html"
       },{
         "title": "SEC-BADAEC: An Efficient ECC with No Vacancy for Strong Memory Protection",
-        "excerpt":"Yuseok Song, Sangjae Park, Michael B. Sullivan, and Jungrae Kim IEEE ACCESS, vol.10, pp.89769-89780, impact factor = 3.476, July. 2022 ","categories": ["Reliability"],
-        "tags": ["IEEE-ACCESS"],
-        "url": "http://localhost:4000/reliability/2022/08/22/SEC-BADAEC-_An_Efficient_ECC_with_No_Vacancy_for_Strong_Memory_Protection.html"
+        "excerpt":"Yuseok Song, Sangjae Park, Michael B. Sullivan, and Jungrae Kim IEEE ACCESS, impact factor = 3.476, July. 2022 Link: [Paper] ","categories": ["Reliability"],
+        "tags": [],
+        "url": "http://localhost:4000/reliability/2022/08/22/SEC-BADAEC.html"
       },{
         "title": "2022 ISOCC",
         "excerpt":" ","categories": ["gallery"],
@@ -295,14 +285,14 @@ var store = [{
         "url": "http://localhost:4000/2022/10/19/news_027.html"
       },{
         "title": "Adaptive Granularity On-die ECC",
-        "excerpt":"Daero Kim, and Jungrae Kim The 19th International SoC Conference (ISOCC 2022), Poster, Oct. 2022 ","categories": ["Reliability"],
-        "tags": ["ISOCC"],
+        "excerpt":"Daero Kim, and Jungrae Kim The International SoC Conference (ISOCC), Oct. 2022 Link: [Paper] ","categories": ["Reliability"],
+        "tags": [],
         "url": "http://localhost:4000/reliability/2022/10/19/Adaptive_Granularity_On-die_ECC.html"
       },{
         "title": "YOCO: Unified and Efficient Memory Protection for High Bandwidth Memory",
-        "excerpt":"Dongwhee Kim, and Jungrae Kim The 19th International SoC Conference (ISOCC 2022), Oral, Oct. 2022 ","categories": ["Reliability"],
-        "tags": ["ISOCC"],
-        "url": "http://localhost:4000/reliability/2022/10/19/YOCO-_Unified_and_Efficient_Memory_Protection_for_High_Bandwidth_Memory.html"
+        "excerpt":"Dongwhee Kim, and Jungrae Kim The International SoC Conference (ISOCC), Oct. 2022 Link: [Paper] ","categories": ["Reliability"],
+        "tags": [],
+        "url": "http://localhost:4000/reliability/2022/10/19/YOCO.html"
       },{
         "title": "2022 SC",
         "excerpt":" ","categories": ["gallery"],
@@ -340,14 +330,14 @@ var store = [{
         "url": "http://localhost:4000/2023/03/15/news_030.html"
       },{
         "title": "DNN Retraining Method Reducing Accuracy Degradation in Packet-Lossy Environments",
-        "excerpt":"Dongwhee Kim*, Yujin Lim*, Syngha Han, and Jungrae Kim Journal of KIISE, Journal, March. 2023 * Joint First Authors ","categories": ["Artificial Intelligence"],
-        "tags": ["JOK"],
-        "url": "http://localhost:4000/artificial%20intelligence/2023/03/15/DNN_Retraining_Method_Reducing_Accuracy_Degradation_in_Packet-Lossy_Environments.html"
+        "excerpt":"Dongwhee Kim*, Yujin Lim*, Syngha Han, and Jungrae Kim Journal of KIISE, Journal, March. 2023 * Joint First Authors Link: [Paper] ","categories": ["AI"],
+        "tags": [],
+        "url": "http://localhost:4000/ai/2023/03/15/DNN_Retraining_Method_Reducing_Accuracy_Degradation_in_Packet-Lossy_Environments.html"
       },{
         "title": "UVMMU: Hardware-Offloaded Page Migration for Heterogeneous Computing",
-        "excerpt":"Jihun Park, Donghun Jeong, and Jungrae Kim Design, Automation and Test in Europe Conference (DATE23), Oral, acceptance rate = 25%, Apr. 2023 Link: [Slides(pptx)] ","categories": ["Computer Architecture"],
-        "tags": ["DATE"],
-        "url": "http://localhost:4000/computer%20architecture/2023/04/17/UVMMU-_Hardware-Offladed_Page_Migration_for_Heterogeneous_Computing.html"
+        "excerpt":"Jihun Park, Donghun Jeong, and Jungrae Kim The Design, Automation and Test in Europe Conference (DATE), acceptance rate = 25%, Apr. 2023 Link: [Paper]    [Slides(pptx)] ","categories": ["GPU"],
+        "tags": [],
+        "url": "http://localhost:4000/gpu/2023/04/17/UVMMU.html"
       },{
         "title": "Distributed Hardware System",
         "excerpt":"Our base platform to compute is migrating fast from the PC/mobile + server model to the CLOUD/EDGE/IoT platform, as the amount of data keeps exploding. This new platform partitions data and its computations across cloud, edge, and sensor layers, based on the amounts of resources available and resources needed. With...","categories": ["research"],
@@ -385,14 +375,19 @@ var store = [{
         "url": "http://localhost:4000/gallery/2023/06/03/Home_coming_day.html"
       },{
         "title": "2023-06",
+        "excerpt":"Dongwhee Kim’s paper, “Unity ECC: Unified Memory Protection Against Bit and Chip Errors”, has been accepted to the International Conference on High Performance Computing, Networking, Storage and Analysis (SC23).This paper is also nominated for the Best Student Paper Award.Congratulation! ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2023/06/17/news_036.html"
+      },{
+        "title": "2023-06",
         "excerpt":"Kiheon Kwon’s paper, “EPA ECC : Error-Pattern-Aligned ECC for HBM2E”, has been accepted to International Technical Conference on Circuits/Systems, Computers, and Communications (ITC-CSCC23). Congratulation! ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/2023/06/28/news_031.html"
       },{
         "title": "EPA ECC : Error-Pattern-Aligned ECC for HBM2E",
-        "excerpt":"Kiheon Kwon, Dongwhee Kim, Soyoung Park, and Jungrae Kim International Technical Conference on Circuits/Systems, Computers and Communications (ITC-CSCC23), Oral, June. 2023 ","categories": ["Reliability"],
-        "tags": ["ITC-CSCC"],
-        "url": "http://localhost:4000/reliability/2023/06/28/EPA-ECC-_Error-Pattern-Aligned_ECC_for_HBM2E.html"
+        "excerpt":"Kiheon Kwon, Dongwhee Kim, Soyoung Park, and Jungrae Kim The International Technical Conference on Circuits/Systems, Computers and Communications (ITC-CSCC), June. 2023 Link: [Paper] ","categories": ["Reliability"],
+        "tags": [],
+        "url": "http://localhost:4000/reliability/2023/06/28/EPA-ECC.html"
       },{
         "title": "2023 DAC",
         "excerpt":"","categories": ["gallery"],
@@ -400,14 +395,14 @@ var store = [{
         "url": "http://localhost:4000/gallery/2023/07/01/DAC.html"
       },{
         "title": "2023-07",
-        "excerpt":"JaeYoon Lee’s poster, “ROC-DRAM: Low Latency and Low Power DRAM using Rows with Opposite Charging”, has been accepted to Design Automation Conference (DAC23). Congratulation! ","categories": [],
+        "excerpt":"Jaeyoon Lee’s poster, “ROC-DRAM: Low Latency and Low Power DRAM using Rows with Opposite Charging”, has been accepted to Design Automation Conference (DAC23). Congratulation! ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/2023/07/12/news_032.html"
       },{
-        "title": "ROC-DRAM: Low Latency and Low Power DRAM using Rows with Opposite Charging",
-        "excerpt":"Jaeyoon Lee, Daero Kim, and Jungrae Kim Design Automation Conference (DAC23), Poster, July. 2023 Link: [Poster(pptx)] ","categories": ["Computer Architecture"],
-        "tags": ["DAC"],
-        "url": "http://localhost:4000/computer%20architecture/2023/07/12/ROC-DRAM-_Low_Latency_and_Low_Power_DRAMusing_Rows_with_Opposite_Charging.html"
+        "title": "2023.08 SKKU ICE professor workshop",
+        "excerpt":" ","categories": ["gallery"],
+        "tags": [],
+        "url": "http://localhost:4000/gallery/2023/08/17/ICE.html"
       },{
         "title": "2023-09",
         "excerpt":"Dongwhee Kim’s SW-copyright, “ECC-ExerSim”, has been registered to Korea Copyright Commission (No. C-2023-043210). Congratulation! ","categories": [],
@@ -416,28 +411,33 @@ var store = [{
       },{
         "title": "ECC-ExerSim: Error-Correcting Code Exercise and Simulator",
         "excerpt":"Dongwhee Kim, Taewon Park, and Jungrae KimKorea Copyright Commission (No. C-2023-043210), September 26, 2023. Link: [Github] ","categories": ["Reliability"],
-        "tags": ["SW-Copyright"],
-        "url": "http://localhost:4000/reliability/2023/09/26/ECC-ExerSim-_Error_Correcting_Code_Exercise_and_Simulator.html"
+        "tags": [],
+        "url": "http://localhost:4000/reliability/2023/09/26/ECC-ExerSim.html"
       },{
         "title": "2023-10",
-        "excerpt":"Hojung Namkoong’s paper, “CPR: Correlation-based Page Remapping”, Yujin Lim’s paper, “SCC: Efficient Error Correction Codes for MLC PCM”, and Wonyeong Jung’s paper, “Synergistic Integration: An Optimal Combination of On-Die and Rank-Level ECC for Enhanced Reliability”, has been accepted to The 20th International SoC Conference (ISOCC 2023). Congratulation! ","categories": [],
+        "excerpt":"Jaeyoon Lee’s paper, “Agile-DRAM: Agile Trade-Offs in Memory Capacity, Latency, and Energy for Data Centers”, has been accepted to the International Symposium on High-Performance Computer Architecture (HPCA). Congratulation! ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2023/10/23/news_037.html"
+      },{
+        "title": "2023-10",
+        "excerpt":"Hojung Namkoong’s paper, “CPR: Correlation-based Page Remapping”, Yujin Lim’s paper, “SCC: Efficient Error Correction Codes for MLC PCM”, and Wonyeong Jung’s paper, “Synergistic Integration: An Optimal Combination of On-Die and Rank-Level ECC for Enhanced Reliability”, have been accepted to The 20th International SoC Conference (ISOCC 2023). Congratulation! ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/2023/10/27/news_034.html"
       },{
         "title": "CPR: Correlation-based Page Remapping",
-        "excerpt":"Hojung Namkoong, and Jungrae Kim The 20th International SoC Conference (ISOCC 2023), Poster, Oct. 2023 ","categories": ["Computer Architecture"],
-        "tags": ["ISOCC"],
-        "url": "http://localhost:4000/computer%20architecture/2023/10/27/CPR-_Correlation-based_Page_Remapping.html"
+        "excerpt":"Hojung Namkoong, and Jungrae Kim The International SoC Conference (ISOCC), Oct. 2023 ","categories": ["AP"],
+        "tags": [],
+        "url": "http://localhost:4000/ap/2023/10/27/CPR.html"
       },{
         "title": "SCC: Efficient Error Correction Codes for MLC PCM",
-        "excerpt":"Yujin Lim, Dongwhee Kim, and Jungrae Kim The 20th International SoC Conference (ISOCC 2023), Poster, Oct. 2023 ","categories": ["Reliability"],
-        "tags": ["ISOCC"],
-        "url": "http://localhost:4000/reliability/2023/10/27/SCC-_Efficient_Error_Correction_Codes_for_MLC_PCM.html"
+        "excerpt":"Yujin Lim, Dongwhee Kim, and Jungrae Kim The International SoC Conference (ISOCC), Oct. 2023 ","categories": ["Reliability"],
+        "tags": [],
+        "url": "http://localhost:4000/reliability/2023/10/27/SCC.html"
       },{
         "title": "Synergistic Integration: An Optimal Combination of On-Die and Rank-Level ECC for Enhanced Reliability",
-        "excerpt":"Wonyeong Jung, Dongwhee Kim, and Jungrae Kim The 20th International SoC Conference (ISOCC 2023), Poster, Oct. 2023 ","categories": ["Reliability"],
-        "tags": ["ISOCC"],
-        "url": "http://localhost:4000/reliability/2023/10/27/Synergistic_Integration-_An_Optimal_Combination_of_On-Die_and_Rank-Level_ECC_for_Enhanced_Reliability.html"
+        "excerpt":"Wonyeong Jung, Dongwhee Kim, and Jungrae Kim The 20th International SoC Conference (ISOCC), Oct. 2023 ","categories": ["Reliability"],
+        "tags": [],
+        "url": "http://localhost:4000/reliability/2023/10/27/Synergistic_Integration.html"
       },{
         "title": "2023 SAIF",
         "excerpt":"","categories": ["gallery"],
@@ -455,32 +455,462 @@ var store = [{
         "url": "http://localhost:4000/2023/11/07/news_035.html"
       },{
         "title": "2023-11",
-        "excerpt":"Dong Whee Kim’s paper, “Unity ECC: Unified Memory Protection Against Bit and Chip Errors”, has been accepted to the International Conference on High Performance Computing, Networking, Storage and Analysis (SC23).This paper is also nominated for the Best Student Paper Award.Congratulation! ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/2023/11/15/news_036.html"
-      },{
-        "title": "Unity ECC: Unified Memory Protection Against Bit and Chip Errors",
-        "excerpt":"Dongwhee Kim, Jaeyoon Lee, Wonyeong Jung, Michael Sullivan, and Jungrae Kim The International Conference on High Performance Computing, Networking, Storage and Analysis (SC23), Oral, Best Student Paper Nominee, Invited to Samsung AI Forum 2023 (SAIF), acceptance rate = 24%, Nov. 2023Link: [Poster(pdf)]     [Slides(pdf)]    [Github] ","categories": ["Reliability"],
-        "tags": ["SC"],
-        "url": "http://localhost:4000/reliability/2023/11/15/Unity_ECC-_Unified_Memory_Protection_Against_Bit_and_Chip_Errors.html"
-      },{
-        "title": "2024-03",
-        "excerpt":"Jaeyoon Lee’s paper, “Agile-DRAM: Agile Trade-Offs in Memory Capacity, Latency, and Energy for Data Centers”, has been accepted to the International Symposium on High-Performance Computer Architecture (HPCA). Congratulation! ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/2024/03/02/news_037.html"
-      },{
-        "title": "Agile-DRAM: Agile Trade-Offs in Memory Capacity, Latency, and Energy for Data Centers",
-        "excerpt":"Jaeyoon Lee, Wonyeong Jung, Dongwhee Kim, Daero Kim, Junseung Lee, and Jungrae KimThe 30th IEEE International Symposium on High Performance Computer Architecture (HPCA-30), acceptance rate = 18%, March. 2024 ","categories": ["Computer Architecture"],
-        "tags": ["HPCA"],
-        "url": "http://localhost:4000/computer%20architecture/2024/03/02/Agile-DRAM-_Agile_Trade-Offs_in_Memory_Capacity,_Latency,_and_Energy_for_Data_Centers.html"
-      },{
-        "title": "2024-03",
         "excerpt":"Yujin Lim’s paper, “ SELCC: Enhancing MLC Reliability and Endurance with Single Cell Error Correction Codes”, has been accepted to the Design, Automation and Test in Europe conference (DATE24). This paper is also nominated for the Best Paper Award.Congratulation! ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/2024/03/25/news_038.html"
+        "url": "http://localhost:4000/2023/11/12/news_038.html"
+      },{
+        "title": "Unity ECC: Unified Memory Protection Against Bit and Chip Errors",
+        "excerpt":"Dongwhee Kim, Jaeyoon Lee, Wonyeong Jung, Michael Sullivan, and Jungrae Kim The International Conference on High Performance Computing, Networking, Storage and Analysis (SC), Best Student Paper Nominee, acceptance rate = 24%, Nov. 2023 Link: [Paper]    [Poster(pdf)]     [Slides(pdf)]    [Github] ","categories": ["Reliability"],
+        "tags": [],
+        "url": "http://localhost:4000/reliability/2023/11/15/Unity_ECC.html"
+      },{
+        "title": "2023-12",
+        "excerpt":"Scalable Architecture Lab started a new research project with Samsung Advanced Institude of Technology (종합기술원) on Memory Reliability on Supercmoputers. ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2023/12/26/news_039.html"
+      },{
+        "title": "2024 KIISE Computer System Society",
+        "excerpt":"","categories": ["gallery"],
+        "tags": [],
+        "url": "http://localhost:4000/gallery/2024/01/01/KIISE.html"
+      },{
+        "title": "2024-01",
+        "excerpt":"Hyochan Kim’s paper, “A DNN Partitioning Framework with Controlled Lossy Mechanisms for Edge-Cloud Collaborative Intelligence”, has been accepted to Future Generation Computer Systems (FGCS, IF=7.5, JCR rank 91.4 pth). Congratulation! ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2024/01/04/news_040.html"
+      },{
+        "title": "2024-01",
+        "excerpt":"Scalable Architecture Lab started a research intern program with Ten, a ML infrastructure MLOps company. ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2024/01/12/news_041.html"
+      },{
+        "title": "Synergizing CXL With Unified Memory for Scalable GPU Memory Expansion",
+        "excerpt":"Junseung Lee and Jungrae Kim The International Conference on Electronics, Information, and Communication (ICEIC), Jan. 2024 ","categories": ["GPU"],
+        "tags": [],
+        "url": "http://localhost:4000/gpu/2024/01/28/Synergizing_CXL_With_Unified_Memory_for_Scalable_GPU_Memory_Expansion.html"
+      },{
+        "title": "2024 CICE Superior Research Award",
+        "excerpt":" ","categories": ["gallery"],
+        "tags": [],
+        "url": "http://localhost:4000/gallery/2024/02/01/CICE_research_award.html"
+      },{
+        "title": "2024.02 Graduation",
+        "excerpt":" ","categories": ["gallery"],
+        "tags": [],
+        "url": "http://localhost:4000/gallery/2024/02/02/graduation.html"
+      },{
+        "title": "2024-02",
+        "excerpt":"Dongwhee Kim received the Second Prize at the 2023-2 CICE Superior Research Award. Congratulation! ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2024/02/14/news_042.html"
+      },{
+        "title": "2024-02",
+        "excerpt":"Giyong Jung’s work, “Dual-Axis ECC: Vertical and Horizontal Error Correction”, has been accepted as a Work-In-Progress poster to Design Automation Conference (DAC24). Congratulation! ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2024/02/28/news_043.html"
+      },{
+        "title": "2024 HPCA",
+        "excerpt":" ","categories": ["gallery"],
+        "tags": [],
+        "url": "http://localhost:4000/gallery/2024/03/01/HPCA.html"
+      },{
+        "title": "2024-03",
+        "excerpt":"Yujin Lim’s paper, “SELCC: Enhancing MLC Reliability and Endurance with Single Cell Error Correction Codes”, won the Best Paper Award (BPA) at the DATE 2024 conference. This is the second time a Korean affiliation has won the award at DATE (and the first in the Test and Dependability track). This...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2024/03/01/news_044.html"
+      },{
+        "title": "2024 DATE",
+        "excerpt":" ","categories": ["gallery"],
+        "tags": [],
+        "url": "http://localhost:4000/gallery/2024/03/02/DATE.html"
+      },{
+        "title": "Agile-DRAM: Agile Trade-Offs in Memory Capacity, Latency, and Energy for Data Centers",
+        "excerpt":"","categories": ["DRAM"],
+        "tags": [],
+        "url": "http://localhost:4000/dram/2024/03/02/Agile-DRAM.html"
+      },{
+        "title": "2024-03",
+        "excerpt":"Yesin Ryu’s paper, “Native DRAM Cache: Re-architecting DRAM as a Large-Scale Cache for Data Centers”, has been accepted at the ISCA 2024 conference. Congratulations! ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2024/03/20/news_045.html"
       },{
         "title": "SELCC: Enhancing MLC Reliability and Endurance with Single Cell Error Correction Codes",
-        "excerpt":"Yujin Lim, Dongwhee Kim and Jungrae KimThe Design, Automation and Test in Europe Conference (DATE), Best Paper Award Nominee, acceptance rate = 25%, March. 2024 ","categories": ["Reliability"],
-        "tags": ["DATE"],
-        "url": "http://localhost:4000/reliability/2024/03/25/SELCC-_Enhancing_MLC_Reliability_and_Endurance_with_Single_Cell_Error_Correction_Codes.html"
+        "excerpt":"Yujin Lim, Dongwhee Kim and Jungrae KimThe Design, Automation and Test in Europe Conference (DATE), Best Paper Award Winner, acceptance rate = 25%, March. 2024 Link: [Paper]    [Slides(ppt)]    [Github] ","categories": ["Reliability"],
+        "tags": [],
+        "url": "http://localhost:4000/reliability/2024/03/25/SELCC.html"
+      },{
+        "title": "Method and apparatus for generating code for single symbol error correction and double bit error correction",
+        "excerpt":"","categories": ["Reliability"],
+        "tags": [],
+        "url": "http://localhost:4000/reliability/2024/04/04/unity_ecc.html"
+      },{
+        "title": "A DNN Partitioning Framework with Controlled Lossy Mechanisms for Edge-Cloud Collaborative Intelligence",
+        "excerpt":"Hyochan Kim, Ji Sub Choi, Jungrae Kim, Jong Hwan Ko Future Generation Computer Systems, Journal, May 2024, impact factor=6.2, JCR rank 90.6 pth Link: [Paper] ","categories": ["AI"],
+        "tags": [],
+        "url": "http://localhost:4000/ai/2024/05/01/A_dnn_partitioning_framework_with_controlled_lossy_mechanisms_for_edge-cloud_collaborative_intelligence.html"
+      },{
+        "title": "2024-05",
+        "excerpt":"Yoojin Kim’s paper, “LEAP: LLW RowHammer Mitigation System”, Yoonyul Yoo’s paper, “INC: In channel Crossing ECC for LPDDR Compression Attached Memory Module”,and Soyoung Park’s paper, “Evaluating the Impact of In-band ECC on GPU Performance”, have been accepted at the ISOCC 2024 conference. Congratulations! ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2024/05/29/news_046.html"
+      },{
+        "title": "2024 DAC",
+        "excerpt":" ","categories": ["gallery"],
+        "tags": [],
+        "url": "http://localhost:4000/gallery/2024/06/01/DAC.html"
+      },{
+        "title": "2024 ISCA",
+        "excerpt":" ","categories": ["gallery"],
+        "tags": [],
+        "url": "http://localhost:4000/gallery/2024/06/02/ISCA.html"
+      },{
+        "title": "Native DRAM Cache: Re-architecting DRAM as a Large-Scale Cache for Data Centers",
+        "excerpt":"","categories": ["DRAM"],
+        "tags": [],
+        "url": "http://localhost:4000/dram/2024/07/01/native_dram_cache.html"
+      },{
+        "title": "2024-07",
+        "excerpt":"PI gave a talk on “Memory Challenges in Data Centers” at memory division, Samsung Electronics. ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2024/07/16/news_047.html"
+      },{
+        "title": "2024-07",
+        "excerpt":"Soyoung Park’s paper, “CacheCraft: Enhancing GPU Performance under Memory Protection through Reconstructed Caching”, has been accepted at the MICRO 2024 conference. Congratulations! ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2024/07/18/news_048.html"
+      },{
+        "title": "2024 ISOCC",
+        "excerpt":" ","categories": ["gallery"],
+        "tags": [],
+        "url": "http://localhost:4000/gallery/2024/08/01/ISOCC.html"
+      },{
+        "title": "2024 Accelerator Summer Camp",
+        "excerpt":" ","categories": ["gallery"],
+        "tags": [],
+        "url": "http://localhost:4000/gallery/2024/08/02/APSC.html"
+      },{
+        "title": "2024-08",
+        "excerpt":"Giyong Jung’s paper, “Dual-Axis ECC: Vertical and Horizontal Error Correction for Storage and Link Errors”, has been accepted at the ICCD 2024 conference. Congratulations! ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2024/08/02/news_049.html"
+      },{
+        "title": "Evaluating the Impact of In-band ECC on GPU Performance",
+        "excerpt":"","categories": ["GPU"],
+        "tags": [],
+        "url": "http://localhost:4000/gpu/2024/08/19/Evaluating-the-impact-of-in-band-ecc.html"
+      },{
+        "title": "INC: In channel Crossing ECC for LPDDR Compression Attached Memory Module",
+        "excerpt":"","categories": ["Reliability"],
+        "tags": [],
+        "url": "http://localhost:4000/reliability/2024/08/19/INC.html"
+      },{
+        "title": "LEAP: LLW RowHammer Mitigation System",
+        "excerpt":"","categories": ["Security"],
+        "tags": [],
+        "url": "http://localhost:4000/security/2024/08/19/LEAP.html"
+      },{
+        "title": "2024 AI Colloquium",
+        "excerpt":" ","categories": ["gallery"],
+        "tags": [],
+        "url": "http://localhost:4000/gallery/2024/09/01/AIColloquium.html"
+      },{
+        "title": "2024-09",
+        "excerpt":"PI gave a talk on “Memory Challenges in Data Centers” at Samsung Advanced Institute of Technology (SAIT). ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2024/09/24/news_050.html"
+      },{
+        "title": "Apparatus and method for remapping of memory",
+        "excerpt":"","categories": ["DRAM"],
+        "tags": [],
+        "url": "http://localhost:4000/dram/2024/10/07/Dynamic_memory_repair.html"
+      },{
+        "title": "2024 MICRO",
+        "excerpt":" ","categories": ["gallery"],
+        "tags": [],
+        "url": "http://localhost:4000/gallery/2024/11/01/MICRO.html"
+      },{
+        "title": "CacheCraft: Enhancing GPU Performance under Memory Protection through Reconstructed Caching",
+        "excerpt":"","categories": ["GPU"],
+        "tags": [],
+        "url": "http://localhost:4000/gpu/2024/11/02/CacheCraft.html"
+      },{
+        "title": "2024-11",
+        "excerpt":"Nivedita’s paper, “Crumbled Cookies: Exploring E-commerce Websites’ CookiePolicies with Data Protection Regulations”, has been accepted at ACM Transactions on the Web. Congratulations! ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2024/11/06/news_051.html"
+      },{
+        "title": "2024-11",
+        "excerpt":"PI gave a talk on “Exploring Unconventional Solutions for GPU Memory Efficiency” at NVIDIA research at Austin. ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2024/11/07/news_052.html"
+      },{
+        "title": "2024-11",
+        "excerpt":"Sanghyun Park’s paper, “C4ECC: Data Compression for Bandwidth Efficiency Under ECC Protection in GPUs”, and Jaeho Shin’s paper, “ROSE: Reliability-Optimized OD-ECC and S-ECC Enhancements for HBM3”, have been accepted at ICEIC’25. Congratulations! ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2024/11/11/news_053.html"
+      },{
+        "title": "Dual-Axis ECC: Vertical and Horizontal Error Correction for Storage and Link Errors",
+        "excerpt":"","categories": ["Reliability"],
+        "tags": [],
+        "url": "http://localhost:4000/reliability/2024/11/18/DA_ECC.html"
+      },{
+        "title": "2025 ICEIC",
+        "excerpt":"","categories": ["gallery"],
+        "tags": [],
+        "url": "http://localhost:4000/gallery/2025/01/01/ICEIC.html"
+      },{
+        "title": "Crumbled Cookies: Exploring E-commerce Websites? Cookie Policies with Data Protection Regulations",
+        "excerpt":"","categories": ["Security"],
+        "tags": [],
+        "url": "http://localhost:4000/security/2025/01/10/crumbled_cookies.html"
+      },{
+        "title": "2025-01",
+        "excerpt":"Saeid Gorgin’s paper, “Auto Digit Selection for Most Significant Digit First Multiplication”, has been accepted at IEEE Embedded System Letters. Congratulations! ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2025/01/16/news_054.html"
+      },{
+        "title": "C4ECC: Data Compression for Bandwidth Efficiency Under ECC Protection in GPUs",
+        "excerpt":"","categories": ["GPU"],
+        "tags": [],
+        "url": "http://localhost:4000/gpu/2025/01/19/C4ECC.html"
+      },{
+        "title": "ROSE: Reliability-Optimized OD-ECC and S-ECC Enhancements for HBM3",
+        "excerpt":"","categories": ["Reliability"],
+        "tags": [],
+        "url": "http://localhost:4000/reliability/2025/01/19/ROSE.html"
+      },{
+        "title": "Method for accerlerating computation of convolutional neural network and device of accerlerating computation of convolutional neural network",
+        "excerpt":"","categories": ["Accel"],
+        "tags": [],
+        "url": "http://localhost:4000/accel/2025/01/31/on-the-fly-lowering.html"
+      },{
+        "title": "2025 KIISE Computer System Society",
+        "excerpt":" ","categories": ["gallery"],
+        "tags": [],
+        "url": "http://localhost:4000/gallery/2025/02/01/KIISE.html"
+      },{
+        "title": "2025.02 Graduation",
+        "excerpt":" ","categories": ["gallery"],
+        "tags": [],
+        "url": "http://localhost:4000/gallery/2025/02/02/graduation.html"
+      },{
+        "title": "Semiconductor chip for correcting aligned error, semiconductor system for correcting aligned error, and method for correcting aligned error",
+        "excerpt":"","categories": ["Reliability"],
+        "tags": [],
+        "url": "http://localhost:4000/reliability/2025/02/04/secbadaec.html"
+      },{
+        "title": "2025-02",
+        "excerpt":"Yesin Ryu’s paper, “Native DRAM Cache: Re-architecting DRAM as a Large-Scale Cache for Data Centers”, has been accepted at the IEEE Micro Top Picks as Honorable Mention. Each year, IEEE Micro selects the top 24 papers from research published in the leading computer architecture conferences (ISCA, MICRO, HPCA, and ASPLOS)....","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2025/02/08/news_055.html"
+      },{
+        "title": "2025-02",
+        "excerpt":"PI gave a talk on “Exploring Unconventional Solutions for GPU Memory Efficiency” at KIISE Computer System Society Winter Conference. ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2025/02/11/news_056.html"
+      },{
+        "title": "2025-02",
+        "excerpt":"Saeid Gorgin’s paper, “Generic Modulo-(2^n±δ) Addition Algorithm via Two-Valued Digit Encoding”, has been accepted at the IEEE International Symposium on Computer Arithmetic (ARITH). Congratulations! ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2025/02/13/news_057.html"
+      },{
+        "title": "2025-02",
+        "excerpt":"Taewon’s paper, “PoP-ECC: Robust and Flexible Error Correction against Multi-Bit Upsets in DNN Accelerators”, and Yoonho’s paper, “PIMPAL: Accelerating LLM Inference on Edge Devices via In-DRAM Arithmetic Lookup”, have been accepted to the Design Actomation Conference (DAC). Congratulations! ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2025/02/21/news_058.html"
+      },{
+        "title": "Auto Digit Selection for Most Significant Digit First Multiplication",
+        "excerpt":"","categories": ["Arithmetic"],
+        "tags": [],
+        "url": "http://localhost:4000/arithmetic/2025/03/01/auto_digit_selection.html"
+      },{
+        "title": "2025.03 SKKU ICE Professor Workshop",
+        "excerpt":" ","categories": ["gallery"],
+        "tags": [],
+        "url": "http://localhost:4000/gallery/2025/03/05/ICE.html"
+      },{
+        "title": "Method for generating burst error correction code, device for generating burst error correction code, and recording medium storing instructions to perform method for generating burst error correction code",
+        "excerpt":"","categories": ["Reliability"],
+        "tags": [],
+        "url": "http://localhost:4000/reliability/2025/04/01/burst_error.html"
+      },{
+        "title": "2025-04",
+        "excerpt":"Yesin’s paper, titled “RowHammer 공격과 방어: 기술적 진화와 도전 과제,” was published as an invited paper in the Communications of the Korean Institute of Information Scientists and Engineers (정보과학회지). ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2025/04/15/news_059.html"
+      },{
+        "title": "RowHammer 공격과 방어: 기술적 진화와 도전 과제",
+        "excerpt":"","categories": ["Security"],
+        "tags": [],
+        "url": "http://localhost:4000/security/2025/04/15/row_hammer.html"
+      },{
+        "title": "Generic Modulo-(2^n±δ) Addition Algorithm via Two-Valued Digit Encoding",
+        "excerpt":"","categories": ["Arithmetic"],
+        "tags": [],
+        "url": "http://localhost:4000/arithmetic/2025/05/04/generic_modulo.html"
+      },{
+        "title": "2025-05",
+        "excerpt":"Boyeol’s paper, “SPRINT: Selective Partial Region-based Invalidation for Neutralizing Thrashing in GPU Unified Memory”, and Yonghyun’s paper, “Characterization of the Impact of Migration Granularity on GPU Unified Memory I/O”, have been accepted to the ITC-CSCC 2025 conference. Congratulations! ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2025/05/15/news_061.html"
+      },{
+        "title": "2025-05",
+        "excerpt":"PI gave a talk on “DRAM Errors in Datacenters” at POSTECH. ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2025/05/30/news_062.html"
+      },{
+        "title": "2025 ISCA",
+        "excerpt":" ","categories": ["gallery"],
+        "tags": [],
+        "url": "http://localhost:4000/gallery/2025/06/01/ISCA.html"
+      },{
+        "title": "PIMPAL: Accelerating LLM Inference on Edge Devices via In-DRAM Arithmetic Lookup",
+        "excerpt":"","categories": ["Accel"],
+        "tags": [],
+        "url": "http://localhost:4000/accel/2025/06/22/pimpal.html"
+      },{
+        "title": "PoP-ECC: Robust and Flexible Error Correction against Multi-Bit Upsets in DNN Accelerators",
+        "excerpt":"","categories": ["Reliability"],
+        "tags": [],
+        "url": "http://localhost:4000/reliability/2025/06/22/pop_ecc.html"
+      },{
+        "title": "2025-06",
+        "excerpt":"Giyong’s paper, “Scaling Out Chip Interconnect Networks with Implicit Sequence Numbers”, has been accepted to the SC 2025 conference. Congratulations! ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2025/06/27/news_063.html"
+      },{
+        "title": "2025 ITC-CSCC",
+        "excerpt":" ","categories": ["gallery"],
+        "tags": [],
+        "url": "http://localhost:4000/gallery/2025/07/01/ITC-CSCC.html"
+      },{
+        "title": "SPRINT: Selective Partial Region-based Invalidation for Neutralizing Thrashing in GPU Unified Memory",
+        "excerpt":"","categories": ["GPU"],
+        "tags": [],
+        "url": "http://localhost:4000/gpu/2025/07/07/SPRINT.html"
+      },{
+        "title": "Characterization of the Impact of Migration Granularity on GPU Unified Memory I/O",
+        "excerpt":"","categories": ["GPU"],
+        "tags": [],
+        "url": "http://localhost:4000/gpu/2025/07/07/characterizing_um.html"
+      },{
+        "title": "2025-08",
+        "excerpt":"Sanghyun’s paper, “Compression to Colocate: Enabling Tag and Data Colocation via Data Compression in DRAM Cache”, and Hyunseo’s paper, “Hidden Refresh: Reducing DRAM Refresh Overhead for Improved Performance”, have been accepted to the ISOCC 2025 conference. Congratulations! ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2025/08/10/news_064.html"
+      },{
+        "title": "2025-08",
+        "excerpt":"PI gave a talk on “Reliability Challenges of CXL” at OCP Korea Tech Day. ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2025/08/12/news_065.html"
+      },{
+        "title": "Dram and control mathod for the same",
+        "excerpt":"","categories": ["DRAM"],
+        "tags": [],
+        "url": "http://localhost:4000/dram/2025/08/14/agile_dram.html"
+      },{
+        "title": "Memory device and operating methods thereof",
+        "excerpt":"","categories": ["DRAM"],
+        "tags": [],
+        "url": "http://localhost:4000/dram/2025/08/14/memory_device.html"
+      },{
+        "title": "2025-09",
+        "excerpt":"Gyuri Kim’s paper, “Partial-Chip Extensions of Single-Chip Erasure Decoding for Flexible Use of Redundancy”, has been accepted to the International Conference on ICT Convergence (ICTC). Congratulations! ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2025/09/07/news_066.html"
+      },{
+        "title": "2025-09",
+        "excerpt":"Saeid Gorgin’s paper, “Efficient Modular Addition for FPGA-Based Cryptographic Operations”, has been accepted to  the IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD). Congratulations! ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2025/09/07/news_067.html"
+      },{
+        "title": "2025 ISOCC",
+        "excerpt":" ","categories": ["gallery"],
+        "tags": [],
+        "url": "http://localhost:4000/gallery/2025/10/01/ISOCC.html"
+      },{
+        "title": "2025-10",
+        "excerpt":"Prof. Jungrae Kim started serving as an associate editor of IEEE Computer Architecture Letters. ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2025/10/01/news_068.html"
+      },{
+        "title": "2025 MICRO",
+        "excerpt":" ","categories": ["gallery"],
+        "tags": [],
+        "url": "http://localhost:4000/gallery/2025/10/02/MICRO.html"
+      },{
+        "title": "Partial-Chip Extensions of Single-Chip Erasure Decoding for Flexible Use of Redundancy",
+        "excerpt":"","categories": ["Reliability"],
+        "tags": [],
+        "url": "http://localhost:4000/reliability/2025/10/14/Partial_Chip_Extensions.html"
+      },{
+        "title": "Compression to Colocate: Enabling Tag and Data Colocation via Data Compression in DRAM Cache",
+        "excerpt":"","categories": ["DRAM"],
+        "tags": [],
+        "url": "http://localhost:4000/dram/2025/10/15/coco_cache.html"
+      },{
+        "title": "Hidden Refresh: Reducing DRAM Refresh Overhead for Improved Performance",
+        "excerpt":"","categories": ["DRAM"],
+        "tags": [],
+        "url": "http://localhost:4000/dram/2025/10/15/hidden_refresh.html"
+      },{
+        "title": "Scaling Out Chip Interconnect Networks with Implicit Sequence Numbers",
+        "excerpt":"","categories": ["Interconnect"],
+        "tags": [],
+        "url": "http://localhost:4000/interconnect/2025/11/16/ISN.html"
+      },{
+        "title": "2025-11",
+        "excerpt":"Hyunseo Lim’s paper, “System-Level ECC Architecture for HBM3 Supporting TSV and Link Error Correction”, has been accepted at ICOS’26. Congratulations! ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2025/11/17/news_069.html"
+      },{
+        "title": "2025-11",
+        "excerpt":"Minbok Wi’s paper, “RowArmor: Efficient and Comprehensive Protection Against DRAM Disturbance Attacks”, has been accepted at ASPLOS’26. Congratulations! ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2025/11/26/news_070.html"
+      },{
+        "title": "Method and apparatus for providing virtual memory management of heterogeneous systems",
+        "excerpt":"","categories": ["GPU"],
+        "tags": [],
+        "url": "http://localhost:4000/gpu/2025/12/24/patent_uvmmu.html"
+      },{
+        "title": "Efficient Modular Addition for FPGA-Based Cryptographic Operations",
+        "excerpt":"","categories": ["Arithmetic"],
+        "tags": [],
+        "url": "http://localhost:4000/arithmetic/2025/12/31/fpga_crypto.html"
+      },{
+        "title": "2026 KIISE Computer System Society",
+        "excerpt":" ","categories": ["gallery"],
+        "tags": [],
+        "url": "http://localhost:4000/gallery/2026/01/18/KIISE.html"
+      },{
+        "title": "2026-02",
+        "excerpt":"Soudabeh’s paper, “Efficient Neural Network Acceleration Using Redundant Residue Number Systems”, has been accepted at the Journal of Supercomputing. Congratulations! ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2026/02/11/news_071.html"
+      },{
+        "title": "2026.02 Graduation",
+        "excerpt":" ","categories": ["gallery"],
+        "tags": [],
+        "url": "http://localhost:4000/gallery/2026/02/21/graduation.html"
+      },{
+        "title": "2026-02",
+        "excerpt":"Sunggi’s paper, “TRAC: Transparent Row Activation Counting for Efficient RowHammer Monitoring”, has been accepted at DAC’26. Congratulations! ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/2026/02/24/news_072.html"
+      },{
+        "title": "RowArmor: Efficient and Comprehensive Protection Against DRAM Disturbance Attacks",
+        "excerpt":"","categories": ["Security"],
+        "tags": [],
+        "url": "http://localhost:4000/security/2026/03/22/rowarmor.html"
+      },{
+        "title": "Efficient Neural Network Acceleration Using Redundant Residue Number systems",
+        "excerpt":"","categories": ["Arithmetic"],
+        "tags": [],
+        "url": "http://localhost:4000/arithmetic/2026/04/01/RRNS.html"
+      },{
+        "title": "TRAC: Transparent Row Activation Counting for Efficient RowHammer Monitoring",
+        "excerpt":"","categories": ["DRAM"],
+        "tags": [],
+        "url": "http://localhost:4000/dram/2026/07/26/TRAC.html"
       }]
