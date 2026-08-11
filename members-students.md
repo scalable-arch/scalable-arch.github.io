@@ -81,7 +81,7 @@ layout: member
 
 - {:.member-name} **Byeonghun Kim / 김병훈**
   - E-mail : **camac0987** at **g.skku.edu**
-  - Dept. : Electronic and Electrical Engineering
+  - Dept. : Semiconductor Convergence Engineering
   - <br>
 
 ## Integrated B.S. - M.S Students
