@@ -13,7 +13,7 @@ layout: page-posts
   - **Yonghyun Yang** - (M.S.) - Samsung Electronics S.LSI
   - **Yoojin Kim** - (M.S.) - MangoBoost 
   - **Sanghyun Park** - (M.S.) - Furiosa AI
-  - **Jaeho Shin** - (M.S.) - 
+  - **Jaeho Shin** - (M.S.) - SK Hynix
   - **Sanyhyun Hong** - (M.S.) - MangoBoost
 
 ## 2025
