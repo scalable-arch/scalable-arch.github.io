@@ -8,7 +8,7 @@ venue3: Oct 2025
 tier:
 category: Reliability
 select: n
-url_paper: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11389017
+url_paper: https://doi.org/10.1109/ICTC66702.2025.11389017
 url_ppt:
 url_github:
 ---
