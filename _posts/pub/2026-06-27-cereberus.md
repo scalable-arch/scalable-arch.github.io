@@ -9,7 +9,7 @@ tier: T
 
 category: Reliability
 select: y
-url_paper: 
+url_paper: https://doi.org/10.1109/ISCA66397.2026.00020
 url_ppt: https://github.com/user-attachments/files/29782478/2026-ISCA-Cerberus.slides.4.pptx
 url_github:
 ---
