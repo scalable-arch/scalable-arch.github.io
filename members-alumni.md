@@ -14,7 +14,7 @@ layout: page-posts
   - **Yoojin Kim** - (M.S.) - MangoBoost 
   - **Sanghyun Park** - (M.S.) - Furiosa AI
   - **Jaeho Shin** - (M.S.) - SK Hynix
-  - **Sanyhyun Hong** - (M.S.) - MangoBoost
+  - **Sanyhyun Hong** - (M.S.) - MangoBoos
 
 ## 2025
 
