@@ -8,7 +8,7 @@ venue3: acceptance rate = 19%, Jun. 2026
 tier: T
 category: Reliability
 select: y
-url_paper: 
+url_paper: https://doi.org/10.1109/ISCA66397.2026.00097
 url_ppt: https://github.com/user-attachments/files/29782487/ISCA26_RangeGuard_v2.1.1.1.pptx
 url_github:
 ---
