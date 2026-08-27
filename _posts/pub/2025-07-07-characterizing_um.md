@@ -8,7 +8,7 @@ venue3: July 2025
 tier: 
 category: GPU
 select: n
-url_paper: https://ieeexplore.ieee.org/abstract/document/11137652
+url_paper: https://doi.org/10.1109/ITC-CSCC66376.2025.11137652
 url_ppt:
 url_github:
 ---
