@@ -49,11 +49,6 @@ layout: member
 
 ## M.S. Students
 
-- {:.member-name} **Hyunseo Lim / 임현서**
-  - E-mail : **hyunseo.lim0** at **gmail.com**
-  - Dept. : Electrical and Computer Engineering
-  - <br>
-
 - {:.member-name} **Seunghyun Kim / 김승현**
   - E-mail : **kusukusukusun** at **gmail.com**
   - Dept. : Artificial Intelligence
