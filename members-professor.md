@@ -84,7 +84,7 @@ layout: page-posts
 
   {:.inner-list}
 
-  - SKKU Rising-Fellowship, SKKU, 2026
+  - Rising-Fellowship, SKKU, 2026
   - Best Paper Award, ISCA, 2026
   - Best Paper Finalist, ASPLOS, 2026
   - Top Picks (Honorable Mention), IEEE Micro, 2025
