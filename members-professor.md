@@ -102,6 +102,7 @@ layout: page-posts
 ## Media
 
   {:.inner-list}
+  - [2026/09] [2026 SKKU Rising-Fellowship 교수 12명 선정](https://www.spressnews.com/news/articleView.html?idxno=138952)
   - [2026/07] [성균관대 김정래 교수 연구팀, AI 반도체 올림픽 'ISCA 2026'서 대한민국 최초 최우수 논문상 쾌거](https://www.etnews.com/20260706000064)   
   - [2026/05] [Deep Neural Networks: Unpacking Breakthroughs in Efficiency, Interpretability, and Reliability](https://scipapermill.com/2026/05/16/deep-neural-networks-unpacking-breakthroughs-in-efficiency-interpretability-and-reliability/)
   - [2025/10] [성균관대 김정래·홍석인 교수팀, 컴퓨터구조 분야 최고 권위 'IEEE Micro Top Picks'에 나란히 선정 … 국내 최초 단일 대학 동시 선정](https://biz.newdaily.co.kr/site/data/html/2025/10/13/2025101300220.html)
