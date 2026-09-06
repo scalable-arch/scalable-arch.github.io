@@ -102,14 +102,17 @@ layout: page-posts
 ## Media
 
   {:.inner-list}
-  - [2026/09] [2026 SKKU Rising-Fellowship 교수 12명 선정](https://www.spressnews.com/news/articleView.html?idxno=138952)
-  - [2026/07] [성균관대 김정래 교수 연구팀, AI 반도체 올림픽 'ISCA 2026'서 대한민국 최초 최우수 논문상 쾌거](https://www.etnews.com/20260706000064)   
-  - [2026/05] [Deep Neural Networks: Unpacking Breakthroughs in Efficiency, Interpretability, and Reliability](https://scipapermill.com/2026/05/16/deep-neural-networks-unpacking-breakthroughs-in-efficiency-interpretability-and-reliability/)
-  - [2025/10] [성균관대 김정래·홍석인 교수팀, 컴퓨터구조 분야 최고 권위 'IEEE Micro Top Picks'에 나란히 선정 … 국내 최초 단일 대학 동시 선정](https://biz.newdaily.co.kr/site/data/html/2025/10/13/2025101300220.html)
+  - [2026/09] [2026 SKKU Rising-Fellowship 교수 12명 선정](https://www.spressnews.com/news/articleView.html?idxno=138952) / [Archive](https://github.com/user-attachments/files/31875801/2026-09-04-media09.pdf)
+
+  - [2026/09] [연구실 탐방 - 김정래 교수의 SAL (확장 가능 컴퓨터 구조 연구실)](https://www.spressnews.com/news/articleView.html?idxno=138893) / [Archive](https://github.com/user-attachments/files/31875799/2026-09-01-media08.pdf)
+  - [2026/07] [성균관대 김정래 교수 연구팀, AI 반도체 올림픽 'ISCA 2026'서 대한민국 최초 최우수 논문상 쾌거](https://www.etnews.com/20260706000064) / [Archive](https://github.com/user-attachments/files/31875818/2026-07-06-media07.pdf)
+  - [2026/05] [Deep Neural Networks: Unpacking Breakthroughs in Efficiency, Interpretability, and Reliability](https://scipapermill.com/2026/05/16/deep-neural-networks-unpacking-breakthroughs-in-efficiency-interpretability-and-reliability/) / [Archive](https://github.com/user-attachments/files/31875823/2026-05-16-media06.pdf)
+  - [2025/10] [성균관대 김정래·홍석인 교수팀, 컴퓨터구조 분야 최고 권위 'IEEE Micro Top Picks'에 나란히 선정 … 국내 최초 단일 대학 동시 선정](https://biz.newdaily.co.kr/site/data/html/2025/10/13/2025101300220.html) / [Archive](https://github.com/user-attachments/files/31875828/2025-10-13-media05.pdf)
   - [2025/09] [Special Issue on Top Picks From the 2024 Computer Architecture Conferences](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11176886)
-  - [2025/07] [Researchers solve silent packet drop problem in multi-node chip interconnects](https://www.sdxcentral.com/news/researchers-solve-silent-packet-drop-problem-in-multi-node-chip-interconnects/)
-  - [2024/03] [김정래 성대 교수, 차세대 메모리 연구로 DATE학회 최우수 논문상](https://www.joongang.co.kr/article/25236533)
-  - [2024/01] [주식회사 텐, 성균관대 SAL-COMPASS LAB과 AI 인프라 산학 협력](https://www.mk.co.kr/news/it/10919372)
+  - [2025/07] [Researchers solve silent packet drop problem in multi-node chip interconnects](https://www.sdxcentral.com/news/researchers-solve-silent-packet-drop-problem-in-multi-node-chip-interconnects/) / [Archive](https://github.com/user-attachments/files/31875847/2026-07-04-media03.pdf)
+  - [2024/03] [김정래 성대 교수, 차세대 메모리 연구로 DATE학회 최우수 논문상](https://www.joongang.co.kr/article/25236533) / [Archive](https://github.com/user-attachments/files/31875857/2024-03-20-media02.pdf)
+  - [2024/01] [주식회사 텐, 성균관대 SAL-COMPASS LAB과 AI 인프라 산학 협력](https://www.mk.co.kr/news/it/10919372) / [Archive](https://github.com/user-attachments/files/31875861/2024-01-12-media01.pdf)
+
 
 
 ## Services
