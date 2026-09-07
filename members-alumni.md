@@ -32,14 +32,14 @@ layout: page-posts
   - **Wonyeong Jung** - (M.S.) - Samsung Electronics Memory
   - **Jaeyoon Lee** (M.S.) - LG Electronics CTO
   - **Dongwhee Kim** (M.S.) - University of Texas at Austin
-  - **Kiheon Kwon** (M.S.) - DB GlobalChip
+  - **Kiheon Kwon** (M.S.) - LX Semicon
   - **Hojung Namkoong** (M.S.) - LIG Nex1
 
 ## 2023
 
   {:.inner-list}
   - **Hoyong Jin** (M.S.) - Hyundai Motors
-  - **Sangjae Park** (M.S.) - AnaPass (Technical Research Personnel, 전문연구요원)
+  - **Sangjae Park** (M.S.) - University of Minnesota Twin Cities
   - **Daero Kim** (M.S.) - Samsung Electronics Foundry
   - **Taewon Park** (M.S.) - Samsung Electronics System LSI
   - **Jihun Park** (M.S.) - SK Hynix
