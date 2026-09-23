@@ -103,7 +103,6 @@ layout: page-posts
 
   {:.inner-list}
   - [2026/09] [2026 SKKU Rising-Fellowship 교수 12명 선정](https://www.spressnews.com/news/articleView.html?idxno=138952) / [Archive](https://github.com/user-attachments/files/31875801/2026-09-04-media09.pdf)
-
   - [2026/09] [연구실 탐방 - 김정래 교수의 SAL (확장 가능 컴퓨터 구조 연구실)](https://www.spressnews.com/news/articleView.html?idxno=138893) / [Archive](https://github.com/user-attachments/files/31875799/2026-09-01-media08.pdf)
   - [2026/07] [성균관대 김정래 교수 연구팀, AI 반도체 올림픽 'ISCA 2026'서 대한민국 최초 최우수 논문상 쾌거](https://www.etnews.com/20260706000064) / [Archive](https://github.com/user-attachments/files/31875818/2026-07-06-media07.pdf)
   - [2026/05] [Deep Neural Networks: Unpacking Breakthroughs in Efficiency, Interpretability, and Reliability](https://scipapermill.com/2026/05/16/deep-neural-networks-unpacking-breakthroughs-in-efficiency-interpretability-and-reliability/) / [Archive](https://github.com/user-attachments/files/31875823/2026-05-16-media06.pdf)
