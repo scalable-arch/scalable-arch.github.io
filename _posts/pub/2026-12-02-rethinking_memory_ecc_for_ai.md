@@ -7,7 +7,7 @@ venue2: IEEE Asian Test Symposium
 venue3: invited talk, Dec. 2026
 tier: M
 category: Reliability
-select: y
+select: n
 url_paper: 
 url_ppt: 
 url_github:
