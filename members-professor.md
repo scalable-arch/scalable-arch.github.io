@@ -87,6 +87,7 @@ layout: page-posts
   - Rising-Fellowship, SKKU, 2026
   - Best Paper Award, ISCA, 2026
   - Best Paper Finalist, ASPLOS, 2026
+  - Best Paper Candidate, Autumn Annual Conference of IEIE, 2026
   - Top Picks (Honorable Mention), IEEE Micro, 2025
   - Research Excellence Award, College of ICE, SKKU, 2025
   - Best Paper Award, DATE, 2024
