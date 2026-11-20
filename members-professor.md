@@ -86,7 +86,7 @@ layout: page-posts
 
   - Rising-Fellowship, SKKU, 2026
   - Best Paper Award, ISCA, 2026 (first ever for a Korean institution)
-  - Best Paper Finalist, ASPLOS, 2026 (first ever for a Korean institution)
+  - Best Paper Finalist, ASPLOS, 2026 (first paper from a Korean university on the official awards list)
   - Best Paper Candidate, Autumn Annual Conference of IEIE, 2026
   - Top Picks (Honorable Mention), IEEE Micro, 2025
   - Research Excellence Award, College of ICE, SKKU, 2025
