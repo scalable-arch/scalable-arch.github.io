@@ -4,7 +4,7 @@ author: Jungrae Kim
 pub-type: C
 venue: ATS
 venue2: IEEE Asian Test Symposium
-venue3: invited talk, Dec. 2026
+venue3: Invited Talk, Dec. 2026
 tier: M
 category: Reliability
 select: n
