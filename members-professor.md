@@ -96,7 +96,7 @@ layout: page-posts
   - Best Paper Award, SELSE, 2017
   - Best Paper Finalist, HPCA, 2015 (second ever with a Korean first author)
   - Full Financial Sponsorship (해외학술연수), Samsung Electronics, 2011-2016
-  - Core Personnel (핵심인재), Samsung Electronics, 2007-2011 (youngest ever; selected in record time after joining)
+  - Core Talent (핵심인재), Samsung Electronics, 2007-2011 (youngest ever; selected in record time after joining)
   - Special Scholarship Program for Undergraduate Students (대학특별장학생), Korea Foundation for Advanced Studies, 1998-2000
 
 ## Media
