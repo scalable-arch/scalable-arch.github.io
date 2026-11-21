@@ -86,17 +86,17 @@ layout: page-posts
 
   - Rising-Fellowship, SKKU, 2026
   - Best Paper Award, ISCA, 2026 (first ever for a Korean institution)
-  - Best Paper Finalist, ASPLOS, 2026 (first paper from a Korean institution on the official list)
+  - Best Paper Finalist, ASPLOS, 2026
   - Best Paper Candidate, Autumn Annual Conference of IEIE, 2026
   - Top Picks (Honorable Mention), IEEE Micro, 2025
   - Research Excellence Award, College of ICE, SKKU, 2025
   - Best Paper Award, DATE, 2024 (second ever for a Korean institution)
-  - Best Student Paper Finalist, SC, 2023 (first ever for a Korean institution)
+  - Best Student Paper Finalist, SC, 2023
   - Achievement Award, College of ICE, SKKU, 2023
   - Best Paper Award, SELSE, 2017
-  - Best Paper Finalist, HPCA, 2015 (second ever with a Korean first author)
+  - Best Paper Finalist, HPCA, 2015
   - Full Financial Sponsorship (해외학술연수), Samsung Electronics, 2011-2016
-  - Core Talent (핵심인재), Samsung Electronics, 2007-2011 (youngest ever; selected in record time after joining)
+  - Core Talent (핵심인재), Samsung Electronics, 2007-2011
   - Special Scholarship Program for Undergraduate Students (대학특별장학생), Korea Foundation for Advanced Studies, 1998-2000
 
 ## Media
