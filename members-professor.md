@@ -102,6 +102,7 @@ layout: page-posts
 ## Media
 
   {:.inner-list}
+  - [2026/11] [난제 푼 논문, 수천 편…‘반도체 톱’ 성균관·연세대·UNIST](https://www.joongang.co.kr/article/25481701) / [Archive](https://github.com/user-attachments/files/35381657/default.pdf)
   - [2026/09] [2026 SKKU Rising-Fellowship 교수 12명 선정](https://www.spressnews.com/news/articleView.html?idxno=138952) / [Archive](https://github.com/user-attachments/files/31875801/2026-09-04-media09.pdf)
   - [2026/09] [연구실 탐방 - 김정래 교수의 SAL (확장 가능 컴퓨터 구조 연구실)](https://www.spressnews.com/news/articleView.html?idxno=138893) / [Archive](https://github.com/user-attachments/files/31875799/2026-09-01-media08.pdf)
   - [2026/07] [성균관대 김정래 교수 연구팀, AI 반도체 올림픽 'ISCA 2026'서 대한민국 최초 최우수 논문상 쾌거](https://www.etnews.com/20260706000064) / [Archive](https://github.com/user-attachments/files/31875818/2026-07-06-media07.pdf)
