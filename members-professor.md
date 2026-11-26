@@ -87,7 +87,6 @@ layout: page-posts
   - Rising-Fellowship, SKKU, 2026
   - Best Paper Award, ISCA, 2026 (first ever for a Korean institution)
   - Best Paper Finalist, ASPLOS, 2026
-  - Best Paper Candidate, Autumn Annual Conference of IEIE, 2026
   - Top Picks (Honorable Mention), IEEE Micro, 2025
   - Research Excellence Award, College of ICE, SKKU, 2025
   - Best Paper Award, DATE, 2024 (second ever for a Korean institution)
@@ -99,6 +98,7 @@ layout: page-posts
   - Core Talent (핵심인재), Samsung Electronics, 2007-2011
   - Special Scholarship Program for Undergraduate Students (대학특별장학생), Korea Foundation for Advanced Studies, 1998-2000
   - Top 0.02% in Korean SAT, 1996
+  <!--- Best Paper Candidate, Autumn Annual Conference of IEIE, 2026//-->
 
 ## Media
 
