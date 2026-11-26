@@ -95,9 +95,10 @@ layout: page-posts
   - Achievement Award, College of ICE, SKKU, 2023
   - Best Paper Award, SELSE, 2017
   - Best Paper Finalist, HPCA, 2015
-  - Full Financial Sponsorship (해외학술연수), Samsung Electronics, 2011-2016
+  - Company-sponsored Overseas Ph.D. Program (해외학술연수), Samsung Electronics, 2011-2016
   - Core Talent (핵심인재), Samsung Electronics, 2007-2011
   - Special Scholarship Program for Undergraduate Students (대학특별장학생), Korea Foundation for Advanced Studies, 1998-2000
+  - Top 0.02% in Korean SAT, 1996
 
 ## Media
 
